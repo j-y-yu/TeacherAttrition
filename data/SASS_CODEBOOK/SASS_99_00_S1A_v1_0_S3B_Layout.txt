@@ -1,0 +1,3323 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_S3B
+
+/* Total Record Length */
+2294
+
+/* Variable Names, Locations, and Descriptions */
+ABS_T     798-803   Percent teachers absent
+F_S0095   1613-1614 Imputation flag for S0095
+F_S0101   1615-1616 Imputation flag for S0101
+F_S0102   1617-1618 Imputation flag for S0102
+F_S0103   1619-1620 Imputation flag for S0103
+F_S0104   1623-1624 Imputation flag for S0104
+F_S0105   1625-1626 Imputation flag for S0105
+F_S0106   1627-1628 Imputation flag for S0106
+F_S0107   1629-1630 Imputation flag for S0107
+F_S0108   1635-1636 Imputation flag for S0108
+F_S0109   1637-1638 Imputation flag for S0109
+F_S0110   1641-1642 Imputation flag for S0110
+F_S0111   1731-1732 Imputation flag for S0111
+F_S0115   1733-1734 Imputation flag for S0115
+F_S0116   1735-1736 Imputation flag for S0116
+F_S0117   1737-1738 Imputation flag for S0117
+F_S0118   1739-1740 Imputation flag for S0118
+F_S0119   1741-1742 Imputation flag for S0119
+F_S0120   1743-1744 Imputation flag for S0120
+F_S0121   1745-1746 Imputation flag for S0121
+F_S0122   1747-1748 Imputation flag for S0122
+F_S0123   1749-1750 Imputation flag for S0123
+F_S0125   1789-1790 Imputation flag for S0125
+F_S0126   1791-1792 Imputation flag for S0126
+F_S0127   1793-1794 Imputation flag for S0127
+F_S0128   1795-1796 Imputation flag for S0128
+F_S0129   1797-1798 Imputation flag for S0129
+F_S0130   1799-1800 Imputation flag for S0130
+F_S0131   1801-1802 Imputation flag for S0131
+F_S0132   1803-1804 Imputation flag for S0132
+F_S0133   1805-1806 Imputation flag for S0133
+F_S0134   1807-1808 Imputation flag for S0134
+F_S0141   1751-1752 Imputation flag for S0141
+F_S0142   1753-1754 Imputation flag for S0142
+F_S0143   1755-1756 Imputation flag for S0143
+F_S0144   1757-1758 Imputation flag for S0144
+F_S0145   1759-1760 Imputation flag for S0145
+F_S0146   1761-1762 Imputation flag for S0146
+F_S0147   1763-1764 Imputation flag for S0147
+F_S0148   1765-1766 Imputation flag for S0148
+F_S0149   1767-1768 Imputation flag for S0149
+F_S0151   1769-1770 Imputation flag for S0151
+F_S0152   1771-1772 Imputation flag for S0152
+F_S0153   1773-1774 Imputation flag for S0153
+F_S0154   1775-1776 Imputation flag for S0154
+F_S0155   1777-1778 Imputation flag for S0155
+F_S0156   1779-1780 Imputation flag for S0156
+F_S0157   1781-1782 Imputation flag for S0157
+F_S0158   1783-1784 Imputation flag for S0158
+F_S0159   1785-1786 Imputation flag for S0159
+F_S0160   1787-1788 Imputation flag for S0160
+F_S0161   1707-1708 Imputation flag for S0161
+F_S0162   1709-1710 Imputation flag for S0162
+F_S0163   1711-1712 Imputation flag for S0163
+F_S0165   1713-1714 Imputation flag for S0165
+F_S0166   1715-1716 Imputation flag for S0166
+F_S0167   1717-1718 Imputation flag for S0167
+F_S0168   2127-2128 Imputation flag for S0168
+F_S0169   2129-2130 Imputation flag for S0169
+F_S0170   2131-2132 Imputation flag for S0170
+F_S0171   2133-2134 Imputation flag for S0171
+F_S0172   2135-2136 Imputation flag for S0172
+F_S0173   2137-2138 Imputation flag for S0173
+F_S0174   2139-2140 Imputation flag for S0174
+F_S0175   2141-2142 Imputation flag for S0175
+F_S0176   2143-2144 Imputation flag for S0176
+F_S0177   2145-2146 Imputation flag for S0177
+F_S0178   2147-2148 Imputation flag for S0178
+F_S0179   2149-2150 Imputation flag for S0179
+F_S0180   2151-2152 Imputation flag for S0180
+F_S0181   2153-2154 Imputation flag for S0181
+F_S0182   2155-2156 Imputation flag for S0182
+F_S0183   2157-2158 Imputation flag for S0183
+F_S0184   2159-2160 Imputation flag for S0184
+F_S0185   2161-2162 Imputation flag for S0185
+F_S0186   2163-2164 Imputation flag for S0186
+F_S0187   2165-2166 Imputation flag for S0187
+F_S0188   2167-2168 Imputation flag for S0188
+F_S0189   2169-2170 Imputation flag for S0189
+F_S0190   2171-2172 Imputation flag for S0190
+F_S0191   2173-2174 Imputation flag for S0191
+F_S0192   2175-2176 Imputation flag for S0192
+F_S0193   2177-2178 Imputation flag for S0193
+F_S0194   2179-2180 Imputation flag for S0194
+F_S0195   2181-2182 Imputation flag for S0195
+F_S0196   2183-2184 Imputation flag for S0196
+F_S0197   2185-2186 Imputation flag for S0197
+F_S0198   2187-2188 Imputation flag for S0198
+F_S0199   2189-2190 Imputation flag for S0199
+F_S0200   2191-2192 Imputation flag for S0200
+F_S0201   2193-2194 Imputation flag for S0201
+F_S0202   2195-2196 Imputation flag for S0202
+F_S0203   2197-2198 Imputation flag for S0203
+F_S0204   2199-2200 Imputation flag for S0204
+F_S0205   2043-2044 Imputation flag for S0205
+F_S0206   2045-2046 Imputation flag for S0206
+F_S0207   2047-2048 Imputation flag for S0207
+F_S0208   2049-2050 Imputation flag for S0208
+F_S0209   2051-2052 Imputation flag for S0209
+F_S0210   2053-2054 Imputation flag for S0210
+F_S0211   2055-2056 Imputation flag for S0211
+F_S0212   2057-2058 Imputation flag for S0212
+F_S0213   2059-2060 Imputation flag for S0213
+F_S0214   2061-2062 Imputation flag for S0214
+F_S0215   2063-2064 Imputation flag for S0215
+F_S0216   2065-2066 Imputation flag for S0216
+F_S0217   2067-2068 Imputation flag for S0217
+F_S0218   2069-2070 Imputation flag for S0218
+F_S0219   2071-2072 Imputation flag for S0219
+F_S0220   2073-2074 Imputation flag for S0220
+F_S0221   2075-2076 Imputation flag for S0221
+F_S0222   2077-2078 Imputation flag for S0222
+F_S0223   2079-2080 Imputation flag for S0223
+F_S0224   2081-2082 Imputation flag for S0224
+F_S0225   2083-2084 Imputation flag for S0225
+F_S0226   2085-2086 Imputation flag for S0226
+F_S0229   2087-2088 Imputation flag for S0229
+F_S0230   2089-2090 Imputation flag for S0230
+F_S0231   2091-2092 Imputation flag for S0231
+F_S0232   2093-2094 Imputation flag for S0232
+F_S0233   2095-2096 Imputation flag for S0233
+F_S0234   2097-2098 Imputation flag for S0234
+F_S0235   2099-2100 Imputation flag for S0235
+F_S0236   2101-2102 Imputation flag for S0236
+F_S0237   2103-2104 Imputation flag for S0237
+F_S0238   2105-2106 Imputation flag for S0238
+F_S0239   2107-2108 Imputation flag for S0239
+F_S0240   2109-2110 Imputation flag for S0240
+F_S0241   2111-2112 Imputation flag for S0241
+F_S0242   2113-2114 Imputation flag for S0242
+F_S0243   2115-2116 Imputation flag for S0243
+F_S0244   2117-2118 Imputation flag for S0244
+F_S0245   2119-2120 Imputation flag for S0245
+F_S0246   2121-2122 Imputation flag for S0246
+F_S0247   2123-2124 Imputation flag for S0247
+F_S0248   2125-2126 Imputation flag for S0248
+F_S0249   1667-1668 Imputation flag for S0249
+F_S0250   1669-1670 Imputation flag for S0250
+F_S0251   1671-1672 Imputation flag for S0251
+F_S0252   1673-1674 Imputation flag for S0252
+F_S0253   1675-1676 Imputation flag for S0253
+F_S0254   1677-1678 Imputation flag for S0254
+F_S0255   1679-1680 Imputation flag for S0255
+F_S0256   1829-1830 Imputation flag for S0256
+F_S0257   1831-1832 Imputation flag for S0257
+F_S0258   1833-1834 Imputation flag for S0258
+F_S0259   1835-1836 Imputation flag for S0259
+F_S0260   1837-1838 Imputation flag for S0260
+F_S0261   1839-1840 Imputation flag for S0261
+F_S0262   1841-1842 Imputation flag for S0262
+F_S0263   1843-1844 Imputation flag for S0263
+F_S0264   1845-1846 Imputation flag for S0264
+F_S0265   1847-1848 Imputation flag for S0265
+F_S0266   1849-1850 Imputation flag for S0266
+F_S0267   1851-1852 Imputation flag for S0267
+F_S0268   1853-1854 Imputation flag for S0268
+F_S0269   1855-1856 Imputation flag for S0269
+F_S0270   1857-1858 Imputation flag for S0270
+F_S0271   1859-1860 Imputation flag for S0271
+F_S0272   1861-1862 Imputation flag for S0272
+F_S0273   1863-1864 Imputation flag for S0273
+F_S0274   1865-1866 Imputation flag for S0274
+F_S0275   1867-1868 Imputation flag for S0275
+F_S0276   1869-1870 Imputation flag for S0276
+F_S0277   2201-2202 Imputation flag for S0277
+F_S0278   2203-2204 Imputation flag for S0278
+F_S0279   2205-2206 Imputation flag for S0279
+F_S0280   2207-2208 Imputation flag for S0280
+F_S0281   2209-2210 Imputation flag for S0281
+F_S0282   2211-2212 Imputation flag for S0282
+F_S0283   2213-2214 Imputation flag for S0283
+F_S0284   2215-2216 Imputation flag for S0284
+F_S0285   2217-2218 Imputation flag for S0285
+F_S0286   2219-2220 Imputation flag for S0286
+F_S0287   2221-2222 Imputation flag for S0287
+F_S0288   2223-2224 Imputation flag for S0288
+F_S0290   2225-2226 Imputation flag for S0290
+F_S0306   2227-2228 Imputation flag for S0306
+F_S0307   2229-2230 Imputation flag for S0307
+F_S0308   2231-2232 Imputation flag for S0308
+F_S0311   2233-2234 Imputation flag for S0311
+F_S0312   2235-2236 Imputation flag for S0312
+F_S0313   2237-2238 Imputation flag for S0313
+F_S0314   2239-2240 Imputation flag for S0314
+F_S0315   2241-2242 Imputation flag for S0315
+F_S0316   2243-2244 Imputation flag for S0316
+F_S0317   2245-2246 Imputation flag for S0317
+F_S0318   2247-2248 Imputation flag for S0318
+F_S0319   2249-2250 Imputation flag for S0319
+F_S0320   2251-2252 Imputation flag for S0320
+F_S0321   2253-2254 Imputation flag for S0321
+F_S0322   2255-2256 Imputation flag for S0322
+F_S0323   2257-2258 Imputation flag for S0323
+F_S0324   2259-2260 Imputation flag for S0324
+F_S0325   2261-2262 Imputation flag for S0325
+F_S0326   2263-2264 Imputation flag for S0326
+F_S0327   2265-2266 Imputation flag for S0327
+F_S0328   2267-2268 Imputation flag for S0328
+F_S0329   2269-2270 Imputation flag for S0329
+F_S0330   2271-2272 Imputation flag for S0330
+F_S0331   2273-2274 Imputation flag for S0331
+F_S0332   2275-2276 Imputation flag for S0332
+F_S0333   2277-2278 Imputation flag for S0333
+F_S0334   2279-2280 Imputation flag for S0334
+F_S0335   2281-2282 Imputation flag for S0335
+F_S0336   2283-2284 Imputation flag for S0336
+F_S0337   2285-2286 Imputation flag for S0337
+F_S0338   2287-2288 Imputation flag for S0338
+F_S0339   2289-2290 Imputation flag for S0339
+F_S0340   2291-2292 Imputation flag for S0340
+F_S0341   2293-2294 Imputation flag for S0341
+F_S0470   1621-1622 Imputation flag for S0103
+F_S0477   1809-1810 Imputation flag for S0477
+F_S0478   1811-1812 Imputation flag for S0478
+F_S0479   1813-1814 Imputation flag for S0479
+F_S0480   1815-1816 Imputation flag for S0480
+F_S0481   1817-1818 Imputation flag for S0481
+F_S0482   1819-1820 Imputation flag for S0482
+F_S0483   1821-1822 Imputation flag for S0483
+F_S0484   1823-1824 Imputation flag for S0484
+F_S0485   1825-1826 Imputation flag for S0485
+F_S0486   1827-1828 Imputation flag for S0486
+F_S0487   1871-1872 Imputation flag for S0487
+F_S0488   1873-1874 Imputation flag for S0488
+F_S0489   1875-1876 Imputation flag for S0489
+F_S0490   1877-1878 Imputation flag for S0490
+F_S0491   1879-1880 Imputation flag for S0491
+F_S0492   1881-1882 Imputation flag for S0492
+F_S0493   1883-1884 Imputation flag for S0493
+F_S0494   1885-1886 Imputation flag for S0494
+F_S0495   1887-1888 Imputation flag for S0495
+F_S0496   1889-1890 Imputation flag for S0496
+F_S0499   1891-1892 Imputation flag for S0499
+F_S0500   1893-1894 Imputation flag for S0500
+F_S0501   1895-1896 Imputation flag for S0501
+F_S0502   1897-1898 Imputation flag for S0502
+F_S0503   1899-1900 Imputation flag for S0503
+F_S0504   1901-1902 Imputation flag for S0504
+F_S0505   1903-1904 Imputation flag for S0505
+F_S0506   1905-1906 Imputation flag for S0506
+F_S0507   1907-1908 Imputation flag for S0507
+F_S0508   1909-1910 Imputation flag for S0508
+F_S0509   1911-1912 Imputation flag for S0509
+F_S0510   1913-1914 Imputation flag for S0510
+F_S0511   1915-1916 Imputation flag for S0511
+F_S0512   1917-1918 Imputation flag for S0512
+F_S0513   1919-1920 Imputation flag for S0513
+F_S0514   1921-1922 Imputation flag for S0514
+F_S0515   1923-1924 Imputation flag for S0515
+F_S0516   1925-1926 Imputation flag for S0516
+F_S0517   1927-1928 Imputation flag for S0517
+F_S0518   1929-1930 Imputation flag for S0518
+F_S0519   1931-1932 Imputation flag for S0519
+F_S0520   1933-1934 Imputation flag for S0520
+F_S0521   1935-1936 Imputation flag for S0521
+F_S0522   1937-1938 Imputation flag for S0522
+F_S0523   1939-1940 Imputation flag for S0523
+F_S0574   1683-1684 Imputation flag for S0574
+F_S0575   1685-1686 Imputation flag for S0575
+F_S0576   1687-1688 Imputation flag for S0576
+F_S0577   1689-1690 Imputation flag for S0577
+F_S0578   1691-1692 Imputation flag for S0578
+F_S0579   1693-1694 Imputation flag for S0579
+F_S0580   1695-1696 Imputation flag for S0580
+F_S0581   1697-1698 Imputation flag for S0581
+F_S0582   1699-1700 Imputation flag for S0582
+F_S0583   1701-1702 Imputation flag for S0583
+F_S0584   1703-1704 Imputation flag for S0584
+F_S0585   1705-1706 Imputation flag for S0585
+F_S0587   1973-1974 Imputation flag for S0587
+F_S0588   1975-1976 Imputation flag for S0588
+F_S0589   1977-1978 Imputation flag for S0589
+F_S0590   1979-1980 Imputation flag for S0590
+F_S0591   1981-1982 Imputation flag for S0591
+F_S0592   1983-1984 Imputation flag for S0592
+F_S0593   1985-1986 Imputation flag for S0593
+F_S0594   1987-1988 Imputation flag for S0594
+F_S0595   1989-1990 Imputation flag for S0595
+F_S0596   1991-1992 Imputation flag for S0596
+F_S0597   1993-1994 Imputation flag for S0597
+F_S0598   1995-1996 Imputation flag for S0598
+F_S0599   1997-1998 Imputation flag for S0599
+F_S0600   1999-2000 Imputation flag for S0600
+F_S0601   2001-2002 Imputation flag for S0601
+F_S0603   2003-2004 Imputation flag for S0603
+F_S0605   2005-2006 Imputation flag for S0605
+F_S0606   2007-2008 Imputation flag for S0606
+F_S0607   2009-2010 Imputation flag for S0607
+F_S0608   2011-2012 Imputation flag for S0608
+F_S0609   2013-2014 Imputation flag for S0609
+F_S0610   2015-2016 Imputation flag for S0610
+F_S0611   1941-1942 Imputation flag for S0611
+F_S0612   1943-1944 Imputation flag for S0612
+F_S0613   1945-1946 Imputation flag for S0613
+F_S0615   1947-1948 Imputation flag for S0615
+F_S0616   1949-1950 Imputation flag for S0616
+F_S0617   1951-1952 Imputation flag for S0617
+F_S0618   1953-1954 Imputation flag for S0618
+F_S0619   1955-1956 Imputation flag for S0619
+F_S0620   1957-1958 Imputation flag for S0620
+F_S0621   1959-1960 Imputation flag for S0621
+F_S0622   1961-1962 Imputation flag for S0622
+F_S0623   1963-1964 Imputation flag for S0623
+F_S0624   1965-1966 Imputation flag for S0624
+F_S0625   1967-1968 Imputation flag for S0625
+F_S0626   1969-1970 Imputation flag for S0626
+F_S0627   1971-1972 Imputation flag for S0627
+F_S0628   2017-2018 Imputation flag for S0628
+F_S0629   2019-2020 Imputation flag for S0629
+F_S0630   2021-2022 Imputation flag for S0630
+F_S0631   2023-2024 Imputation flag for S0631
+F_S0632   2025-2026 Imputation flag for S0632
+F_S0633   2027-2028 Imputation flag for S0633
+F_S0634   2029-2030 Imputation flag for S0634
+F_S0635   2031-2032 Imputation flag for S0635
+F_S0636   2033-2034 Imputation flag for S0636
+F_S0637   2035-2036 Imputation flag for S0637
+F_S0638   2037-2038 Imputation flag for S0638
+F_S0639   2039-2040 Imputation flag for S0639
+F_S0640   2041-2042 Imputation flag for S0640
+F_S0798   1639-1640 Imputation flag for S0798
+F_S0901   1611-1612 Imputation flag for S0901
+F_S0903   1631-1632 Imputation flag for S0903
+F_S0904   1633-1634 Imputation flag for S0904
+F_S0905   1643-1644 Imputation flag for S0905
+F_S0953   1645-1646 Imputation flag for S0953
+F_S0954   1647-1648 Imputation flag for S0954
+F_S0955   1649-1650 Imputation flag for S0955
+F_S0956   1651-1652 Imputation flag for S0956
+F_S0957   1653-1654 Imputation flag for S0957
+F_S0958   1655-1656 Imputation flag for S0958
+F_S0959   1657-1658 Imputation flag for S0959
+F_S0960   1659-1660 Imputation flag for S0960
+F_S0961   1661-1662 Imputation flag for S0961
+F_S0962   1663-1664 Imputation flag for S0962
+F_S0963   1665-1666 Imputation flag for S0963
+F_S0964   1681-1682 Imputation flag for S0964
+F_S0965   1719-1720 Imputation flag for S0965
+F_S0966   1721-1722 Imputation flag for S0966
+F_S0967   1723-1724 Imputation flag for S0967
+F_S0968   1725-1726 Imputation flag for S0968
+F_S0969   1727-1728 Imputation flag for S0969
+F_S0970   1729-1730 Imputation flag for S0970
+IEPREG    804-809   IEP students in reg classroom all day
+MINENR    792-793   Percent minority students
+MINTCH    796-797   Percent minority teachers
+NUMTCH    784-785   Estimated number of FTE teachers
+PGMTYPE   56-57     School type
+REGION    13-14     Census Region
+RELIG     11-12     3-level affiliation code
+S0095     19-20     Male students
+S0101     21-22     Total enrollment
+S0102     23-24     School day-hours
+S0103     25-26     Sch day-minutes
+S0104     30-32     Absent 0-9 days
+S0105     33-35     Absent 10-20 days
+S0106     36-38     Absent 21+ days
+S0107     39-40     Average daily attendance
+S0108     45-51     Capacity of permanent buildings
+S0109     52-53     Capacity of temporary buildings
+S0111     170-171   For students at risk
+S0115     172-173   Admission requirements
+S0116     174-175   Admission-admission test
+S0117     176-177   Admission-standardized test
+S0118     178-179   Admission-academic record
+S0119     180-181   Admission-special needs
+S0120     182-183   Admission-special talents
+S0121     184-185   Admission-interview
+S0122     186-187   Admission-recommendation
+S0123     188-189   Admission-religious affiliation
+S0125     228-229   Program-instructional approach
+S0126     230-231   Program-talented/gifted
+S0127     232-233   Program-foreign language
+S0128     234-235   Program-AP courses
+S0129     236-237   Program-Internat. Baccalaureate
+S0130     238-239   Program-Career academy
+S0131     240-241   Program-Tech-prep
+S0132     242-243   Program-Students w/discipline problems
+S0133     244-245   Programs-health care
+S0134     246-247   Programs-day care
+S0141     190-191   Org-traditional grades
+S0142     192-193   Org-grades subdivided
+S0143     194-195   Org-keep same tchr
+S0144     196-197   Org-intrdisciplinary tchng
+S0145     198-199   Org-Team teaching
+S0146     200-201   Flexible class scheduling
+S0147     202-203   Before/after school enrichment
+S0148     204-205   Summr sch/acadmc intersess-remedial
+S0149     206-207   Summr sch/acadmc intersess-advncmnt
+S0151     208-209   Yr-round calendar-mand days
+S0152     210-211   Yr-round same cycle
+S0153     212-213   Has grades 1-8
+S0154     214-215   Core subj classes
+S0155     216-217   Has grades 9-12
+S0156     218-219   Core subj-by ability
+S0157     220-221   Opportunity for college credit
+S0158     222-223   Opportunity for work-based learning
+S0159     224-225   Opportunity for career learning
+S0160     226-227   Opportunity for job shadowing
+S0161     135-136   12th graders last year
+S0162     137-140   Number of 12th graders last year
+S0163     141-144   Number of graduates last year
+S0165     145-147   Percentage to 4yr coll
+S0166     148-150   Percentage to 2yr coll
+S0167     151-153   Percentage to tech sch
+S0168     608-609   School open house
+S0169     610-611   Open house-participation
+S0170     612-613   Parent-tchr conferences
+S0171     614-615   PT conf - participation
+S0172     616-617   Subj area events
+S0173     618-619   Subj. area events-participation
+S0174     620-621   Workshops for parents
+S0175     622-623   Workshop-participation
+S0176     624-625   Sch-parent contract
+S0177     626-627   Contract-participation
+S0178     628-629   Parent volunteers
+S0179     630-631   Parent volunteer-participation
+S0180     632-633   Parents in instruction
+S0181     634-635   Instruction-participation
+S0182     636-637   Parents in govrnnce
+S0183     638-639   Parnts-gov-participation
+S0184     640-641   Parents - budget
+S0185     642-643   Budget-participation
+S0186     644-645   Staff-parent invlvmnt
+S0187     646-647   Participation log
+S0188     648-649   Communication w/parents
+S0189     650-651   Parent support serv
+S0190     652-653   Parent lounge
+S0191     654-655   Lessons sent home
+S0192     656-657   Home activities
+S0193     658-659   Homework with parents
+S0194     660-661   Drug/alcohol/tobacco prog
+S0195     662-663   Dr/alc/tob assesmnt prog
+S0196     664-665   Security-visitors
+S0197     666-667   Security-metal det-all
+S0198     668-669   Security-metal det-some
+S0199     670-671   Security-closed lunch
+S0200     672-673   Security-drug sweeps
+S0201     674-675   Security-police
+S0202     676-677   Security-video
+S0203     678-679   Violence prevtion prog
+S0204     680-681   Assessmnt for violnce prev prog
+S0205     524-525   PT principals
+S0206     526-527   FT principals
+S0207     528-529   PT vice principals
+S0208     530-531   FT vice principals
+S0209     532-533   PT managers
+S0210     534-535   FT managers
+S0211     536-537   PT coordinators
+S0212     538-539   FT coordinators
+S0213     540-541   PT librarians
+S0214     542-543   FT librarians
+S0215     544-545   PT counselors
+S0216     546-547   FT counselors
+S0217     548-549   PT nurses
+S0218     550-551   FT nurses
+S0219     552-553   PT social workers
+S0220     554-555   FT social workers
+S0221     556-557   PT psychologists
+S0222     558-559   FT psychologists
+S0223     560-561   PT speech pathologists
+S0224     562-563   FT speech pathologists
+S0225     564-565   PT othr prof support
+S0226     566-567   FT othr prof support
+S0229     568-569   PT library aides
+S0230     570-571   FT library aides
+S0231     572-573   PT spec ed aides
+S0232     574-575   FT spec ed aides
+S0233     576-577   PT Title I aides
+S0234     578-579   FT Title I aides
+S0235     580-581   PT bilngl/ESL aides
+S0236     582-583   FT bilngl/ESL aides
+S0237     584-585   PT oth tchr aides
+S0238     586-587   FT oth tchr aides
+S0239     588-589   PT oth aides
+S0240     590-591   FT oth aides
+S0241     592-593   PT secretaries
+S0242     594-595   FT secretaries
+S0243     596-597   PT food service
+S0244     598-599   FT food service
+S0245     600-601   PT custodians
+S0246     602-603   FT custodians
+S0247     604-605   PT other employees
+S0248     606-607   FT other employees
+S0249     82-83     Hispanic teachers
+S0250     84-85     White teachers
+S0251     86-87     Black teachers
+S0252     88-89     American Ind./Al. Native
+S0253     90-91     Asian/PI
+S0254     92-93     K-12 teachers by race
+S0255     94-95     Absent teachers
+S0256     268-269   Tchng vacancies
+S0257     270-271   Hired qualified tchr
+S0258     272-273   Hired unqualified tchr
+S0259     274-275   Cancelled course
+S0260     276-277   Expanded class size
+S0261     278-279   Added to oth tchrs wrklds
+S0262     280-281   Tchr oth subj/level
+S0263     282-283   Assigned admin
+S0264     284-285   Substitute tchr
+S0265     286-287   Vacnc-gen elem
+S0266     288-289   Vacnc-spec ed
+S0267     290-291   Vacnc-English
+S0268     292-293   Vacnc-soc st
+S0269     294-295   Vacnc-comp sci
+S0270     296-297   Vacnc-math
+S0271     298-299   Vacnc-biology
+S0272     300-301   Vacnc-phys sci
+S0273     302-303   Vacnc-ESL
+S0274     304-305   Vacnc-foreign lang
+S0275     306-307   Vacnc-music or art
+S0276     308-309   Vacnc-vo-tech
+S0277     682-685   Number of computers
+S0278     686-689   Computer with Internet
+S0279     690-693   Computer used for instruction
+S0280     694-695   Comp coord
+S0281     696-697   Tech support person
+S0282     698-699   Any eligible for lunch prog
+S0283     700-701   Eligible PK students
+S0284     702-703   Eligible K-12 students
+S0285     704-705   Partipate in lunch prog
+S0286     706-707   Approved PK students
+S0287     708-709   Approved K-12 students
+S0288     710-711   Any students receive Title I services
+S0290     712-713   Number of students served by Title I
+S0306     714-715   Title I-reading
+S0307     716-717   Title I-math
+S0308     718-719   Title I-ESL
+S0311     720-721   Title I-this building
+S0312     722-723   Title I-mobile unit
+S0313     724-725   Title I-public sch
+S0314     726-727   Title I-oth loc
+S0315     728-729   Number of IEP students
+S0316     730-731   IEP stud-reg classrm-all day
+S0317     732-733   IEP stud-sp ed classrm-1-20 pct day
+S0318     734-735   IEP stud-sp ed classrm-21-60 pct day
+S0319     736-737   IEP stud-sp ed classrm-60+ pct day
+S0320     738-739   Any LEP students
+S0321     740-741   Number of  LEP students
+S0322     742-743   LEP-information from parents
+S0323     744-745   LEP-teacher observation or referral
+S0324     746-747   LEP-home language survey
+S0325     748-749   LEP-student interview
+S0326     750-751   LEP-student records
+S0327     752-753   LEP-achievement tests
+S0328     754-755   LEP-language test
+S0329     756-757   Instruction for ESL students
+S0330     758-759   ESL/bilingual instruction
+S0331     760-761   Instr. to maintain native language
+S0332     762-763   Instr. in regular English class
+S0333     764-765   Subject matter in native language
+S0334     766-767   Subject matter w/ESL/bilingual
+S0335     768-769   Subj. matter in reg. Eng.-speaking class
+S0336     770-771   LEP students in remedial classes
+S0337     772-773   LEP students in special ed.
+S0338     774-775   LEP students in regular classes
+S0339     776-777   Interpreters for LEP parents
+S0340     778-779   Translations for LEP parents
+S0341     780-781   Outreach for LEP parents
+S0470     27-29     How many days
+S0477     248-249   Tchr hiring-full certification
+S0478     250-251   Tchr hiring-priv sch org certification
+S0479     252-253   Tchr hiring-emerg cert
+S0480     254-255   Tchr hiring-tchr ed prog
+S0481     256-257   Tchr hiring-major/minor in field
+S0482     258-259   Tchr hiring-state skills test
+S0483     260-261   Tchr hiring-state subj test
+S0484     262-263   Tchr hiring-school test
+S0485     264-265   Tchr hiring-Praxis Core
+S0486     266-267   Tchr hiring-Praxis II
+S0487     310-312   Newly hired tchrs
+S0488     313-315   Offers before summer
+S0489     316-318   Offers-1st half of summer
+S0490     319-321   Offers-2nd half of summer
+S0491     322-324   Offers-this sch yr
+S0492     325-326   Dismissal-criteria met
+S0493     327-328   Dismissal-counseled out
+S0494     329-330   Dismissal-contracts not renewed
+S0495     331-332   Dismissed tchrs w/3 or less yrs
+S0496     333-334   Dismissed tchrs-3+ yrs
+S0499     335-336   Tchr contract yr
+S0500     337-338   Salary schedule for tchrs
+S0501     339-343   Bach-no exp
+S0502     344-348   Bach+10yrs
+S0503     349-353   Masters-no exp
+S0504     354-358   Masters+30 credits
+S0505     359-364   Masters+20 yrs
+S0506     365-370   Highest step on schedule
+S0507     371-375   Lowest salary
+S0508     376-381   Highest salary
+S0509     382-385   Benefit rate for tchrs
+S0510     386-389   Benefit rate-non-prof
+S0511     390-391   Benefits-admin
+S0512     392-395   Benefit rate-admin
+S0513     396-397   Benefits-aides
+S0514     398-401   Benefit rate-aides
+S0515     402-403   Other agency contrib
+S0516     404-407   Rate of other contrib
+S0517     408-409   Benefits-medical insurance
+S0518     410-411   Benefits-dental insurance
+S0519     412-413   Benefits-life insurance
+S0520     414-415   Benefits-housing
+S0521     416-417   Benefits-meals
+S0522     418-419   Benefits-transportation
+S0523     420-421   Benefits-tuition
+S0574     98-99     Grants hs diplomas
+S0575     100-103   HS grad req-English
+S0576     104-107   HS grad req-math
+S0577     108-111   HS grad req-comp sci
+S0578     112-115   HS grad req-soc sci
+S0579     116-119   HS grad req-phys/bio sci
+S0580     120-123   HS grad req-foreign lang
+S0581     124-125   HS program length
+S0582     126-127   Other program length
+S0583     128-129   Community service req
+S0584     130-131   Comm serv requires hrs
+S0585     132-134   Hrs comm serv req
+S0587     454-455   Prog-aspiring sch admin
+S0588     456-457   Adm prof dev-internships
+S0589     458-459   Adm prof dev-mngmnt techniques
+S0590     460-461   Adm prof dev-eval/superv
+S0591     462-463   Adm prof dev-technology
+S0592     464-465   Adm prof dev-curriculum
+S0593     466-467   Adm prof dev-networking
+S0594     468-469   Adm prof dev-reimbursement
+S0595     470-471   Adm prof dev-college
+S0596     472-473   Adm prof dev-mentors
+S0597     474-475   Adm prof dev-retreats
+S0598     476-477   Adm prof dev-visits
+S0599     478-479   Tchr prof dev-content
+S0600     480-481   Tchr prof dev-design
+S0601     482-483   Tchr prof dev-conduct
+S0603     484-485   Tchr prof dev fund-gen sch
+S0605     486-487   Tchr prof dev fund-special
+S0606     488-489   Tchr prof dev fund-sch impr
+S0607     490-491   Tchr prof dev fund-TitleI
+S0608     492-493   Tchr prof dev fund-Eisenhower
+S0609     494-495   Tchr prof dev-oth fed
+S0610     496-497   Tchr prof dev fund-private
+S0611     422-423   Incentives-national certification
+S0612     424-425   Incentives-excellence
+S0613     426-427   Incentives-inservice prof dev
+S0615     428-429   Incentives-shortage fields
+S0616     430-431   Incentives-gen elem
+S0617     432-433   Incentives-spec ed
+S0618     434-435   Incentives-English
+S0619     436-437   Incentives-soc studies
+S0620     438-439   Incentives-comp sci
+S0621     440-441   Incentives-math
+S0622     442-443   Incentives-phys sci
+S0623     444-445   Incentives-biology
+S0624     446-447   Incentives-ESL
+S0625     448-449   Incentives-foreign lang
+S0626     450-451   Incentives-music/art
+S0627     452-453   Incentives-voc ed
+S0628     498-499   Training-shortage fields
+S0629     500-501   Training-gen elem
+S0630     502-503   Training-spec ed
+S0631     504-505   Training-English
+S0632     506-507   Training-social studies
+S0633     508-509   Training-computer sci
+S0634     510-511   Training-math
+S0635     512-513   Training-phys sci
+S0636     514-515   Training-biology
+S0637     516-517   Training-ESL
+S0638     518-519   Training-foreign lang
+S0639     520-521   Training-music/art
+S0640     522-523   Training-voc tech
+S0798     54-55     Does school have library
+S0901     17-18     Is school coed
+S0903     41-42     Length of day for K, trans.
+S0904     43-44     Days per week for K, trans.
+S0905     58-59     Supports home schooling
+S0953     60-61     Is school accredited
+S0954     62-63     Accreditation--state govt
+S0955     64-65     Accreditation--state consortium
+S0956     66-67     Accreditation--regional agency
+S0957     68-69     Accreditation--NCPSA
+S0958     70-71     Accreditation--other
+S0959     72-73     3/4 time teachers
+S0960     74-75     1/2 time teachers
+S0961     76-77     1/4 time teachers
+S0962     78-79     Less than 1/4 time teachers
+S0964     96-97     Has grades 1-12
+S0965     154-155   Students board
+S0966     156-157   All students board
+S0967     158-163   Number of boarders
+S0968     164-165   Charge tuition
+S0969     166-167   Discount tuition
+SCHLEVEL  782-783   School Level (3 categories)
+SECTOR    9-10      School sector
+STU_TCH   786-791   Estimated student-teacher ratio
+SURVEY    7-8       Survey identifier
+TOTTEACH  80-81     Total teachers
+TUITIN    168-169   Highest annual tuition
+URBANIC   15-16     Urbanicity of school
+VIOLPRG   794-795   Violence prevention program
+SCHCNTL   1-6       School control number
+SFNLWGT   810-818   School final weight
+SREPWT1   819-827   School final replicate weight 1
+SREPWT10  900-908   School final replicate weight 10
+SREPWT11  909-917   School final replicate weight 11
+SREPWT12  918-926   School final replicate weight 12
+SREPWT13  927-935   School final replicate weight 13
+SREPWT14  936-944   School final replicate weight 14
+SREPWT15  945-953   School final replicate weight 15
+SREPWT16  954-962   School final replicate weight 16
+SREPWT17  963-971   School final replicate weight 17
+SREPWT18  972-980   School final replicate weight 18
+SREPWT19  981-989   School final replicate weight 19
+SREPWT2   828-836   School final replicate weight 2
+SREPWT20  990-998   School final replicate weight 20
+SREPWT21  999-1007  School final replicate weight 21
+SREPWT22  1008-1016 School final replicate weight 22
+SREPWT23  1017-1025 School final replicate weight 23
+SREPWT24  1026-1034 School final replicate weight 24
+SREPWT25  1035-1043 School final replicate weight 25
+SREPWT26  1044-1052 School final replicate weight 26
+SREPWT27  1053-1061 School final replicate weight 27
+SREPWT28  1062-1070 School final replicate weight 28
+SREPWT29  1071-1079 School final replicate weight 29
+SREPWT3   837-845   School final replicate weight 3
+SREPWT30  1080-1088 School final replicate weight 30
+SREPWT31  1089-1097 School final replicate weight 31
+SREPWT32  1098-1106 School final replicate weight 32
+SREPWT33  1107-1115 School final replicate weight 33
+SREPWT34  1116-1124 School final replicate weight 34
+SREPWT35  1125-1133 School final replicate weight 35
+SREPWT36  1134-1142 School final replicate weight 36
+SREPWT37  1143-1151 School final replicate weight 37
+SREPWT38  1152-1160 School final replicate weight 38
+SREPWT39  1161-1169 School final replicate weight 39
+SREPWT4   846-854   School final replicate weight 4
+SREPWT40  1170-1178 School final replicate weight 40
+SREPWT41  1179-1187 School final replicate weight 41
+SREPWT42  1188-1196 School final replicate weight 42
+SREPWT43  1197-1205 School final replicate weight 43
+SREPWT44  1206-1214 School final replicate weight 44
+SREPWT45  1215-1223 School final replicate weight 45
+SREPWT46  1224-1232 School final replicate weight 46
+SREPWT47  1233-1241 School final replicate weight 47
+SREPWT48  1242-1250 School final replicate weight 48
+SREPWT49  1251-1259 School final replicate weight 49
+SREPWT5   855-863   School final replicate weight 5
+SREPWT50  1260-1268 School final replicate weight 50
+SREPWT51  1269-1277 School final replicate weight 51
+SREPWT52  1278-1286 School final replicate weight 52
+SREPWT53  1287-1295 School final replicate weight 53
+SREPWT54  1296-1304 School final replicate weight 54
+SREPWT55  1305-1313 School final replicate weight 55
+SREPWT56  1314-1322 School final replicate weight 56
+SREPWT57  1323-1331 School final replicate weight 57
+SREPWT58  1332-1340 School final replicate weight 58
+SREPWT59  1341-1349 School final replicate weight 59
+SREPWT6   864-872   School final replicate weight 6
+SREPWT60  1350-1358 School final replicate weight 60
+SREPWT61  1359-1367 School final replicate weight 61
+SREPWT62  1368-1376 School final replicate weight 62
+SREPWT63  1377-1385 School final replicate weight 63
+SREPWT64  1386-1394 School final replicate weight 64
+SREPWT65  1395-1403 School final replicate weight 65
+SREPWT66  1404-1412 School final replicate weight 66
+SREPWT67  1413-1421 School final replicate weight 67
+SREPWT68  1422-1430 School final replicate weight 68
+SREPWT69  1431-1439 School final replicate weight 69
+SREPWT7   873-881   School final replicate weight 7
+SREPWT70  1440-1448 School final replicate weight 70
+SREPWT71  1449-1457 School final replicate weight 71
+SREPWT72  1458-1466 School final replicate weight 72
+SREPWT73  1467-1475 School final replicate weight 73
+SREPWT74  1476-1484 School final replicate weight 74
+SREPWT75  1485-1493 School final replicate weight 75
+SREPWT76  1494-1502 School final replicate weight 76
+SREPWT77  1503-1511 School final replicate weight 77
+SREPWT78  1512-1520 School final replicate weight 78
+SREPWT79  1521-1529 School final replicate weight 79
+SREPWT8   882-890   School final replicate weight 8
+SREPWT80  1530-1538 School final replicate weight 80
+SREPWT81  1539-1547 School final replicate weight 81
+SREPWT82  1548-1556 School final replicate weight 82
+SREPWT83  1557-1565 School final replicate weight 83
+SREPWT84  1566-1574 School final replicate weight 84
+SREPWT85  1575-1583 School final replicate weight 85
+SREPWT86  1584-1592 School final replicate weight 86
+SREPWT87  1593-1601 School final replicate weight 87
+SREPWT88  1602-1610 School final replicate weight 88
+SREPWT9   891-899   School final replicate weight 9
+
+/* Variable Value Labels */
+F_S0176
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0236
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0155
+   1 = "Yes"
+   2 = "No"
+F_S0222
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0492
+   1 = "Yes"
+   2 = "No"
+S0519
+   1 = "Yes"
+   2 = "No"
+F_S0247
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0257
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0601
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   4 = "Outside professional development providers (e.g., university or college faculty, professional organizations)"
+URBANIC
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+S0118
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0903
+   0 = "School does not offer kindergarten, transitional kindergarten, or transitional first grade"
+   1 = "Full day (4 hours or more per day)"
+   2 = "Half day (less than 4 hours per day)"
+   3 = "Both offered"
+F_S0197
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0481
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0583
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0208
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0584
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0194
+   1 = "Yes"
+   2 = "No"
+F_S0596
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0133
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0478
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0277
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0622
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0290
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0323
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0499
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0259
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0969
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0331
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0628
+   1 = "Yes"
+   2 = "No"
+F_S0519
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0612
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0313
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0185
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0117
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0607
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0798
+   1 = "Yes"
+   2 = "No"
+S0109
+   1 = "Yes"
+   2 = "No"
+S0288
+   1 = "Yes"
+   2 = "No"
+F_S0269
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0484
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0252
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0144
+   1 = "Yes"
+   2 = "No"
+S0636
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0158
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0597
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0956
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0315
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20% or more"
+F_S0322
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0095
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0577
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0276
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0223
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0574
+   1 = "Yes"
+   2 = "No"
+S0326
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0286
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0337
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0592
+   1 = "Yes"
+   2 = "No"
+F_S0179
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0152
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0587
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0639
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0966
+   S0 = "Not a PSS item - Not imputed"
+S0132
+   1 = "Yes"
+   2 = "No"
+F_S0196
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0496
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0632
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0254
+   1 = "Fewer than 5 teachers"
+   2 = "5 - 9 teachers"
+   3 = "10 or more teachers"
+F_S0272
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0105
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0180
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0479
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0336
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0969
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0212
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0314
+   1 = "Other"
+   -8 = "Valid skip"
+F_S0494
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0275
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0631
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0325
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0160
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0599
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   4 = "Outside professional development providers (e.g., university or college faculty, professional organizations)"
+S0320
+   1 = "Yes"
+   2 = "No"
+S0329
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0155
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+S0127
+   1 = "Yes"
+   2 = "No"
+S0157
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0628
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0283
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0319
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0332
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0143
+   1 = "Yes"
+   2 = "No"
+F_S0967
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0507
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0517
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0903
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0191
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0202
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0954
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0522
+   1 = "Yes"
+   2 = "No"
+S0607
+   1 = "Yes"
+   2 = "No"
+SURVEY
+   7 = "Pricate School"
+S0615
+   1 = "Yes"
+   2 = "No"
+F_S0245
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0609
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0631
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0130
+   1 = "Yes"
+   2 = "No"
+S0264
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0165
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+S0197
+   1 = "Yes"
+   2 = "No"
+S0576
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+S0594
+   1 = "Yes"
+   2 = "No"
+S0588
+   1 = "Yes"
+   2 = "No"
+F_S0308
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0282
+   1 = "Yes"
+   2 = "No"
+   3 = "Don't know"
+F_S0129
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0173
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0215
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0115
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0145
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0482
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0509
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0131
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0173
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S0580
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_S0156
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+TUITIN
+   1 = "Less than $2,000"
+   2 = "$2,000 - $2,999"
+   3 = "$3,000 - $4,999"
+   4 = "$5,000 - $7,999"
+   5 = "$8,000 or more"
+   -8 = "Valid skip"
+F_S0237
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0905
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+S0146
+   1 = "Yes"
+   2 = "No"
+S0634
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0280
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0477
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0205
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0186
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0627
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0256
+   1 = "Yes"
+   2 = "No"
+F_S0144
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0621
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0328
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0181
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0170
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0616
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0285
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0606
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0290
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20% or more"
+   -8 = "Valid skip"
+F_S0516
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0189
+   1 = "Yes"
+   2 = "No"
+F_S0964
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+F_S0190
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0324
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0240
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0482
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0278
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0281
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0523
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0587
+   1 = "Yes"
+   2 = "No"
+F_S0323
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0485
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+SECTOR
+   B = "Private"
+F_S0148
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0637
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0107
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0128
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0957
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0162
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+S0111
+   1 = "Yes"
+   2 = "No"
+S0316
+   1 = "Less than 5%"
+   2 = "5% or more"
+   -8 = "Valid skip"
+F_S0334
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0132
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0588
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0317
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0157
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0145
+   1 = "Yes"
+   2 = "No"
+S0159
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0178
+   1 = "Yes"
+   2 = "No"
+F_S0189
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0619
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0496
+   1 = "No teachers"
+   2 = "At least 1 teacher"
+S0617
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0243
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0965
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0609
+   1 = "Yes"
+   2 = "No"
+F_S0193
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0188
+   1 = "Yes"
+   2 = "No"
+S0339
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0168
+   1 = "Yes"
+   2 = "No"
+F_S0200
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0495
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0108
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0483
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+S0964
+   1 = "Yes"
+F_S0235
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0582
+
+
+
+
+   -8 = "Valid skip"
+F_S0167
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+F_S0248
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0578
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_S0171
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0266
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0340
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0288
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0191
+   1 = "Yes"
+   2 = "No"
+S0171
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0217
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0156
+   1 = "Classes in ALL core subjects are differentiated by student ability level."
+   2 = "Classes in SOME core subjects are differentiated by student ability level."
+   3 = "Classes in core subjects are NOT differentiated by ability level."
+   4 = "Not applicable; only one class per grade."
+   -8 = "Valid skip"
+S0640
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0632
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0148
+   1 = "Yes"
+   2 = "No"
+S0199
+   1 = "Yes"
+   2 = "No"
+F_S0192
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0523
+   1 = "Yes"
+   2 = "No"
+F_S0276
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0271
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0203
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0606
+   1 = "Yes"
+   2 = "No"
+S0183
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S0499
+   1 = "9 months"
+   2 = "9 1/2 months"
+   3 = "10 months"
+   4 = "11 months"
+   5 = "12 months"
+S0597
+   1 = "Yes"
+   2 = "No"
+S0960
+   1 = "Less than 10%"
+   2 = "10 - 19%"
+   3 = "20% or more"
+F_S0492
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0502
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0190
+   1 = "Yes"
+   2 = "No"
+F_S0184
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0263
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0283
+   1 = "0 students"
+   2 = "1 - 14 students"
+   3 = "15 or more students"
+   -8 = "Valid skip"
+S0250
+   1 = "Less than 20%"
+   2 = "20 - 49%"
+   3 = "50 - 84%"
+   4 = "85 - 98%"
+   5 = "99 - 100%"
+F_S0514
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0484
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0582
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0263
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0224
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0341
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0311
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0321
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0483
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0202
+   1 = "Yes"
+   2 = "No"
+F_S0159
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0488
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0575
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_S0287
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0170
+   1 = "Yes"
+   2 = "No"
+S0517
+   1 = "Yes"
+   2 = "No"
+S0325
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0958
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0234
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0147
+   1 = "Yes"
+   2 = "No"
+F_S0142
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0134
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0610
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0329
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0182
+   1 = "Yes"
+   2 = "No"
+F_S0275
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0624
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0253
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5% or more"
+S0901
+   1 = "Yes"
+   2 = "No, it is an all-female school"
+   3 = "No, it is an all-male school"
+F_S0183
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0266
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0119
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0617
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0626
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0478
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0493
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0122
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TOTTEACH
+   1 = "Fewer than 5 teachers"
+   2 = "5 - 9 teachers"
+   3 = "10 or more teachers"
+F_S0320
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0634
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0579
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0904
+
+
+
+
+   -8 = "Valid skip"
+F_S0254
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+F_S0316
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0486
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0328
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0225
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0490
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0149
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0317
+   1 = "Less than 5%"
+   2 = "5% or more"
+   -8 = "Valid skip"
+S0590
+   1 = "Yes"
+   2 = "No"
+S0260
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0307
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0284
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0339
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0169
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0575
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0477
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+S0957
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0121
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0154
+   1 = "All classes in core subjects have students assigned into classrooms of mixed ability levels."
+   2 = "Some classes in core subjects have students assigned into classrooms of mixed ability levels."
+   3 = "Not applicable; only one class per grade"
+   -8 = "Valid skip"
+F_S0335
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0270
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0249
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+S0639
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0198
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0281
+   1 = "No one serves as this type of technical support person.  Teachers who use computers take care of this need for themselves."
+   2 = "A full-time school-level technical support person (who has no other job responsibility)"
+   3 = "A library media specialist who also serves as a technical support person"
+   4 = "A full-time teacher who also has the title of this type of technical support person"
+   5 = "A teacher informally provides assistance to other teachers who use computers"
+   7 = "The principal or another school administrator serves this function at this school"
+   8 = "A part-time teacher serves this function"
+   9 = "Another person"
+   -8 = "Valid skip"
+S0486
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0265
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0334
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0103
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0959
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+S0160
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+VIOLPRG
+   0 = "School does not have a violence prevention program"
+   1 = "School has a violence prevention program but no formal procedure for assessing its effectiveness"
+   2 = "School has a violence prevention program and a formal procedure for assessing its effectiveness"
+F_S0118
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0500
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0180
+   1 = "Yes"
+   2 = "No"
+S0629
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0166
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+S0577
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_S0600
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0265
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0214
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0232
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0515
+   1 = "Yes"
+   2 = "No"
+F_S0226
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0229
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0338
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0174
+   1 = "Yes"
+   2 = "No"
+S0591
+   1 = "Yes"
+   2 = "No"
+F_S0580
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0798
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0259
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0956
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0120
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0592
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0330
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0101
+   1 = "Fewer than 300"
+   2 = "300 - 499"
+   3 = "500 or more"
+S0125
+   1 = "Yes"
+   2 = "No"
+S0955
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0184
+   1 = "Yes"
+   2 = "No"
+S0270
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0327
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+RELIG
+   1 = "Catholic"
+   2 = "Other religious"
+   3 = "Nonsectarian"
+F_S0199
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0626
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0624
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0505
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0273
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+NUMTCH
+   1 = "Fewer than 5 teachers"
+   2 = "5 - 9 teachers"
+   3 = "10 or more teachers"
+F_S0633
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0104
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0515
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0260
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0968
+   1 = "Yes"
+   2 = "No"
+F_S0282
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0311
+   1 = "In this school building"
+   -8 = "Valid skip"
+S0966
+   1 = "All"
+   -8 = "Valid skip"
+F_S0326
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0120
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0520
+   1 = "Yes"
+   2 = "No"
+F_S0147
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0095
+   1 = "Less than 25%"
+   2 = "25 - 49%"
+   3 = "50 - 74%"
+   4 = "75% or more"
+   -8 = "Valid skip"
+F_S0256
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0314
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0117
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0480
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0128
+   1 = "Yes"
+   2 = "No"
+F_S0154
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0116
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0319
+   1 = "Less than 5%"
+   2 = "5% or more"
+   -8 = "Valid skip"
+S0518
+   1 = "Yes"
+   2 = "No"
+F_S0209
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0143
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0179
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0123
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0479
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0962
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+S0258
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0500
+   1 = "Yes"
+   2 = "No"
+F_S0126
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0322
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0495
+   1 = "No teachers"
+   2 = "At least 1 teacher"
+F_S0621
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0116
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0616
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0480
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0510
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0246
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0636
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0627
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0953
+   1 = "Yes"
+   2 = "No"
+S0965
+   1 = "Yes"
+   2 = "No"
+F_S0267
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0332
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0176
+   1 = "Yes"
+   2 = "No"
+S0485
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+F_S0635
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0196
+   1 = "Yes"
+   2 = "No"
+S0595
+   1 = "Yes"
+   2 = "No"
+F_S0598
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0220
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0251
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0307
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0267
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0635
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0174
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0206
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0611
+   1 = "Yes"
+   2 = "No"
+S0603
+   1 = "Yes"
+   2 = "No"
+S0308
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0336
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0574
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+F_S0904
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0152
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0153
+   1 = "Yes"
+   2 = "No"
+F_S0151
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+PGMTYPE
+   1 = "REGULAR elementary or secondary"
+   2 = "MONTESSORI"
+   3 = "Elementary or secondary school with a SPECIAL PROGRAM EMPHASIS (such as a science/math school, performing arts high school, foreign language immersion school, talented/gifted school, etc.)"
+   4 = "SPECIAL EDUCATION - primarily serves students with disabilities"
+   6 = "ALTERNATIVE - offers a curriculum designed to provide alternative or nontraditional education; does not specifically fall into the categories of regular, special education, or vocational school"
+F_S0111
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0494
+   1 = "Yes"
+   2 = "No"
+S0286
+   1 = "0 students"
+   2 = "1 - 14 students"
+   3 = "15 or more"
+   -8 = "Valid skip"
+F_S0195
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+MINENR
+   1 = "Less than 20%"
+   2 = "20% or more"
+S0961
+   1 = "Less than 10%"
+   2 = "10 - 19%"
+   3 = "20% or more"
+F_S0106
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0503
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0513
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0605
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0337
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0241
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0963
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+F_S0603
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0268
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0638
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0520
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0274
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0610
+   1 = "Yes"
+   2 = "No"
+F_S0177
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0489
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0181
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0221
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0312
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0340
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0203
+   1 = "Yes"
+   2 = "No"
+S0600
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   4 = "Outside professional development providers (e.g., university or college faculty, professional organizations)"
+F_S0161
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+F_S0599
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0211
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0584
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0585
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0219
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0331
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0193
+   1 = "Yes"
+   2 = "No"
+F_S0141
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0142
+   1 = "Yes"
+   2 = "No"
+S0177
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S0630
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0595
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0330
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0512
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0274
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0110
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+F_S0508
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0594
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0513
+   1 = "Same as rate for teachers"
+   2 = "Same as rate for non-professional personnel"
+   3 = "Other rate"
+S0521
+   1 = "Yes"
+   2 = "No"
+S0962
+   1 = "Less than 10%"
+   2 = "10 - 19%"
+   3 = "20% or more"
+S0185
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S0200
+   1 = "Yes"
+   2 = "No"
+F_S0613
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0960
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0201
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0182
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0273
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0268
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0312
+   1 = "In a mobile unit or van"
+   -8 = "Valid skip"
+S0169
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S0204
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0115
+   1 = "Yes"
+   2 = "No"
+F_S0172
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0210
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0593
+   1 = "Yes"
+   2 = "No"
+S0269
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0238
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0149
+   1 = "Yes"
+   2 = "No"
+S0327
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0129
+   1 = "Yes"
+   2 = "No"
+F_S0285
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0511
+   1 = "Same as rate for teachers"
+   2 = "Other rate"
+F_S0253
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0261
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0633
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0198
+   1 = "Yes"
+   2 = "No"
+F_S0153
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+F_S0204
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0335
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0501
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0640
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0280
+   1 = "No one serves as this type of coordinator.  Teachers who use computers take care of this need for themselves."
+   2 = "A full-time school-level coordinator (who has no other job responsibility)"
+   3 = "A library media specialist who also serves as computer coordinator"
+   4 = "A full-time teacher who also has the title of this type of coordinator"
+   5 = "A teacher informally provides leadership to other teachers who use computers"
+   7 = "The principal or another school administrator serves this function at this school"
+   8 = "A part-time teacher serves this function"
+   9 = "Another person"
+   -8 = "Valid skip"
+S0605
+   1 = "Yes"
+   2 = "No"
+S0620
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0613
+   1 = "Yes"
+   2 = "No"
+S0251
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+F_S0491
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0637
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0284
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+   -8 = "Valid skip"
+F_S0264
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0615
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0961
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0511
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0306
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0175
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0195
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0596
+   1 = "Yes"
+   2 = "No"
+F_S0601
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0272
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0262
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0612
+   1 = "Yes"
+   2 = "No"
+F_S0127
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0213
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0231
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0201
+   1 = "Yes"
+   2 = "No"
+F_S0333
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0239
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0959
+   1 = "Less than 10%"
+   2 = "10 - 19%"
+   3 = "20% or more"
+F_S0318
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0593
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+S0175
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0506
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0576
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0625
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0953
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0623
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+SCHLEVEL
+   1 = "Elementary"
+   2 = "Secondary"
+   3 = "Combined"
+S0187
+   1 = "Yes"
+   2 = "No"
+F_S0618
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0109
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0242
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0608
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0518
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0101
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+F_S0188
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0287
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+   -8 = "Valid skip"
+S0121
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0487
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0178
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0230
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0521
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0955
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0141
+   1 = "Yes"
+   2 = "No"
+S0579
+   0 = "None"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_S0249
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0255
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0315
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+F_S0578
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0611
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0589
+   1 = "Yes"
+   2 = "No"
+S0318
+   1 = "Less than 5%"
+   2 = "5% or more"
+   -8 = "Valid skip"
+F_S0218
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0306
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0216
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0192
+   1 = "Yes"
+   2 = "No"
+F_S0146
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0172
+   1 = "Yes"
+   2 = "No"
+F_S0168
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0123
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0122
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0470
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0590
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0620
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0257
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0481
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+S0954
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0321
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5% or more"
+   -8 = "Valid skip"
+S0905
+   1 = "Yes"
+   2 = "No"
+F_S0262
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0638
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0619
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0130
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0583
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0163
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+   P4 = "PSS item - Value was imputed by hand (clerical)"
+S0186
+   1 = "Yes"
+   2 = "No"
+F_S0271
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0107
+   1 = "Fewer than 100"
+   2 = "100 - 199"
+   3 = "200 - 399"
+   4 = "400 - 599"
+   5 = "600 or more"
+F_S0102
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+S0133
+   1 = "Yes"
+   2 = "No"
+S0622
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0970
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0187
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0522
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0333
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0250
+   S0 = "Not a PSS item - Not imputed"
+   S1 = "Not a PSS item - Original value was ratio adjusted"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0119
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0341
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0233
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0958
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0313
+   1 = "In a public school"
+   -8 = "Valid skip"
+S0598
+   1 = "Yes"
+   2 = "No"
+F_S0589
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0629
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0255
+   1 = "Less than 1%"
+   2 = "1 - 9%"
+   3 = "10% or more"
+F_S0207
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0158
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0324
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0901
+   P0 = "PSS item - Not imputed"
+   P2 = "PSS item - Value was imputed by using data from other variables in same record or from the sample file (data from previous PSS)"
+   P3 = "PSS item -Value was imputed by using data from the record for a similar case (donor)"
+F_S0125
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0581
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0591
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0258
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0126
+   1 = "Yes"
+   2 = "No"
+S0493
+   1 = "Yes"
+   2 = "No"
+F_S0968
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0608
+   1 = "Yes"
+   2 = "No"
+F_S0194
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0581
+   1 = "3-year program"
+   2 = "4-year program"
+   3 = "Other"
+   -8 = "Valid skip"
+S0252
+   1 = "Less than 1%"
+   2 = "1% or more"
+MINTCH
+   1 = "Less than 1%"
+   2 = "1 - 9%"
+   3 = "10 - 19%"
+   4 = "20 - 49%"
+   5 = "50% or more"
+S0618
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0134
+   1 = "Yes"
+   2 = "No"
+S0161
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0630
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0131
+   1 = "Yes"
+   2 = "No"
+F_S0504
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+   S8 = "Not a PSS item - Value was imputed by hand (clerical)"
+S0625
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0244
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0623
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0261
+   S0 = "Not a PSS item - Not imputed"
+   S2 = "Not a PSS item - Value was imputed by using data from other variables in same record"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+F_S0279
+   S0 = "Not a PSS item - Not imputed"
+   S7 = "Not a PSS item - Value was imputed by using data from the record for a similar case (donor)"
+S0151
+   1 = "Yes"
+   2 = "No"
+S0338
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"

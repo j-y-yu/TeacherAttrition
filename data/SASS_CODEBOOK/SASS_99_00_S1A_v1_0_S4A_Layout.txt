@@ -1,0 +1,7214 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_S4A
+
+/* Total Record Length */
+3912
+
+/* Variable Names, Locations, and Descriptions */
+AGE_T     916-917   Teacher age
+ASSIGN    665-666   General field of main assignment
+ATTACK    902-903   Student attack, ever, past 12 mos
+CL_AR     918-919   Num classes-art/music
+CL_CS     920-921   Num classes-computer science
+CL_ENG    922-923   Num classes-English
+CL_FL     924-925   Num classes-foreign language
+CL_MAT    926-927   Num classes-math
+CL_NS     928-929   Num classes-natural science
+CL_SO     930-931   Num classes-social studies
+CL_VT     932-933   Num classes - vo-tech
+CLASSZ_D  813-818   Average class size - departmental
+CLASSZ_S  811-812   Class size - self contained
+CLSZ_AR   966-971   Avg cl size - art
+CLSZ_CS   972-977   Avg cl size - computer sci
+CLSZ_ENG  978-983   Avg cl size - English
+CLSZ_FL   984-989   Avg cl size - foreign language
+CLSZ_MAT  990-995   Avg cl size - math
+CLSZ_NS   996-1001  Avg cl size - natural sci
+CLSZ_SO   1002-1007 Avg cl size - social studies
+CLSZ_VT   1008-1013 Avg cl size - vo-tech
+CPTR_COL  867-872   Comp use-perc classes-collaborate
+CPTR_MAT  849-854   Comp use-perc classes-learn subj matter
+CPTR_MED  873-878   Comp use-perc classes-multimedia
+CPTR_OTH  891-896   Comp use-perc classes-other
+CPTR_PRB  861-866   Comp use-perc classes-solve problems
+CPTR_SKL  855-860   Comp use-perc classes-practice skills
+CPTR_WEB  885-890   Comp use-perc classes-correspond
+CPTR_WRD  879-884   Comp use-perc classes-word proc
+EARNALL   910-911   Total yearly earnings
+EARNSCH   912-913   School-related earnings
+ENRK12UG  641-642   Total ungraded and K-12 enrollment
+F_T0051   3313-3314 Imputation flag for T0051
+F_T0053   3315-3316 Imputation flag for T0053
+F_T0054   3317-3318 Imputation flag for T0054
+F_T0059   3319-3320 Imputation flag for T0059
+F_T0060   3321-3322 Imputation flag for T0060
+F_T0061   3323-3324 Imputation flag for T0061
+F_T0062   3325-3326 Imputation flag for T0062
+F_T0063   3327-3328 Imputation flag for T0063
+F_T0064   3329-3330 Imputation flag for T0064
+F_T0065   3331-3332 Imputation flag for T0065
+F_T0066   3333-3334 Imputation flag for T0066
+F_T0067   3335-3336 Imputation flag for T0067
+F_T0068   3337-3338 Imputation flag for T0068
+F_T0069   3339-3340 Imputation flag for T0069
+F_T0070   3341-3342 Imputation flag for T0070
+F_T0071   3343-3344 Imputation flag for T0071
+F_T0072   3345-3346 Imputation flag for T0072
+F_T0073   3347-3348 Imputation flag for T0073
+F_T0074   3349-3350 Imputation flag for T0074
+F_T0075   3351-3352 Imputation flag for T0075
+F_T0076   3353-3354 Imputation flag for T0076
+F_T0080   3355-3356 Imputation flag for T0080
+F_T0081   3357-3358 Imputation flag for T0081
+F_T0082   3359-3360 Imputation flag for T0082
+F_T0083   3361-3362 Imputation flag for T0083
+F_T0084   3363-3364 Imputation flag for T0084
+F_T0085   3365-3366 Imputation flag for T0085
+F_T0086   3367-3368 Imputation flag for T0086
+F_T0087   3369-3370 Imputation flag for T0087
+F_T0088   3371-3372 Imputation flag for T0088
+F_T0089   3373-3374 Imputation flag for T0089
+F_T0090   3375-3376 Imputation flag for T0090
+F_T0091   3377-3378 Imputation flag for T0091
+F_T0092   3379-3380 Imputation flag for T0092
+F_T0093   3381-3382 Imputation flag for T0093
+F_T0094   3383-3384 Imputation flag for T0094
+F_T0095   3385-3386 Imputation flag for T0095
+F_T0096   3387-3388 Imputation flag for T0096
+F_T0097   3389-3390 Imputation flag for T0097
+F_T0098   3391-3392 Imputation flag for T0098
+F_T0099   3393-3394 Imputation flag for T0099
+F_T0100   3395-3396 Imputation flag for T0100
+F_T0101   3397-3398 Imputation flag for T0101
+F_T0102   3399-3400 Imputation flag for T0102
+F_T0103   3401-3402 Imputation flag for T0103
+F_T0104   3403-3404 Imputation flag for T0104
+F_T0105   3405-3406 Imputation flag for T0105
+F_T0106   3407-3408 Imputation flag for T0106
+F_T0107   3409-3410 Imputation flag for T0107
+F_T0108   3411-3412 Imputation flag for T0108
+F_T0109   3413-3414 Imputation flag for T0109
+F_T0110   3415-3416 Imputation flag for T0110
+F_T0111   3417-3418 Imputation flag for T0111
+F_T0112   3419-3420 Imputation flag for T0112
+F_T0113   3421-3422 Imputation flag for T0113
+F_T0114   3423-3424 Imputation flag for T0114
+F_T0115   3425-3426 Imputation flag for T0115
+F_T0116   3427-3428 Imputation flag for T0116
+F_T0117   3429-3430 Imputation flag for T0117
+F_T0118   3431-3432 Imputation flag for T0118
+F_T0119   3433-3434 Imputation flag for T0119
+F_T0120   3435-3436 Imputation flag for T0120
+F_T0121   3437-3438 Imputation flag for T0121
+F_T0122   3439-3440 Imputation flag for T0122
+F_T0123   3441-3442 Imputation flag for T0123
+F_T0124   3443-3444 Imputation flag for T0124
+F_T0125   3445-3446 Imputation flag for T0125
+F_T0126   3447-3448 Imputation flag for T0126
+F_T0127   3449-3450 Imputation flag for T0127
+F_T0128   3451-3452 Imputation flag for T0128
+F_T0129   3453-3454 Imputation flag for T0129
+F_T0130   3455-3456 Imputation flag for T0130
+F_T0131   3457-3458 Imputation flag for T0131
+F_T0132   3459-3460 Imputation flag for T0132
+F_T0133   3461-3462 Imputation flag for T0133
+F_T0134   3463-3464 Imputation flag for T0134
+F_T0135   3465-3466 Imputation flag for T0135
+F_T0136   3467-3468 Imputation flag for T0136
+F_T0137   3469-3470 Imputation flag for T0137
+F_T0138   3471-3472 Imputation flag for T0138
+F_T0139   3473-3474 Imputation flag for T0139
+F_T0140   3475-3476 Imputation flag for T0140
+F_T0141   3477-3478 Imputation flag for T0141
+F_T0142   3479-3480 Imputation flag for T0142
+F_T0143   3481-3482 Imputation flag for T0143
+F_T0144   3483-3484 Imputation flag for T0144
+F_T0145   3485-3486 Imputation flag for T0145
+F_T0146   3487-3488 Imputation flag for T0146
+F_T0147   3489-3490 Imputation flag for T0147
+F_T0148   3491-3492 Imputation flag for T0148
+F_T0149   3493-3494 Imputation flag for T0149
+F_T0150   3495-3496 Imputation flag for T0150
+F_T0151   3497-3498 Imputation flag for T0151
+F_T0152   3499-3500 Imputation flag for T0152
+F_T0153   3501-3502 Imputation flag for T0153
+F_T0154   3503-3504 Imputation flag for T0154
+F_T0155   3505-3506 Imputation flag for T0155
+F_T0156   3507-3508 Imputation flag for T0156
+F_T0157   3509-3510 Imputation flag for T0157
+F_T0158   3511-3512 Imputation flag for T0158
+F_T0159   3513-3514 Imputation flag for T0159
+F_T0160   3515-3516 Imputation flag for T0160
+F_T0161   3517-3518 Imputation flag for T0161
+F_T0162   3519-3520 Imputation flag for T0162
+F_T0163   3521-3522 Imputation flag for T0163
+F_T0164   3523-3524 Imputation flag for T0164
+F_T0165   3525-3526 Imputation flag for T0165
+F_T0166   3527-3528 Imputation flag for T0166
+F_T0167   3529-3530 Imputation flag for T0167
+F_T0168   3531-3532 Imputation flag for T0168
+F_T0169   3533-3534 Imputation flag for T0169
+F_T0170   3535-3536 Imputation flag for T0170
+F_T0171   3537-3538 Imputation flag for T0171
+F_T0172   3539-3540 Imputation flag for T0172
+F_T0173   3541-3542 Imputation flag for T0173
+F_T0174   3543-3544 Imputation flag for T0174
+F_T0175   3545-3546 Imputation flag for T0175
+F_T0176   3547-3548 Imputation flag for T0176
+F_T0177   3549-3550 Imputation flag for T0177
+F_T0178   3551-3552 Imputation flag for T0178
+F_T0179   3553-3554 Imputation flag for T0179
+F_T0180   3555-3556 Imputation flag for T0180
+F_T0181   3557-3558 Imputation flag for T0181
+F_T0182   3559-3560 Imputation flag for T0182
+F_T0183   3561-3562 Imputation flag for T0183
+F_T0184   3563-3564 Imputation flag for T0184
+F_T0185   3565-3566 Imputation flag for T0185
+F_T0186   3567-3568 Imputation flag for T0186
+F_T0187   3569-3570 Imputation flag for T0187
+F_T0188   3571-3572 Imputation flag for T0188
+F_T0189   3573-3574 Imputation flag for T0189
+F_T0190   3575-3576 Imputation flag for T0190
+F_T0191   3577-3578 Imputation flag for T0191
+F_T0192   3579-3580 Imputation flag for T0192
+F_T0193   3581-3582 Imputation flag for T0193
+F_T0194   3583-3584 Imputation flag for T0194
+F_T0195   3585-3586 Imputation flag for T0195
+F_T0196   3587-3588 Imputation flag for T0196
+F_T0197   3589-3590 Imputation flag for T0197
+F_T0198   3591-3592 Imputation flag for T0198
+F_T0199   3593-3594 Imputation flag for T0199
+F_T0200   3595-3596 Imputation flag for T0200
+F_T0201   3597-3598 Imputation flag for T0201
+F_T0202   3599-3600 Imputation flag for T0202
+F_T0203   3601-3602 Imputation flag for T0203
+F_T0204   3603-3604 Imputation flag for T0204
+F_T0205   3605-3606 Imputation flag for T0205
+F_T0206   3607-3608 Imputation flag for T0206
+F_T0207   3609-3610 Imputation flag for T0207
+F_T0208   3611-3612 Imputation flag for T0208
+F_T0209   3613-3614 Imputation flag for T0209
+F_T0210   3615-3616 Imputation flag for T0210
+F_T0211   3617-3618 Imputation flag for T0211
+F_T0212   3619-3620 Imputation flag for T0212
+F_T0213   3621-3622 Imputation flag for T0213
+F_T0214   3623-3624 Imputation flag for T0214
+F_T0215   3625-3626 Imputation flag for T0215
+F_T0216   3627-3628 Imputation flag for T0216
+F_T0217   3629-3630 Imputation flag for T0217
+F_T0218   3631-3632 Imputation flag for T0218
+F_T0219   3633-3634 Imputation flag for T0219
+F_T0220   3635-3636 Imputation flag for T0220
+F_T0221   3637-3638 Imputation flag for T0221
+F_T0222   3639-3640 Imputation flag for T0222
+F_T0223   3641-3642 Imputation flag for T0223
+F_T0224   3643-3644 Imputation flag for T0224
+F_T0225   3645-3646 Imputation flag for T0225
+F_T0226   3647-3648 Imputation flag for T0226
+F_T0227   3649-3650 Imputation flag for T0227
+F_T0228   3651-3652 Imputation flag for T0228
+F_T0229   3653-3654 Imputation flag for T0229
+F_T0230   3655-3656 Imputation flag for T0230
+F_T0231   3657-3658 Imputation flag for T0231
+F_T0232   3659-3660 Imputation flag for T0232
+F_T0233   3661-3662 Imputation flag for T0233
+F_T0234   3663-3664 Imputation flag for T0234
+F_T0235   3665-3666 Imputation flag for T0235
+F_T0236   3667-3668 Imputation flag for T0236
+F_T0237   3669-3670 Imputation flag for T0237
+F_T0238   3671-3672 Imputation flag for T0238
+F_T0239   3673-3674 Imputation flag for T0239
+F_T0240   3675-3676 Imputation flag for T0240
+F_T0241   3677-3678 Imputation flag for T0241
+F_T0242   3679-3680 Imputation flag for T0242
+F_T0243   3681-3682 Imputation flag for T0243
+F_T0244   3683-3684 Imputation flag for T0244
+F_T0245   3685-3686 Imputation flag for T0245
+F_T0246   3687-3688 Imputation flag for T0246
+F_T0247   3689-3690 Imputation flag for T0247
+F_T0248   3691-3692 Imputation flag for T0248
+F_T0249   3693-3694 Imputation flag for T0249
+F_T0250   3695-3696 Imputation flag for T0250
+F_T0251   3697-3698 Imputation flag for T0251
+F_T0252   3699-3700 Imputation flag for T0252
+F_T0253   3701-3702 Imputation flag for T0253
+F_T0254   3703-3704 Imputation flag for T0254
+F_T0255   3705-3706 Imputation flag for T0255
+F_T0256   3707-3708 Imputation flag for T0256
+F_T0257   3709-3710 Imputation flag for T0257
+F_T0258   3711-3712 Imputation flag for T0258
+F_T0259   3713-3714 Imputation flag for T0259
+F_T0260   3715-3716 Imputation flag for T0260
+F_T0261   3717-3718 Imputation flag for T0261
+F_T0262   3719-3720 Imputation flag for T0262
+F_T0263   3721-3722 Imputation flag for T0263
+F_T0264   3723-3724 Imputation flag for T0264
+F_T0265   3725-3726 Imputation flag for T0265
+F_T0266   3727-3728 Imputation flag for T0266
+F_T0267   3729-3730 Imputation flag for T0267
+F_T0268   3731-3732 Imputation flag for T0268
+F_T0269   3733-3734 Imputation flag for T0269
+F_T0270   3735-3736 Imputation flag for T0270
+F_T0271   3737-3738 Imputation flag for T0271
+F_T0272   3739-3740 Imputation flag for T0272
+F_T0273   3741-3742 Imputation flag for T0273
+F_T0274   3743-3744 Imputation flag for T0274
+F_T0275   3745-3746 Imputation flag for T0275
+F_T0276   3747-3748 Imputation flag for T0276
+F_T0277   3749-3750 Imputation flag for T0277
+F_T0278   3751-3752 Imputation flag for T0278
+F_T0279   3753-3754 Imputation flag for T0279
+F_T0280   3755-3756 Imputation flag for T0280
+F_T0281   3757-3758 Imputation flag for T0281
+F_T0282   3759-3760 Imputation flag for T0282
+F_T0283   3761-3762 Imputation flag for T0283
+F_T0284   3763-3764 Imputation flag for T0284
+F_T0285   3765-3766 Imputation flag for T0285
+F_T0286   3767-3768 Imputation flag for T0286
+F_T0287   3769-3770 Imputation flag for T0287
+F_T0288   3771-3772 Imputation flag for T0288
+F_T0289   3773-3774 Imputation flag for T0289
+F_T0290   3775-3776 Imputation flag for T0290
+F_T0291   3777-3778 Imputation flag for T0291
+F_T0292   3779-3780 Imputation flag for T0292
+F_T0293   3781-3782 Imputation flag for T0293
+F_T0294   3783-3784 Imputation flag for T0294
+F_T0295   3785-3786 Imputation flag for T0295
+F_T0296   3787-3788 Imputation flag for T0296
+F_T0297   3789-3790 Imputation flag for T0297
+F_T0298   3791-3792 Imputation flag for T0298
+F_T0299   3793-3794 Imputation flag for T0299
+F_T0300   3795-3796 Imputation flag for T0300
+F_T0301   3797-3798 Imputation flag for T0301
+F_T0302   3799-3800 Imputation flag for T0302
+F_T0303   3801-3802 Imputation flag for T0303
+F_T0304   3803-3804 Imputation flag for T0304
+F_T0305   3805-3806 Imputation flag for T0305
+F_T0306   3807-3808 Imputation flag for T0306
+F_T0307   3809-3810 Imputation flag for T0307
+F_T0308   3811-3812 Imputation flag for T0308
+F_T0309   3813-3814 Imputation flag for T0309
+F_T0310   3815-3816 Imputation flag for T0310
+F_T0311   3817-3818 Imputation flag for T0311
+F_T0312   3819-3820 Imputation flag for T0312
+F_T0313   3821-3822 Imputation flag for T0313
+F_T0314   3823-3824 Imputation flag for T0314
+F_T0315   3825-3826 Imputation flag for T0315
+F_T0316   3827-3828 Imputation flag for T0316
+F_T0317   3829-3830 Imputation flag for T0317
+F_T0318   3831-3832 Imputation flag for T0318
+F_T0319   3833-3834 Imputation flag for T0319
+F_T0320   3835-3836 Imputation flag for T0320
+F_T0321   3837-3838 Imputation flag for T0321
+F_T0322   3839-3840 Imputation flag for T0322
+F_T0323   3841-3842 Imputation flag for T0323
+F_T0324   3843-3844 Imputation flag for T0324
+F_T0325   3845-3846 Imputation flag for T0325
+F_T0326   3847-3848 Imputation flag for T0326
+F_T0327   3849-3850 Imputation flag for T0327
+F_T0328   3851-3852 Imputation flag for T0328
+F_T0329   3853-3854 Imputation flag for T0329
+F_T0330   3855-3856 Imputation flag for T0330
+F_T0331   3857-3858 Imputation flag for T0331
+F_T0332   3859-3860 Imputation flag for T0332
+F_T0333   3861-3862 Imputation flag for T0333
+F_T0334   3863-3864 Imputation flag for T0334
+F_T0335   3865-3866 Imputation flag for T0335
+F_T0336   3867-3868 Imputation flag for T0336
+F_T0337   3869-3870 Imputation flag for T0337
+F_T0338   3871-3872 Imputation flag for T0338
+F_T0339   3873-3874 Imputation flag for T0339
+F_T0340   3875-3876 Imputation flag for T0340
+F_T0341   3877-3878 Imputation flag for T0341
+F_T0342   3879-3880 Imputation flag for T0342
+F_T0343   3881-3882 Imputation flag for T0343
+F_T0344   3883-3884 Imputation flag for T0344
+F_T0345   3885-3886 Imputation flag for T0345
+F_T0346   3887-3888 Imputation flag for T0346
+F_T0347   3889-3890 Imputation flag for T0347
+F_T0348   3891-3892 Imputation flag for T0348
+F_T0349   3893-3894 Imputation flag for T0349
+F_T0350   3895-3896 Imputation flag for T0350
+F_T0351   3897-3898 Imputation flag for T0351
+F_T0352   3899-3900 Imputation flag for T0352
+F_T0353   3901-3902 Imputation flag for T0353
+F_T0354   3903-3904 Imputation flag for T0354
+F_T0355   3905-3906 Imputation flag for T0355
+F_T0356   3907-3908 Imputation flag for T0356
+F_T0357   3909-3910 Imputation flag for T0357
+F_T0359   3911-3912 Imputation flag for T0359
+HRSALL    897-899   Total hrs per wk - sch activities
+IEP_T     825-830   Percent students with IEP
+INF_A_CM  1014-1015 T taught in-fld-comp sc
+INF_A_EL  1016-1017 T taught in-fld-el ed
+INF_A_EN  1018-1019 T taught in-fld-English/lang arts
+INF_A_ES  1020-1021 T taught in-fld-ESL
+INF_A_MA  1022-1023 T taught in-fld-math
+INF_A_PE  1024-1025 T taught in-fld-phys/hlth
+INF_A_SC  1026-1027 T taught in-fld-science
+INF_A_SE  1028-1029 T taught in-fld-special ed
+INF_A_SO  1030-1031 T taught in-fld-soc st
+INF_ASCH  1032-1033 T taught in-fld-chem
+INF_ASEA  1034-1035 T taught in-fld-earth sc
+INF_ASEL  1036-1037 T taught in-fld--el ed (not K)
+INF_ASHI  1038-1039 T taught in-fld-hist
+INF_ASHL  1040-1041 T taught in-fld-hlth
+INF_ASKI  1042-1043 T taught in-fld--Kinder
+INF_ASLI  1044-1045 T taught in-fld-life sc
+INF_ASPE  1046-1047 T taught in-fld-phys ed
+INF_ASPH  1048-1049 T taught in-fld-physics
+INF_ASPS  1050-1051 T taught in-fld-phys sc
+INF_M     1052-1053 T in-fld mn assign-all assigns
+INF_M_AM  1054-1055 T in-fld mn assign-arts/music
+INF_M_BE  1056-1057 T in-fld mn assign-bilingual ed or ESL
+INF_M_CM  1058-1059 T in-fld mn assign--comp sc
+INF_M_EL  1060-1061 T in-fld mn assign-el ed
+INF_M_EN  1062-1063 T in-fld mn assign-English
+INF_M_FL  1064-1065 T in-fld mn assign-for lang
+INF_M_MA  1066-1067 T in-fld mn assign-math
+INF_M_PE  1068-1069 T in-fld mn assign-phys/hlth
+INF_M_SC  1070-1071 T in-fld mn assign-science
+INF_M_SE  1072-1073 T in-fld mn assign-special ed
+INF_M_SO  1074-1075 T in-fld mn assign-soc st
+INF_M_VO  1076-1077 T in-fld mn assign-voc-ed
+INF_MSCH  1078-1079 T in-fld mn assign-chem
+INF_MSEA  1080-1081 T in-fld mn assign-earth sc
+INF_MSEL  1082-1083 T in-fld mn assign-el ed, not K
+INF_MSHL  1084-1085 T in-fld mn assign-hlth
+INF_MSKI  1086-1087 T in-fld mn assign-Kinder
+INF_MSLI  1088-1089 T in-fld mn assign-life sc
+INF_MSPE  1090-1091 T in-fld mn assign-phys ed
+INF_MSPH  1092-1093 T in-fld mn assign-physics
+INF_MSPS  1094-1095 T in-fld mn assign-phys sc
+INFA_AM   1096-1097 Arts/Music T In-fld A
+INFA_FL   1098-1099 For lang T In-fld A
+INFA_VO   1100-1101 Voc-ed T In-fld A
+INFB_AM   1102-1103 Arts/Music T In-fld B
+INFB_FL   1104-1105 For lang T In-fld B
+INFB_VO   1106-1107 Voc-ed T In-fld B
+INFC_AM   1108-1109 Arts/Music T In-fld C
+INFC_FL   1110-1111 For lang T In-fld C
+INFC_VO   1112-1113 Voc-ed T In-fld C
+INFCA_AM  1114-1115 # C w/ T w/ cert -arts/music
+INFCA_CM  1116-1117 # C w/ T w/ cert -comp sc
+INFCA_EN  1118-1119 # C w/ T w/ cert -English
+INFCA_ES  1120-1121 # C w/ T w/ cert -ESL
+INFCA_FL  1122-1123 # C w/ T w/ cert -for lang
+INFCA_MA  1124-1125 # C w/ T w/ cert -math
+INFCA_PE  1126-1127 # C w/ T w/ cert -phys/hlth
+INFCA_SC  1128-1129 # C w/ T w/ cert -science
+INFCA_SO  1130-1131 # C w/ T w/ cert-soc st
+INFCA_VO  1132-1133 # C w/ T w/ cert vvoc ed
+INFCASCH  1134-1135 # C w/ T w/ cert -chem
+INFCASEA  1136-1137 # C w/ T w/ cert -earth sc
+INFCASHI  1138-1139 # C w/ T w/ cert--hist
+INFCASHL  1140-1141 # C w/ T w/ cert -hlth
+INFCASLI  1142-1143 # C w/ T w/ cert -life sc
+INFCASPE  1144-1145 # C w/ T w/ cert -phys ed
+INFCASPH  1146-1147 # C w/ T w/ cert -physics
+INFCASPS  1148-1149 # C w/ T w/ cert -phys sc
+INFCB_AM  1150-1151 # C w/ T w/ maj -arts/music
+INFCB_CM  1152-1153 # C w/ T w/ maj -comp sc
+INFCB_EN  1154-1155 # C w/ T w/ maj -English
+INFCB_ES  1156-1157 # C w/ T w/ maj -ESL
+INFCB_FL  1158-1159 # C w/ T w/ maj -for lang
+INFCB_MA  1160-1161 # C w/ T w/ maj -math
+INFCB_PE  1162-1163 # C w/ T w/ maj -phys/hlth
+INFCB_SC  1164-1165 # C w/ T w/ maj -science
+INFCB_SO  1166-1167 # C w/ T w/ maj -soc st
+INFCB_VO  1168-1169 # C w/ T w/ maj -voc ed
+INFCBSCH  1170-1171 # C w/ T w/ maj -chem
+INFCBSEA  1172-1173 # C w/ T w/ maj -earth sc
+INFCBSHI  1174-1175 # C w/ T w/ maj -hist
+INFCBSHL  1176-1177 # C w/ T w/ maj -hlth
+INFCBSLI  1178-1179 # C w/ T w/ maj -life sc
+INFCBSPE  1180-1181 # C w/ T w/ maj -phys ed
+INFCBSPH  1182-1183 # C w/ T w/ maj -physics
+INFCBSPS  1184-1185 # C w/ T w/ maj -phys sc
+INFCC_AM  1186-1187 # C w/ T w/ maj or min -arts/music
+INFCC_CM  1188-1189 # C w/ T w/ maj or min -comp sc
+INFCC_EN  1190-1191 # C w/ T w/ maj or min -English
+INFCC_ES  1192-1193 # C w/ T w/ maj or min -ESL
+INFCC_FL  1194-1195 # C w/ T w/ maj or min -for lang
+INFCC_MA  1196-1197 # C w/ T w/ maj or min -math
+INFCC_PE  1198-1199 # C w/ T w/ maj or min -phys/hlth
+INFCC_SC  1200-1201 # C w/ T w/ maj or min -science
+INFCC_SO  1202-1203 # C w/ T w/ maj or min-soc st
+INFCC_VO  1204-1205 # C w/ T w/ maj or min -voc ed
+INFCCSCH  1206-1207 # c w/ t w/ maj or min -chem
+INFCCSEA  1208-1209 # c w/ t w/ maj or min -earth sc
+INFCCSHI  1210-1211 # C w/ T w/ maj or min --hist
+INFCCSHL  1212-1213 # C w/ T w/ maj or min -hlth
+INFCCSLI  1214-1215 # c w/ t w/ maj or min -life sc
+INFCCSPE  1216-1217 # C w/ T w/ maj or min -phys ed
+INFCCSPH  1218-1219 # C w/ T w/ maj or min -physics
+INFCCSPS  1220-1221 # C w/ T w/ maj or min -phys sc
+INFCD_AM  1222-1223 # C w/ T w/ cert & maj -arts/music
+INFCD_CM  1224-1225 # C w/ T w/ cert & maj -comp sc
+INFCD_EN  1226-1227 # C w/ T w/ cert & maj -English
+INFCD_ES  1228-1229 # C w/ T w/ cert & maj -ESL
+INFCD_FL  1230-1231 # C w/ T w/ cert & maj -for lang
+INFCD_MA  1232-1233 # C w/ T w/ cert & maj -math
+INFCD_PE  1234-1235 # C w/ T w/ cert & maj -phys/hlth
+INFCD_SC  1236-1237 # C w/ T w/ cert & maj -science
+INFCD_SO  1238-1239 # C w/ T w/ cert & maj-soc st
+INFCD_VO  1240-1241 # C w/ T w/ cert & maj -voc ed
+INFCDSCH  1242-1243 # C w/ T w/ cert & maj -chem
+INFCDSEA  1244-1245 # C w/ T w/ cert & maj -earth sc
+INFCDSHI  1246-1247 # C w/ T w/ cert & maj --hist
+INFCDSHL  1248-1249 # C w/ T w/ cert & maj -hlth
+INFCDSLI  1250-1251 # C w/ T w/ cert & maj -life sc
+INFCDSPE  1252-1253 # C w/ T w/ cert & maj -phys ed
+INFCDSPH  1254-1255 # C w/ T w/ cert & maj -physics
+INFCDSPS  1256-1257 # C w/ T w/ cert & maj -phys sc
+INFCE_AM  1258-1259 # C w/ T w/ cert & mj/mn -arts/music
+INFCE_CM  1260-1261 # C w/ T w/ cert & mj/mn-comp sc
+INFCE_EN  1262-1263 # c w/ t w/ cert & mj/mn -English
+INFCE_ES  1264-1265 # C w/ T w/ cert & mj/mn -ESL
+INFCE_FL  1266-1267 # C w/ T w/ cert & mj/mn -for lang
+INFCE_MA  1268-1269 # C w/ T w/ cert & mj/mn -math
+INFCE_PE  1270-1271 # C w/ T w/ cert & mj/mn -phys/hlth
+INFCE_SC  1272-1273 # C w/ T w/ cert & mj/mn-science
+INFCE_SO  1274-1275 # C w/ T w/ cert&mj/mn-soc st
+INFCE_VO  1276-1277 # C w/ T w/ cert & mj/mn -voc ed
+INFCESCH  1278-1279 # c w/ t w/ cert&mj/mn-chem
+INFCESEA  1280-1281 # c w/ t w/ cert&mj/mn-earth sc
+INFCESHI  1282-1283 # C w/ T w/ cert & mj/mn --hist
+INFCESHL  1284-1285 # C w/ T w/ cert & mj/mn -hlth
+INFCESLI  1286-1287 # C w/ T w/ cert & mj/mn -life sc
+INFCESPE  1288-1289 # C w/ T w/ cert & mj/mn -phys ed
+INFCESPH  1290-1291 # C w/ T w/ cert & mj/mn -physics
+INFCESPS  1292-1293 # C w/ T w/ cert & mj/mn -phys sc
+INFCF_AM  1294-1295 # C w/ T w/o crt -arts/music
+INFCF_CM  1296-1297 # C w/ T w/o crt -comp sc
+INFCF_EN  1298-1299 # C w/ T w/o crt -English
+INFCF_ES  1300-1301 # C w/ T w/o crt -ESL
+INFCF_FL  1302-1303 # C w/ T w/o crt -for lang
+INFCF_MA  1304-1305 # C w/ T w/o crt -math
+INFCF_PE  1306-1307 # C w/ T w/o crt -phys/hlth
+INFCF_SC  1308-1309 # C w/ T w/o crt -science
+INFCF_SO  1310-1311 # C w/ T w/o crt -soc st
+INFCF_VO  1312-1313 # C w/ T w/o crt -voc ed
+INFCFSCH  1314-1315 # C w/ T w/o crt -chem
+INFCFSEA  1316-1317 # C w/ T w/o crt-earth sc
+INFCFSHI  1318-1319 # C w/ T w/o crt --hist
+INFCFSHL  1320-1321 # C w/ T w/o crt -hlth
+INFCFSLI  1322-1323 # C w/ T w/o crt -life sc
+INFCFSPE  1324-1325 # C w/ T w/o crt -phys ed
+INFCFSPH  1326-1327 # C w/ T w/o crt -physics
+INFCFSPS  1328-1329 # C w/ T w/o crt -phys sc
+INFCG_AM  1330-1331 # C w/ T w/o maj -arts/music
+INFCG_CM  1332-1333 # C w/ T w/o maj -comp sc
+INFCG_EN  1334-1335 # C w/ T w/o maj -English
+INFCG_ES  1336-1337 # C w/ T w/o maj -ESL
+INFCG_FL  1338-1339 # C w/ T w/o maj -for lang
+INFCG_MA  1340-1341 # C w/ T w/o maj - math
+INFCG_PE  1342-1343 # C w/ T w/o maj -phys/hlth
+INFCG_SC  1344-1345 # C w/ T w/o maj -science
+INFCG_SO  1346-1347 # C w/ T w/o maj -soc st
+INFCG_VO  1348-1349 # C w/ T w/o maj vvoc ed
+INFCGSCH  1350-1351 # C w/ T w/o maj -chem
+INFCGSEA  1352-1353 # C w/ T w/o maj-earth sc
+INFCGSHI  1354-1355 # C w/ T w/o maj -hist
+INFCGSHL  1356-1357 # C w/ T w/o maj -hlth
+INFCGSLI  1358-1359 # C w/ T w/o maj -life sc
+INFCGSPE  1360-1361 # C w/ T w/o maj -phys ed
+INFCGSPH  1362-1363 # C w/ T w/o maj -physics
+INFCGSPS  1364-1365 # C w/ T w/o maj -phys sc
+INFCH_AM  1366-1367 # C w/ T w/o maj or min -arts/music
+INFCH_CM  1368-1369 # C w/ T w/o maj or min -comp sc
+INFCH_EN  1370-1371 # C w/ T w/o maj or min -English
+INFCH_ES  1372-1373 # C w/ T w/o maj or min -ESL
+INFCH_FL  1374-1375 # C w/ T w/o maj or min -for lang
+INFCH_MA  1376-1377 # C w/ T w/o maj or min -math
+INFCH_PE  1378-1379 # C w/ T w/o maj or min -phys/hlth
+INFCH_SC  1380-1381 # C w/ T w/o maj or min -science
+INFCH_SO  1382-1383 # C w/ T w/o maj or min-soc st
+INFCH_VO  1384-1385 # C w/ T w/o maj or min vvoc ed
+INFCHSCH  1386-1387 # c w/ t w/o maj or min -chem
+INFCHSEA  1388-1389 # c w/ t w/o maj or min -earth sc
+INFCHSHI  1390-1391 # C w/ T w/o maj or min --hist
+INFCHSHL  1392-1393 # C w/ T w/o maj or min -hlth
+INFCHSLI  1394-1395 # c w/ t w/o maj or min -life sc
+INFCHSPE  1396-1397 # C w/ T w/o maj or min -phys ed
+INFCHSPH  1398-1399 # C w/ T w/o maj or min -physics
+INFCHSPS  1400-1401 # C w/ T w/o maj or min -phys sc
+INFCI_AM  1402-1403 # C w/ T w/o crt or maj-arts/music
+INFCI_CM  1404-1405 # C w/ T w/o crt or maj-comp sc
+INFCI_EN  1406-1407 # C w/ T w/o crt or maj -English
+INFCI_ES  1408-1409 # C w/ T w/o crt or maj -ESL
+INFCI_FL  1410-1411 # C w/ T w/o crt or maj -for lang
+INFCI_MA  1412-1413 # C w/ T w/o crt or maj -math
+INFCI_PE  1414-1415 # C w/ T w/o crt or maj-phys/hlth
+INFCI_SC  1416-1417 # C w/ T w/o crt or maj-science
+INFCI_SO  1418-1419 # C w/ T w/o crt or maj-soc st
+INFCI_VO  1420-1421 # C w/ T w/o crt or maj -voc ed
+INFCISCH  1422-1423 # C w/ T w/o crt or maj -chem
+INFCISEA  1424-1425 # C w/ T w/o crt or maj-earth sc
+INFCISHI  1426-1427 # C w/ T w/o crt or maj --hist
+INFCISHL  1428-1429 # C w/ T w/o crt or maj-hlth
+INFCISLI  1430-1431 # C w/ T w/o crt or maj -life sc
+INFCISPE  1432-1433 # C w/ T w/o crt or maj-phys ed
+INFCISPH  1434-1435 # C w/ T w/o crt or maj -physics
+INFCISPS  1436-1437 # C w/ T w/o crt or maj -phys sc
+INFCJ_AM  1438-1439 # C w/ T w/o crt or mj/mn -arts/music
+INFCJ_CM  1440-1441 # C w/ T w/o crt or mj/mn -comp sc
+INFCJ_EN  1442-1443 # c w/ t w/o crt or mj/mn -English
+INFCJ_ES  1444-1445 # C w/ T w/o crt or mj/mn -ESL
+INFCJ_FL  1446-1447 # C w/ T w/o crt or mj/mn -for lang
+INFCJ_MA  1448-1449 # C w/ T w/o crt or mj/mn -math
+INFCJ_PE  1450-1451 # C w/ T w/o crt or mj/mn -phys/hlth
+INFCJ_SC  1452-1453 # C w/ T w/o crt or mj/mn -science
+INFCJ_SO  1454-1455 # C w/ T w/o crt or mj/mn-soc st
+INFCJ_VO  1456-1457 # C w/ T w/o crt or mj/mn -voc ed
+INFCJSCH  1458-1459 # c w/ t w/o crt or mj/mn -chem
+INFCJSEA  1460-1461 # c w/ t w/o crt or mj/mn -earth sc
+INFCJSHI  1462-1463 # C w/ T w/o crt or mj/mn --hist
+INFCJSHL  1464-1465 # C w/ T w/o crt or mj/mn -hlth
+INFCJSLI  1466-1467 # C w/ T w/o crt or mj/mn -life sc
+INFCJSPE  1468-1469 # C w/ T w/o crt or mj/mn -phys ed
+INFCJSPH  1470-1471 # C w/ T w/o crt or mj/mn -physics
+INFCJSPS  1472-1473 # C w/ T w/o crt or mj/mn -phys sc
+INFCK_AM  1474-1475 # C taught (for o-o-f) -arts/music
+INFCK_CM  1476-1477 # C taught (for o-o-f) -comp sc
+INFCK_EN  1478-1479 # C taught (for o-o-f) -English
+INFCK_ES  1480-1481 # C taught (for o-o-f) -ESL
+INFCK_FL  1482-1483 # C taught (for o-o-f) -for lang
+INFCK_MA  1484-1485 # s taught (for o-o-f) -math
+INFCK_PE  1486-1487 # C taught (for o-o-f) -phys/hlth
+INFCK_SC  1488-1489 # C taught (for o-o-f) -science
+INFCK_SO  1490-1491 # C taught (for o-o-f)-soc st
+INFCK_VO  1492-1493 # C taught (for o-o-f) -voc ed
+INFCKSCH  1494-1495 # s taught (for o-o-f) -chem
+INFCKSEA  1496-1497 # s taught (for o-o-f) -earth sc
+INFCKSHI  1498-1499 # C taught (for o-o-f)--hist
+INFCKSHL  1500-1501 # C taught (for o-o-f) -hlth
+INFCKSLI  1502-1503 # C taught (for o-o-f) -life sc
+INFCKSPE  1504-1505 # C taught (for o-o-f) -phys ed
+INFCKSPH  1506-1507 # C taught (for o-o-f) -physics
+INFCKSPS  1508-1509 # C taught (for o-o-f) -phys sc
+INFD_AM   1510-1511 Arts/Music T In-fld D
+INFD_FL   1512-1513 For lang T In-fld D
+INFD_VO   1514-1515 Voc-ed T In-fld D
+INFE_AM   1516-1517 Arts/Music T In-fld E
+INFE_FL   1518-1519 For lang T In-fld E
+INFE_VO   1520-1521 Voc-ed T In-fld E
+INFF_AM   1522-1523 Arts/Music T In-fld F
+INFF_FL   1524-1525 For lang T In-fld F
+INFF_VO   1526-1527 Voc-ed T In-fld F
+INFG_AM   1528-1529 Arts/Music T In-fld G
+INFG_FL   1530-1531 For lang T In-fld G
+INFG_VO   1532-1533 Voc-ed T In-fld G
+INFH_AM   1534-1535 Arts/Music T In-fld H
+INFH_FL   1536-1537 For lang T In-fld H
+INFH_VO   1538-1539 Voc-ed T In-fld H
+INFSA_AM  1540-1543 # S w/ T w/ cert -arts/music
+INFSA_CM  1544-1547 # S w/ T w/ cert -comp sc
+INFSA_EL  1548-1551 # S w/ T w/ cert -el ed
+INFSA_EN  1552-1555 # S w/ T w/ cert -English
+INFSA_ES  1556-1559 # S w/ T w/ cert -ESL
+INFSA_FL  1560-1563 # S w/ T w/ cert -for lang
+INFSA_MA  1564-1567 # S w/ T w/ cert - math
+INFSA_PE  1568-1571 # S w/ T w/ cert -phys/hlth
+INFSA_SC  1572-1575 # S w/ T w/ cert -science
+INFSA_SE  1576-1579 # S w/ T w/ cert -special ed
+INFSA_SO  1580-1583 # S w/ T w/ cert-soc st
+INFSA_VO  1584-1587 # S w/ T w/ cert -voc ed
+INFSASCH  1588-1591 # S w/ T w/ cert-chem
+INFSASEA  1592-1595 # S w/ T w/ cert-earth sc
+INFSASEL  1596-1599 # S w/ T w/ cert --el ed,not K
+INFSASHI  1600-1603 # S w/ T w/ cert--hist
+INFSASHL  1604-1607 # S w/ T w/ cert -hlth
+INFSASKI  1608-1611 # S w/ T w/ cert --kinder
+INFSASLI  1612-1615 # S w/ T w/ cert -life sc
+INFSASPE  1616-1619 # S w/ T w/ cert -phys ed
+INFSASPH  1620-1623 # S w/ T w/ cert -physics
+INFSASPS  1624-1627 # S w/ T w/ cert -phys sc
+INFSB_AM  1628-1631 # S w/ T w/ maj -arts/music
+INFSB_CM  1632-1635 # S w/ T w/ maj -comp sc
+INFSB_EL  1636-1639 # S w/ T w/ maj -el ed
+INFSB_EN  1640-1643 # S w/ T w/ maj -English
+INFSB_ES  1644-1647 # S w/ T w/ maj -ESL
+INFSB_FL  1648-1651 # S w/ T w/ maj -for lang
+INFSB_MA  1652-1655 # S w/ T w/ maj -math
+INFSB_PE  1656-1659 # S w/ T w/ maj -phys/hlth
+INFSB_SC  1660-1663 # S w/ T w/ maj -science
+INFSB_SE  1664-1667 # S w/ T w/ maj -special ed
+INFSB_SO  1668-1671 # S w/ T w/ maj -soc st
+INFSB_VO  1672-1675 # S w/ T w/ maj -voc ed
+INFSBSCH  1676-1679 # S w/ T w/ maj-chem
+INFSBSEA  1680-1683 # S w/ T w/ maj-earth sc
+INFSBSEL  1684-1687 # S w/ T w/ maj --el ed, not K
+INFSBSHI  1688-1691 # S w/ T w/ maj --hist
+INFSBSHL  1692-1695 # S w/ T w/ maj -hlth
+INFSBSKI  1696-1699 # S w/ T w/ maj --kinder
+INFSBSLI  1700-1703 # S w/ T w/ maj -life sc
+INFSBSPE  1704-1707 # S w/ T w/ maj -phys ed
+INFSBSPH  1708-1711 # S w/ T w/ maj -physics
+INFSBSPS  1712-1715 # S w/ T w/ maj -phys sc
+INFSC_AM  1716-1719 # S w/ T w/ maj or min -arts/music
+INFSC_CM  1720-1723 # S w/ T w/ maj or min -comp sc
+INFSC_EL  1724-1727 # S w/ T w/ maj or min -el ed
+INFSC_EN  1728-1731 # S w/ T w/ maj or min -English
+INFSC_ES  1732-1735 # S w/ T w/ maj or min -ESL
+INFSC_FL  1736-1739 # S w/ T w/ maj or min -for lang
+INFSC_MA  1740-1743 # S w/ T w/ maj or min -math
+INFSC_PE  1744-1747 # S w/ T w/ maj or min -phys/hlth
+INFSC_SC  1748-1751 # S w/ T w/ maj or min -science
+INFSC_SE  1752-1755 # S w/ T w/ maj or min -special ed
+INFSC_SO  1756-1759 # S w/ T w/ maj or min-soc st
+INFSC_VO  1760-1763 # S w/ T w/ maj or min -voc ed
+INFSCSCH  1764-1767 # s w/ t w/ maj or min -chem
+INFSCSEA  1768-1771 # s w/ t w/ maj or min -earth sc
+INFSCSEL  1772-1775 # S w/ T w/ maj or min --el ed,not K
+INFSCSHI  1776-1779 # S w/ T w/ maj or min --hist
+INFSCSHL  1780-1783 # s w/ t w/ maj or min-hlth
+INFSCSKI  1784-1787 # S w/ T w/ maj or min --kinder
+INFSCSLI  1788-1791 # S w/ T w/ maj or min -life sc
+INFSCSPE  1792-1795 # S w/ T w/ maj or min -phys ed
+INFSCSPH  1796-1799 # S w/ T w/ maj or min -physics
+INFSCSPS  1800-1803 # S w/ T w/ maj or min -phys sc
+INFSD_AM  1804-1807 # S w/ T w/ cert & maj -arts/music
+INFSD_CM  1808-1811 # S w/ T w/ cert & maj -comp sc
+INFSD_EL  1812-1815 # S w/ T w/ cert & maj -el ed
+INFSD_EN  1816-1819 # S w/ T w/ cert & maj -English
+INFSD_ES  1820-1823 # S w/ T w/ cert & maj -ESL
+INFSD_FL  1824-1827 # S w/ T w/ cert & maj -for lang
+INFSD_MA  1828-1831 # S w/ T w/ cert & maj -math
+INFSD_PE  1832-1835 # S w/ T w/ cert & maj -phys/hlth
+INFSD_SC  1836-1839 # S w/ T w/ cert & maj -science
+INFSD_SE  1840-1843 # S w/ T w/ cert & maj -special ed
+INFSD_SO  1844-1847 # S w/ T w/ cert & maj-soc st
+INFSD_VO  1848-1851 # S w/ T w/ cert & maj voc ed
+INFSDSCH  1852-1855 # S w/ T w/ cert & maj-chem
+INFSDSEA  1856-1859 # S w/ T w/ cert & maj-earth sc
+INFSDSEL  1860-1863 # S w/ T w/ cert & maj-el ed,not K
+INFSDSHI  1864-1867 # S w/ T w/ cert & maj --hist
+INFSDSHL  1868-1871 # S w/ T w/ cert & maj -hlth
+INFSDSKI  1872-1875 # S w/ T w/ cert & maj --kinder
+INFSDSLI  1876-1879 # S w/ T w/ cert & maj -life sc
+INFSDSPE  1880-1883 # S w/ T w/ cert & maj -phys ed
+INFSDSPH  1884-1887 # S w/ T w/ cert & maj -physics
+INFSDSPS  1888-1891 # S w/ T w/ cert & maj -phys sc
+INFSE_AM  1892-1895 # S w/ T w/ cert & mj/mn -arts/music
+INFSE_CM  1896-1899 # S w/ T w/ cert & mj/mn-comp sc
+INFSE_EL  1900-1903 # S w/ T w/ cert & mj/mn -el ed
+INFSE_EN  1904-1907 # S w/ T w/ cert & mj/mn -English
+INFSE_ES  1908-1911 # S w/ T w/ cert & mj/mn -ESL
+INFSE_FL  1912-1915 # S w/ T w/ cert & mj/mn -for lang
+INFSE_MA  1916-1919 # S w/ T w/ cert & mj/mn -math
+INFSE_PE  1920-1923 # S w/ T w/ cert & mj/mn -phys/hlth
+INFSE_SC  1924-1927 # S w/ T w/ cert & mj/mn-science
+INFSE_SE  1928-1931 # S w/ T w/ cert & mj/mn -special ed
+INFSE_SO  1932-1935 # S w/ T w/ cert&mj/mn-soc st
+INFSE_VO  1936-1939 # S w/ T w/ cert & mj/mn -voc ed
+INFSESCH  1940-1943 # s w/ t w/ cert&mj/mn-chem
+INFSESEA  1944-1947 # s w/ t w/ cert&mj/mn-earth sc
+INFSESEL  1948-1951 # S w/ T w/ cert&mj/mn-el ed,not K
+INFSESHI  1952-1955 # S w/ T w/ cert & mj/mn --hist
+INFSESHL  1956-1959 # S w/ T w/ cert & mj/mn -hlth
+INFSESKI  1960-1963 # S w/ T w/ cert & mj/mn --kinder
+INFSESLI  1964-1967 # S w/ T w/ cert & mj/mn -life sc
+INFSESPE  1968-1971 # S w/ T w/ cert & mj/mn -phys ed
+INFSESPH  1972-1975 # S w/ T w/ cert & mj/mn -physics
+INFSESPS  1976-1979 # S w/ T w/ cert & mj/mn -phys sc
+INFSF_AM  1980-1983 # S w/ T w/o crt -arts/music
+INFSF_CM  1984-1987 # S w/ T w/o crt -comp sc
+INFSF_EL  1988-1991 # S w/ T w/o crt -el ed
+INFSF_EN  1992-1995 # S w/ T w/o crt -English
+INFSF_ES  1996-1999 # S w/ T w/o crt -ESL
+INFSF_FL  2000-2003 # S w/ T w/o crt -for lang
+INFSF_MA  2004-2007 # S w/ T w/o crt -math
+INFSF_PE  2008-2011 # S w/ T w/o crt -phys/hlth
+INFSF_SC  2012-2015 # S w/ T w/o crt -science
+INFSF_SE  2016-2019 # S w/ T w/o crt -special ed
+INFSF_SO  2020-2023 # S w/ T w/o crt -soc st
+INFSF_VO  2024-2027 # S w/ T w/o crt -voc ed
+INFSFSCH  2028-2031 # S w/ T w/o crt-chem
+INFSFSEA  2032-2035 # S w/ T w/o crt-earth sc
+INFSFSEL  2036-2039 # S w/ T w/o crt --el ed, not K
+INFSFSHI  2040-2043 # S w/ T w/o crt --hist
+INFSFSHL  2044-2047 # S w/ T w/o crt -hlth
+INFSFSKI  2048-2051 # S w/ T w/o crt --kinder
+INFSFSLI  2052-2055 # S w/ T w/o crt -life sc
+INFSFSPE  2056-2059 # S w/ T w/o crt -phys ed
+INFSFSPH  2060-2063 # S w/ T w/o crt -physics
+INFSFSPS  2064-2067 # S w/ T w/o crt -phys sc
+INFSG_AM  2068-2071 # S w/ T w/o maj -arts/music
+INFSG_CM  2072-2075 # S w/ T w/o maj -comp sc
+INFSG_EL  2076-2079 # S w/ T w/o maj -el ed
+INFSG_EN  2080-2083 # S w/ T w/o maj -English
+INFSG_ES  2084-2087 # S w/ T w/o maj -ESL
+INFSG_FL  2088-2091 # S w/ T w/o maj -for lang
+INFSG_MA  2092-2095 # S w/ T w/o maj - math
+INFSG_PE  2096-2099 # S w/ T w/o maj -phys/hlth
+INFSG_SC  2100-2103 # S w/ T w/o maj -science
+INFSG_SE  2104-2107 # S w/ T w/o maj -special ed
+INFSG_SO  2108-2111 # S w/ T w/o maj -soc st
+INFSG_VO  2112-2115 # S w/ T w/o maj -voc ed
+INFSGSCH  2116-2119 # S w/ T w/o maj-chem
+INFSGSEA  2120-2123 # S w/ T w/o maj-earth sc
+INFSGSEL  2124-2127 # S w/ T w/o maj --el ed, not K
+INFSGSHI  2128-2131 # S w/ T w/o maj --hist
+INFSGSHL  2132-2135 # S w/ T w/o maj -hlth
+INFSGSKI  2136-2139 # S w/ T w/o maj --kinder
+INFSGSLI  2140-2143 # S w/ T w/o maj -life sc
+INFSGSPE  2144-2147 # S w/ T w/o maj -phys ed
+INFSGSPH  2148-2151 # S w/ T w/o maj -physics
+INFSGSPS  2152-2155 # S w/ T w/o maj -phys sc
+INFSH_AM  2156-2159 # S w/ T w/o maj or min -arts/music
+INFSH_CM  2160-2163 # S w/ T w/o maj or min -comp sc
+INFSH_EL  2164-2167 # S w/ T w/o maj or min -el ed
+INFSH_EN  2168-2171 # S w/ T w/o maj or min -English
+INFSH_ES  2172-2175 # S w/ T w/o maj or min -ESL
+INFSH_FL  2176-2179 # S w/ T w/o maj or min -for lang
+INFSH_MA  2180-2183 # S w/ T w/o maj or min -math
+INFSH_PE  2184-2187 # S w/ T w/o maj or min -phys/hlth
+INFSH_SC  2188-2191 # S w/ T w/o maj or min -science
+INFSH_SE  2192-2195 # S w/ T w/o maj or min -special ed
+INFSH_SO  2196-2199 # S w/ T w/o maj or min-soc st
+INFSH_VO  2200-2203 # S w/ T w/o maj or min -voc ed
+INFSHSCH  2204-2207 # s w/ t w/o maj or min-chem
+INFSHSEA  2208-2211 # s w/ t w/o maj or min-earth sc
+INFSHSEL  2212-2215 # S w/ T w/o maj or min-el ed,not K
+INFSHSHI  2216-2219 # S w/ T w/o maj or min --hist
+INFSHSHL  2220-2223 # S w/ T w/o maj or min -hlth
+INFSHSKI  2224-2227 # S w/ T w/o maj or min --kinder
+INFSHSLI  2228-2231 # S w/ T w/o maj or min -life sc
+INFSHSPE  2232-2235 # S w/ T w/o maj or min -phys ed
+INFSHSPH  2236-2239 # S w/ T w/o maj or min -physics
+INFSHSPS  2240-2243 # S w/ T w/o maj or min -phys sc
+INFSI_AM  2244-2247 # S w/ T w/o crt or maj-arts/music
+INFSI_CM  2248-2251 # S w/ T w/o crt or maj-comp sc
+INFSI_EL  2252-2255 # S w/ T w/o crt or maj -el ed
+INFSI_EN  2256-2259 # S w/ T w/o crt or maj -English
+INFSI_ES  2260-2263 # S w/ T w/o crt or maj -ESL
+INFSI_FL  2264-2267 # S w/ T w/o crt or maj -for lang
+INFSI_MA  2268-2271 # S w/ T w/o crt or maj -math
+INFSI_PE  2272-2275 # S w/ T w/o crt or maj-phys/hlth
+INFSI_SC  2276-2279 # S w/ T w/o crt or maj-science
+INFSI_SE  2280-2283 # S w/ T w/o crt or maj -special ed
+INFSI_SO  2284-2287 # S w/ T w/o crt or maj-soc st
+INFSI_VO  2288-2291 # S w/ T w/o crt or maj -voc ed
+INFSISCH  2292-2295 # S w/ T w/o crt or maj-chem
+INFSISEA  2296-2299 # S w/ T w/o crt or maj-earth sc
+INFSISEL  2300-2303 # S w/ T w/o crt or maj-el ed,not K
+INFSISHI  2304-2307 # S w/ T w/o crt or maj --hist
+INFSISHL  2308-2311 # S w/ T w/o crt or maj-hlth
+INFSISKI  2312-2315 # S w/ T w/o crt or maj --kinder
+INFSISLI  2316-2319 # S w/ T w/o crt or maj -life sc
+INFSISPE  2320-2323 # S w/ T w/o crt or maj-phys ed
+INFSISPH  2324-2327 # S w/ T w/o crt or maj -physics
+INFSISPS  2328-2331 # S w/ T w/o crt or maj -phys sc
+INFSJ_AM  2332-2335 # S w/ T w/o crt or mj/mn -arts/music
+INFSJ_CM  2336-2339 # S w/ T w/o crt or mj/mn -comp sc
+INFSJ_EL  2340-2343 # S w/ T w/o crt or mj/mn -el ed
+INFSJ_EN  2344-2347 # S w/ T w/o crt or mj/mn -English
+INFSJ_ES  2348-2351 # S w/ T w/o crt or mj/mn -ESL
+INFSJ_FL  2352-2355 # S w/ T w/o crt or mj/mn -for lang
+INFSJ_MA  2356-2359 # S w/ T w/o crt or mj/mn -math
+INFSJ_PE  2360-2363 # S w/ T w/o crt or mj/mn -phys/hlth
+INFSJ_SC  2364-2367 # S w/ T w/o crt or mj/mn -science
+INFSJ_SE  2368-2371 # S w/ T w/o crt or mj/mn -spec ed
+INFSJ_SO  2372-2375 # S w/ T w/o crt or mj/mn-soc st
+INFSJ_VO  2376-2379 # S w/ T w/o crt or mj/mn -voc ed
+INFSJSCH  2380-2383 # s w/ t w/o crt or mj/mn-chem
+INFSJSEA  2384-2387 # s w/ t w/o crt or mj/mn-earth sc
+INFSJSEL  2388-2391 # S w/ T w/o crt or mj/mn-el ed,not K
+INFSJSHI  2392-2395 # S w/ T w/o crt or mj/mn --hist
+INFSJSHL  2396-2399 # S w/ T w/o crt or mj/mn -hlth
+INFSJSKI  2400-2403 # S w/ T w/o crt or mj/mn --kinder
+INFSJSLI  2404-2407 # S w/ T w/o crt or mj/mn -life sc
+INFSJSPE  2408-2411 # S w/ T w/o crt or mj/mn -phys ed
+INFSJSPH  2412-2415 # S w/ T w/o crt or mj/mn -physics
+INFSJSPS  2416-2419 # S w/ T w/o crt or mj/mn -phys sc
+INFSK_AM  2420-2423 # S taught (for o-o-f) -arts/music
+INFSK_CM  2424-2427 # S taught (for o-o-f) -comp sc
+INFSK_EL  2428-2431 # S taught (for o-o-f) -el ed
+INFSK_EN  2432-2435 # S taught (for o-o-f) -English
+INFSK_ES  2436-2439 # S taught (for o-o-f) -ESL
+INFSK_FL  2440-2443 # S taught (for o-o-f) -for lang
+INFSK_MA  2444-2447 # S taught (for o-o-f) -math
+INFSK_PE  2448-2451 # S taught (for o-o-f) -phys/hlth
+INFSK_SC  2452-2455 # S taught (for o-o-f) -science
+INFSK_SE  2456-2459 # S taught (for o-o-f) -spec ed
+INFSK_SO  2460-2463 # S taught (for o-o-f)-soc st
+INFSK_VO  2464-2467 # S taught (for o-o-f) -voc ed
+INFSKSCH  2468-2471 # s taught (for o-o-f)- chem
+INFSKSEA  2472-2475 # s taught (for o-o-f)-earth sc
+INFSKSEL  2476-2479 # S taught (for o-o-f)-el ed,not K
+INFSKSHI  2480-2483 # S taught (for o-o-f)--hist
+INFSKSHL  2484-2487 # S taught (for o-o-f) -hlth
+INFSKSKI  2488-2491 # S taught (for o-o-f) --kinder
+INFSKSLI  2492-2495 # S taught (for o-o-f) -life sc
+INFSKSPE  2496-2499 # S taught (for o-o-f) -phys ed
+INFSKSPH  2500-2503 # S taught (for o-o-f) -physics
+INFSKSPS  2504-2507 # S taught (for o-o-f) -phys sc
+LEP_T     831-836   Percent students with LEP
+MGMNT_T   904-905   Perception of sch management
+MINENR    647-648   Percent minority students
+MINTCH    649-650   Percent minority teachers
+NEWTCH    661-662   New teacher flag
+NUMTCH    651-652   Estimated number of FTE teachers
+PGMTYPE   645-646   School program type
+PLAN      837-842   Percent of time for planning
+PUPILS_D  821-824   Number of students - departmentalized
+PUPILS_S  819-820   Number of students - self-contained
+RACETH_T  914-915   Teacher race/ethnicity
+REGION    19-20     Census Region
+SBKGD_T   908-909   Perception of prob background
+SCHLEVEL  643-644   School Level (3 categories)
+SDLQ_T    906-907   Perception of student delinquency
+SECTOR    15-16     School sector
+STU_AR    934-937   Num students-art/music
+STU_CS    938-941   Num students-computer science
+STU_ENG   942-945   Num students-English
+STU_FL    946-949   Num students-foreign language
+STU_MAT   950-953   Num students-math
+STU_NS    954-957   Num students-natural science
+STU_SO    958-961   Num students-social studies
+STU_TCH   653-658   Estimated student-teacher ratio
+STU_VT    962-965   Num students - vo-tech
+SURVEY    13-14     Survey identifier
+T0051     21-22     Main assignment
+T0053     23-24     Teach any classes
+T0054     25-26     Full-time or part-time
+T0059     27-28     MAIN activity LAST yr
+T0060     29-30     Had job outside education
+T0061     31-33     Occupation code
+T0062     34-35     Also teaching
+T0063     36-37     Type of tchr last year
+T0064     38-41     Yr began teaching in this sch
+T0065     42-43     Yrs tching FT in public schls
+T0066     44-45     Yrs tching PT in public schls
+T0067     46-47     Ever taught in private schls
+T0068     48-49     Yrs tching FT in private schls
+T0069     50-51     Yrs tching PT in private schls
+T0070     52-53     Has bach degree
+T0071     54-55     Yr of bach degree
+T0072     56-57     Field for bach degree-code
+T0073     58-59     Had second field-bach degree
+T0074     60-61     Second field for bach degree-code
+T0075     62-63     Had minor field-bach degree
+T0076     64-65     Minor field for bach degree-code
+T0080     66-67     Has masters degree
+T0081     68-69     Field for masters degree-code
+T0082     70-71     Yr of masters degree
+T0083     72-73     Has other degree
+T0084     74-75     Has associate degree
+T0085     76-77     Associate deg-field code
+T0086     78-79     Associate deg-year
+T0087     80-81     Has 2nd bach degree
+T0088     82-83     2nd bach deg-field code
+T0089     84-85     2nd bach deg-year
+T0090     86-87     Has 2nd masters deg
+T0091     88-89     2nd masters deg-field code
+T0092     90-91     2nd masters deg-year
+T0093     92-93     Has ed spec degree
+T0094     94-95     Ed spec deg-field code
+T0095     96-97     Ed spec deg-year
+T0096     98-99     Has adv grad cert
+T0097     100-101   Adv grad cert-field code
+T0098     102-103   Adv grad cert-year
+T0099     104-105   Has PhD
+T0100     106-107   PhD-field code
+T0101     108-109   PhD-year
+T0102     110-111   Assignmnt field-code
+T0103     112-113   Cert-main field
+T0104     114-115   Cert type-main field
+T0105     116-117   Entry in item 13b
+T0106     118-119   Cert earned-main field
+T0107     120-121   In certification program
+T0108     122-123   Desc of cert program
+T0109     124-125   Teach in second field
+T0110     126-127   Second field-code
+T0111     128-129   Cert-second field
+T0112     130-131   Cert type-sec field
+T0113     132-133   Cert-other field
+T0114     134-135   Oth cert code 1
+T0115     136-137   Oth cert code 2
+T0116     138-139   Oth cert code 3
+T0117     140-141   Oth cert code 4
+T0118     142-143   Oth cert code 5
+T0119     144-145   Oth cert code 6
+T0120     146-147   Same/diff last yr
+T0121     148-149   Field last year-code
+T0122     150-151   Yr first began teaching
+T0123     152-153   Began tchng before 95-96
+T0124     154-155   Tchr prep prog-material selection
+T0125     156-157   Tchr prep prog-learning theory
+T0126     158-159   Tchr prep prog-observation
+T0127     160-161   Tchr prep prog-feedback
+T0128     162-163   Practice tching
+T0129     164-165   1st yr-classrm mngmnt
+T0130     166-167   1st yr-instr methods
+T0131     168-169   1st yr-subj matter
+T0132     170-171   1st yr-technology
+T0133     172-173   1st yr-plan lessons
+T0134     174-175   1st yr-assess students
+T0135     176-177   1st yr-select materials
+T0136     178-179   1st yr-induction prog
+T0137     180-181   1st yr-reduced sched
+T0138     182-183   1st yr-reduced prep
+T0139     184-185   1st yr-common planning
+T0140     186-187   1st yr-seminars
+T0141     188-189   1st yr-extra help
+T0142     190-191   1st yr-supportive comm
+T0143     192-193   1st yr-extracurricular
+T0144     194-195   1st yr-more than 1 sch
+T0145     196-197   1st yr-admin duties
+T0146     198-199   1st yr-discplne prob class
+T0147     200-201   1st yr-mentor
+T0148     202-203   1st yr-mentor same subj
+T0149     204-205   1st yr-mentor-instr methods
+T0150     206-207   Univ courses-cert
+T0151     208-209   Univ courses-other
+T0152     210-211   Observational visits
+T0153     212-213   Research
+T0154     214-215   Formal collaboration
+T0155     216-217   Mentoring
+T0156     218-219   Teacher network
+T0157     220-221   Workshops-attended
+T0158     222-223   Workshops-presenter
+T0159     224-225   Prof dev-in-depth study
+T0160     226-227   Prof dev-in-depth study-hrs
+T0161     228-229   Prof dev-in-depth study-impact
+T0162     230-231   Prof dev-standards
+T0163     232-233   Prof dev-standards-hours
+T0164     234-235   Prof dev-standards-impact
+T0165     236-237   Prof dev-methods of tchng
+T0166     238-239   Prof dev-methods-hours
+T0167     240-241   Prof dev-methods-impact
+T0168     242-243   Prof dev-ed tech
+T0169     244-245   Prof dev-ed tech-hours
+T0170     246-247   Prof dev-ed tech-impact
+T0171     248-249   Prof dev- stu assessment
+T0172     250-251   Prof dev-assessmnt-hours
+T0173     252-253   Prof dev-assessmnt-impact
+T0174     254-255   Prof dev-discipline
+T0175     256-257   Prof dev-discipline-hours
+T0176     258-259   Prof dev-discipline-impact
+T0177     260-261   Prof dev-other
+T0178     262-263   How useful-all prof dev
+T0179     264-265   Release time
+T0180     266-267   Scheduled time
+T0181     268-269   Stipend
+T0182     270-271   Reimbursement for tuition
+T0183     272-273   Reimbursement-fees
+T0184     274-275   Reimbursement-expenses
+T0185     276-277   Rewards-cert credits
+T0186     278-279   Rewards-pay increase
+T0187     280-281   Rewards-recognition
+T0188     282-283   Prof dev-priority1
+T0189     284-285   Prof dev-priority2
+T0190     286-287   Prof dev-priority3
+T0191     288-289   Teaches ungraded
+T0192     290-291   Teaches PK
+T0193     292-293   Teaches K
+T0194     294-295   Teaches 1st
+T0195     296-297   Teaches 2nd
+T0196     298-299   Teaches 3rd
+T0197     300-301   Teaches 4th
+T0198     302-303   Teaches 5th
+T0199     304-305   Teaches 6th
+T0200     306-307   Teaches 7th
+T0201     308-309   Teaches 8th
+T0202     310-311   Teaches 9th
+T0203     312-313   Teaches 10th
+T0204     314-315   Teaches 11th
+T0205     316-317   Teaches 12th
+T0206     318-319   Class organization
+T0207     320-321   Entry in item 34a
+T0208     322-323   Number of students
+T0209     324-325   Hrs tching English
+T0210     326-327   Hrs tching math
+T0211     328-329   Hrs tching soc studies
+T0212     330-331   Hrs tching science
+T0213     332-333   Number of classes
+T0214     334-335   Class1 subj-code
+T0215     336-338   Class1-enrollment
+T0216     339-340   Class2 subj-code
+T0217     341-343   Class2-enrollment
+T0218     344-345   Class3 subj-code
+T0219     346-348   Class3-enrollment
+T0220     349-350   Class4 subj-code
+T0221     351-353   Class4-enrollment
+T0222     354-355   Class5 subj-code
+T0223     356-358   Class5-enrollment
+T0224     359-360   Class6 subj-code
+T0225     361-363   Class6-enrollment
+T0226     364-365   Class7 subj-code
+T0227     366-368   Class7-enrollment
+T0228     369-370   Class8 subj-code
+T0229     371-373   Class8-enrollment
+T0230     374-375   Class9 subj-code
+T0231     376-378   Class9-enrollment
+T0232     379-380   Class10 subj-code
+T0233     381-383   Class10-enrollment
+T0234     384-385   Class11 subj-code
+T0235     386-388   Class11-enrollment
+T0236     389-390   Class12 subj-code
+T0237     391-393   Class12-enrollment
+T0238     394-395   Class13 subj-code
+T0239     396-398   Class13-enrollment
+T0240     399-400   Class14 subj-code
+T0241     401-403   Class14-enrollment
+T0242     404-405   Class15 subj-code
+T0243     406-408   Class15-enrollment
+T0244     409-411   IEP students
+T0245     412-413   IEP-special aide
+T0246     414-415   IEP-consulting tchr
+T0247     416-417   IEP-accommodations
+T0248     418-419   IEP-training
+T0249     420-422   LEP students
+T0250     423-424   LEP-training
+T0251     425-426   Title I teacher
+T0252     427-428   Standards guide practice
+T0253     429-430   Uses classroom groups
+T0254     431-432   Assigned to classes by ability
+T0255     433-434   Rcve achvmnt test scores
+T0256     435-436   Use scores-groups
+T0257     437-438   Use scores-assess areas
+T0258     439-440   Use scores-adjust curriculum
+T0259     441-442   Students use computers
+T0260     443-444   Main assgnmnt-stu use computers
+T0261     445-446   Des class-number of computers
+T0262     447-448   Des class-computers with internet access
+T0263     449-450   Des class-meetings
+T0264     451-452   Des class-when computers used
+T0265     453-454   Use computer-obtain info
+T0266     455-456   Use computer-practice skills
+T0267     457-458   Use computer-solve problems
+T0268     459-460   Use computer-collaboration
+T0269     461-462   Use computer-produce multimedia
+T0270     463-464   Use computer-word procsng
+T0271     465-466   Use computer-software reward
+T0272     467-468   Use computer-other
+T0273     469-470   Hours in school/wk
+T0274     471-472   Planning hours
+T0275     473-474   Planning minutes
+T0276     475-476   Outside hrs-w/students
+T0277     477-478   Outside hrs-oth sch activities
+T0278     479-480   Tardy students
+T0279     481-482   Interruptions
+T0280     483-484   Ever threatened
+T0281     485-486   Threatened past 12 months
+T0282     487-488   No. of threats
+T0283     489-490   Ever attacked
+T0284     491-492   Attacked past 12 months
+T0285     493-494   No. of attacks
+T0286     495-496   Influence-performance standards
+T0287     497-498   Influence-curriculum
+T0288     499-500   Influence-prof dev content
+T0289     501-502   Influence-tchr evaluation
+T0290     503-504   Influence-tchr hiring
+T0291     505-506   Influence-discipline
+T0292     507-508   Influence-sch budget
+T0293     509-510   Control-selecting materials
+T0294     511-512   Control-selecting content
+T0295     513-514   Control-selecting technique
+T0296     515-516   Control-eval students
+T0297     517-518   Control-discipline
+T0298     519-520   Control-homework
+T0299     521-522   Agree-princ com expec
+T0300     523-524   Agree-admin supportive
+T0301     525-526   Agree-satisfied w/salary
+T0302     527-528   Agree-misbehavior interferes
+T0303     529-530   Agree-parent support
+T0304     531-532   Agree-adequate materials
+T0305     533-534   Agree-oth duties interfere
+T0306     535-536   Agree-princ enforces discipline
+T0307     537-538   Agree-princ dis practices
+T0308     539-540   Agree-tchrs enf rules
+T0309     541-542   Agree-colleagues share beliefs
+T0310     543-544   Agree-princ-sch kind
+T0311     545-546   Agree-staff cooperation
+T0312     547-548   Agree-staff recognized
+T0313     549-550   Agree-job security
+T0314     551-552   Agree-spec needs stu
+T0315     553-554   Agree-satisfied class sz
+T0316     555-556   Agree-coordinate content
+T0317     557-558   Agree-tardiness interferes
+T0318     559-560   Agree-waste of time
+T0319     561-562   Agree-plan w/librarian
+T0320     563-564   Agree-generally satisfied
+T0321     565-566   Problem-student tardiness
+T0322     567-568   Problem-student absenteeism
+T0323     569-570   Problem- tchr absenteeism
+T0324     571-572   Problem-class cutting
+T0325     573-574   Problem-phys conflicts
+T0326     575-576   Problem-theft
+T0327     577-578   Problem-vandalism
+T0328     579-580   Problem-student pregnancy
+T0329     581-582   Problem-alcohol use
+T0330     583-584   Problem-drug abuse
+T0331     585-586   Problem-weapons
+T0332     587-588   Problem-disrespect for tchrs
+T0333     589-590   Problem-drop outs
+T0334     591-592   Problem-student apathy
+T0335     593-594   Problem-parental involvement
+T0336     595-596   Problem-poverty
+T0337     597-598   Problem-unprepared students
+T0338     599-600   Problem-student health
+T0339     601-602   Would be a tchr
+T0340     603-604   Remain in tchng
+T0341     605-606   Summer- rec tchr pay
+T0342     607-608   Summer-amount tchr pay
+T0343     609-610   Summer-rec oth pay from sch
+T0344     611-612   Summer-amount oth sch pay
+T0345     613-614   Summer-rec nonsch pay
+T0346     615-616   Summer-amount nonsch pay
+T0347     617-618   Sch yr-amount tchr pay
+T0348     619-620   Sch yr-rec oth sch pay
+T0349     621-622   Sch yr-amount oth sch pay
+T0350     623-624   Sch yr-rec sch bonus
+T0351     625-626   Sch yr-amount sch bonus
+T0352     627-628   Sch yr-rec outside pay
+T0353     629-630   Sch yr-amount outside pay
+T0354     631-632   Sch yr-outside job
+T0355     633-634   Union member
+T0356     635-636   Gender
+T0357     637-638   Race
+T0359     639-640   Hispanic
+TEALEV    2508-2509 Teacher Level (for o-o-f calcs)
+TEALEV2   2510-2511 Teacher level (elem/sec)
+THREAT    900-901   Student threats, ever, past 12 mos
+TOTEXPER  659-660   Total teaching experience
+TRDY      843-848   Percent of students tardy
+TSUBJ_01  667-668   Taught accounting class
+TSUBJ_02  669-670   Taught agriculture class
+TSUBJ_03  671-672   Taught business class
+TSUBJ_04  673-674   Taught career education class
+TSUBJ_05  675-676   Taught child care class
+TSUBJ_06  677-678   Taught communications technology class
+TSUBJ_07  679-680   Taught cosmetology class
+TSUBJ_08  681-682   Taught food services class
+TSUBJ_09  683-684   Taught health occupations class
+TSUBJ_10  685-686   Taught keyboarding class
+TSUBJ_11  687-688   Taught trades & industry class
+TSUBJ_12  689-690   Taught family/consumer sci class
+TSUBJ_13  691-692   Taught other vo-tech class
+TSUBJ_14  693-694   Taught literature class
+TSUBJ_15  695-696   Taught writing class
+TSUBJ_16  697-698   Taught ESL class
+TSUBJ_17  699-700   Taught reading class
+TSUBJ_18  701-702   Taught other English class
+TSUBJ_19  703-704   Taught French class
+TSUBJ_20  705-706   Taught German class
+TSUBJ_21  707-708   Taught Latin class
+TSUBJ_22  709-710   Taught Russian class
+TSUBJ_23  711-712   Taught Spanish class
+TSUBJ_24  713-714   Taught other language class
+TSUBJ_25  715-716   Taught elementary algebra class
+TSUBJ_26  717-718   Taught intermed algebra class
+TSUBJ_27  719-720   Taught advanced algebra class
+TSUBJ_28  721-722   Taught analytic geometry class
+TSUBJ_29  723-724   Taught basic math class
+TSUBJ_30  725-726   Taught business math class
+TSUBJ_31  727-728   Taught calculus class
+TSUBJ_32  729-730   Taught geometry class
+TSUBJ_33  731-732   Taught integrated math class
+TSUBJ_34  733-734   Taught pre-algebra class
+TSUBJ_35  735-736   Taught pre-calculus class
+TSUBJ_36  737-738   Taught statistics class
+TSUBJ_37  739-740   Taught trigonometry class
+TSUBJ_38  741-742   Taught other math class
+TSUBJ_39  743-744   Taught comp awareness/applications class
+TSUBJ_40  745-746   Taught comp programming class
+TSUBJ_41  747-748   Taught other computer science class
+TSUBJ_42  749-750   Taught biology or life science class
+TSUBJ_43  751-752   Taught chemistry class
+TSUBJ_44  753-754   Taught integrated science class
+TSUBJ_45  755-756   Taught geology class
+TSUBJ_46  757-758   Taught physics class
+TSUBJ_47  759-760   Taught other physical science class
+TSUBJ_48  761-762   Taught other natural science class
+TSUBJ_49  763-764   Taught social studies class
+TSUBJ_50  765-766   Taught civics class
+TSUBJ_51  767-768   Taught economics class
+TSUBJ_52  769-770   Taught geography class
+TSUBJ_53  771-772   Taught history class
+TSUBJ_54  773-774   Taught poli sci/government class
+TSUBJ_55  775-776   Taught psychology class
+TSUBJ_56  777-778   Taught sociology class
+TSUBJ_57  779-780   Taught world civilization class
+TSUBJ_58  781-782   Taught other social science class
+TSUBJ_59  783-784   Taught arts and crafts class
+TSUBJ_60  785-786   Taught filmmaking and photography class
+TSUBJ_61  787-788   Taught chorus class
+TSUBJ_62  789-790   Taught band class
+TSUBJ_63  791-792   Taught drama/theater/dance class
+TSUBJ_64  793-794   Taught music class
+TSUBJ_65  795-796   Taught oth visual/performing arts class
+TSUBJ_66  797-798   Taught driver education class
+TSUBJ_67  799-800   Taught health education class
+TSUBJ_68  801-802   Taught home economics class
+TSUBJ_69  803-804   Taught philosophy class
+TSUBJ_70  805-806   Taught physical education class
+TSUBJ_71  807-808   Taught religion class
+TSUBJ_72  809-810   Taught other courses
+URBANIC   17-18     Urbanicity of school
+YRTCHSC   663-664   Number of years at current school
+CNTLNUM   1-6       Teacher control number
+SCHCNTL   7-12      School control number
+TFNLWGT   2512-2520 Teacher final weight
+TREPWT1   2521-2529 Teacher final replicate weight 1
+TREPWT10  2602-2610 Teacher final replicate weight 10
+TREPWT11  2611-2619 Teacher final replicate weight 11
+TREPWT12  2620-2628 Teacher final replicate weight 12
+TREPWT13  2629-2637 Teacher final replicate weight 13
+TREPWT14  2638-2646 Teacher final replicate weight 14
+TREPWT15  2647-2655 Teacher final replicate weight 15
+TREPWT16  2656-2664 Teacher final replicate weight 16
+TREPWT17  2665-2673 Teacher final replicate weight 17
+TREPWT18  2674-2682 Teacher final replicate weight 18
+TREPWT19  2683-2691 Teacher final replicate weight 19
+TREPWT2   2530-2538 Teacher final replicate weight 2
+TREPWT20  2692-2700 Teacher final replicate weight 20
+TREPWT21  2701-2709 Teacher final replicate weight 21
+TREPWT22  2710-2718 Teacher final replicate weight 22
+TREPWT23  2719-2727 Teacher final replicate weight 23
+TREPWT24  2728-2736 Teacher final replicate weight 24
+TREPWT25  2737-2745 Teacher final replicate weight 25
+TREPWT26  2746-2754 Teacher final replicate weight 26
+TREPWT27  2755-2763 Teacher final replicate weight 27
+TREPWT28  2764-2772 Teacher final replicate weight 28
+TREPWT29  2773-2781 Teacher final replicate weight 29
+TREPWT3   2539-2547 Teacher final replicate weight 3
+TREPWT30  2782-2790 Teacher final replicate weight 30
+TREPWT31  2791-2799 Teacher final replicate weight 31
+TREPWT32  2800-2808 Teacher final replicate weight 32
+TREPWT33  2809-2817 Teacher final replicate weight 33
+TREPWT34  2818-2826 Teacher final replicate weight 34
+TREPWT35  2827-2835 Teacher final replicate weight 35
+TREPWT36  2836-2844 Teacher final replicate weight 36
+TREPWT37  2845-2853 Teacher final replicate weight 37
+TREPWT38  2854-2862 Teacher final replicate weight 38
+TREPWT39  2863-2871 Teacher final replicate weight 39
+TREPWT4   2548-2556 Teacher final replicate weight 4
+TREPWT40  2872-2880 Teacher final replicate weight 40
+TREPWT41  2881-2889 Teacher final replicate weight 41
+TREPWT42  2890-2898 Teacher final replicate weight 42
+TREPWT43  2899-2907 Teacher final replicate weight 43
+TREPWT44  2908-2916 Teacher final replicate weight 44
+TREPWT45  2917-2925 Teacher final replicate weight 45
+TREPWT46  2926-2934 Teacher final replicate weight 46
+TREPWT47  2935-2943 Teacher final replicate weight 47
+TREPWT48  2944-2952 Teacher final replicate weight 48
+TREPWT49  2953-2961 Teacher final replicate weight 49
+TREPWT5   2557-2565 Teacher final replicate weight 5
+TREPWT50  2962-2970 Teacher final replicate weight 50
+TREPWT51  2971-2979 Teacher final replicate weight 51
+TREPWT52  2980-2988 Teacher final replicate weight 52
+TREPWT53  2989-2997 Teacher final replicate weight 53
+TREPWT54  2998-3006 Teacher final replicate weight 54
+TREPWT55  3007-3015 Teacher final replicate weight 55
+TREPWT56  3016-3024 Teacher final replicate weight 56
+TREPWT57  3025-3033 Teacher final replicate weight 57
+TREPWT58  3034-3042 Teacher final replicate weight 58
+TREPWT59  3043-3051 Teacher final replicate weight 59
+TREPWT6   2566-2574 Teacher final replicate weight 6
+TREPWT60  3052-3060 Teacher final replicate weight 60
+TREPWT61  3061-3069 Teacher final replicate weight 61
+TREPWT62  3070-3078 Teacher final replicate weight 62
+TREPWT63  3079-3087 Teacher final replicate weight 63
+TREPWT64  3088-3096 Teacher final replicate weight 64
+TREPWT65  3097-3105 Teacher final replicate weight 65
+TREPWT66  3106-3114 Teacher final replicate weight 66
+TREPWT67  3115-3123 Teacher final replicate weight 67
+TREPWT68  3124-3132 Teacher final replicate weight 68
+TREPWT69  3133-3141 Teacher final replicate weight 69
+TREPWT7   2575-2583 Teacher final replicate weight 7
+TREPWT70  3142-3150 Teacher final replicate weight 70
+TREPWT71  3151-3159 Teacher final replicate weight 71
+TREPWT72  3160-3168 Teacher final replicate weight 72
+TREPWT73  3169-3177 Teacher final replicate weight 73
+TREPWT74  3178-3186 Teacher final replicate weight 74
+TREPWT75  3187-3195 Teacher final replicate weight 75
+TREPWT76  3196-3204 Teacher final replicate weight 76
+TREPWT77  3205-3213 Teacher final replicate weight 77
+TREPWT78  3214-3222 Teacher final replicate weight 78
+TREPWT79  3223-3231 Teacher final replicate weight 79
+TREPWT8   2584-2592 Teacher final replicate weight 8
+TREPWT80  3232-3240 Teacher final replicate weight 80
+TREPWT81  3241-3249 Teacher final replicate weight 81
+TREPWT82  3250-3258 Teacher final replicate weight 82
+TREPWT83  3259-3267 Teacher final replicate weight 83
+TREPWT84  3268-3276 Teacher final replicate weight 84
+TREPWT85  3277-3285 Teacher final replicate weight 85
+TREPWT86  3286-3294 Teacher final replicate weight 86
+TREPWT87  3295-3303 Teacher final replicate weight 87
+TREPWT88  3304-3312 Teacher final replicate weight 88
+TREPWT9   2593-2601 Teacher final replicate weight 9
+
+/* Variable Value Labels */
+T0172
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+F_T0064
+   0 = "Not imputed"
+F_T0097
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0275
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0159
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0266
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0317
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0142
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_08
+   1 = "Taught at least one food services class"
+   2 = "Did not teach any food services classes"
+   -8 = "Valid skip"
+URBANIC
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+F_T0245
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0301
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+T0179
+   1 = "Yes"
+   2 = "No"
+F_T0332
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0351
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0126
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0210
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0228
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+INF_M_VO
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFA_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0204
+   1 = "11th"
+   -8 = "Valid skip"
+INFCE_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0330
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0320
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCH_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_14
+   1 = "Taught at least one literature class"
+   2 = "Did not teach any literature classes"
+   -8 = "Valid skip"
+F_T0176
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0218
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0342
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCISLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0098
+   1 = "1979 or earlier"
+   2 = "1980 to 1989"
+   3 = "1990 to 1995"
+   4 = "1996 to 2000"
+   -8 = "Valid skip"
+F_T0061
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCG_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0200
+   1 = "7th"
+   -8 = "Valid skip"
+T0340
+   1 = "As long as I am able"
+   2 = "Until I am eligible for retirement"
+   3 = "Will probably continue unless something better comes along"
+   4 = "Definitely plan to leave teaching as soon as I can"
+   5 = "Undecided at this time"
+RACETH_T
+   1 = "American Indian or Alaska Native, non-Hispanic"
+   2 = "Asian or Pacific Islander, non-Hispanic"
+   3 = "Black, non-Hispanic"
+   4 = "White, non-Hispanic"
+   5 = "Hispanic, regardless of race"
+T0298
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+TSUBJ_41
+   1 = "Taught at least one class of other computer science"
+   2 = "Did not teach any classes of other computer science"
+   -8 = "Valid skip"
+F_T0132
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0165
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCB_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0197
+   0 = "Not imputed"
+T0188
+   1 = "Student discipline and behavior problems"
+   2 = "Teaching students with special needs (e.g., limited-English proficient, special education)"
+   3 = "Use of technology in instruction"
+   4 = "My main subject field"
+   5 = "Content and performance standards in my subject area"
+   6 = "Methods of teaching"
+   7 = "Student assessment"
+F_T0248
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0294
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+INF_M_FL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0314
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_MSEL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCE_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCKSPH
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFE_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0080
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0145
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0257
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0350
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCA_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCF_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_58
+   1 = "Taught at least one class of other social science"
+   2 = "Did not teach any classes of other social science"
+   -8 = "Valid skip"
+T0136
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0203
+   0 = "Not imputed"
+INFCK_SO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0317
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+T0342
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+INFCCSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0155
+   1 = "Yes"
+   2 = "No"
+T0192
+   1 = "Prekindergarten"
+   -8 = "Valid skip"
+INFCFSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0133
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+F_T0112
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0287
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0242
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0354
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0325
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+INFB_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCK_CM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0259
+   1 = "Yes"
+   2 = "No"
+T0306
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0069
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0164
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+T0251
+   1 = "Yes"
+   2 = "No"
+F_T0154
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0094
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_M_SC
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0353
+   1 = "Less than $1,000"
+   2 = "$1,000 to $2,999"
+   3 = "$3,000 to $5,999"
+   4 = "$6,000 or more"
+   -8 = "Valid skip"
+F_T0107
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0062
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_16
+   1 = "Taught at least one class of English as a Second Language"
+   2 = "Did not teach any classes of English as a Second Language"
+   -8 = "Valid skip"
+F_T0233
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFB_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0179
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0333
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCD_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCD_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCA_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0123
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_A_SE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0053
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+T0149
+   1 = "Not at all"
+
+
+
+   5 = "To a great extent"
+   -8 = "Valid skip"
+TSUBJ_62
+   1 = "Taught at least one band class"
+   2 = "Did not teach any band classes"
+   -8 = "Valid skip"
+INFCI_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0073
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+THREAT
+   0 = "Never threatened"
+   1 = "Threatened, but not in past 12 months"
+   2 = "Threatened in past 12 months"
+F_T0083
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCC_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCD_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCD_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCF_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INF_A_EL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCASHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCE_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCISHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0357
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_45
+   1 = "Taught at least one class of geology/earth science/space science"
+   2 = "Did not teach any classes of geology/earth science/space science"
+   -8 = "Valid skip"
+T0252
+   1 = "Not at all"
+
+
+
+   5 = "To a great extent"
+TSUBJ_22
+   1 = "Taught at least one Russian class"
+   2 = "Did not teach any Russian classes"
+   -8 = "Valid skip"
+F_T0308
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCBSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0324
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0277
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0138
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0324
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0067
+   1 = "Yes"
+   2 = "No"
+T0125
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0170
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+INF_A_MA
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCH_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0108
+   1 = "University or college program"
+   2 = "Program offered by your school or school district"
+   3 = "Other"
+   -8 = "Valid skip"
+T0332
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+INFD_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0174
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCA_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0238
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0294
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0070
+   1 = "Yes"
+   2 = "No"
+T0111
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0157
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0100
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0088
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0205
+   0 = "Not imputed"
+INFCC_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+SURVEY
+   4 = "Public School Teacher"
+INFCISPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0148
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0170
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_51
+   1 = "Taught at least one economics class"
+   2 = "Did not teach any economics classes"
+   -8 = "Valid skip"
+INFCCSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0186
+   1 = "Yes"
+   2 = "No"
+T0194
+   1 = "1st"
+   -8 = "Valid skip"
+F_T0163
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCDSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_66
+   1 = "Taught at least one driver education class"
+   2 = "Did not teach any driver education classes"
+   -8 = "Valid skip"
+F_T0072
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0117
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0081
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0156
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0278
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0207
+   1 = "Box 1 or 2"
+   2 = "Box 3, 4 or 5"
+T0145
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INF_ASKI
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCHSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFH_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0305
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCBSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCK_FL
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0297
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0347
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0264
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCK_EN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0109
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0126
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INF_ASPH
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0129
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0227
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0281
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0301
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCA_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCD_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0103
+   1 = "Yes"
+   2 = "No"
+INF_A_PE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCC_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_11
+   1 = "Taught at least one class in trades and industry"
+   2 = "Did not teach any classes in trades and industry"
+   -8 = "Valid skip"
+F_T0092
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_T0135
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0192
+   0 = "Not imputed"
+INFCC_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0299
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0168
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCC_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCKSLI
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0139
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0118
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0154
+   1 = "Yes"
+   2 = "No"
+T0295
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+TSUBJ_55
+   1 = "Taught at least one psychology class"
+   2 = "Did not teach any psychology classes"
+   -8 = "Valid skip"
+F_T0200
+   0 = "Not imputed"
+F_T0089
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+INF_MSCH
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INF_MSPS
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0060
+   1 = "Yes"
+   2 = "No"
+INF_ASPS
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCJSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0191
+   1 = "Ungraded"
+   -8 = "Valid skip"
+INF_ASHI
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0181
+   1 = "Yes"
+   2 = "No"
+F_T0319
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_37
+   1 = "Taught at least one trigonometry class"
+   2 = "Did not teach any trigonometry classes"
+   -8 = "Valid skip"
+F_T0115
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0286
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+SECTOR
+   A = "Public"
+INFE_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0330
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0329
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+TSUBJ_19
+   1 = "Taught at least one French class"
+   2 = "Did not teach any French classes"
+   -8 = "Valid skip"
+INFCDSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCF_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCH_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0146
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0322
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0340
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCB_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCFSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0093
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCB_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCB_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCF_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0232
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+INFCB_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCE_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCGSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0350
+   1 = "Yes"
+   2 = "No"
+F_T0184
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCB_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0106
+   1 = "As part of a bachelor's degree program"
+   2 = "As part of a "5th year" program"
+   3 = "As part of a master's degree program"
+   4 = "After I began teaching, as part of an alternative program"
+   5 = "Before I began teaching, as part of an alternative program"
+   6 = "Through continuing professional development"
+   7 = "Other"
+   -8 = "Valid skip"
+T0334
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0359
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0220
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0155
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFF_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCASPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCB_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0090
+   1 = "SECOND master's degree"
+   -8 = "Valid skip"
+F_T0102
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+T0333
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+TSUBJ_61
+   1 = "Taught at least one chorus class"
+   2 = "Did not teach any chorus classes"
+   -8 = "Valid skip"
+F_T0161
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0267
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0184
+   1 = "Yes"
+   2 = "No"
+TSUBJ_24
+   1 = "Taught at least one class of other foreign language"
+   2 = "Did not teach any classes of other foreign language"
+   -8 = "Valid skip"
+INFCJ_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_36
+   1 = "Taught at least one statistics and probability class"
+   2 = "Did not teach any statistics and probability classes"
+   -8 = "Valid skip"
+TSUBJ_68
+   1 = "Taught at least one nonvocational family and consumer science (home economics) class"
+   2 = "Did not teach any nonvocational family and consumer science (home economics) classes"
+   -8 = "Valid skip"
+INFCH_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0065
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0180
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_21
+   1 = "Taught at least one Latin class"
+   2 = "Did not teach any Latin classes"
+   -8 = "Valid skip"
+INFCJ_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0128
+   1 = "I had no practice teaching"
+   2 = "4 weeks or less"
+   3 = "5-9 weeks"
+   4 = "10 weeks or more"
+   -8 = "Valid skip"
+T0344
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+T0143
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_70
+   1 = "Taught at least one physical education class"
+   2 = "Did not teach any physical education classes"
+   -8 = "Valid skip"
+F_T0272
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0345
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_ASHL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCF_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_31
+   1 = "Taught at least one calculus class"
+   2 = "Did not teach any calculus classes"
+   -8 = "Valid skip"
+INFA_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCKSHI
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0137
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0127
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0159
+   1 = "Yes"
+   2 = "No"
+T0059
+   1 = "Teaching in this school"
+   2 = "Teaching in another elementary or secondary school IN THIS SCHOOL SYSTEM"
+   3 = "Teaching in a public elementary or secondary school IN A DIFFERENT SCHOOL SYSTEM, IN THIS STATE"
+   4 = "Teaching in a public elementary or secondary school in ANOTHER STATE"
+   5 = "Teaching in a PRIVATE elementary or secondary school"
+   6 = "Student at a college or university"
+   7 = "Teaching in a preschool"
+   8 = "Teaching at a college or university"
+   9 = "Working in a position in the field of education, but not as a teacher"
+   10 = "Working in an occupation outside the field of education"
+   11 = "Caring for family members"
+   12 = "Military service"
+   13 = "Unemployed and seeking work"
+   14 = "Retired from another job"
+   15 = "Other"
+T0099
+   1 = "Doctorate or first professional degree (Ph.D., Ed.D., M.D., L.L.B., J.D., D.D.S.)"
+   -8 = "Valid skip"
+INFCA_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0213
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0225
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0292
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0297
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+F_T0198
+   0 = "Not imputed"
+INFCD_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCESCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCFSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0293
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+TSUBJ_42
+   1 = "Taught at least one biology or life science class"
+   2 = "Did not teach any biology or life science classes"
+   -8 = "Valid skip"
+T0169
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+INF_M_PE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0093
+   1 = "Educational specialist or professional diploma (at least one year beyond master's level"
+   -8 = "Valid skip"
+TSUBJ_09
+   1 = "Taught at least one health occupations class"
+   2 = "Did not teach any health occupations classes"
+   -8 = "Valid skip"
+F_T0202
+   0 = "Not imputed"
+INFCESHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0312
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+TSUBJ_52
+   1 = "Taught at least one geography class"
+   2 = "Did not teach any geography classes"
+   -8 = "Valid skip"
+INFCASHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0152
+   1 = "Yes"
+   2 = "No"
+T0197
+   1 = "4th"
+   -8 = "Valid skip"
+F_T0166
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCHSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0116
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_01
+   1 = "Taught at least one accounting class"
+   2 = "Did not teach any accounting classes"
+   -8 = "Valid skip"
+F_T0252
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0150
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0264
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0328
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0099
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_M_SO
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCFSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0303
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+T0318
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INFCE_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCFSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0140
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0246
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0286
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_T0353
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0086
+   1 = "1969 or earlier"
+   2 = "1970 to 1979"
+   3 = "1980 to 1989"
+   4 = "1990 to 1995"
+   5 = "1996 to 2000"
+   -8 = "Valid skip"
+INFC_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCESLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_30
+   1 = "Taught at least one business math class"
+   2 = "Did not teach any business math classes"
+   -8 = "Valid skip"
+F_T0290
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0186
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0178
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0247
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0259
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0280
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0284
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0322
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0348
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCISPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0338
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_A_CM
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+T0167
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+F_T0104
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0226
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+TSUBJ_17
+   1 = "Taught at least one reading class"
+   2 = "Did not teach any reading classes"
+   -8 = "Valid skip"
+F_T0216
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0269
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCA_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0206
+   1 = "Departmentalized Instruction - You teach subject matter courses (e.g., biology, history, keyboarding) to several classes of different students all or most of the day."
+   2 = "Elementary Enrichment Class - You teach only one subject (e.g., art, music, physical education, computer skills) in an elementary school."
+   3 = "Self-Contained Class - You teach multiple subjects to the same class of students all or most of the day."
+   4 = "Team Teaching - You collaborate with one or more teachers in teaching multiple subjects to the same class of students."
+   5 = ""Pull-Out" Class - You provide instruction (e.g., special education, reading) to certain students who are released from their regular classes."
+F_T0302
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_12
+   1 = "Taught at least one class of vocational family and consumer science"
+   2 = "Did not teach any classes of vocational family and consumer science"
+   -8 = "Valid skip"
+INFCJ_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0292
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+INF_M_BE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCB_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCDSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0124
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0084
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0134
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_M_EN
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0076
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_56
+   1 = "Taught at least one sociology/social organization class"
+   2 = "Did not teach any sociology/social organization classes"
+   -8 = "Valid skip"
+INFC_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCD_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INF_MSEA
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0138
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0080
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0316
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0153
+   1 = "Yes"
+   2 = "No"
+T0190
+   1 = "Student discipline and behavior problems"
+   2 = "Teaching students with special needs (e.g., limited-English proficient, special education)"
+   3 = "Use of technology in instruction"
+   4 = "My main subject field"
+   5 = "Content and performance standards in my subject area"
+   6 = "Methods of teaching"
+   7 = "Student assessment"
+INFCESHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0315
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+TSUBJ_46
+   1 = "Taught at least one physics class"
+   2 = "Did not teach any physics classes"
+   -8 = "Valid skip"
+F_T0356
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_T0183
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_MSHL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCD_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0096
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0244
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0325
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0053
+   1 = "Yes"
+   -8 = "Valid skip"
+T0177
+   1 = "Yes"
+   2 = "No"
+INFCHSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0257
+   1 = "Not at all"
+
+
+
+   5 = "To a great extent"
+   -8 = "Valid skip"
+T0308
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0067
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCKSEA
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0331
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0219
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFG_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0289
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0140
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0173
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_M_SE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0339
+   1 = "Certainly would become a teacher"
+   2 = "Probably would become a teacher"
+   3 = "Chances about even for and against"
+   4 = "Probably would not become a teacher"
+   5 = "Certainly would not become a teacher"
+F_T0331
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCBSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCE_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0321
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0343
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0085
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0095
+   1 = "1979 or earlier"
+   2 = "1980 to 1989"
+   3 = "1990 to 1995"
+   4 = "1996 to 2000"
+   -8 = "Valid skip"
+T0166
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+F_T0121
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0250
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0271
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+AGE_T
+   1 = "Less than 30 years"
+   2 = "30 to 39 years"
+   3 = "40 to 49 years"
+   4 = "50 years or older"
+F_T0101
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+INFCJ_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0131
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+T0189
+   1 = "Student discipline and behavior problems"
+   2 = "Teaching students with special needs (e.g., limited-English proficient, special education)"
+   3 = "Use of technology in instruction"
+   4 = "My main subject field"
+   5 = "Content and performance standards in my subject area"
+   6 = "Methods of teaching"
+   7 = "Student assessment"
+T0199
+   1 = "6th"
+   -8 = "Valid skip"
+F_T0326
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_M_MA
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCF_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0083
+   1 = "Yes"
+   2 = "No"
+TSUBJ_27
+   1 = "Taught at least one advanced algebra class"
+   2 = "Did not teach any advanced algebra classes"
+   -8 = "Valid skip"
+F_T0239
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0245
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0305
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INFCCSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0347
+   1 = "Less than $25,001"
+   2 = "$25,001 to $30,000"
+   3 = "$30,001 to $35,000"
+   4 = "$35,001 to $45,000"
+   5 = "$45,001 or more"
+F_T0110
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCE_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCHSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0311
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCH_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0144
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0158
+   1 = "Yes"
+   2 = "No"
+F_T0070
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0188
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0224
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0241
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCESEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0258
+   1 = "Not at all"
+
+
+
+   5 = "To a great extent"
+   -8 = "Valid skip"
+TSUBJ_32
+   1 = "Taught at least one geometry class"
+   2 = "Did not teach any geometry classes"
+   -8 = "Valid skip"
+T0248
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0280
+   1 = "Yes"
+   2 = "No"
+TSUBJ_20
+   1 = "Taught at least one German class"
+   2 = "Did not teach any German classes"
+   -8 = "Valid skip"
+TSUBJ_71
+   1 = "Taught at least one religion class"
+   2 = "Did not teach any religion classes"
+   -8 = "Valid skip"
+INFCC_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCE_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0054
+   1 = "Full time"
+   2 = "3/4 time or more, but less than full time"
+   3 = "1/2 time or more, but less than 3/4 time"
+   4 = "1/4 time or more, but less than 1/2 time"
+   5 = "Less than 1/4 time"
+   -8 = "Valid skip"
+T0084
+   1 = "Associate degree"
+   -8 = "Valid skip"
+F_T0336
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0355
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0113
+   1 = "Yes"
+   2 = "No"
+F_T0279
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_ASEA
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCDSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCFSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0306
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0176
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+T0287
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_T0068
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0181
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0127
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0161
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+TSUBJ_15
+   1 = "Taught at least one class of composition, journalism, or creative writing"
+   2 = "Did not teach any classes of composition, journalism, or creative writing"
+   -8 = "Valid skip"
+T0354
+   1 = "Teaching or tutoring"
+   2 = "Nonteaching, but related to teaching field"
+   3 = "Other"
+   -8 = "Valid skip"
+TSUBJ_10
+   1 = "Taught at least one keyboarding class"
+   2 = "Did not teach any keyboarding classes"
+   -8 = "Valid skip"
+F_T0346
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCHSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0172
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0214
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+INFCG_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0074
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0122
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0290
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+INFCBSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCG_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0169
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+NUMTCH
+   1 = "Less than 25 teachers"
+   2 = "25 to 34 teachers"
+   3 = "35 or more teachers"
+   -9 = "Not available because school was a noninterview"
+INFCASPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCKSHL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0151
+   1 = "Yes"
+   2 = "No"
+T0313
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INFCK_PE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0207
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+TSUBJ_72
+   1 = "Taught at least one class of other courses not elsewhere classified"
+   2 = "Did not teach any classes of other courses not elsewhere classified"
+   -8 = "Valid skip"
+F_T0263
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0318
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_04
+   1 = "Taught at least one career education class"
+   2 = "Did not teach any career education classes"
+   -8 = "Valid skip"
+INFCDSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0132
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+TSUBJ_44
+   1 = "Taught at least one integrated science class"
+   2 = "Did not teach any integrated science classes"
+   -8 = "Valid skip"
+F_T0082
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_T0141
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0253
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0098
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_T0175
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCK_AM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0302
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INFCGSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0185
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_ASLI
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFE_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0201
+   1 = "8th"
+   -8 = "Valid skip"
+T0255
+   1 = "Yes"
+   2 = "No"
+F_T0291
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCCSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0051
+   1 = "Regular full-time teacher"
+   2 = "Regular part-time teacher"
+   3 = "Itinerant teacher (i.e., your assignment requires you to provide instruction at more than one school)"
+   4 = "Long-term substitute (i.e., your assignment requires that you fill the role of a regular teacher on a long-term basis, but you are still considered a substitute)"
+   8 = "Administrator (e.g., principal, assistant principal, director, school head)"
+   9 = "Library media specialist or librarian"
+   10 = "Other professional staff (e.g., counselor, curriculum coordinator, social worker)"
+   11 = "Support staff (e.g., secretary)"
+T0171
+   1 = "Yes"
+   2 = "No"
+F_T0327
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0101
+   1 = "1979 or earlier"
+   2 = "1980 to 1989"
+   3 = "1990 to 1995"
+   4 = "1996 to 2000"
+   -8 = "Valid skip"
+T0281
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0283
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0341
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCISPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0337
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCASPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCD_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCISHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0120
+   1 = "Same as this year"
+   2 = "Different from this year"
+   3 = "I did not teach last school year"
+F_T0229
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   4 = "Value was imputed by using data from the sample file (TLF data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0109
+   1 = "Yes"
+   2 = "No"
+F_T0217
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0295
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0323
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0168
+   1 = "Yes"
+   2 = "No"
+F_T0260
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCBSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCCSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCGSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0103
+   0 = "Not imputed"
+F_T0087
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0146
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCK_SC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0349
+   1 = "Less than $600"
+   2 = "$600 to $1,499"
+   3 = "$1,500 to $2,999"
+   4 = "$3,000 or more"
+   -8 = "Valid skip"
+F_T0313
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0247
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCJSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0187
+   1 = "Yes"
+   2 = "No"
+TSUBJ_39
+   1 = "Taught at least one computer awareness/applications class"
+   2 = "Did not teach any computer awareness/applications classes"
+   -8 = "Valid skip"
+TSUBJ_65
+   1 = "Taught at least one class of other visual/performing arts"
+   2 = "Did not teach any classes of other visual/performing arts"
+   -8 = "Valid skip"
+F_T0171
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCCSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_49
+   1 = "Taught at least one social studies class"
+   2 = "Did not teach any social studies classes"
+   -8 = "Valid skip"
+T0316
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+TSUBJ_29
+   1 = "Taught at least one basic and general math class"
+   2 = "Did not teach any basic and general math classes"
+   -8 = "Valid skip"
+F_T0059
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+T0182
+   1 = "Yes"
+   2 = "No"
+T0343
+   1 = "Yes"
+   2 = "No"
+T0174
+   1 = "Yes"
+   2 = "No"
+T0328
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+TSUBJ_06
+   1 = "Taught at least one communications technology class"
+   2 = "Did not teach any communications technology classes"
+   -8 = "Valid skip"
+INFCF_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0307
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0234
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0153
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCISCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJ_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0319
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0298
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0091
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0288
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCK_MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCBSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0063
+   1 = "Regular full-time teacher"
+   2 = "Regular part-time teacher"
+   3 = "Substitute teacher"
+   4 = "Itinerant teacher"
+   5 = "Other"
+   -8 = "Valid skip"
+T0336
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+INFCK_ES
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0250
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0334
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0356
+   1 = "Male"
+   2 = "Female"
+ENRK12UG
+   1 = "Less than 300 students"
+   2 = "300 to 499 students"
+   3 = "500 or more students"
+   -9 = "Not available because school was a noninterview"
+F_T0191
+   0 = "Not imputed"
+INF_M_AM
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCCSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0089
+   1 = "1979 or earlier"
+   2 = "1980 to 1984"
+   3 = "1985 to 1989"
+   4 = "1990 to 1995"
+   5 = "1996 to 2000"
+   -8 = "Valid skip"
+INFB_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0130
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+T0096
+   1 = "Certificate of Advanced Graduate Studies"
+   -8 = "Valid skip"
+F_T0147
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0198
+   1 = "5th"
+   -8 = "Valid skip"
+PGMTYPE
+   1 = "REGULAR elementary or secondary school"
+   3 = "Elementary or secondary school with a SPECIAL PROGRAM EMPHASIS (such as a science/math school, performing arts school, talented/gifted school, foreign language immersion school, etc.)"
+   4 = "SPECIAL EDUCATION school - primarily serves students with disabilities"
+   5 = "VOCATIONAL/TECHNICAL school - primarily serves students being trained for occupations"
+   6 = "ALTERNATIVE school- offers a curriculum designed to provide alternative or nontraditional education; does not specifically fall into the categories of regular, special program, special education, or vocational school"
+   -9 = "Not available because school was a noninterview"
+T0082
+   1 = "1979 or earlier"
+   2 = "1980 to 1989"
+   3 = "1990 to 1995"
+   4 = "1996 to 2000"
+   -8 = "Valid skip"
+F_T0195
+   0 = "Not imputed"
+F_T0209
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+TSUBJ_38
+   1 = "Taught at least one class or other math"
+   2 = "Did not teach any other math classes"
+   -8 = "Valid skip"
+MINENR
+   1 = "Less than 5% students"
+   2 = "5% to 19% students"
+   3 = "20% to 49% students"
+   4 = "50% or more students"
+   -9 = "Not available because school was a nonintervew"
+TSUBJ_26
+   1 = "Taught at least one intermediate algebra class"
+   2 = "Did not teach any intermediate algebra classes"
+   -8 = "Valid skip"
+INF_A_ES
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCB_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0265
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCA_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0113
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0310
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCJSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_VO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0141
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_07
+   1 = "Taught at least one cosmetology class"
+   2 = "Did not teach any cosmetology classes"
+   -8 = "Valid skip"
+F_T0339
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0323
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0309
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0135
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+F_T0255
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0283
+   1 = "Yes"
+   2 = "No"
+T0346
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+TSUBJ_23
+   1 = "Taught at least one Spanish class"
+   2 = "Did not teach any Spanish classes"
+   -8 = "Valid skip"
+F_T0054
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0187
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFF_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0063
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0352
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFC_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0130
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0309
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0139
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCA_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJ_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCASCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCFSHL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0300
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+T0359
+   1 = "Yes"
+   2 = "No"
+INFCHSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0122
+   1 = "1969 or earlier"
+   2 = "1970 to 1979"
+   3 = "1980 to 1989"
+   4 = "1990 to 1995"
+   5 = "1996 to 2000"
+T0335
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0125
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0223
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0211
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0152
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+TSUBJ_18
+   1 = "Taught at least one class of other English/language arts"
+   2 = "Did not teach any classes of other English/language arts"
+   -8 = "Valid skip"
+F_T0235
+INF_M_CM
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0131
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0104
+   1 = "Regular or standard state certificate or advanced professional certificate"
+   2 = "Probationary certificate (the initial certificate issued after satisfying all requirements except the completion of a probationary period)"
+   3 = "Provisional or other type given to persons who are still participating in what the state calls an "alternative certification program""
+   4 = "Temporary certificate (requires some additional college coursework and/or student teaching before regular certification can be obtained)"
+   5 = "Emergency certificate or waiver (issued to persons with insufficient teacher preparation who must complete a regular certification program in order to continue teaching)"
+   -8 = "Valid skip"
+F_T0196
+   0 = "Not imputed"
+F_T0204
+   0 = "Not imputed"
+INFCBSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0062
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCDSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCB_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0150
+   1 = "Yes"
+   2 = "No"
+INFCF_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCH_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_40
+   1 = "Taught at least one computer programming class"
+   2 = "Did not teach any computer programming classes"
+   -8 = "Valid skip"
+T0291
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+INFA_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INFCJSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0262
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCKSPE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0195
+   1 = "2nd"
+   -8 = "Valid skip"
+F_T0258
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0071
+   1 = "1969 or earlier"
+   2 = "1970 to 1979"
+   3 = "1980 to 1989"
+   4 = "1990 to 1995"
+   5 = "1996 to 2000"
+   -8 = "Valid skip"
+INF_ASCH
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0310
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0071
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+INF_A_SO
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+TSUBJ_33
+   1 = "Taught at least one integrated math class"
+   2 = "Did not teach any integrated math classes"
+   -8 = "Valid skip"
+TSUBJ_59
+   1 = "Taught at least one arts and crafts class"
+   2 = "Did not teach any arts and crafts classes"
+   -8 = "Valid skip"
+INFCF_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCKSCH
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INF_A_EN
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+TSUBJ_50
+   1 = "Taught at least one civics class"
+   2 = "Did not teach any civics classes"
+   -8 = "Valid skip"
+F_T0114
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0164
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0326
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+INFCA_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_67
+   1 = "Taught at least one health education class"
+   2 = "Did not teach any health education classes"
+   -8 = "Valid skip"
+T0345
+   1 = "Yes"
+   2 = "No"
+INFCESPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCASEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCGSEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCF_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0300
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCHSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0136
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0151
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0282
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0254
+   1 = "Yes"
+   2 = "No"
+F_T0236
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0296
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0284
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+INF_ASPE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCFSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCI_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0338
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+INFCGSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+NEWTCH
+   1 = "Teacher has taught 3 years or less"
+   2 = "Teacher has taught more than 3 years"
+T0105
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0165
+   1 = "Yes"
+   2 = "No"
+F_T0149
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0237
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+TEALEV2
+   1 = "Elementary"
+   2 = "Secondary"
+F_T0106
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCC_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCH_EN
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0270
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_MA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0285
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0123
+   1 = "Yes"
+   2 = "No"
+F_T0086
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+INFD_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0193
+   0 = "Not imputed"
+INFCC_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_48
+   1 = "Taught at least one class of other natural science"
+   2 = "Did not teach any classes of other natural science"
+   -8 = "Valid skip"
+F_T0111
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0348
+   1 = "Yes"
+   2 = "No"
+TSUBJ_53
+   1 = "Taught at least one history class"
+   2 = "Did not teach any history classes"
+   -8 = "Valid skip"
+EARNALL
+   1 = "Less than $30,000"
+   2 = "$30,000 to $39,999"
+   3 = "$40,000 to $49,999"
+   4 = "$50,000 or more"
+INFCJ_CM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCJ_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0196
+   1 = "3rd"
+   -8 = "Valid skip"
+T0327
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0119
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0312
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0180
+   1 = "Yes"
+   2 = "No"
+INFCKSPS
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFG_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_28
+   1 = "Taught at least one analytic geometry class"
+   2 = "Did not teach any analytic geometry classes"
+   -8 = "Valid skip"
+INF_M_EL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+TSUBJ_64
+   1 = "Taught at least one music class"
+   2 = "Did not teach any music classes"
+   -8 = "Valid skip"
+F_T0249
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the record for the teacher's school"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0193
+   1 = "Kindergarten"
+   -8 = "Valid skip"
+INFCA_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0205
+   1 = "12th"
+   -8 = "Valid skip"
+TSUBJ_05
+   1 = "Taught at least one child care class"
+   2 = "Did not teach any child care classes"
+   -8 = "Valid skip"
+F_T0276
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0321
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+F_T0307
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0349
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0160
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+TSUBJ_54
+   1 = "Taught at least one political science/government class"
+   2 = "Did not teach any political science/government classes"
+   -8 = "Valid skip"
+F_T0189
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_MSPE
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0112
+   1 = "Regular or standard state certificate or advanced professional certificate"
+   2 = "Probationary certificate (the initial certificate issued after satisfying all requirements except the completion of a probationary period)"
+   3 = "Provisional or other type given to persons who are still participating in what the state calls an "alternative certification program""
+   4 = "Temporary certificate (requires some additional college coursework and/or student teaching before regular certification can be obtained)"
+   5 = "Emergency certificate or waiver (issued to persons with insufficient teacher preparation who must complete a regular certification program in order to continue teaching)"
+   -8 = "Valid skip"
+F_T0299
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCG_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0147
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0221
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0246
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCE_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0337
+   1 = "Serious Problem"
+   2 = "Moderate Problem"
+   3 = "Minor Problem"
+   4 = "Not a Problem"
+T0124
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0303
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCESPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0357
+   1 = "American Indian or Alaska Native (Aleut, Alaska Indian, Yupik, Inupiat)"
+   2 = "Asian or Pacific Islander (Japanese, Chinese, Filipino, Korean, Asian Indian, Vietnamese, Hawaiian, Guamanian, Samoan, other Asian)"
+   3 = "Black"
+   4 = "White"
+F_T0090
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCH_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCGSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_13
+   1 = "Taught at least one class of other vocational-technical education"
+   2 = "Did not teach any classes of other vocational-technical education"
+   -8 = "Valid skip"
+F_T0158
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFF_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+EARNSCH
+   1 = "Less than $30,000"
+   2 = "$30,000 to $39,999"
+   3 = "$40,000 to $49,999"
+   4 = "$50,000 or more"
+INFCDSCH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0060
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+INFCC_ES
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0341
+   1 = "Yes"
+   2 = "No"
+F_T0133
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0190
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0194
+   0 = "Not imputed"
+F_T0206
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_A_SC
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+SCHLEVEL
+   1 = "Elementary"
+   2 = "Secondary"
+   3 = "Combined"
+F_T0304
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCCSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFG_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0175
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+TSUBJ_35
+   1 = "Taught at least one pre-calculus class"
+   2 = "Did not teach any pre-calculus classes"
+   -8 = "Valid skip"
+TSUBJ_69
+   1 = "Taught at least one philosophy class"
+   2 = "Did not teach any philosophy classes"
+   -8 = "Valid skip"
+TSUBJ_25
+   1 = "Taught at least one elementary algebra class"
+   2 = "Did not teach any elementary algebra classes"
+   -8 = "Valid skip"
+T0073
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0137
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_57
+   1 = "Taught at least one world civilization class"
+   2 = "Did not teach any world civilization classes"
+   -8 = "Valid skip"
+F_T0142
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0256
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INF_ASEL
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+T0156
+   1 = "Yes"
+   2 = "No"
+F_T0268
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0162
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCH_SO
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFD_FL
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0183
+   1 = "Yes"
+   2 = "No"
+F_T0273
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0157
+   1 = "Yes"
+   2 = "No"
+T0134
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+TSUBJ_02
+   1 = "Taught at least one agriculture or natural resources class"
+   2 = "Did not teach any agriculture or natural resources classes"
+   -8 = "Valid skip"
+F_T0066
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0243
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0202
+   1 = "9th"
+   -8 = "Valid skip"
+TSUBJ_34
+   1 = "Taught at least one pre-algebra class"
+   2 = "Did not teach any pre-algebra classes"
+   -8 = "Valid skip"
+F_T0095
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_T0230
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+T0144
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0182
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0178
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+T0256
+   1 = "Not at all"
+
+
+
+   5 = "To a great extent"
+   -8 = "Valid skip"
+T0289
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_T0128
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0320
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+T0352
+   1 = "Yes"
+   2 = "No"
+INFCISEA
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TEALEV
+   1 = "Elementary"
+   2 = "Middle"
+   3 = "Secondary"
+   4 = "Other"
+T0163
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+F_T0212
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0344
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCK_VO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFCC_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0129
+   1 = "Not at all prepared"
+   2 = "Somewhat prepared"
+   3 = "Well prepared"
+   4 = "Very well prepared"
+   -8 = "Valid skip"
+F_T0108
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCJ_SC
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+ASSIGN
+   1 = "Prekindergarten, kindergarten, and general elementary"
+   2 = "Math and science"
+   3 = "English/language arts"
+   4 = "Social science"
+   5 = "Special education"
+   6 = "Foreign languages"
+   7 = "Bilingual/ESL education"
+   8 = "Vocational/technical education"
+   9 = "All others"
+F_T0222
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_T0199
+   0 = "Not imputed"
+INFCI_FL
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_63
+   1 = "Taught at least one drama/theater/dance class"
+   2 = "Did not teach any drama/theater/dance classes"
+   -8 = "Valid skip"
+T0355
+   1 = "Yes"
+   2 = "No"
+TSUBJ_43
+   1 = "Taught at least one chemistry class"
+   2 = "Did not teach any chemistry classes"
+   -8 = "Valid skip"
+F_T0120
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCD_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0296
+   1 = "No control"
+
+
+
+   5 = "Complete control"
+INFCHSPS
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0092
+   1 = "1979 or earlier"
+   2 = "1980 to 1989"
+   3 = "1990 to 1995"
+   4 = "1996 to 2000"
+   -8 = "Valid skip"
+F_T0143
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0201
+   0 = "Not imputed"
+F_T0251
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+INFCE_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INF_MSPH
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCH_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0167
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0311
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INF_MSLI
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_T0274
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INF_MSKI
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFCI_PE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0261
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+ATTACK
+   0 = "Never attacked"
+   1 = "Attacked, but not in past 12 months"
+   2 = "Attacked in past 12 months"
+F_T0215
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFCBSLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0240
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+T0173
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+T0253
+   1 = "Yes"
+   2 = "No"
+T0288
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+INFCDSHI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0304
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+F_T0329
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0087
+   1 = "SECOND bachelor's degree"
+   -8 = "Valid skip"
+T0260
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0231
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_T0160
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0177
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCESPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+T0203
+   1 = "10th"
+   -8 = "Valid skip"
+T0107
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_T0335
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+T0351
+   1 = "Less than $500"
+   2 = "$500 to $999"
+   3 = "$1,000 to $1,999"
+   4 = "$2,000 or more"
+   -8 = "Valid skip"
+T0162
+   1 = "Yes"
+   2 = "No"
+F_T0105
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCGSPH
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0293
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFCGSPE
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+F_T0075
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_T0208
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0051
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+MINTCH
+   1 = "Less than 1%"
+   2 = "1% to 4%"
+   3 = "5% to 19%"
+   4 = "20% to 49%"
+   5 = "50% or more"
+   -9 = "Not available because school was a noninterview"
+INFCJ_AM
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+TSUBJ_60
+   1 = "Taught at least one filmmaking and photography class"
+   2 = "Did not teach any filmmaking and photography classes"
+   -8 = "Valid skip"
+INFCASLI
+   0 = "Teacher was out-of-field"
+
+
+
+
+
+
+
+
+
+
+   -8 = "Valid skip"
+INFH_VO
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0185
+   1 = "Yes"
+   2 = "No"
+F_T0148
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0254
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_T0315
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+T0314
+   1 = "Strongly agree"
+   2 = "Somewhat agree"
+   3 = "Somewhat disagree"
+   4 = "Strongly disagree"
+INF_M
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+INFH_AM
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+T0075
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TSUBJ_03
+   1 = "Taught at least one business or office class"
+   2 = "Did not teach any business or office classes"
+   -8 = "Valid skip"
+TSUBJ_47
+   1 = "Taught at least one class or other physical science"
+   2 = "Did not teach any classes of other physical science"
+   -8 = "Valid skip"

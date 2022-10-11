@@ -1,0 +1,1062 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_S1A
+
+/* Total Record Length */
+1581
+
+/* Variable Names, Locations, and Descriptions */
+AG_CMSA   27-32     CMSA/PMSA/MSA Code
+AG_ENDYR  395-398   Fiscal year
+AG_MSC    33-34     Metro Status Code
+AG_NOSCH  399-403   Number of schools
+AG_RANKN  404-408   Agency size rank in nation
+AG_RANKS  409-412   Agency size rank in state
+AG_SAGID  413-426   State agency ID
+AG_STRYR  427-430   School year - fall
+C_C14     431-442   Chapter 1 (C14) FY98
+C_COREPP  443-448   Core expenditures per pupil FY98
+C_CPPERN  467-471   CEPP Agency Rank (Nation) FY98
+C_CPPERS  472-476   CEPP Agency Rank (State) FY98
+C_CUREXP  449-460   Total current expenditures FY98
+C_CURINP  489-492   Perc of expend for instruction FY98
+C_CURPPE  461-466   Current expenditures per pupil FY98
+C_FEDREV  493-504   Total federal revenue FY98
+C_FEDRVP  505-508   Percent revenue - federal FY98
+C_LOCREV  509-520   Total local revenues FY98
+C_LOCRVP  521-524   Percent revenue - local FY98
+C_POVPOP  607-614   Related children in poverty
+C_SALINP  587-590   Perc expend-instruct salries FY98
+C_SALTOP  571-574   Perc expend-salaries FY98
+C_SCHPOP  599-606   School-age children in district
+C_STREV   525-536   Total state revenues FY98
+C_STREVP  537-540   Percent revenues - state FY98
+C_TCURIN  477-488   Total expend for instruction FY98
+C_TOTEXP  541-552   District total expenditures FY98
+C_TOTPOP  591-598   Total population in district
+C_TOTPPE  553-558   Total expend per pupil FY98
+C_Z32     559-570   Total salaries and wages FY98
+C_Z33     575-586   Instructional salaries FY98
+CCDIDLEA  7-13      CCD Identification Code
+CONTEA    381-387   Number of continuing teachers
+D0450     43-44     Is agency a district or LEA
+D0451     45-46     Still operating
+D0452     47-48     Does it have grades 1-12
+D0453     49-50     Merged with another district
+D0454     51-54     Begin time
+D0455     55-56     Different address
+D0456     57-63     Total enrollment
+D0457     64-70     K-12 enrollment
+D0458     71-77     Hispanic students
+D0459     78-84     White students
+D0460     85-91     Black students
+D0461     92-98     American Indian students
+D0462     99-105    Asian/PI students
+D0463     106-112   K-12 students by race
+D0464     113-114   Any eligible for lunch prog
+D0465     115-120   Eligible PK students
+D0466     121-126   Eligible K-12 students
+D0467     127-128   Participates in lunch prog
+D0468     129-134   PK approved for lunch prog
+D0469     135-140   Approved K-12 applicants
+D0470     141-143   Days in sch yr
+D0471     144-148   Hispanic teachers
+D0472     149-155   White teachers
+D0473     156-160   Black teachers
+D0474     161-167   American Indian teachers
+D0475     168-172   Asian/PI teachers
+D0476     173-179   FTE teacher count
+D0487     180-184   Newly hired tchrs
+D0488     185-188   Offers before summer
+D0489     189-192   Offers-1st half of summer
+D0490     193-196   Offers-2nd half of summer
+D0491     197-200   Offers-this sch yr
+D0495     201-204   Dismissed tchrs w/3 or less yrs
+D0496     205-208   Dismissed tchrs-4+ yrs
+D0497     209-210   Tchrs union agreement
+D0498     211-212   Agreement type
+D0499     213-214   Tchr contract yr
+D0500     215-216   Salary schedule for tchrs
+D0501     217-221   Bach-no exp
+D0502     222-226   Bach+10yrs
+D0503     227-231   Masters-no exp
+D0504     232-236   Masters+30 credits
+D0505     237-242   Masters+20 yrs
+D0506     243-248   Highest step on schedule
+D0507     249-253   Lowest salary
+D0508     254-259   Highest salary
+D0509     260-263   Benefit rate for tchrs
+D0510     264-267   Benefit rate-non-prof
+D0511     268-269   Benefits-admin-same/other
+D0512     270-273   Benefits-admin rate
+D0513     274-275   Benefits-aides-same/other
+D0514     276-279   Benefit rate-aides
+D0515     280-281   Other agency contrib
+D0516     282-285   Rate of other contrib
+D0517     286-287   Benefits-medical insurance
+D0518     288-289   Benefits-dental insurance
+D0519     290-291   Benefits-life insurance
+D0520     292-293   Benefits-housing
+D0521     294-295   Benefits-meals
+D0522     296-297   Benefits-transportation
+D0553     298-299   Has charter schools
+D0554     300-302   Number of charter schools
+D0641     303-304   Migrant students-last sch yr
+D0642     305-306   Migrant students last summer
+D0643     307-311   Number of migrant students
+D0644     312-313   Last sch yr-MEP services
+D0645     314-315   Sch yr MEP serv-schools
+D0646     316-317   Sch yr MEP serv-district
+D0647     318-319   Sch yr MEP serv-oth dist
+D0648     320-321   Sch yr MEP serv-state
+D0649     322-323   Sch yr MEP serv-college
+D0650     324-325   Sch yr MEP serv-comm org
+D0651     326-327   Sch yr MEP serv-prv sch
+D0652     328-329   Sch yr MEP-administrators
+D0653     330-331   Sch yr MEP-teachers
+D0654     332-333   Sch yr MEP-aides
+D0655     334-335   Migrants attended all year
+D0656     336-337   Migrants attended part year
+D0657     338-339   Last summer-MEP services
+D0658     340-341   Summer MEP serv-schools
+D0659     342-343   Summer MEP serv-district
+D0660     344-345   Summer MEP serv-oth dist
+D0661     346-347   Summer MEP serv-state
+D0662     348-349   Summer MEP serv-college
+D0663     350-351   Summer MEP serv-comm org
+D0664     352-353   Summer MEP serv-prv sch
+D0665     354-355   Summer MEP-administrators
+D0666     356-357   Summer MEP-teachers
+D0667     358-359   Summer MEP-aides
+DLOCMAIL  35-36     Agency locale code (mail, 97-98)
+DLOCPHYS  37-38     Agency locale code (physical, 97-98)
+DPLACTYP  39-40     Agency locale-cat(physical, 97-98)
+F_D0456   1416-1417 Imputation flag for D0456
+F_D0457   1418-1419 Imputation flag for D0457
+F_D0458   1420-1421 Imputation flag for D0458
+F_D0459   1422-1423 Imputation flag for D0459
+F_D0460   1424-1425 Imputation flag for D0460
+F_D0461   1426-1427 Imputation flag for D0461
+F_D0462   1428-1429 Imputation flag for D0462
+F_D0463   1430-1431 Imputation flag for D0463
+F_D0464   1432-1433 Imputation flag for D0464
+F_D0465   1434-1435 Imputation flag for D0465
+F_D0466   1436-1437 Imputation flag for D0466
+F_D0467   1438-1439 Imputation flag for D0467
+F_D0468   1440-1441 Imputation flag for D0468
+F_D0469   1442-1443 Imputation flag for D0469
+F_D0470   1444-1445 Imputation flag for D0470
+F_D0471   1446-1447 Imputation flag for D0471
+F_D0472   1448-1449 Imputation flag for D0472
+F_D0473   1450-1451 Imputation flag for D0473
+F_D0474   1452-1453 Imputation flag for D0474
+F_D0475   1454-1455 Imputation flag for D0475
+F_D0476   1456-1457 Imputation flag for D0476
+F_D0487   1458-1459 Imputation flag for D0487
+F_D0488   1460-1461 Imputation flag for D0488
+F_D0489   1462-1463 Imputation flag for D0489
+F_D0490   1464-1465 Imputation flag for D0490
+F_D0491   1466-1467 Imputation flag for D0491
+F_D0495   1468-1469 Imputation flag for D0495
+F_D0496   1470-1471 Imputation flag for D0496
+F_D0497   1472-1473 Imputation flag for D0497
+F_D0498   1474-1475 Imputation flag for D0498
+F_D0499   1476-1477 Imputation flag for D0499
+F_D0500   1478-1479 Imputation flag for D0500
+F_D0501   1480-1481 Imputation flag for D0501
+F_D0502   1482-1483 Imputation flag for D0502
+F_D0503   1484-1485 Imputation flag for D0503
+F_D0504   1486-1487 Imputation flag for D0504
+F_D0505   1488-1489 Imputation flag for D0505
+F_D0506   1490-1491 Imputation flag for D0506
+F_D0507   1492-1493 Imputation flag for D0507
+F_D0508   1494-1495 Imputation flag for D0508
+F_D0509   1496-1497 Imputation flag for D0509
+F_D0510   1498-1499 Imputation flag for D0510
+F_D0511   1500-1501 Imputation flag for D0511
+F_D0512   1502-1503 Imputation flag for D0512
+F_D0513   1504-1505 Imputation flag for D0513
+F_D0514   1506-1507 Imputation flag for D0514
+F_D0515   1508-1509 Imputation flag for D0515
+F_D0516   1510-1511 Imputation flag for D0516
+F_D0517   1512-1513 Imputation flag for D0517
+F_D0518   1514-1515 Imputation flag for D0518
+F_D0519   1516-1517 Imputation flag for D0519
+F_D0520   1518-1519 Imputation flag for D0520
+F_D0521   1520-1521 Imputation flag for D0521
+F_D0522   1522-1523 Imputation flag for D0522
+F_D0553   1524-1525 Imputation flag for D0553
+F_D0554   1526-1527 Imputation flag for D0554
+F_D0641   1528-1529 Imputation flag for D0641
+F_D0642   1530-1531 Imputation flag for D0642
+F_D0643   1532-1533 Imputation flag for D0643
+F_D0644   1534-1535 Imputation flag for D0644
+F_D0645   1536-1537 Imputation flag for D0645
+F_D0646   1538-1539 Imputation flag for D0646
+F_D0647   1540-1541 Imputation flag for D0647
+F_D0648   1542-1543 Imputation flag for D0648
+F_D0649   1544-1545 Imputation flag for D0649
+F_D0650   1546-1547 Imputation flag for D0650
+F_D0651   1548-1549 Imputation flag for D0651
+F_D0652   1550-1551 Imputation flag for D0652
+F_D0653   1552-1553 Imputation flag for D0653
+F_D0654   1554-1555 Imputation flag for D0654
+F_D0655   1556-1557 Imputation flag for D0655
+F_D0656   1558-1559 Imputation flag for D0656
+F_D0657   1560-1561 Imputation flag for D0657
+F_D0658   1562-1563 Imputation flag for D0658
+F_D0659   1564-1565 Imputation flag for D0659
+F_D0660   1566-1567 Imputation flag for D0660
+F_D0661   1568-1569 Imputation flag for D0661
+F_D0662   1570-1571 Imputation flag for D0662
+F_D0663   1572-1573 Imputation flag for D0663
+F_D0664   1574-1575 Imputation flag for D0664
+F_D0665   1576-1577 Imputation flag for D0665
+F_D0666   1578-1579 Imputation flag for D0666
+F_D0667   1580-1581 Imputation flag for D0667
+LEASIZE   367-368   LEA K-12 enrollment (categorical)
+NMINST_D  360-366   Number of minority students in district
+NMINTCH   388-394   Number of minority teachers
+NSLAPP    375-380   Perc stu approved for lunch prog-dist
+NSLELG    369-374   Perc stu eligible for lunch prog-dist
+REGION    16-17     Census Region
+STATABB   20-21     State Abbreviation
+STATE     18-19     FIPS State Code
+STCNTY    22-26     FIPS State/County Code
+SURVEY    14-15     Survey identifier
+URBANID   41-42     Urbanicity of district
+CNTLNUM   1-6       District control number
+DFNLWGT   615-623   District final weight
+DREPWT1   624-632   District final replicate weight 1
+DREPWT10  705-713   District final replicate weight 10
+DREPWT11  714-722   District final replicate weight 11
+DREPWT12  723-731   District final replicate weight 12
+DREPWT13  732-740   District final replicate weight 13
+DREPWT14  741-749   District final replicate weight 14
+DREPWT15  750-758   District final replicate weight 15
+DREPWT16  759-767   District final replicate weight 16
+DREPWT17  768-776   District final replicate weight 17
+DREPWT18  777-785   District final replicate weight 18
+DREPWT19  786-794   District final replicate weight 19
+DREPWT2   633-641   District final replicate weight 2
+DREPWT20  795-803   District final replicate weight 20
+DREPWT21  804-812   District final replicate weight 21
+DREPWT22  813-821   District final replicate weight 22
+DREPWT23  822-830   District final replicate weight 23
+DREPWT24  831-839   District final replicate weight 24
+DREPWT25  840-848   District final replicate weight 25
+DREPWT26  849-857   District final replicate weight 26
+DREPWT27  858-866   District final replicate weight 27
+DREPWT28  867-875   District final replicate weight 28
+DREPWT29  876-884   District final replicate weight 29
+DREPWT3   642-650   District final replicate weight 3
+DREPWT30  885-893   District final replicate weight 30
+DREPWT31  894-902   District final replicate weight 31
+DREPWT32  903-911   District final replicate weight 32
+DREPWT33  912-920   District final replicate weight 33
+DREPWT34  921-929   District final replicate weight 34
+DREPWT35  930-938   District final replicate weight 35
+DREPWT36  939-947   District final replicate weight 36
+DREPWT37  948-956   District final replicate weight 37
+DREPWT38  957-965   District final replicate weight 38
+DREPWT39  966-974   District final replicate weight 39
+DREPWT4   651-659   District final replicate weight 4
+DREPWT40  975-983   District final replicate weight 40
+DREPWT41  984-992   District final replicate weight 41
+DREPWT42  993-1001  District final replicate weight 42
+DREPWT43  1002-1010 District final replicate weight 43
+DREPWT44  1011-1019 District final replicate weight 44
+DREPWT45  1020-1028 District final replicate weight 45
+DREPWT46  1029-1037 District final replicate weight 46
+DREPWT47  1038-1046 District final replicate weight 47
+DREPWT48  1047-1055 District final replicate weight 48
+DREPWT49  1056-1064 District final replicate weight 49
+DREPWT5   660-668   District final replicate weight 5
+DREPWT50  1065-1073 District final replicate weight 50
+DREPWT51  1074-1082 District final replicate weight 51
+DREPWT52  1083-1091 District final replicate weight 52
+DREPWT53  1092-1100 District final replicate weight 53
+DREPWT54  1101-1109 District final replicate weight 54
+DREPWT55  1110-1118 District final replicate weight 55
+DREPWT56  1119-1127 District final replicate weight 56
+DREPWT57  1128-1136 District final replicate weight 57
+DREPWT58  1137-1145 District final replicate weight 58
+DREPWT59  1146-1154 District final replicate weight 59
+DREPWT6   669-677   District final replicate weight 6
+DREPWT60  1155-1163 District final replicate weight 60
+DREPWT61  1164-1172 District final replicate weight 61
+DREPWT62  1173-1181 District final replicate weight 62
+DREPWT63  1182-1190 District final replicate weight 63
+DREPWT64  1191-1199 District final replicate weight 64
+DREPWT65  1200-1208 District final replicate weight 65
+DREPWT66  1209-1217 District final replicate weight 66
+DREPWT67  1218-1226 District final replicate weight 67
+DREPWT68  1227-1235 District final replicate weight 68
+DREPWT69  1236-1244 District final replicate weight 69
+DREPWT7   678-686   District final replicate weight 7
+DREPWT70  1245-1253 District final replicate weight 70
+DREPWT71  1254-1262 District final replicate weight 71
+DREPWT72  1263-1271 District final replicate weight 72
+DREPWT73  1272-1280 District final replicate weight 73
+DREPWT74  1281-1289 District final replicate weight 74
+DREPWT75  1290-1298 District final replicate weight 75
+DREPWT76  1299-1307 District final replicate weight 76
+DREPWT77  1308-1316 District final replicate weight 77
+DREPWT78  1317-1325 District final replicate weight 78
+DREPWT79  1326-1334 District final replicate weight 79
+DREPWT8   687-695   District final replicate weight 8
+DREPWT80  1335-1343 District final replicate weight 80
+DREPWT81  1344-1352 District final replicate weight 81
+DREPWT82  1353-1361 District final replicate weight 82
+DREPWT83  1362-1370 District final replicate weight 83
+DREPWT84  1371-1379 District final replicate weight 84
+DREPWT85  1380-1388 District final replicate weight 85
+DREPWT86  1389-1397 District final replicate weight 86
+DREPWT87  1398-1406 District final replicate weight 87
+DREPWT88  1407-1415 District final replicate weight 88
+DREPWT9   696-704   District final replicate weight 9
+
+/* Variable Value Labels */
+F_D0499
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0459
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0491
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0658
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0656
+   1 = "All"
+   2 = "Most"
+   3 = "Some"
+   4 = "Few"
+   5 = "None"
+   -8 = "Valid skip"
+F_D0554
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0519
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0466
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0509
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0467
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0497
+   1 = "Yes"
+   2 = "No"
+D0663
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0502
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0514
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0655
+   0 = "None"
+   1 = "1 - 20%"
+   2 = "21 - 40%"
+   3 = "41 - 60%"
+   4 = "61 - 80%"
+   5 = "81 - 100%"
+   -8 = "Valid skip"
+LEASIZE
+   2 = "Less than 250"
+   3 = "250-999"
+   4 = "1000-1999"
+   5 = "2,000-4,999"
+   6 = "5,000-9,999"
+   7 = "10,000 or more"
+D0515
+   1 = "Yes"
+   2 = "No"
+F_D0510
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0666
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0519
+   1 = "Yes"
+   2 = "No"
+D0650
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0520
+   1 = "Yes"
+   2 = "No"
+F_D0647
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0667
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+SURVEY
+   1 = "Public School District"
+D0499
+   1 = "9 months"
+   2 = "9 1/2 months"
+   3 = "10 months"
+   4 = "11 months"
+   5 = "12 months"
+DLOCMAIL
+   1 = "Large central city"
+   2 = "Mid-size central city"
+   3 = "Urban fringe of large city"
+   4 = "Urban fringe of mid-size city"
+   5 = "Large town"
+   6 = "Small town"
+   7 = "Rural"
+   -8 = "Valid skip"
+F_D0655
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0521
+   1 = "Yes"
+   2 = "No"
+D0660
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0666
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0516
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0471
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0553
+   1 = "Yes"
+   2 = "No"
+D0659
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0650
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0654
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0487
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0645
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0451
+   1 = "Yes"
+D0470
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D0647
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0657
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0521
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0469
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0642
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0511
+   1 = "Same as rate for teachers"
+   2 = "Other rate"
+F_D0553
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0489
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0464
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0513
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0663
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0642
+   1 = "Yes"
+   2 = "No"
+D0500
+   1 = "Yes"
+   2 = "No"
+F_D0474
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0661
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0653
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0513
+   1 = "Same as rate for teachers"
+   2 = "Same as rate for non-professional employees"
+   3 = "No"
+F_D0648
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0450
+   1 = "Yes"
+STATABB
+   AK = "Alaska"
+   AL = "Alabama"
+   AR = "Arkansas"
+   AZ = "Arizona"
+   CA = "California"
+   CO = "Colorado"
+   CT = "Connecticut"
+   DC = "District of Columbia"
+   DE = "Delaware"
+   FL = "Florida"
+   GA = "Georgia"
+   HI = "Hawaii"
+   IA = "Iowa"
+   ID = "Idaho"
+   IL = "Illinois"
+   IN = "Indiana"
+   KS = "Kansas"
+   KY = "Kentucky"
+   LA = "Louisiana"
+   MA = "Massachusetts"
+   MD = "Maryland"
+   ME = "Maine"
+   MI = "Michigan"
+   MN = "Minnesota"
+   MO = "Missouri"
+   MS = "Mississippi"
+   MT = "Montana"
+   NC = "North Carolina"
+   ND = "North Dakota"
+   NE = "Nebraska"
+   NH = "New Hampshire"
+   NJ = "New Jersey"
+   NM = "New Mexico"
+   NV = "Nevada"
+   NY = "New York"
+   OH = "Ohio"
+   OK = "Oklahoma"
+   OR = "Oregon"
+   PA = "Pennsylvania"
+   RI = "Rhode Island"
+   SC = "South Carolina"
+   SD = "South Dakota"
+   TN = "Tennessee"
+   TX = "Texas"
+   UT = "Utah"
+   VA = "Virginia"
+   VT = "Vermont"
+   WA = "Washington"
+   WI = "Wisconsin"
+   WV = "West Virginia"
+   WY = "Wyoming"
+D0464
+   1 = "Yes"
+   2 = "No"
+   3 = "Don't know"
+F_D0463
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0495
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0661
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0648
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0641
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+DLOCPHYS
+   1 = "Large central city"
+   2 = "Mid-size central city"
+   3 = "Urban fringe of large city"
+   4 = "Urban fringe of mid-size city"
+   5 = "Large town"
+   6 = "Small town"
+   7 = "Rural, outside MSA"
+   8 = "Rural, in MSA"
+F_D0649
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0520
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0667
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0462
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0644
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0472
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0457
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_D0488
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0498
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0646
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0452
+   1 = "Yes"
+F_D0518
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0506
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0461
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0456
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0660
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0453
+   1 = "Yes"
+   2 = "No"
+   -9 = "Missing"
+F_D0643
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+F_D0503
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0654
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0468
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0652
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0522
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0658
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+AG_MSC
+   1 = "Primarily serves a central city of an MSA"
+   2 = "Serves an MSA but not primarily its central city"
+   3 = "Does not serve an MSA"
+   -8 = "LEA is not on 1997-98 CCD"
+F_D0496
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0649
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0659
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0467
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0500
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0475
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0517
+   1 = "Yes"
+   2 = "No"
+F_D0504
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0664
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0645
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0652
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0455
+   1 = "Yes"
+   2 = "No"
+   -9 = "Missing"
+D0522
+   1 = "Yes"
+   2 = "No"
+F_D0476
+   0 = "Not imputed"
+F_D0511
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0665
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0505
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0501
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0515
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+STATE
+   01 = "Alabama"
+   02 = "Alaska"
+   04 = "Arizona"
+   05 = "Arkansas"
+   06 = "California"
+   08 = "Colorado"
+   09 = "Connecticut"
+   10 = "Delaware"
+   11 = "District of Columbia"
+   12 = "Florida"
+   13 = "Georgia"
+   15 = "Hawaii"
+   16 = "Idaho"
+   17 = "Illinois"
+   18 = "Indiana"
+   19 = "Iowa"
+   20 = "Kansas"
+   21 = "Kentucky"
+   22 = "Louisiana"
+   23 = "Maine"
+   24 = "Maryland"
+   25 = "Massachusetts"
+   26 = "Michigan"
+   27 = "Minnesota"
+   28 = "Mississippi"
+   29 = "Missouri"
+   30 = "Montana"
+   31 = "Nebraska"
+   32 = "Nevada"
+   33 = "New Hampshire"
+   34 = "New Jersey"
+   35 = "New Mexico"
+   36 = "New York"
+   37 = "North Carolina"
+   38 = "North Dakota"
+   39 = "Ohio"
+   40 = "Oklahoma"
+   41 = "Oregon"
+   42 = "Pennsylvania"
+   44 = "Rhode Island"
+   45 = "South Carolina"
+   46 = "South Dakota"
+   47 = "Tennessee"
+   48 = "Texas"
+   49 = "Utah"
+   50 = "Vermont"
+   51 = "Virginia"
+   53 = "Washington"
+   54 = "West Virginia"
+   55 = "Wisconsin"
+   56 = "Wyoming"
+D0651
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0490
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0653
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+URBANID
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+F_D0664
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0473
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0465
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0662
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0497
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0656
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0646
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_D0507
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0517
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0470
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+D0665
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0518
+   1 = "Yes"
+   2 = "No"
+F_D0460
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+DPLACTYP
+   1 = "Large or midsize central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town"
+   4 = "Rural"
+F_D0651
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0644
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0508
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_D0512
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+D0657
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+D0498
+   1 = "Collective bargaining"
+   2 = "Meet-and-confer"
+   -8 = "Valid skip"
+D0641
+   1 = "Yes"
+   2 = "No"
+F_D0662
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_D0458
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"

@@ -1,0 +1,142 @@
+﻿file,component,feature_description,variable,variable_new_name,variable_description,type,EDA_category,Heatmap_category,Heatmap_includes
+T2,Former Teacher,control number,CNTLNUM,CNTLNUM_T,Teacher control number,ID,-,-,N
+T2,Former Teacher,control number,SCHCNTL,SCHCNTL,SASS school control number,ID,-,-,N
+T2,Former Teacher,sector-public,SECTOR,SECTOR,SASS school sector,cat-nom-bi,-,-,N
+T3,Current Teacher,control number,CNTLNUM,CNTLNUM_T,Teacher control number,ID,-,-,N
+T3,Current Teacher,control number,SCHCNTL,SCHCNTL,SASS school control number,ID,-,-,N
+T3,Current Teacher,sector-public,SECTOR,SECTOR,SASS school sector,cat-nom-bi,-,-,N
+S4A,Public Teacher,control number,CNTLNUM,CNTLNUM_T,Teacher control number,ID,-,-,N
+S4A,Public Teacher,control number,SCHCNTL,SCHCNTL,School control number,ID,-,-,N
+S3A,Public School,control number,SCHCNTL,SCHCNTL,School control number,ID,-,-,N
+S2A,Public Principal,control number,CNTLNUM,CNTLNUM_P,Principal control number,ID,-,-,N
+S2A,Public Principal,control number,SCHCNTL,SCHCNTL,School control number,ID,-,-,N
+S3A,Public School,region,REGION,region,Census Region,cat-nom,01-Basic,01-Public Teacher #1,Y
+S3A,Public School,region,REGION,region,Census Region,cat-nom,01-Basic,01-Public Teacher #1,Y
+S4A,Public Teacher,age,AGE_T,age_t,Teacher age,cat-ord,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+T2,Former Teacher,dependents,F0196,number_of_dependents,Number of dependents,num-disc,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+T3,Current Teacher,dependents,F0196,number_of_dependents,Number of dependents,num-disc,02-Public Teacher: General/Demographic,01-Public Teacher #1,DUP
+T2,Former Teacher,dependents,F0197,dependents_under_age_5,Dependents under age 5,num-disc,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+T3,Current Teacher,dependents,F0197,dependents_under_age_5,Dependents under age 5,num-disc,02-Public Teacher: General/Demographic,01-Public Teacher #1,DUP
+T2,Former Teacher,gender,GENDER,gender_t_Female,SASS respondent gender,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+T3,Current Teacher,gender,GENDER,gender_t_Female,SASS respondent gender,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,DUP
+T2,Former Teacher,marriage,F0195,marital_status_Married,Marital status,cat-nom,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+T3,Current Teacher,marriage,F0195,marital_status_Married,Marital status,cat-nom,02-Public Teacher: General/Demographic,01-Public Teacher #1,DUP
+S4A,Public Teacher,pay,EARNALL,total_yearly_earnings,Total yearly earnings,cat-ord,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,EARNSCH,school_related_earnings,School-related earnings,cat-ord,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0341,summer_teaching_Yes,Summer- rec tchr pay,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0343,nonteaching_job_Yes,Summer-rec oth pay from sch,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0345,nonschool_job_Yes,Summer-rec nonsch pay,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0347,base_salary_amt,Sch yr-amount tchr pay,cat-ord,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0348,extracur_act_Yes,Sch yr-rec oth sch pay,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0350,merit_pay_Yes,Sch yr-rec sch bonus,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,pay,T0352,outside_pay_Yes,Sch yr-rec outside pay,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,race/ethnicity,RACETH_T,race_teacher_White,Teacher race/ethnicity,cat-nom,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,union,T0355,union_member_Yes,Union member,cat-nom-bi,02-Public Teacher: General/Demographic,01-Public Teacher #1,Y
+S4A,Public Teacher,certification,T0103,main_field_cert_Yes,Cert-main field,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,certification,T0104,main_tch_fields_cert_type_Regular,Cert type-main field,cat-nom,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0070,BA_deg_Yes,Has bach degree,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0080,MA_deg_Yes,Has masters degree,cat-nom,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0084,AA_deg_Yes,Has associate degree,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0087,BA2_deg_Yes,Has 2nd bach degree,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0090,MA2_deg_Yes,Has 2nd masters deg,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0093,EdS_deg_Yes,Has ed spec degree,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0096,Grad_cert_Yes,Has adv grad cert,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0099,Phd_deg_Yes,Has PhD,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,degree,T0082,MA_grad_yr,Yr of masters degree,cat-ord,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,major,T0072,BA_major_code_STEM,Field for bach degree-code,cat-nom,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,major,T0081,MA_major_code_STEM,Field for masters degree-code,cat-nom,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0179,pd_release_t_Yes,Release time,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0180,pd_schedule_t_Yes,Scheduled time,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0181,pd_stipend_Yes,Stipend,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0182,pd_tuition_r_Yes,Reimbursement for tuition,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0183,pd_conference_r_Yes,Reimbursement-fees,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,professional development,T0184,pd_travel_r_Yes,Reimbursement-expenses,cat-nom-bi,03-Public Teacher: Education and Training,02-Public Teacher #2,Y
+S4A,Public Teacher,class organization,T0206,class_org,Class organization,cat-nom,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+T2,Former Teacher,full-time/part-time,FTPT_S,ft_pt_status_FT,SASS full-time/part-time status,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+T3,Current Teacher,full-time/part-time,FTPT_S,ft_pt_status_FT,SASS full-time/part-time status,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,DUP
+S4A,Public Teacher,grade taught,T0191,teaches_ungraded_Yes,Teaches ungraded,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0192,teaches_pk_Yes,Teaches PK,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0193,teaches_k_Yes,Teaches K,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0194,teaches_1st_Yes,Teaches 1st,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0195,teaches_2nd_Yes,Teaches 2nd,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0196,teaches_3rd_Yes,Teaches 3rd,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0197,teaches_4th_Yes,Teaches 4th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0198,teaches_5th_Yes,Teaches 5th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0199,teaches_6th_Yes,Teaches 6th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0200,teaches_7th_Yes,Teaches 7th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0201,teaches_8th_Yes,Teaches 8th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0202,teaches_9th_Yes,Teaches 9th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0203,teaches_10th_Yes,Teaches 10th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0204,teaches_11th_Yes,Teaches 11th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,grade taught,T0205,teaches_12th_Yes,Teaches 12th,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,hours of teaching,T0209,ELA_hours_taught,Hrs tching English,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,hours of teaching,T0210,math_hours_taught,Hrs tching math,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,hours of teaching,T0211,social_studies_taught,Hrs tching soc studies,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,hours of teaching,T0212,science_hours_taught,Hrs tching science,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,hours of teaching,T0273,hours_required_school,Hours in school/wk,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,intention,T0339,would_be_tch,Would be a tchr,cat-ord-likert,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,intention,T0340,remain_in_teaching,Remain in tchng,cat-ord-likert,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,subject,T0102,main_teaching_fields,Assignmnt field-code,cat-nom,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,subject,T0120,main_teaching_lastyr_Same_as_thisyr,Same/diff last yr,cat-nom,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,NEWTCH,new_teacher_Yes,New teacher flag,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,TOTEXPER,total_teaching_exp,Total teaching experience,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,T0065,public_ft_exp,Yrs tching FT in public schls,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,T0066,public_pt_exp,Yrs tching PT in public schls,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,T0067,ever_taught_private_school_Yes,Ever taught in private schls,cat-nom-bi,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,T0068,private_ft_exp,Yrs tching FT in private schls,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S4A,Public Teacher,years of experience,T0069,private_pt_exp,Yrs tching PT in private schls,num-cont,04-Public Teacher: Teaching Experience,03-Public Teacher #3,Y
+S3A,Public School,race/ethnicity,MINENR,percent_minority_students,Percent minority students,cat-ord,05-Public School: General,04-Public School,Y
+S4A,Public Teacher,race/ethnicity,MINTCH,percent_minority_teachers,Percent minority teachers,cat-ord,05-Public School: General,04-Public School,Y
+S3A,Public School,school level,PGMTYPE,type,School type,cat-nom,05-Public School: General,04-Public School,Y
+S3A,Public School,school level,SCHLEVEL,level,School Level (3 categories),cat-nom,05-Public School: General,04-Public School,Y
+S4A,Public Teacher,student-teacher ratio,STU_TCH,student_teacher_ratio,Estimated student-teacher ratio,num-cont,05-Public School: General,04-Public School,Y
+S3A,Public School,urbanicity,URBANIC,urbanicity,Urbanicity of school,cat-nom,05-Public School: General,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0282,FRPL_eligible_Yes,Any eligible for lunch prog,cat-nom,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0283,FRPL_eligible_pk_students,Eligible PK students,cat-ord,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0284,FRPL_eligible_k_12_students,Eligible K-12 students,cat-ord,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0285,FRPL_NLP_participate_Yes,Partipate in lunch prog,cat-nom,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0286,FRPL_approved_pk_students,Approved PK students,cat-ord,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - FRPL,S0287,FRPL_approved_k_12_students,Approved K-12 students,cat-ord,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - Title 1,S0288,title_I_receive_students_Yes,Any students receive Title 1 services,cat-nom-bi,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - Title 1,S0290,title_I_receive_students_number,Number of students served by Title I,cat-ord,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - Title 1,S0306,title_I_reading_Yes,Title I-reading,cat-nom,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - Title 1,S0307,title_I_math_Yes,Title I-math,cat-nom,06-Public School: Poverty Proxy,04-Public School,Y
+S3A,Public School,poverty proxy - Title 1,S0308,title_I_esl_Yes,Title I-ESL,cat-nom,06-Public School: Poverty Proxy,04-Public School,Y
+S2A,Public Principal,age,AGE_P,age_p,Principal age,cat-ord,07-Public Principal: Demographic,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,degree,A0225,deg_highest_P,Highest degree,cat-nom,07-Public Principal: Demographic,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,gender,A0227,gender_p_Female,Gender,cat-nom-bi,07-Public Principal: Demographic,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,pay,A0226,salary,Salary,cat-ord,07-Public Principal: Demographic,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,race/ethnicity,RACETH_P,race_p_White,Principal race/ethnicity,cat-nom,07-Public Principal: Demographic,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,years of experience,A0053,yrs_princpl_this_sch,Yrs princpl this sch,num-cont,08-Public Principal: Teaching and Training,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,years of experience,A0054,yrs_princpl_oth_schls,Yrs princpl oth schls,num-cont,08-Public Principal: Teaching and Training,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,years of experience,A0055,yrs_tchng_before_princpl,Yrs tchng before princpl,num-cont,08-Public Principal: Teaching and Training,"05-Public Principal, Incentive Policy",Y
+S2A,Public Principal,years of experience,A0056,yrs_tchng_since_princpl,Yrs tchng since princpl,num-cont,08-Public Principal: Teaching and Training,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1611,incentives_certification_Yes,Incentives-national certification,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1612,incentives_excellence_Yes,Incentives-excellence,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1613,incentives_prof_dev_Yes,Incentives-inservice prof dev,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1614,incentives_location_Yes,Incentives-location,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1615,incentives_reten_Yes,Incentives-shortage fields,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1616,incentives_reten_gen_elem_Yes,Incentives-gen elem,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1617,incentives_reten_spec_ed_Yes,Incentives-spec ed,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1618,incentives_reten_english_Yes,Incentives-English,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1619,incentives_reten_soc_studies_Yes,Incentives-soc studies,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1620,incentives_reten_STEM_comp_sci_Yes,Incentives-comp sci,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1621,incentives_reten_STEM_math_Yes,Incentives-math,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1622,incentives_reten_STEM_phys_sci_Yes,Incentives-phys sci,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1623,incentives_reten_STEM_biology_Yes,Incentives-biology,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1624,incentives_reten_esl_Yes,Incentives-ESL,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1625,incentives_reten_foreign_lang_Yes,Incentives-foreign lang,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1626,incentives_reten_music_art_Yes,Incentives-music/art,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,teacher incentives,S1627,incentives_reten_voc_ed_Yes,Incentives-voc ed,cat-nom,09-Incentives,"05-Public Principal, Incentive Policy",Y
+S3A,Public School/Public District,difficulty to fill vacancies,S0265,vacnc_difficult_non_STEM_Yes,Vacnc-gen elem,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0266,vacnc_difficult_non_STEM_Yes,Vacnc-spec ed,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0267,vacnc_difficult_non_STEM_Yes,Vacnc-English,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0268,vacnc_difficult_non_STEM_Yes,Vacnc-soc st,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0269,vacnc_difficult_STEM_Yes,Vacnc-comp sci,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0270,vacnc_difficult_STEM_Yes,Vacnc-math,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0271,vacnc_difficult_STEM_Yes,Vacnc-biology,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0272,vacnc_difficult_STEM_Yes,Vacnc-phys sci,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0273,vacnc_difficult_non_STEM_Yes,Vacnc-ESL,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0274,vacnc_difficult_non_STEM_Yes,Vacnc-foreign lang,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0275,vacnc_difficult_non_STEM_Yes,Vacnc-music or art,cat-ord-likert,-,-,N
+S3A,Public School/Public District,difficulty to fill vacancies,S0276,vacnc_difficult_non_STEM_Yes,Vacnc-vo-tech,cat-ord-likert,-,-,N

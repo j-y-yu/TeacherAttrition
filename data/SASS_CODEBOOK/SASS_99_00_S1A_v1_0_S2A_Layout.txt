@@ -1,0 +1,2082 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_S2A
+
+/* Total Record Length */
+1582
+
+/* Variable Names, Locations, and Descriptions */
+A0053     21-22     Yrs princpl this sch
+A0054     23-24     Yrs princpl oth schls
+A0055     25-26     Yrs tchng before princpl
+A0056     27-28     Yrs tchng since princpl
+A0057     29-30     Currently teaching in this sch
+A0058     31-32     Dept head
+A0059     33-34     Curriculum spec/coordinator
+A0060     35-36     Assistant principal
+A0061     37-38     Counselor
+A0062     39-40     Library media specialist
+A0063     41-42     Athletic coach
+A0064     43-44     Sponsor
+A0065     45-46     Prog for aspiring princpls
+A0066     47-48     Prog for Ind ed admin
+A0067     49-50     Most imp goal
+A0068     51-52     Second most imp goal
+A0069     53-54     Third most imp goal
+A0070     55-56     How far along-ed goals
+A0071     57-58     How far along-organizational goals
+A0072     59-60     How far along-financial
+A0073     61-62     How far along-attracting students
+A0074     63-64     How far along-assessment sys
+A0075     65-66     How far along-parent involvement
+A0076     67-68     Influence on standrds-state
+A0077     69-70     Influence on standrds-sch board
+A0078     71-72     Influence on standrds-district staff
+A0079     73-74     Influence on standrds-principal
+A0080     75-76     Influence on standrds-curr spec
+A0081     77-78     Influence on standrds-tchrs
+A0082     79-80     Influence on standrds-council
+A0083     81-82     Influence on standrds-parents
+A0084     83-84     Influence on curriculum-state
+A0085     85-86     Influence on curriculum-sch board
+A0086     87-88     Influence on curriculum-district staff
+A0087     89-90     Influence on curriculum-principal
+A0088     91-92     Influence on curriculum-curr spec
+A0089     93-94     Influence on curriculum-tchrs
+A0090     95-96     Influence on curriculum-council
+A0091     97-98     Influence on curriculum-parents
+A0092     99-100    Influence on prof dev prog-state
+A0093     101-102   Influence on prof dev prog-sch board
+A0094     103-104   Influ prof dev prog-district staff
+A0095     105-106   Influence on prof dev prog-principal
+A0096     107-108   Influence on prof dev prog-curr spec
+A0097     109-110   Influence on prof dev prog-tchrs
+A0098     111-112   Influence on prof dev prog-college
+A0099     113-114   Influence on prof dev prog-council
+A0100     115-116   Influence on prof dev prog-parents
+A0101     117-118   Influence on eval tchrs-state
+A0102     119-120   Influence on eval tchrs-sch board
+A0103     121-122   Influence on eval tchrs-district staff
+A0104     123-124   Influence on eval tchrs-principal
+A0105     125-126   Influence on eval tchrs-tchrs
+A0106     127-128   Influence on eval tchrs-council
+A0107     129-130   Influence on eval tchrs-parents
+A0108     131-132   Influence on hiring tchrs-state
+A0109     133-134   Influence on hiring tchrs-sch board
+A0110     135-136   Influence on hiring tchrs-district staff
+A0111     137-138   Influence on hiring tchrs-principal
+A0112     139-140   Influence on hiring tchrs-tchrs
+A0113     141-142   Influence on hiring tchrs-council
+A0114     143-144   Influence on hiring tchrs-parents
+A0115     145-146   Influence on disc policy-state
+A0116     147-148   Influence on disc policy-sch board
+A0117     149-150   Influence on disc policy-district staff
+A0118     151-152   Influence on disc policy-principal
+A0119     153-154   Influence on disc policy-tchrs
+A0120     155-156   Influence on disc policy-council
+A0121     157-158   Influence on disc policy-parents
+A0122     159-160   Influence on spending-state
+A0123     161-162   Influence on spending-sch board
+A0124     163-164   Influence on spending-district staff
+A0125     165-166   Influence on spending-principal
+A0126     167-168   Influence on spending-curr spec
+A0127     169-170   Influence on spending-tchrs
+A0128     171-172   Influence on spending-council
+A0129     173-174   Influence on spending-parents
+A0130     175-176   Problem-student tardiness
+A0131     177-178   Problem-student absenteeism
+A0132     179-180   Problem- tchr absenteeism
+A0133     181-182   Problem-class cutting
+A0134     183-184   Problem-phys conflicts
+A0135     185-186   Problem-theft
+A0136     187-188   Problem-vandalism
+A0137     189-190   Problem-student pregnancy
+A0138     191-192   Problem-alcohol use
+A0139     193-194   Problem-drug abuse
+A0140     195-196   Problem-weapons
+A0141     197-198   Problem-disrespect for tchrs
+A0142     199-200   Problem-drop outs
+A0143     201-202   Problem-student apathy
+A0144     203-204   Problem-parental involvement
+A0145     205-206   Problem-poverty
+A0146     207-208   Problem-unprepared students
+A0147     209-210   Problem-student health
+A0148     211-212   Prof dev-state initiatives
+A0149     213-214   Prof dev-dist initiatives
+A0150     215-216   Prof dev-sch improvmnt plan
+A0151     217-218   Prof dev-academic stndrds
+A0152     219-220   Prof dev-skills stndrds
+A0153     221-222   Prof dev-tchr preferences
+A0154     223-224   Prof dev-support sch goals
+A0155     225-226   Prof dev-support dist goals
+A0156     227-228   Prof dev-support stndrds
+A0157     229-230   Prof dev-eval-imprvment
+A0158     231-232   Prof dev-eval-stu achvmnt
+A0159     233-234   Prof dev-part of tchrs work
+A0160     235-236   Prof dev-planned by tchrs
+A0161     237-238   Prof dev-presented by tchrs
+A0162     239-240   Prof dev-with resources
+A0163     241-242   Prof dev w/ tchrs
+A0164     243-244   Tchrs givn time for prof dev
+A0165     245-246   Prof dev time-use substitutes
+A0166     247-248   Prof dev time-early dismissal
+A0167     249-250   Prof days-before sch yr
+A0168     251-252   Prof days-during sch yr
+A0169     253-254   Prof days-after sch yr
+A0170     255-256   Common planning time
+A0171     257-258   Reduced work loads
+A0172     259-260   Sch has own prof dev budget
+A0173     261-263   Pcnt of fculty tchng to hi standrds
+A0174     264-265   Dismissal barrier-policies
+A0175     266-267   Dismissal barrier-decisions not upheld
+A0176     268-269   Dismissal barrier-inadequate doc
+A0177     270-271   Dismissal barrier-tenure
+A0178     272-273   Dismissal barrier-tchr assn
+A0179     274-275   Dismissal barrier-too stressful
+A0180     276-277   Partcpatd in university crses
+A0181     278-279   Visiting other schools
+A0182     280-281   Research
+A0183     282-283   Mentoring
+A0184     284-285   Principal network
+A0185     286-287   Participated in prncpls workshops
+A0186     288-289   Presenter at workshops
+A0187     290-291   Attending assn meeting
+A0188     292-293   Decision-making body
+A0189     294-295   Council-principal
+A0190     296-297   Council-vice principal
+A0191     298-299   Council-teachers
+A0192     300-301   Council-department heads
+A0193     302-303   Council-students
+A0194     304-305   Council-parents
+A0195     306-307   Council-community reps
+A0196     308-309   Council-Superintendent/dist rep
+A0197     310-311   Freq-facilitate achvmnt sch mission
+A0198     312-313   Freq-supervise staff
+A0199     314-315   Freq-guide dev of curriclm
+A0200     316-317   Freq-facilitate stu learning
+A0201     318-319   Freq-provide prof dev actvties
+A0202     320-321   Freq-build prof community
+A0203     322-323   Freq-dev public relations
+A0204     324-325   Freq-maintain phys security
+A0205     326-327   Freq-manage sch facilties
+A0206     328-329   Freq-attend dist meetings
+A0207     330-331   State/dist has sch perf goals
+A0208     332-333   Sch req to meet dist/st goals
+A0209     334-335   Sch met dist/st  goals
+A0210     336-337   Receivd cash/resrces for entire sch
+A0211     338-339   Receivd cash/resrces for tchrs
+A0212     340-341   Received other recognition
+A0213     342-343   Yes in 22c
+A0214     344-345   Req to write plan
+A0215     346-347   Put on evaluation cycle
+A0216     348-349   Provided w/tech assistance
+A0217     350-351   Given additional resources
+A0218     352-353   Req to replace principal
+A0219     354-355   Reconst or taken over
+A0220     356-357   Reduced funding
+A0221     358-359   Sch improvement plan
+A0222     360-361   Assessment tests
+A0223     362-363   Assessment surveys
+A0224     364-365   Assessment portfolios
+A0225     366-367   Highest degree
+A0226     368-369   Salary
+A0227     370-371   Gender
+A0228     372-373   Race
+A0229     374-375   Tribal affiliation
+A0230     376-377   Ethnicity
+AGE_P     424-425   Principal age
+ENRK12UG  378-379   Total ungraded and K-12 enrollment
+F_A0053   1227-1228 Imputation flag for A0053
+F_A0054   1229-1230 Imputation flag for A0054
+F_A0055   1231-1232 Imputation flag for A0055
+F_A0056   1233-1234 Imputation flag for A0056
+F_A0057   1235-1236 Imputation flag for A0057
+F_A0058   1237-1238 Imputation flag for A0058
+F_A0059   1239-1240 Imputation flag for A0059
+F_A0060   1241-1242 Imputation flag for A0060
+F_A0061   1243-1244 Imputation flag for A0061
+F_A0062   1245-1246 Imputation flag for A0062
+F_A0063   1247-1248 Imputation flag for A0063
+F_A0064   1249-1250 Imputation flag for A0064
+F_A0065   1251-1252 Imputation flag for A0065
+F_A0066   1253-1254 Imputation flag for A0066
+F_A0067   1255-1256 Imputation flag for A0067
+F_A0068   1257-1258 Imputation flag for A0068
+F_A0069   1259-1260 Imputation flag for A0069
+F_A0070   1261-1262 Imputation flag for A0070
+F_A0071   1263-1264 Imputation flag for A0071
+F_A0072   1265-1266 Imputation flag for A0072
+F_A0073   1267-1268 Imputation flag for A0073
+F_A0074   1269-1270 Imputation flag for A0074
+F_A0075   1271-1272 Imputation flag for A0075
+F_A0076   1273-1274 Imputation flag for A0076
+F_A0077   1275-1276 Imputation flag for A0077
+F_A0078   1277-1278 Imputation flag for A0078
+F_A0079   1279-1280 Imputation flag for A0079
+F_A0080   1281-1282 Imputation flag for A0080
+F_A0081   1283-1284 Imputation flag for A0081
+F_A0082   1285-1286 Imputation flag for A0082
+F_A0083   1287-1288 Imputation flag for A0083
+F_A0084   1289-1290 Imputation flag for A0084
+F_A0085   1291-1292 Imputation flag for A0085
+F_A0086   1293-1294 Imputation flag for A0086
+F_A0087   1295-1296 Imputation flag for A0087
+F_A0088   1297-1298 Imputation flag for A0088
+F_A0089   1299-1300 Imputation flag for A0089
+F_A0090   1301-1302 Imputation flag for A0090
+F_A0091   1303-1304 Imputation flag for A0091
+F_A0092   1305-1306 Imputation flag for A0092
+F_A0093   1307-1308 Imputation flag for A0093
+F_A0094   1309-1310 Imputation flag for A0094
+F_A0095   1311-1312 Imputation flag for A0095
+F_A0096   1313-1314 Imputation flag for A0096
+F_A0097   1315-1316 Imputation flag for A0097
+F_A0098   1317-1318 Imputation flag for A0098
+F_A0099   1319-1320 Imputation flag for A0099
+F_A0100   1321-1322 Imputation flag for A0100
+F_A0101   1323-1324 Imputation flag for A0101
+F_A0102   1325-1326 Imputation flag for A0102
+F_A0103   1327-1328 Imputation flag for A0103
+F_A0104   1329-1330 Imputation flag for A0104
+F_A0105   1331-1332 Imputation flag for A0105
+F_A0106   1333-1334 Imputation flag for A0106
+F_A0107   1335-1336 Imputation flag for A0107
+F_A0108   1337-1338 Imputation flag for A0108
+F_A0109   1339-1340 Imputation flag for A0109
+F_A0110   1341-1342 Imputation flag for A0110
+F_A0111   1343-1344 Imputation flag for A0111
+F_A0112   1345-1346 Imputation flag for A0112
+F_A0113   1347-1348 Imputation flag for A0113
+F_A0114   1349-1350 Imputation flag for A0114
+F_A0115   1351-1352 Imputation flag for A0115
+F_A0116   1353-1354 Imputation flag for A0116
+F_A0117   1355-1356 Imputation flag for A0117
+F_A0118   1357-1358 Imputation flag for A0118
+F_A0119   1359-1360 Imputation flag for A0119
+F_A0120   1361-1362 Imputation flag for A0120
+F_A0121   1363-1364 Imputation flag for A0121
+F_A0122   1365-1366 Imputation flag for A0122
+F_A0123   1367-1368 Imputation flag for A0123
+F_A0124   1369-1370 Imputation flag for A0124
+F_A0125   1371-1372 Imputation flag for A0125
+F_A0126   1373-1374 Imputation flag for A0126
+F_A0127   1375-1376 Imputation flag for A0127
+F_A0128   1377-1378 Imputation flag for A0128
+F_A0129   1379-1380 Imputation flag for A0129
+F_A0130   1381-1382 Imputation flag for A0130
+F_A0131   1383-1384 Imputation flag for A0131
+F_A0132   1385-1386 Imputation flag for A0132
+F_A0133   1387-1388 Imputation flag for A0133
+F_A0134   1389-1390 Imputation flag for A0134
+F_A0135   1391-1392 Imputation flag for A0135
+F_A0136   1393-1394 Imputation flag for A0136
+F_A0137   1395-1396 Imputation flag for A0137
+F_A0138   1397-1398 Imputation flag for A0138
+F_A0139   1399-1400 Imputation flag for A0139
+F_A0140   1401-1402 Imputation flag for A0140
+F_A0141   1403-1404 Imputation flag for A0141
+F_A0142   1405-1406 Imputation flag for A0142
+F_A0143   1407-1408 Imputation flag for A0143
+F_A0144   1409-1410 Imputation flag for A0144
+F_A0145   1411-1412 Imputation flag for A0145
+F_A0146   1413-1414 Imputation flag for A0146
+F_A0147   1415-1416 Imputation flag for A0147
+F_A0148   1417-1418 Imputation flag for A0148
+F_A0149   1419-1420 Imputation flag for A0149
+F_A0150   1421-1422 Imputation flag for A0150
+F_A0151   1423-1424 Imputation flag for A0151
+F_A0152   1425-1426 Imputation flag for A0152
+F_A0153   1427-1428 Imputation flag for A0153
+F_A0154   1429-1430 Imputation flag for A0154
+F_A0155   1431-1432 Imputation flag for A0155
+F_A0156   1433-1434 Imputation flag for A0156
+F_A0157   1435-1436 Imputation flag for A0157
+F_A0158   1437-1438 Imputation flag for A0158
+F_A0159   1439-1440 Imputation flag for A0159
+F_A0160   1441-1442 Imputation flag for A0160
+F_A0161   1443-1444 Imputation flag for A0161
+F_A0162   1445-1446 Imputation flag for A0162
+F_A0163   1447-1448 Imputation flag for A0163
+F_A0164   1449-1450 Imputation flag for A0164
+F_A0165   1451-1452 Imputation flag for A0165
+F_A0166   1453-1454 Imputation flag for A0166
+F_A0167   1455-1456 Imputation flag for A0167
+F_A0168   1457-1458 Imputation flag for A0168
+F_A0169   1459-1460 Imputation flag for A0169
+F_A0170   1461-1462 Imputation flag for A0170
+F_A0171   1463-1464 Imputation flag for A0171
+F_A0172   1465-1466 Imputation flag for A0172
+F_A0173   1467-1468 Imputation flag for A0173
+F_A0174   1469-1470 Imputation flag for A0174
+F_A0175   1471-1472 Imputation flag for A0175
+F_A0176   1473-1474 Imputation flag for A0176
+F_A0177   1475-1476 Imputation flag for A0177
+F_A0178   1477-1478 Imputation flag for A0178
+F_A0179   1479-1480 Imputation flag for A0179
+F_A0180   1481-1482 Imputation flag for A0180
+F_A0181   1483-1484 Imputation flag for A0181
+F_A0182   1485-1486 Imputation flag for A0182
+F_A0183   1487-1488 Imputation flag for A0183
+F_A0184   1489-1490 Imputation flag for A0184
+F_A0185   1491-1492 Imputation flag for A0185
+F_A0186   1493-1494 Imputation flag for A0186
+F_A0187   1495-1496 Imputation flag for A0187
+F_A0188   1497-1498 Imputation flag for A0188
+F_A0189   1499-1500 Imputation flag for A0189
+F_A0190   1501-1502 Imputation flag for A0190
+F_A0191   1503-1504 Imputation flag for A0191
+F_A0192   1505-1506 Imputation flag for A0192
+F_A0193   1507-1508 Imputation flag for A0193
+F_A0194   1509-1510 Imputation flag for A0194
+F_A0195   1511-1512 Imputation flag for A0195
+F_A0196   1513-1514 Imputation flag for A0196
+F_A0197   1515-1516 Imputation flag for A0197
+F_A0198   1517-1518 Imputation flag for A0198
+F_A0199   1519-1520 Imputation flag for A0199
+F_A0200   1521-1522 Imputation flag for A0200
+F_A0201   1523-1524 Imputation flag for A0201
+F_A0202   1525-1526 Imputation flag for A0202
+F_A0203   1527-1528 Imputation flag for A0203
+F_A0204   1529-1530 Imputation flag for A0204
+F_A0205   1531-1532 Imputation flag for A0205
+F_A0206   1533-1534 Imputation flag for A0206
+F_A0207   1535-1536 Imputation flag for A0207
+F_A0208   1537-1538 Imputation flag for A0208
+F_A0209   1539-1540 Imputation flag for A0209
+F_A0210   1541-1542 Imputation flag for A0210
+F_A0211   1543-1544 Imputation flag for A0211
+F_A0212   1545-1546 Imputation flag for A0212
+F_A0213   1547-1548 Imputation flag for A0213
+F_A0214   1549-1550 Imputation flag for A0214
+F_A0215   1551-1552 Imputation flag for A0215
+F_A0216   1553-1554 Imputation flag for A0216
+F_A0217   1555-1556 Imputation flag for A0217
+F_A0218   1557-1558 Imputation flag for A0218
+F_A0219   1559-1560 Imputation flag for A0219
+F_A0220   1561-1562 Imputation flag for A0220
+F_A0221   1563-1564 Imputation flag for A0221
+F_A0222   1565-1566 Imputation flag for A0222
+F_A0223   1567-1568 Imputation flag for A0223
+F_A0224   1569-1570 Imputation flag for A0224
+F_A0225   1571-1572 Imputation flag for A0225
+F_A0226   1573-1574 Imputation flag for A0226
+F_A0227   1575-1576 Imputation flag for A0227
+F_A0228   1577-1578 Imputation flag for A0228
+F_A0229   1579-1580 Imputation flag for A0229
+F_A0230   1581-1582 Imputation flag for A0230
+GL_ACDM   400-401   Goals-academic excellence
+GL_GRW    402-403   Goals-personal growth
+GL_HMRL   404-405   Goals-human relations skills
+GL_LITCY  406-407   Goals-basic literacy
+GL_MRL    408-409   Goals-moral values
+GL_SKL    410-411   Goals-occupation/voc skills
+GL_WRK    412-413   Goals-work habits
+MINENR    390-391   Percent minority students
+MINTCH    392-393   Percent minority teachers
+NUMTCH    382-383   Estimated number of FTE teachers
+PGMTYPE   394-395   School program type
+PRFMET    418-419   Whether sch perf goals were met
+PRFREQ    420-421   Whether sch perf goals were required
+PRNEXPER  396-397   Total principal experience
+RACETH_P  422-423   Principal race/ethnicity
+REGION    19-20     Census Region
+SBKGD_P   416-417   Perception-family background
+SCHLEVEL  380-381   School Level (3 categories)
+SDLQ_P    414-415   Perception-delinquency
+SECTOR    15-16     School sector
+STU_TCH   384-389   Estimated student-teacher ratio
+SURVEY    13-14     Survey identifier
+TCHEXPER  398-399   Total teaching experience
+URBANIC   17-18     Urbanicity of school
+CNTLNUM   1-6       Principal control number
+SCHCNTL   7-12      School control number
+AFNLWGT   426-434   Principal final weight
+AREPWT1   435-443   Principal final replicate weight 1
+AREPWT10  516-524   Principal final replicate weight 10
+AREPWT11  525-533   Principal final replicate weight 11
+AREPWT12  534-542   Principal final replicate weight 12
+AREPWT13  543-551   Principal final replicate weight 13
+AREPWT14  552-560   Principal final replicate weight 14
+AREPWT15  561-569   Principal final replicate weight 15
+AREPWT16  570-578   Principal final replicate weight 16
+AREPWT17  579-587   Principal final replicate weight 17
+AREPWT18  588-596   Principal final replicate weight 18
+AREPWT19  597-605   Principal final replicate weight 19
+AREPWT2   444-452   Principal final replicate weight 2
+AREPWT20  606-614   Principal final replicate weight 20
+AREPWT21  615-623   Principal final replicate weight 21
+AREPWT22  624-632   Principal final replicate weight 22
+AREPWT23  633-641   Principal final replicate weight 23
+AREPWT24  642-650   Principal final replicate weight 24
+AREPWT25  651-659   Principal final replicate weight 25
+AREPWT26  660-668   Principal final replicate weight 26
+AREPWT27  669-677   Principal final replicate weight 27
+AREPWT28  678-686   Principal final replicate weight 28
+AREPWT29  687-695   Principal final replicate weight 29
+AREPWT3   453-461   Principal final replicate weight 3
+AREPWT30  696-704   Principal final replicate weight 30
+AREPWT31  705-713   Principal final replicate weight 31
+AREPWT32  714-722   Principal final replicate weight 32
+AREPWT33  723-731   Principal final replicate weight 33
+AREPWT34  732-740   Principal final replicate weight 34
+AREPWT35  741-749   Principal final replicate weight 35
+AREPWT36  750-758   Principal final replicate weight 36
+AREPWT37  759-767   Principal final replicate weight 37
+AREPWT38  768-776   Principal final replicate weight 38
+AREPWT39  777-785   Principal final replicate weight 39
+AREPWT4   462-470   Principal final replicate weight 4
+AREPWT40  786-794   Principal final replicate weight 40
+AREPWT41  795-803   Principal final replicate weight 41
+AREPWT42  804-812   Principal final replicate weight 42
+AREPWT43  813-821   Principal final replicate weight 43
+AREPWT44  822-830   Principal final replicate weight 44
+AREPWT45  831-839   Principal final replicate weight 45
+AREPWT46  840-848   Principal final replicate weight 46
+AREPWT47  849-857   Principal final replicate weight 47
+AREPWT48  858-866   Principal final replicate weight 48
+AREPWT49  867-875   Principal final replicate weight 49
+AREPWT5   471-479   Principal final replicate weight 5
+AREPWT50  876-884   Principal final replicate weight 50
+AREPWT51  885-893   Principal final replicate weight 51
+AREPWT52  894-902   Principal final replicate weight 52
+AREPWT53  903-911   Principal final replicate weight 53
+AREPWT54  912-920   Principal final replicate weight 54
+AREPWT55  921-929   Principal final replicate weight 55
+AREPWT56  930-938   Principal final replicate weight 56
+AREPWT57  939-947   Principal final replicate weight 57
+AREPWT58  948-956   Principal final replicate weight 58
+AREPWT59  957-965   Principal final replicate weight 59
+AREPWT6   480-488   Principal final replicate weight 6
+AREPWT60  966-974   Principal final replicate weight 60
+AREPWT61  975-983   Principal final replicate weight 61
+AREPWT62  984-992   Principal final replicate weight 62
+AREPWT63  993-1001  Principal final replicate weight 63
+AREPWT64  1002-1010 Principal final replicate weight 64
+AREPWT65  1011-1019 Principal final replicate weight 65
+AREPWT66  1020-1028 Principal final replicate weight 66
+AREPWT67  1029-1037 Principal final replicate weight 67
+AREPWT68  1038-1046 Principal final replicate weight 68
+AREPWT69  1047-1055 Principal final replicate weight 69
+AREPWT7   489-497   Principal final replicate weight 7
+AREPWT70  1056-1064 Principal final replicate weight 70
+AREPWT71  1065-1073 Principal final replicate weight 71
+AREPWT72  1074-1082 Principal final replicate weight 72
+AREPWT73  1083-1091 Principal final replicate weight 73
+AREPWT74  1092-1100 Principal final replicate weight 74
+AREPWT75  1101-1109 Principal final replicate weight 75
+AREPWT76  1110-1118 Principal final replicate weight 76
+AREPWT77  1119-1127 Principal final replicate weight 77
+AREPWT78  1128-1136 Principal final replicate weight 78
+AREPWT79  1137-1145 Principal final replicate weight 79
+AREPWT8   498-506   Principal final replicate weight 8
+AREPWT80  1146-1154 Principal final replicate weight 80
+AREPWT81  1155-1163 Principal final replicate weight 81
+AREPWT82  1164-1172 Principal final replicate weight 82
+AREPWT83  1173-1181 Principal final replicate weight 83
+AREPWT84  1182-1190 Principal final replicate weight 84
+AREPWT85  1191-1199 Principal final replicate weight 85
+AREPWT86  1200-1208 Principal final replicate weight 86
+AREPWT87  1209-1217 Principal final replicate weight 87
+AREPWT88  1218-1226 Principal final replicate weight 88
+AREPWT9   507-515   Principal final replicate weight 9
+
+/* Variable Value Labels */
+A0121
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0172
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0229
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+URBANIC
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+F_A0126
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., school or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0218
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0102
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0115
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0055
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0129
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0153
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0094
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0082
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., school or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0194
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0091
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0081
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0144
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0152
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+A0071
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+F_A0070
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0184
+   1 = "Yes"
+   2 = "No"
+A0147
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0105
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0220
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0150
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0201
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+A0211
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0083
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0087
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0120
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0228
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0116
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0171
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0176
+   1 = "Yes"
+   2 = "No"
+A0072
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+F_A0186
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0062
+   1 = "Yes"
+   2 = "No"
+A0166
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0143
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0068
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0075
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0187
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0138
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0181
+   1 = "Yes"
+   2 = "No"
+A0130
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0085
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0129
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0120
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0150
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+A0123
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0222
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0174
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0100
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0179
+   1 = "Yes"
+   2 = "No"
+F_A0111
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0210
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0076
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0206
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0135
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0210
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0197
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0101
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0205
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0065
+   1 = "Yes"
+   2 = "No"
+SURVEY
+   2 = "Public School Principal"
+F_A0200
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0065
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0144
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0135
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0158
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+F_A0076
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0099
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0109
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0117
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0203
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0103
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0123
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0134
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0114
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0139
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0192
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0213
+   1 = "Yes"
+   -8 = "Valid skip"
+A0223
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0062
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0114
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0159
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0080
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0104
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0165
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0227
+   1 = "Male"
+   2 = "Female"
+A0217
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0195
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0164
+   1 = "Yes"
+   2 = "No"
+A0207
+   1 = "Yes"
+   2 = "No"
+F_A0208
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0058
+   1 = "Yes"
+   2 = "No"
+F_A0097
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+SECTOR
+   A = "Public"
+A0133
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0087
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+PRFMET
+   0 = "School had no performance goals"
+   1 = "School had performance goals but did not meet them"
+   2 = "School had performance goals and met them"
+F_A0113
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0224
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0221
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0204
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0133
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0177
+   1 = "Yes"
+   2 = "No"
+A0216
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0078
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0063
+   1 = "Yes"
+   2 = "No"
+A0066
+   1 = "Yes"
+   2 = "No"
+F_A0146
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0095
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0067
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0181
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0199
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0119
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0208
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0161
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+A0190
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0228
+   1 = "American Indian or Alaska Native (Aleut, Alaska Indian, Yupik, Inupiat)"
+   2 = "Asian or Pacific Islander (Japanese, Chinese, Filipino, Korean, Asian Indian, Vietnamese, Hawaiian, Guamanian, Samoan, other Asian)"
+   3 = "Black"
+   4 = "White"
+A0180
+   1 = "Yes"
+   2 = "No"
+F_A0207
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0086
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0157
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+A0172
+   1 = "Yes"
+   2 = "No"
+A0225
+   1 = "Associate degree"
+   2 = "Bachelor's degree (B.A., B.S., B.E., etc)"
+   3 = "Master's degree (M.A., M.A.T., M.B.A., M.Ed., M.S., etc)"
+   4 = "Education specialist or professional diploma (at least one year beyond master's level)"
+   5 = "Doctorate or first professional degree (Ph.D., Ed.D., M.D., L.L.B., J.D., D.D.S)"
+F_A0058
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0121
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0213
+   0 = "Not imputed"
+A0106
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0132
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0083
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0194
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0079
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0090
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0153
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+F_A0053
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+A0082
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0064
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0143
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0155
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0189
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0202
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0069
+   1 = "Building basic literacy skills (reading, math, writing, speaking)"
+   2 = "Encouraging academic excellence"
+   3 = "Promoting occupational or vocational skills"
+   4 = "Promoting good work habits and self-discipline"
+   5 = "Promoting personal growth (self-esteem, self-knowledge, etc.)"
+   6 = "Promoting human relations skills"
+   7 = "Promoting specific moral values"
+   8 = "Promoting multi-cultural awareness or understanding"
+A0197
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0163
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0162
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+A0229
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0168
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0212
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0175
+   1 = "Yes"
+   2 = "No"
+F_A0227
+   0 = "Not imputed"
+F_A0104
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0109
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0127
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0202
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0080
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0115
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0160
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0061
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0183
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0093
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0154
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+F_A0095
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0209
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0178
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0139
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0186
+   1 = "Yes"
+   2 = "No"
+A0196
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0188
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0215
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+GL_WRK
+   1 = "Considers promoting good work habits and self-discipline one of the 3 most important education goals"
+   2 = "Does not consider promoting good work habits and self-discipline one of the 3 most important education goals"
+F_A0107
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0141
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0126
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0151
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+F_A0177
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0226
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_A0119
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0152
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0118
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0183
+   1 = "Yes"
+   2 = "No"
+F_A0092
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0145
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0191
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0180
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+AGE_P
+   1 = "Under 40"
+   2 = "40 - 44"
+   3 = "45 - 49"
+   4 = "50 - 54"
+   5 = "55 and over"
+A0070
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+A0060
+   1 = "Yes"
+   2 = "No"
+A0098
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0118
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0189
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+GL_ACDM
+   1 = "Considers encouraging academic excellence one of the 3 most important education goals"
+   2 = "Does not consider encouraging academic excellence one of the 3 most important education goals"
+A0108
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0077
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0214
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0140
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0191
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0096
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., school or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0225
+   0 = "Not imputed"
+F_A0086
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0078
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0185
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0075
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+A0137
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0103
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0169
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0111
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0093
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0166
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+NUMTCH
+   1 = "Fewer than 25 teachers"
+   2 = "25 - 34 teachers"
+   3 = "35 or more teachers"
+   -9 = "Not available because school was a noninterview"
+RACETH_P
+   1 = "American Indian or Alaska Native, non-Hispanic"
+   2 = "Asian or Pacific Islander, non-Hispanic"
+   3 = "Black, non-Hispanic"
+   4 = "White, non-Hispanic"
+   5 = "Hispanic, regardless of race"
+A0188
+   1 = "Yes"
+   2 = "No"
+F_A0106
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0107
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0165
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0198
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0217
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0112
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0154
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0224
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0205
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+GL_HMRL
+   1 = "Considers promoting human relations skills one of the 3 most important education goals"
+   2 = "Does not consider promoting human relations skills one of the 3 most important education goals"
+F_A0090
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0116
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0182
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0209
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0089
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0193
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0206
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0185
+   1 = "Yes"
+   2 = "No"
+F_A0148
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0146
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0214
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0193
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0071
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0124
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0088
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., school or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0151
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0158
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0216
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+GL_SKL
+   1 = "Considers promoting occupational or vocational skills one of the 3 most important education goals"
+   2 = "Does not consider promoting occupational or vocational skills one of the 3 most important education goals"
+F_A0170
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0097
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0142
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+ENRK12UG
+   1 = "Less than 300"
+   2 = "300 - 499"
+   3 = "500 or more"
+   -9 = "Not available because school was a noninterview"
+A0182
+   1 = "Yes"
+   2 = "No"
+F_A0140
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+PGMTYPE
+   1 = "REGULAR elementary or secondary school"
+   3 = "Elementary or secondary school with a SPECIAL PROGRAM EMPHASIS (such as a science/math school, performing arts school, talented/gifted school, foreign language immersion school, etc.)"
+   4 = "SPECIAL EDUCATION school - primarily serves students with disabilities"
+   5 = "VOCATIONAL/TECHNICAL school - primarily serves students being trained for occupations"
+   6 = "ALTERNATIVE school- offers a curriculum designed to provide alternative or nontraditional education; does not specifically fall into the categories of regular, special program, special education, or vocational school"
+   -9 = "Not available because school was a noninterview"
+F_A0069
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+MINENR
+   1 = "Fewer than 5 percent students"
+   2 = "5 - 19 percent students"
+   3 = "20 - 49 percent students"
+   4 = "50 or more percent students"
+   -9 = "Not available because school was a noninterview"
+F_A0230
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0218
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0072
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0201
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0131
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0169
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0057
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0088
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0159
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+F_A0089
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0130
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0170
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0127
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0110
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0081
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0056
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0077
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0138
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0196
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0100
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0157
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0110
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0084
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0145
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0161
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0066
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0198
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0160
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+A0136
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+A0199
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+F_A0204
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0184
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0067
+   1 = "Building basic literacy skills (reading, math, writing, speaking)"
+   2 = "Encouraging academic excellence"
+   3 = "Promoting occupational or vocational skills"
+   4 = "Promoting good work habits and self-discipline"
+   5 = "Promoting personal growth (self-esteem, self-knowledge, etc.)"
+   6 = "Promoting human relations skills"
+   7 = "Promoting specific moral values"
+   8 = "Promoting multi-cultural awareness or understanding"
+A0149
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+A0156
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+GL_GRW
+   1 = "Considers promoting personal growth one of the 3 most important education goals"
+   2 = "Does not consider promoting personal growth one of the 3 most important education goals"
+A0148
+   1 = "Not important at all"
+
+
+
+   5 = "Very important"
+GL_LITCY
+   1 = "Considers building basic literacy skills one of the 3 most important education goals"
+   2 = "Does not consider building basic literacy skills one of the 3 most important education goals"
+F_A0059
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0122
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0212
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0200
+   1 = "Never"
+   2 = "Once or twice a month"
+   3 = "Once or twice a week"
+   4 = "Every day"
+A0125
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0220
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0060
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0195
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0117
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0176
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0137
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0063
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0156
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0162
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0142
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0099
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0203
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0074
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0101
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0125
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0190
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., school or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0175
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0054
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0215
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0136
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0059
+   1 = "Yes"
+   2 = "No"
+A0128
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0221
+   1 = "Yes"
+   2 = "No"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+F_A0167
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0096
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0112
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0230
+   1 = "Yes"
+   2 = "No"
+A0102
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0124
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0094
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0147
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+SCHLEVEL
+   1 = "Elementary"
+   2 = "Secondary"
+   3 = "Combined"
+A0219
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+A0134
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0079
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0098
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+PRFREQ
+   0 = "School had no performance goals"
+   1 = "School had performance goals but was not required to meet them"
+   2 = "School had performance goals and was required to meet them"
+F_A0149
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+GL_MRL
+   1 = "Considers promoting specific moral values one of the 3 most important education goals"
+   2 = "Does not consider promoting specific moral values one of the 3 most important education goals"
+F_A0108
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0171
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0131
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0167
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0084
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0223
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_A0057
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0226
+   1 = "Less than $49,000"
+   2 = "$49,000 - $59,999"
+   3 = "$60,000 - $69,999"
+   4 = "$70,000 - $79,999"
+   5 = "$80,000 - $89,999"
+   6 = "$90,000 or more"
+A0192
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0085
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0073
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+F_A0164
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0061
+   1 = "Yes"
+   2 = "No"
+A0113
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0105
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+F_A0091
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0163
+   1 = "Never"
+   2 = "Once or twice"
+   3 = "3-5 times"
+   4 = "6 or more times"
+F_A0128
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0068
+   1 = "Building basic literacy skills (reading, math, writing, speaking)"
+   2 = "Encouraging academic excellence"
+   3 = "Promoting occupational or vocational skills"
+   4 = "Promoting good work habits and self-discipline"
+   5 = "Promoting personal growth (self-esteem, self-knowledge, etc.)"
+   6 = "Promoting human relations skills"
+   7 = "Promoting specific moral values"
+   8 = "Promoting multi-cultural awareness or understanding"
+A0174
+   1 = "Yes"
+   2 = "No"
+F_A0211
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0219
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0122
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+A0178
+   1 = "Yes"
+   2 = "No"
+F_A0173
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_A0222
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0074
+   1 = "Just beginning"
+   2 = "Long way to go"
+   3 = "Almost there"
+   4 = "We've reached our goal"
+   5 = "Not applicable"
+A0064
+   1 = "Yes"
+   2 = "No"
+A0155
+   1 = "Never"
+   2 = "Rarely"
+   3 = "Sometimes"
+   4 = "Frequently"
+   5 = "Always"
+A0092
+   1 = "No influence"
+
+
+
+   5 = "A great deal of influence"
+MINTCH
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20 - 49%"
+   5 = "50% or more"
+   -9 = "Not available because school was a noninterview"
+F_A0179
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+A0168
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_A0141
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0132
+   1 = "SERIOUS problem in this school"
+   2 = "MODERATE problem in this school"
+   3 = "MINOR problem in this school"
+   4 = "NOT a problem in this school"
+F_A0073
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+A0187
+   1 = "Yes"
+   2 = "No"
