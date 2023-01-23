@@ -1,0 +1,3676 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_S3A
+
+/* Total Record Length */
+2309
+
+/* Variable Names, Locations, and Descriptions */
+ABS_T     779-784   Percent teachers absent
+CHOJUST   801-802   Choice program
+COLBARG   791-792   Teachers union agreement
+F_S0092   1606-1607 Imputation flag for S0092
+F_S0093   1608-1609 Imputation flag for S0093
+F_S0095   1610-1611 Imputation flag for S0095
+F_S0101   1612-1613 Imputation flag for S0101
+F_S0102   1614-1615 Imputation flag for S0102
+F_S0103   1616-1617 Imputation flag for S0103
+F_S0104   1618-1619 Imputation flag for S0104
+F_S0105   1620-1621 Imputation flag for S0105
+F_S0106   1622-1623 Imputation flag for S0106
+F_S0107   1624-1625 Imputation flag for S0107
+F_S0108   1626-1627 Imputation flag for S0108
+F_S0109   1628-1629 Imputation flag for S0109
+F_S0110   1630-1631 Imputation flag for S0110
+F_S0111   1632-1633 Imputation flag for S0111
+F_S0112   1634-1635 Imputation flag for S0112
+F_S0113   1636-1637 Imputation flag for S0113
+F_S0114   1638-1639 Imputation flag for S0114
+F_S0115   1640-1641 Imputation flag for S0115
+F_S0116   1642-1643 Imputation flag for S0116
+F_S0117   1644-1645 Imputation flag for S0117
+F_S0118   1646-1647 Imputation flag for S0118
+F_S0119   1648-1649 Imputation flag for S0119
+F_S0120   1650-1651 Imputation flag for S0120
+F_S0121   1652-1653 Imputation flag for S0121
+F_S0122   1654-1655 Imputation flag for S0122
+F_S0125   1656-1657 Imputation flag for S0125
+F_S0126   1658-1659 Imputation flag for S0126
+F_S0127   1660-1661 Imputation flag for S0127
+F_S0128   1662-1663 Imputation flag for S0128
+F_S0129   1664-1665 Imputation flag for S0129
+F_S0130   1666-1667 Imputation flag for S0130
+F_S0131   1668-1669 Imputation flag for S0131
+F_S0132   1670-1671 Imputation flag for S0132
+F_S0133   1672-1673 Imputation flag for S0133
+F_S0134   1674-1675 Imputation flag for S0134
+F_S0135   1676-1677 Imputation flag for S0135
+F_S0136   1678-1679 Imputation flag for S0136
+F_S0137   1680-1681 Imputation flag for S0137
+F_S0138   1682-1683 Imputation flag for S0138
+F_S0139   1684-1685 Imputation flag for S0139
+F_S0140   1686-1687 Imputation flag for S0140
+F_S0141   1688-1689 Imputation flag for S0141
+F_S0142   1690-1691 Imputation flag for S0142
+F_S0143   1692-1693 Imputation flag for S0143
+F_S0144   1694-1695 Imputation flag for S0144
+F_S0145   1696-1697 Imputation flag for S0145
+F_S0146   1698-1699 Imputation flag for S0146
+F_S0147   1700-1701 Imputation flag for S0147
+F_S0148   1702-1703 Imputation flag for S0148
+F_S0149   1704-1705 Imputation flag for S0149
+F_S0150   1706-1707 Imputation flag for S0150
+F_S0151   1708-1709 Imputation flag for S0151
+F_S0152   1710-1711 Imputation flag for S0152
+F_S0153   1712-1713 Imputation flag for S0153
+F_S0154   1714-1715 Imputation flag for S0154
+F_S0155   1716-1717 Imputation flag for S0155
+F_S0156   1718-1719 Imputation flag for S0156
+F_S0157   1720-1721 Imputation flag for S0157
+F_S0158   1722-1723 Imputation flag for S0158
+F_S0159   1724-1725 Imputation flag for S0159
+F_S0160   1726-1727 Imputation flag for S0160
+F_S0161   1728-1729 Imputation flag for S0161
+F_S0164   1730-1731 Imputation flag for S0164
+F_S0165   1732-1733 Imputation flag for S0165
+F_S0166   1734-1735 Imputation flag for S0166
+F_S0167   1736-1737 Imputation flag for S0167
+F_S0168   1738-1739 Imputation flag for S0168
+F_S0169   1740-1741 Imputation flag for S0169
+F_S0170   1742-1743 Imputation flag for S0170
+F_S0171   1744-1745 Imputation flag for S0171
+F_S0172   1746-1747 Imputation flag for S0172
+F_S0173   1748-1749 Imputation flag for S0173
+F_S0174   1750-1751 Imputation flag for S0174
+F_S0175   1752-1753 Imputation flag for S0175
+F_S0176   1754-1755 Imputation flag for S0176
+F_S0177   1756-1757 Imputation flag for S0177
+F_S0178   1758-1759 Imputation flag for S0178
+F_S0179   1760-1761 Imputation flag for S0179
+F_S0180   1762-1763 Imputation flag for S0180
+F_S0181   1764-1765 Imputation flag for S0181
+F_S0182   1766-1767 Imputation flag for S0182
+F_S0183   1768-1769 Imputation flag for S0183
+F_S0184   1770-1771 Imputation flag for S0184
+F_S0185   1772-1773 Imputation flag for S0185
+F_S0186   1774-1775 Imputation flag for S0186
+F_S0187   1776-1777 Imputation flag for S0187
+F_S0188   1778-1779 Imputation flag for S0188
+F_S0189   1780-1781 Imputation flag for S0189
+F_S0190   1782-1783 Imputation flag for S0190
+F_S0191   1784-1785 Imputation flag for S0191
+F_S0192   1786-1787 Imputation flag for S0192
+F_S0193   1788-1789 Imputation flag for S0193
+F_S0194   1790-1791 Imputation flag for S0194
+F_S0195   1792-1793 Imputation flag for S0195
+F_S0196   1794-1795 Imputation flag for S0196
+F_S0197   1796-1797 Imputation flag for S0197
+F_S0198   1798-1799 Imputation flag for S0198
+F_S0199   1800-1801 Imputation flag for S0199
+F_S0200   1802-1803 Imputation flag for S0200
+F_S0201   1804-1805 Imputation flag for S0201
+F_S0202   1806-1807 Imputation flag for S0202
+F_S0203   1808-1809 Imputation flag for S0203
+F_S0204   1810-1811 Imputation flag for S0204
+F_S0205   1812-1813 Imputation flag for S0205
+F_S0206   1814-1815 Imputation flag for S0206
+F_S0207   1816-1817 Imputation flag for S0207
+F_S0208   1818-1819 Imputation flag for S0208
+F_S0211   1820-1821 Imputation flag for S0211
+F_S0212   1822-1823 Imputation flag for S0212
+F_S0213   1824-1825 Imputation flag for S0213
+F_S0214   1826-1827 Imputation flag for S0214
+F_S0215   1828-1829 Imputation flag for S0215
+F_S0216   1830-1831 Imputation flag for S0216
+F_S0217   1832-1833 Imputation flag for S0217
+F_S0218   1834-1835 Imputation flag for S0218
+F_S0219   1836-1837 Imputation flag for S0219
+F_S0220   1838-1839 Imputation flag for S0220
+F_S0221   1840-1841 Imputation flag for S0221
+F_S0222   1842-1843 Imputation flag for S0222
+F_S0223   1844-1845 Imputation flag for S0223
+F_S0224   1846-1847 Imputation flag for S0224
+F_S0225   1848-1849 Imputation flag for S0225
+F_S0226   1850-1851 Imputation flag for S0226
+F_S0227   1852-1853 Imputation flag for S0227
+F_S0228   1854-1855 Imputation flag for S0228
+F_S0229   1856-1857 Imputation flag for S0229
+F_S0230   1858-1859 Imputation flag for S0230
+F_S0231   1860-1861 Imputation flag for S0231
+F_S0232   1862-1863 Imputation flag for S0232
+F_S0233   1864-1865 Imputation flag for S0233
+F_S0234   1866-1867 Imputation flag for S0234
+F_S0235   1868-1869 Imputation flag for S0235
+F_S0236   1870-1871 Imputation flag for S0236
+F_S0237   1872-1873 Imputation flag for S0237
+F_S0238   1874-1875 Imputation flag for S0238
+F_S0239   1876-1877 Imputation flag for S0239
+F_S0240   1878-1879 Imputation flag for S0240
+F_S0241   1880-1881 Imputation flag for S0241
+F_S0242   1882-1883 Imputation flag for S0242
+F_S0243   1884-1885 Imputation flag for S0243
+F_S0244   1886-1887 Imputation flag for S0244
+F_S0245   1888-1889 Imputation flag for S0245
+F_S0246   1890-1891 Imputation flag for S0246
+F_S0247   1892-1893 Imputation flag for S0247
+F_S0248   1894-1895 Imputation flag for S0248
+F_S0249   1896-1897 Imputation flag for S0249
+F_S0250   1898-1899 Imputation flag for S0250
+F_S0251   1900-1901 Imputation flag for S0251
+F_S0252   1902-1903 Imputation flag for S0252
+F_S0253   1904-1905 Imputation flag for S0253
+F_S0254   1906-1907 Imputation flag for S0254
+F_S0255   1908-1909 Imputation flag for S0255
+F_S0256   1910-1911 Imputation flag for S0256
+F_S0257   1912-1913 Imputation flag for S0257
+F_S0258   1914-1915 Imputation flag for S0258
+F_S0259   1916-1917 Imputation flag for S0259
+F_S0260   1918-1919 Imputation flag for S0260
+F_S0261   1920-1921 Imputation flag for S0261
+F_S0262   1922-1923 Imputation flag for S0262
+F_S0263   1924-1925 Imputation flag for S0263
+F_S0264   1926-1927 Imputation flag for S0264
+F_S0265   1928-1929 Imputation flag for S0265
+F_S0266   1930-1931 Imputation flag for S0266
+F_S0267   1932-1933 Imputation flag for S0267
+F_S0268   1934-1935 Imputation flag for S0268
+F_S0269   1936-1937 Imputation flag for S0269
+F_S0270   1938-1939 Imputation flag for S0270
+F_S0271   1940-1941 Imputation flag for S0271
+F_S0272   1942-1943 Imputation flag for S0272
+F_S0273   1944-1945 Imputation flag for S0273
+F_S0274   1946-1947 Imputation flag for S0274
+F_S0275   1948-1949 Imputation flag for S0275
+F_S0276   1950-1951 Imputation flag for S0276
+F_S0277   1952-1953 Imputation flag for S0277
+F_S0278   1954-1955 Imputation flag for S0278
+F_S0279   1956-1957 Imputation flag for S0279
+F_S0280   1958-1959 Imputation flag for S0280
+F_S0281   1960-1961 Imputation flag for S0281
+F_S0282   1962-1963 Imputation flag for S0282
+F_S0283   1964-1965 Imputation flag for S0283
+F_S0284   1966-1967 Imputation flag for S0284
+F_S0285   1968-1969 Imputation flag for S0285
+F_S0286   1970-1971 Imputation flag for S0286
+F_S0287   1972-1973 Imputation flag for S0287
+F_S0288   1974-1975 Imputation flag for S0288
+F_S0290   1976-1977 Imputation flag for S0290
+F_S0306   1978-1979 Imputation flag for S0306
+F_S0307   1980-1981 Imputation flag for S0307
+F_S0308   1982-1983 Imputation flag for S0308
+F_S0309   1984-1985 Imputation flag for S0309
+F_S0310   1986-1987 Imputation flag for S0310
+F_S0315   1988-1989 Imputation flag for S0315
+F_S0316   1990-1991 Imputation flag for S0316
+F_S0317   1992-1993 Imputation flag for S0317
+F_S0318   1994-1995 Imputation flag for S0318
+F_S0319   1996-1997 Imputation flag for S0319
+F_S0320   1998-1999 Imputation flag for S0320
+F_S0321   2000-2001 Imputation flag for S0321
+F_S0322   2002-2003 Imputation flag for S0322
+F_S0323   2004-2005 Imputation flag for S0323
+F_S0324   2006-2007 Imputation flag for S0324
+F_S0325   2008-2009 Imputation flag for S0325
+F_S0326   2010-2011 Imputation flag for S0326
+F_S0327   2012-2013 Imputation flag for S0327
+F_S0328   2014-2015 Imputation flag for S0328
+F_S0329   2016-2017 Imputation flag for S0329
+F_S0330   2018-2019 Imputation flag for S0330
+F_S0331   2020-2021 Imputation flag for S0331
+F_S0332   2022-2023 Imputation flag for S0332
+F_S0333   2024-2025 Imputation flag for S0333
+F_S0334   2026-2027 Imputation flag for S0334
+F_S0335   2028-2029 Imputation flag for S0335
+F_S0336   2030-2031 Imputation flag for S0336
+F_S0337   2032-2033 Imputation flag for S0337
+F_S0338   2034-2035 Imputation flag for S0338
+F_S0339   2036-2037 Imputation flag for S0339
+F_S0340   2038-2039 Imputation flag for S0340
+F_S0341   2040-2041 Imputation flag for S0341
+F_S0342   2042-2043 Imputation flag for S0342
+F_S0343   2044-2045 Imputation flag for S0343
+F_S0344   2046-2047 Imputation flag for S0344
+F_S0345   2048-2049 Imputation flag for S0345
+F_S0346   2050-2051 Imputation flag for S0346
+F_S0347   2052-2053 Imputation flag for S0347
+F_S0348   2054-2055 Imputation flag for S0348
+F_S1477   2056-2057 Imputation flag for D0477
+F_S1479   2058-2059 Imputation flag for D0479
+F_S1480   2060-2061 Imputation flag for D0480
+F_S1481   2062-2063 Imputation flag for D0481
+F_S1482   2064-2065 Imputation flag for D0482
+F_S1483   2066-2067 Imputation flag for D0483
+F_S1484   2068-2069 Imputation flag for D0484
+F_S1485   2070-2071 Imputation flag for D0485
+F_S1486   2072-2073 Imputation flag for D0486
+F_S1492   2074-2075 Imputation flag for D0492
+F_S1493   2076-2077 Imputation flag for D0493
+F_S1494   2078-2079 Imputation flag for D0494
+F_S1524   2080-2081 Imputation flag for D0524
+F_S1525   2082-2083 Imputation flag for D0525
+F_S1526   2084-2085 Imputation flag for D0526
+F_S1527   2086-2087 Imputation flag for D0527
+F_S1528   2088-2089 Imputation flag for D0528
+F_S1529   2090-2091 Imputation flag for D0529
+F_S1530   2092-2093 Imputation flag for D0530
+F_S1531   2094-2095 Imputation flag for D0531
+F_S1532   2096-2097 Imputation flag for D0532
+F_S1533   2098-2099 Imputation flag for D0533
+F_S1534   2100-2101 Imputation flag for D0534
+F_S1535   2102-2103 Imputation flag for D0535
+F_S1536   2104-2105 Imputation flag for D0536
+F_S1537   2106-2107 Imputation flag for D0537
+F_S1538   2108-2109 Imputation flag for D0538
+F_S1539   2110-2111 Imputation flag for D0539
+F_S1540   2112-2113 Imputation flag for D0540
+F_S1541   2114-2115 Imputation flag for D0541
+F_S1542   2116-2117 Imputation flag for D0542
+F_S1543   2118-2119 Imputation flag for D0543
+F_S1544   2120-2121 Imputation flag for D0544
+F_S1545   2122-2123 Imputation flag for D0545
+F_S1546   2124-2125 Imputation flag for D0546
+F_S1547   2126-2127 Imputation flag for D0547
+F_S1548   2128-2129 Imputation flag for D0548
+F_S1549   2130-2131 Imputation flag for D0549
+F_S1550   2132-2133 Imputation flag for D0550
+F_S1551   2134-2135 Imputation flag for D0551
+F_S1552   2136-2137 Imputation flag for D0552
+F_S1555   2138-2139 Imputation flag for D0555
+F_S1556   2140-2141 Imputation flag for D0556
+F_S1557   2142-2143 Imputation flag for D0557
+F_S1558   2144-2145 Imputation flag for D0558
+F_S1559   2146-2147 Imputation flag for D0559
+F_S1560   2148-2149 Imputation flag for D0560
+F_S1561   2150-2151 Imputation flag for D0561
+F_S1562   2152-2153 Imputation flag for D0562
+F_S1563   2154-2155 Imputation flag for D0563
+F_S1564   2156-2157 Imputation flag for D0564
+F_S1565   2158-2159 Imputation flag for D0565
+F_S1566   2160-2161 Imputation flag for D0566
+F_S1567   2162-2163 Imputation flag for D0567
+F_S1568   2164-2165 Imputation flag for D0568
+F_S1569   2166-2167 Imputation flag for D0569
+F_S1570   2168-2169 Imputation flag for D0570
+F_S1571   2170-2171 Imputation flag for D0571
+F_S1572   2172-2173 Imputation flag for D0572
+F_S1573   2174-2175 Imputation flag for D0573
+F_S1574   2176-2177 Imputation flag for D0574
+F_S1575   2178-2179 Imputation flag for D0575
+F_S1576   2180-2181 Imputation flag for D0576
+F_S1577   2182-2183 Imputation flag for D0577
+F_S1578   2184-2185 Imputation flag for D0578
+F_S1579   2186-2187 Imputation flag for D0579
+F_S1580   2188-2189 Imputation flag for D0580
+F_S1581   2190-2191 Imputation flag for D0581
+F_S1582   2192-2193 Imputation flag for D0582
+F_S1583   2194-2195 Imputation flag for D0583
+F_S1584   2196-2197 Imputation flag for D0584
+F_S1585   2198-2199 Imputation flag for D0585
+F_S1586   2200-2201 Imputation flag for D0586
+F_S1587   2202-2203 Imputation flag for D0587
+F_S1588   2204-2205 Imputation flag for D0588
+F_S1589   2206-2207 Imputation flag for D0589
+F_S1590   2208-2209 Imputation flag for D0590
+F_S1591   2210-2211 Imputation flag for D0591
+F_S1592   2212-2213 Imputation flag for D0592
+F_S1593   2214-2215 Imputation flag for D0593
+F_S1594   2216-2217 Imputation flag for D0594
+F_S1595   2218-2219 Imputation flag for D0595
+F_S1596   2220-2221 Imputation flag for D0596
+F_S1597   2222-2223 Imputation flag for D0597
+F_S1598   2224-2225 Imputation flag for D0598
+F_S1599   2226-2227 Imputation flag for D0599
+F_S1600   2228-2229 Imputation flag for D0600
+F_S1601   2230-2231 Imputation flag for D0601
+F_S1602   2232-2233 Imputation flag for D0602
+F_S1603   2234-2235 Imputation flag for D0603
+F_S1604   2236-2237 Imputation flag for D0604
+F_S1605   2238-2239 Imputation flag for D0605
+F_S1606   2240-2241 Imputation flag for D0606
+F_S1607   2242-2243 Imputation flag for D0607
+F_S1608   2244-2245 Imputation flag for D0608
+F_S1609   2246-2247 Imputation flag for D0609
+F_S1610   2248-2249 Imputation flag for D0610
+F_S1611   2250-2251 Imputation flag for D0611
+F_S1612   2252-2253 Imputation flag for D0612
+F_S1613   2254-2255 Imputation flag for D0613
+F_S1614   2256-2257 Imputation flag for D0614
+F_S1615   2258-2259 Imputation flag for D0615
+F_S1616   2260-2261 Imputation flag for D0616
+F_S1617   2262-2263 Imputation flag for D0617
+F_S1618   2264-2265 Imputation flag for D0618
+F_S1619   2266-2267 Imputation flag for D0619
+F_S1620   2268-2269 Imputation flag for D0620
+F_S1621   2270-2271 Imputation flag for D0621
+F_S1622   2272-2273 Imputation flag for D0622
+F_S1623   2274-2275 Imputation flag for D0623
+F_S1624   2276-2277 Imputation flag for D0624
+F_S1625   2278-2279 Imputation flag for D0625
+F_S1626   2280-2281 Imputation flag for D0626
+F_S1627   2282-2283 Imputation flag for D0627
+F_S1628   2284-2285 Imputation flag for D0628
+F_S1629   2286-2287 Imputation flag for D0629
+F_S1630   2288-2289 Imputation flag for D0630
+F_S1631   2290-2291 Imputation flag for D0631
+F_S1632   2292-2293 Imputation flag for D0632
+F_S1633   2294-2295 Imputation flag for D0633
+F_S1634   2296-2297 Imputation flag for D0634
+F_S1635   2298-2299 Imputation flag for D0635
+F_S1636   2300-2301 Imputation flag for D0636
+F_S1637   2302-2303 Imputation flag for D0637
+F_S1638   2304-2305 Imputation flag for D0638
+F_S1639   2306-2307 Imputation flag for D0639
+F_S1640   2308-2309 Imputation flag for D0640
+IEPREG    785-790   IEP students in reg classroom all day
+MAG_C     761-762   Magnet program- purpose
+MAG_D     803-804   Magnet program in district
+MAGSW_C   763-764   Magnet program - schoolwide
+MINENR    773-774   Percent minority students
+MINTCH    777-778   Percent minority teachers
+NUMTCH    765-766   Estimated number of FTE teachers
+PGMTYPE   46-47     School type
+REGION    13-14     Census Region
+S0092     15-16     Total enrollment
+S0093     17-18     Number of migrants
+S0095     19-20     Male students
+S0101     21-22     Total enrollment by race/ethnicity
+S0102     23-24     Sch day-hours
+S0103     25-26     Sch day-minutes
+S0104     27-29     Absent 0-9days
+S0105     30-32     Absent 10-20 days
+S0106     33-35     Absent 21+ days
+S0107     36-37     Average daily att
+S0108     38-43     Capacity of permanent buildings
+S0109     44-45     Capacity of temporary buildings
+S0111     48-49     For students at risk
+S0112     50-51     Has magnet program
+S0113     52-53     School-wide magnet program
+S0114     54-55     Racial or ethnic magnet
+S0115     56-57     Admission requirements
+S0116     58-59     Admission-admission test
+S0117     60-61     Admission-standardized test
+S0118     62-63     Admission-academic record
+S0119     64-65     Admission-special needs
+S0120     66-67     Admission-special talents
+S0121     68-69     Admission-interview
+S0122     70-71     Admission-recommendation
+S0125     72-73     Program-instructional approach
+S0126     74-75     Program-talented/gifted
+S0127     76-77     Program-foreign language
+S0128     78-79     Program-AP courses
+S0129     80-81     Program-Internat. Baccalaureate
+S0130     82-83     Program-Career academy
+S0131     84-85     Program-Tech-prep
+S0132     86-87     Program-Students w/discipline problems
+S0133     88-89     Programs-health care
+S0134     90-91     Programs-day care
+S0135     92-93     District perfmnce reports
+S0136     94-95     Rpts used to eval studnt progress
+S0137     96-97     Rpts used for nxt yr focus
+S0138     98-99     Rpts used to realign currlm
+S0139     100-101   Rpts used to inform parents
+S0140     102-103   Rpts used to prompt improvement
+S0141     104-105   Org-traditional grades
+S0142     106-107   Org-grades subdivided
+S0143     108-109   Org-keep same tchr
+S0144     110-111   Org-intrdisciplinary tchng
+S0145     112-113   Org-Team teaching
+S0146     114-115   Block class scheduling
+S0147     116-117   Before/after school enrichment
+S0148     118-119   Summr sch/acadmc intersess-remedial
+S0149     120-121   Summr sch/acadmc intersess-advncmnt
+S0150     122-123   Calendar-more days
+S0151     124-125   Yr-round calendar-mand days
+S0152     126-127   Yr-round same cycle
+S0153     128-129   Has grades 1-8
+S0154     130-131   Gr 1-8-Core subj
+S0155     132-133   Has grades 9-12
+S0156     134-135   Gr 9-12-Core subj
+S0157     136-137   Opportunity for college credit
+S0158     138-139   Opportunity for work-based learning
+S0159     140-141   Opportunity for career learning
+S0160     142-143   Opportunity for job shadowing
+S0161     144-145   12th graders last year
+S0164     146-148   Percentage graduated last year
+S0165     149-151   Percentage to 4yr coll
+S0166     152-154   Percentage to 2yr coll
+S0167     155-157   Percentage to tech sch
+S0168     158-159   School open house
+S0169     160-161   Open house-participation
+S0170     162-163   Parent-tchr conferences
+S0171     164-165   PT conf - participation
+S0172     166-167   Subj area events
+S0173     168-169   Subj. area events-participation
+S0174     170-171   Workshops for parents
+S0175     172-173   Workshop-participation
+S0176     174-175   Sch-parent contract
+S0177     176-177   Contract-participation
+S0178     178-179   Parent volunteers
+S0179     180-181   Parent volunteer-participation
+S0180     182-183   Parents in instruction
+S0181     184-185   Instruction-participation
+S0182     186-187   Parents in govrnnce
+S0183     188-189   Parnts-gov-participation
+S0184     190-191   Parents - budget
+S0185     192-193   Budget-participation
+S0186     194-195   Staff-parent invlvmnt
+S0187     196-197   Participation log
+S0188     198-199   Communication w/parents
+S0189     200-201   Parent support serv
+S0190     202-203   Parent lounge
+S0191     204-205   Info to parents
+S0192     206-207   Suggestions for parents
+S0193     208-209   Homework with parents
+S0194     210-211   Drug/alcohol/tobacco prog
+S0195     212-213   Dr/alc/tob assesmnt prog
+S0196     214-215   Security-visitors
+S0197     216-217   Security-metal det-all
+S0198     218-219   Security-metal det-some
+S0199     220-221   Security-closed lunch
+S0200     222-223   Security-drug sweeps
+S0201     224-225   Security-police
+S0202     226-227   Security-video
+S0203     228-229   Violence prevtion prog
+S0204     230-231   Assessmnt for violnce prev prog
+S0205     232-233   PT principals
+S0206     234-235   FT principals
+S0207     236-237   PT vice principals
+S0208     238-239   FT vice principals
+S0211     240-241   PT coordinators
+S0212     242-243   FT coordinators
+S0213     244-245   PT librarians
+S0214     246-247   FT librarians
+S0215     248-249   PT counselors
+S0216     250-251   FT counselors
+S0217     252-253   PT nurses
+S0218     254-255   FT nurses
+S0219     256-257   PT social workers
+S0220     258-259   FT social workers
+S0221     260-261   PT psychologists
+S0222     262-263   FT psychologists
+S0223     264-265   PT speech pathologists
+S0224     266-267   FT speech pathologists
+S0225     268-269   PT othr prof support
+S0226     270-271   FT othr prof support
+S0229     274-275   PT library aides
+S0230     276-277   FT library aides
+S0231     278-279   PT spec ed aides
+S0232     280-281   FT spec ed aides
+S0233     282-283   PT Title I aides
+S0234     284-285   FT Title I aides
+S0235     286-287   PT bilngl/ESL aides
+S0236     288-289   FT bilngl/ESL aides
+S0237     290-291   PT oth tchr aides
+S0238     292-293   FT oth tchr aides
+S0239     294-295   PT oth aides
+S0240     296-297   FT oth aides
+S0241     298-299   PT secretaries
+S0242     300-301   FT secretaries
+S0243     302-303   PT food service
+S0244     304-305   FT food service
+S0245     306-307   PT custodians
+S0246     308-309   FT custodians
+S0247     310-311   PT other employees
+S0248     312-313   FT other employees
+S0249     314-315   Hispanic teachers
+S0250     316-317   White teachers
+S0251     318-319   Black teachers
+S0252     320-321   Am Indian teachers
+S0253     322-323   Asian/PI teachers
+S0254     324-325   Total teachers
+S0255     326-327   Absent teachers
+S0256     328-329   Tchng vacancies
+S0257     330-331   Hired qualified tchr
+S0258     332-333   Hired unqualified tchr
+S0259     334-335   Cancelled course
+S0260     336-337   Expanded class size
+S0261     338-339   Added to oth tchrs wrklds
+S0262     340-341   Tchr oth subj/level
+S0263     342-343   Assigned admin
+S0264     344-345   Substitute tchr
+S0265     346-347   Vacnc-gen elem
+S0266     348-349   Vacnc-spec ed
+S0267     350-351   Vacnc-English
+S0268     352-353   Vacnc-soc st
+S0269     354-355   Vacnc-comp sci
+S0270     356-357   Vacnc-math
+S0271     358-359   Vacnc-biology
+S0272     360-361   Vacnc-phys sci
+S0273     362-363   Vacnc-ESL
+S0274     364-365   Vacnc-foreign lang
+S0275     366-367   Vacnc-music or art
+S0276     368-369   Vacnc-vo-tech
+S0277     370-373   Number of computers
+S0278     374-377   Computers with internet connection
+S0279     378-381   Computers for instruction
+S0280     382-383   Comp coord
+S0281     384-385   Tech support person
+S0282     386-387   Any eligible for lunch prog
+S0283     388-389   Eligible PK students
+S0284     390-391   Eligible K-12 students
+S0285     392-393   Partipate in lunch prog
+S0286     394-395   Approved PK students
+S0287     396-397   Approved K-12 students
+S0288     398-399   Any students receive Title 1 services
+S0290     400-401   Number of students served by Title I
+S0306     402-403   Title I-reading
+S0307     404-405   Title I-math
+S0308     406-407   Title I-ESL
+S0309     408-409   Title I teachers
+S0310     410-411   Title I teacher aides
+S0315     412-413   IEP students
+S0316     414-415   IEP stud-reg classrm-all day
+S0317     416-417   IEP stud-sp ed classrm-1-20 pct day
+S0318     418-419   IEP stud-sp ed classrm-21-60 pct day
+S0319     420-421   IEP stud-sp ed classrm-60+ pct day
+S0320     422-423   Has LEP students
+S0321     424-425   Number of  LEP students
+S0322     426-427   LEP-information from parents
+S0323     428-429   LEP-teacher observation or referral
+S0324     430-431   LEP-home language survey
+S0325     432-433   LEP-student interview
+S0326     434-435   LEP-student records
+S0327     436-437   LEP-achievement tests
+S0328     438-439   LEP-lang test
+S0329     440-441   Instruction for ESL students
+S0330     442-443   ESL/bilingual instruction
+S0331     444-445   Instr. to maintain native language
+S0332     446-447   Instr. in regular English class
+S0333     448-449   Subject matter in native language
+S0334     450-451   Subject matter w/ESL/bilingual
+S0335     452-453   Subj. matter in reg. Eng.-speaking class
+S0336     454-455   LEP students in remedial classes
+S0337     456-457   LEP students in special ed.
+S0338     458-459   LEP students in regular classes
+S0339     460-461   Interpreters for LEP parents
+S0340     462-463   Translations for LEP parents
+S0341     464-465   Outreach for LEP parents
+S0342     466-467   Any migrant students
+S0343     468-469   Number of migrant students
+S0344     470-471   MEP funded progrms during sch yr
+S0345     472-473   MEP-supplemental instr
+S0346     474-475   MEP-migrants only
+S0347     476-477   MEP-support serv
+S0348     478-479   MEP-other
+S1477     480-481   Tchr hiring-full certification
+S1479     482-483   Tchr hiring-emerg cert
+S1480     484-485   Tchr hiring-tchr ed prog
+S1481     486-487   Tchr hiring-major/minor in field
+S1482     488-489   Tchr hiring-state skills test
+S1483     490-491   Tchr hiring-state subj test
+S1484     492-493   Tchr hiring-dist test
+S1485     494-495   Tchr hiring-Praxis Core
+S1486     496-497   Tchr hiring-Praxis II
+S1492     498-499   Dismissal-criteria met
+S1493     500-501   Dismissal-counseled out
+S1494     502-503   Dismissal-contracts not renewed
+S1524     504-505   Reports-test results
+S1525     506-507   Reports-attendance
+S1526     508-509   Reports-Graduation rate
+S1527     510-511   Reports-dropout rates
+S1528     512-513   Reports-mobility
+S1529     514-515   Reports-SAT/ACT
+S1530     516-517   Reports-senior placements
+S1531     518-519   Reports-graduates jobs
+S1532     520-521   Reports-by demographics
+S1533     522-523   Reports-evaluate progress
+S1534     524-525   Reports-next yr focus
+S1535     526-527   Reports-realign curriculum
+S1536     528-529   Reports-inform parents
+S1537     530-531   Reports-sch level imprvments
+S1538     532-533   Distribute reports to schls
+S1539     534-535   Requires participation
+S1540     536-537   State rewards
+S1541     538-539   State sanctions
+S1542     540-541   District rewards
+S1543     542-543   District sanctions
+S1544     544-546   Received cash rewards
+S1545     547-549   Recognition award
+S1546     550-552   Technical assistance
+S1547     553-555   Principal reassigned
+S1548     556-558   Taken over
+S1549     559-561   New tching staff
+S1550     562-563   Dist rewarded
+S1551     564-565   Dist received warning
+S1552     566-567   Dist taken over
+S1555     568-569   Within dist choice prog
+S1556     570-571   Choice req justification
+S1557     572-573   Choice-another dist
+S1558     574-578   Students enrolled other dist
+S1559     579-580   Choice-students from other dist
+S1560     581-585   Number of st from oth dist
+S1561     586-587   Magnet program
+S1562     588-589   Magnet-racial balance
+S1563     590-591   School within school
+S1564     592-593   Postsecondary
+S1565     594-595   Other programs
+S1566     596-597   Monitors home-schoolers
+S1567     598-599   Home-schlers req-state standards
+S1568     600-601   Home-schlers-st/dist achvmnt tests
+S1569     602-603   Home schlrs-st/dist test-stndrd
+S1570     604-605   Home schlrs-other achvmnt test
+S1571     606-607   Home schlrs-oth test-stndrd
+S1572     608-609   Home schlrs-other evidence
+S1573     610-611   Home schlrs-oth evid-stndrd
+S1574     612-613   Grants hs diplomas
+S1575     614-617   HS grad req-English
+S1576     618-621   HS grad req-math
+S1577     622-625   HS grad req-comp sci
+S1578     626-629   HS grad req-soc sci
+S1579     630-633   HS grad req-phys/bio sci
+S1580     634-637   HS grad req-foreign lang
+S1581     638-639   HS program length
+S1582     640-641   Other program length
+S1583     642-643   Community service req
+S1584     644-645   Comm serv requires hrs
+S1585     646-648   Hrs comm serv req
+S1586     649-650   HS grad-pass state assessment
+S1587     651-652   Prog-aspiring sch admin
+S1588     653-654   Adm prof dev-internships
+S1589     655-656   Adm prof dev-mngmnt techniques
+S1590     657-658   Adm prof dev-eval/superv
+S1591     659-660   Adm prof dev-technology
+S1592     661-662   Adm prof dev-curriculum
+S1593     663-664   Adm prof dev-networking
+S1594     665-666   Adm prof dev-reimbursement
+S1595     667-668   Adm prof dev-college
+S1596     669-670   Adm prof dev-mentors
+S1597     671-672   Adm prof dev-retreats
+S1598     673-674   Adm prof dev-visits
+S1599     675-676   Tchr prof dev-content
+S1600     677-678   Tchr prof dev-design
+S1601     679-680   Tchr prof dev-conduct
+S1602     681-682   Tchr prof dev fund-gen dist
+S1603     683-684   Tchr prof dev fund-gen sch
+S1604     685-686   Tchr prof dev fund-state
+S1605     687-688   Tchr prof dev fund-special
+S1606     689-690   Tchr prof dev fund-sch impr
+S1607     691-692   Tchr prof dev fund-TitleI
+S1608     693-694   Tchr prof dev fund-Eisenhower
+S1609     695-696   Tchr prof dev-oth fed
+S1610     697-698   Tchr prof dev fund-private
+S1611     699-700   Incentives-national certification
+S1612     701-702   Incentives-excellence
+S1613     703-704   Incentives-inservice prof dev
+S1614     705-706   Incentives-location
+S1615     707-708   Incentives-shortage fields
+S1616     709-710   Incentives-gen elem
+S1617     711-712   Incentives-spec ed
+S1618     713-714   Incentives-English
+S1619     715-716   Incentives-soc studies
+S1620     717-718   Incentives-comp sci
+S1621     719-720   Incentives-math
+S1622     721-722   Incentives-phys sci
+S1623     723-724   Incentives-biology
+S1624     725-726   Incentives-ESL
+S1625     727-728   Incentives-foreign lang
+S1626     729-730   Incentives-music/art
+S1627     731-732   Incentives-voc ed
+S1628     733-734   Training-shortage fields
+S1629     735-736   Training-gen elem
+S1630     737-738   Training-spec ed
+S1631     739-740   Training-English
+S1632     741-742   Training-social studies
+S1633     743-744   Training-computer sci
+S1634     745-746   Training-math
+S1635     747-748   Training-phys sci
+S1636     749-750   Training-biology
+S1637     751-752   Training-ESL
+S1638     753-754   Training-foreign lang
+S1639     755-756   Training-music/art
+S1640     757-758   Training-voc tech
+SCHLEVEL  759-760   School Level (3 categories)
+SECTOR    9-10      School sector
+STDREW_D  793-794   State rewards or sanctions
+STDREW_S  795-796   District rewards or sanctions
+STDREWNS  797-798   No schools rewarded
+STDSANNS  799-800   No schools sanctioned
+STU_TCH   767-772   Estimated student-teacher ratio
+SURVEY    7-8       Survey identifier
+TOTTEACH  272-273   FT teachers
+URBANIC   11-12     Urbanicity of school
+VIOLPRG   775-776   Violence prevention program
+SCHCNTL   1-6       School control number
+SFNLWGT   805-813   School final weight
+SREPWT1   814-822   School final replicate weight 1
+SREPWT10  895-903   School final replicate weight 10
+SREPWT11  904-912   School final replicate weight 11
+SREPWT12  913-921   School final replicate weight 12
+SREPWT13  922-930   School final replicate weight 13
+SREPWT14  931-939   School final replicate weight 14
+SREPWT15  940-948   School final replicate weight 15
+SREPWT16  949-957   School final replicate weight 16
+SREPWT17  958-966   School final replicate weight 17
+SREPWT18  967-975   School final replicate weight 18
+SREPWT19  976-984   School final replicate weight 19
+SREPWT2   823-831   School final replicate weight 2
+SREPWT20  985-993   School final replicate weight 20
+SREPWT21  994-1002  School final replicate weight 21
+SREPWT22  1003-1011 School final replicate weight 22
+SREPWT23  1012-1020 School final replicate weight 23
+SREPWT24  1021-1029 School final replicate weight 24
+SREPWT25  1030-1038 School final replicate weight 25
+SREPWT26  1039-1047 School final replicate weight 26
+SREPWT27  1048-1056 School final replicate weight 27
+SREPWT28  1057-1065 School final replicate weight 28
+SREPWT29  1066-1074 School final replicate weight 29
+SREPWT3   832-840   School final replicate weight 3
+SREPWT30  1075-1083 School final replicate weight 30
+SREPWT31  1084-1092 School final replicate weight 31
+SREPWT32  1093-1101 School final replicate weight 32
+SREPWT33  1102-1110 School final replicate weight 33
+SREPWT34  1111-1119 School final replicate weight 34
+SREPWT35  1120-1128 School final replicate weight 35
+SREPWT36  1129-1137 School final replicate weight 36
+SREPWT37  1138-1146 School final replicate weight 37
+SREPWT38  1147-1155 School final replicate weight 38
+SREPWT39  1156-1164 School final replicate weight 39
+SREPWT4   841-849   School final replicate weight 4
+SREPWT40  1165-1173 School final replicate weight 40
+SREPWT41  1174-1182 School final replicate weight 41
+SREPWT42  1183-1191 School final replicate weight 42
+SREPWT43  1192-1200 School final replicate weight 43
+SREPWT44  1201-1209 School final replicate weight 44
+SREPWT45  1210-1218 School final replicate weight 45
+SREPWT46  1219-1227 School final replicate weight 46
+SREPWT47  1228-1236 School final replicate weight 47
+SREPWT48  1237-1245 School final replicate weight 48
+SREPWT49  1246-1254 School final replicate weight 49
+SREPWT5   850-858   School final replicate weight 5
+SREPWT50  1255-1263 School final replicate weight 50
+SREPWT51  1264-1272 School final replicate weight 51
+SREPWT52  1273-1281 School final replicate weight 52
+SREPWT53  1282-1290 School final replicate weight 53
+SREPWT54  1291-1299 School final replicate weight 54
+SREPWT55  1300-1308 School final replicate weight 55
+SREPWT56  1309-1317 School final replicate weight 56
+SREPWT57  1318-1326 School final replicate weight 57
+SREPWT58  1327-1335 School final replicate weight 58
+SREPWT59  1336-1344 School final replicate weight 59
+SREPWT6   859-867   School final replicate weight 6
+SREPWT60  1345-1353 School final replicate weight 60
+SREPWT61  1354-1362 School final replicate weight 61
+SREPWT62  1363-1371 School final replicate weight 62
+SREPWT63  1372-1380 School final replicate weight 63
+SREPWT64  1381-1389 School final replicate weight 64
+SREPWT65  1390-1398 School final replicate weight 65
+SREPWT66  1399-1407 School final replicate weight 66
+SREPWT67  1408-1416 School final replicate weight 67
+SREPWT68  1417-1425 School final replicate weight 68
+SREPWT69  1426-1434 School final replicate weight 69
+SREPWT7   868-876   School final replicate weight 7
+SREPWT70  1435-1443 School final replicate weight 70
+SREPWT71  1444-1452 School final replicate weight 71
+SREPWT72  1453-1461 School final replicate weight 72
+SREPWT73  1462-1470 School final replicate weight 73
+SREPWT74  1471-1479 School final replicate weight 74
+SREPWT75  1480-1488 School final replicate weight 75
+SREPWT76  1489-1497 School final replicate weight 76
+SREPWT77  1498-1506 School final replicate weight 77
+SREPWT78  1507-1515 School final replicate weight 78
+SREPWT79  1516-1524 School final replicate weight 79
+SREPWT8   877-885   School final replicate weight 8
+SREPWT80  1525-1533 School final replicate weight 80
+SREPWT81  1534-1542 School final replicate weight 81
+SREPWT82  1543-1551 School final replicate weight 82
+SREPWT83  1552-1560 School final replicate weight 83
+SREPWT84  1561-1569 School final replicate weight 84
+SREPWT85  1570-1578 School final replicate weight 85
+SREPWT86  1579-1587 School final replicate weight 86
+SREPWT87  1588-1596 School final replicate weight 87
+SREPWT88  1597-1605 School final replicate weight 88
+SREPWT9   886-894   School final replicate weight 9
+
+/* Variable Value Labels */
+F_S0176
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0236
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0155
+   1 = "Yes"
+   2 = "No"
+F_S0222
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1590
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0092
+   0 = "Not imputed"
+F_S0247
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0257
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1631
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+URBANIC
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+S1531
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0118
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0197
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0208
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0346
+   1 = "Instructional programs unique to migrant students"
+   -8 = "Valid skip"
+   -9 = "Missing"
+F_S1534
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1525
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0194
+   1 = "Yes"
+   2 = "No"
+F_S0133
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1571
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S1626
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0277
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1533
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0136
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0290
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0323
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1541
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1587
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0259
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1604
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0331
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1486
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+F_S1546
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S0185
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0117
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1574
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0109
+   1 = "Yes"
+   2 = "No"
+S0288
+   1 = "Yes"
+   2 = "No"
+S1615
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0269
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0252
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0144
+   1 = "Yes"
+   2 = "No"
+F_S0342
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1593
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0158
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0315
+   1 = "Less than 5%"
+   2 = "5 - 9%"
+   3 = "10 - 14%"
+   4 = "15 - 19%"
+   5 = "20% or more"
+F_S0322
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0095
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0137
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0276
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0223
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1568
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0347
+   1 = "Support services"
+   -8 = "Valid skip"
+   -9 = "Missing"
+F_S1599
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0326
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1560
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1528
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0286
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0337
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0179
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0152
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1526
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1621
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1606
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1638
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1529
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1586
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1570
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1612
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0132
+   1 = "Yes"
+   2 = "No"
+S1551
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0196
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1609
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1561
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1583
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0254
+   1 = "Fewer than 25 teachers"
+   2 = "25 - 34 teachers"
+   3 = "35 or more teachers"
+F_S0272
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0105
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0180
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1594
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0336
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1627
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1626
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0212
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1484
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+S0344
+   1 = "Yes"
+   2 = "No"
+   3 = "Do Not Know"
+   -8 = "Valid skip"
+S0275
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0325
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0160
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1556
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1533
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0320
+   1 = "Yes"
+   2 = "No"
+S0329
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0155
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0127
+   1 = "Yes"
+   2 = "No"
+S0157
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1596
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1624
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0283
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0319
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0332
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1537
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0143
+   1 = "Yes"
+   2 = "No"
+S0137
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Missing"
+S1608
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0191
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1564
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0202
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1543
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+SURVEY
+   3 = "Public School"
+MAGSW_C
+   0 = "School does not have a magnet program"
+   1 = "School has a magnet program but it is not school-wide"
+   2 = "School has a magnet program and it is school-wide"
+S0150
+   1 = "Yes"
+   2 = "No"
+F_S0245
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1582
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0130
+   1 = "Yes"
+   2 = "No"
+F_S1544
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1559
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0264
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1603
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1613
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1581
+   1 = "3-year program"
+   2 = "4-year program"
+   3 = "Other"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0165
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0197
+   1 = "Yes"
+   2 = "No"
+F_S0308
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0282
+   1 = "Yes"
+   2 = "No"
+   3 = "Don't know"
+F_S0129
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0173
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0215
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1539
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0114
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1530
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1623
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0115
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0145
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1531
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0131
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0173
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0156
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1477
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0237
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0146
+   1 = "Yes"
+   2 = "No"
+S1640
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0280
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1599
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   3 = "District staff"
+   4 = "Outside professional development providers (e.g.,  university or college faculty, professional organizations)"
+   -9 = "Not available because district was a noninterview"
+F_S0205
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0186
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0256
+   1 = "Yes"
+   2 = "No"
+F_S0144
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0328
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0181
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S1493
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0170
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1600
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   3 = "District staff"
+   4 = "Outside professional development providers (e.g.,  university or college faculty, professional organizations)"
+   -9 = "Not available because district was a noninterview"
+S1632
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0285
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1585
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0290
+   1 = "Less than 5%"
+   2 = "5 - 9%"
+   3 = "10 - 24%"
+   4 = "25% or more"
+   -8 = "Valid skip"
+S1573
+   1 = "State requirement"
+   2 = "District requirement"
+   3 = "Both a state and a district requirement"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0189
+   1 = "Yes"
+   2 = "No"
+F_S1576
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S0190
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0324
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1493
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0240
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0278
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0281
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0323
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+SECTOR
+   A = "Public"
+F_S0148
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0107
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0128
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0092
+   1 = "Less than 300"
+   2 = "300 - 499"
+   3 = "500 or more"
+S0111
+   1 = "Yes"
+   2 = "No"
+S0316
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+F_S0334
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0132
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0317
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0157
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1622
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1529
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0145
+   1 = "Yes"
+   2 = "No"
+S0159
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1598
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0178
+   1 = "Yes"
+   2 = "No"
+F_S0189
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1635
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1583
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0243
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0193
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1608
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1562
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0188
+   1 = "Yes"
+   2 = "No"
+S0339
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1580
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0168
+   1 = "Yes"
+   2 = "No"
+F_S0200
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1542
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1557
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0108
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1588
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1550
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1579
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S1482
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+F_S1615
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1600
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1605
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+STDREWNS
+   1 = "State or district has not rewarded any schools during past 12 months"
+   2 = "State or district has rewarded one or more schools during past 12 months"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1479
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0235
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1483
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+S1536
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0167
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0248
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0140
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Missing"
+S0310
+   1 = "0 aides"
+   2 = "1 or more aides"
+   -8 = "Valid skip"
+F_S0171
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0266
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0340
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0288
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0191
+   1 = "Yes"
+   2 = "No"
+S0171
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0217
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0156
+   1 = "Classes in ALL core subjects are differentiated by student ability level."
+   2 = "Classes in SOME core subjects are differentiated by student ability level"
+   3 = "Classes in core subjects are NOT differentiated by ability level"
+   4 = "Not applicable; only one class per grade"
+   -8 = "Valid skip"
+S0148
+   1 = "Yes"
+   2 = "No"
+S0199
+   1 = "Yes"
+   2 = "No"
+F_S0192
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0150
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0276
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0271
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0203
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0309
+   1 = "0 teachers"
+   2 = "1 or more teachers"
+   -8 = "Valid skip"
+S0183
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S1555
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0190
+   1 = "Yes"
+   2 = "No"
+S1571
+   1 = "State requirement"
+   2 = "District requirement"
+   3 = "Both a state and a district requirement"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1630
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0184
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0263
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1590
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0283
+   1 = "0 students"
+   2 = "1 - 14 students"
+   3 = "15 or more students"
+   -8 = "Valid skip"
+S1602
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1614
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0250
+   1 = "Less than 20%"
+   2 = "20 - 49%"
+   3 = "50 - 84%"
+   4 = "85 - 98%"
+   5 = "99 - 100%"
+F_S1578
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S1569
+   1 = "State requirement"
+   2 = "District requirement"
+   3 = "Both a state and a district requirement"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0263
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1525
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0164
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0224
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0341
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1565
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1480
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+S1637
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0227
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0321
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0202
+   1 = "Yes"
+   2 = "No"
+F_S0159
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0287
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0170
+   1 = "Yes"
+   2 = "No"
+S1559
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0325
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+COLBARG
+   0 = "District has no agreement with teachers' union or organization"
+   1 = "District has a meet-and-confer agreement with teachers' union or organization"
+   2 = "District has collective bargaining agreement with teachers' union or organization"
+   -9 = "Not available because district was a noninterview"
+F_S0234
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0147
+   1 = "Yes"
+   2 = "No"
+F_S0142
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1597
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0134
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0329
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1606
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0182
+   1 = "Yes"
+   2 = "No"
+F_S0275
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1589
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0253
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5% or more"
+S1556
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0183
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0266
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0119
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1555
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1566
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1573
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1572
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1639
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1634
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0344
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0122
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+TOTTEACH
+   1 = "Fewer than 25 teachers"
+   2 = "25 - 34 teachers"
+   3 = "35 or more teachers"
+F_S0320
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0093
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+STDREW_S
+   0 = "District neither rewards nor sanctions schools"
+   1 = "District sanctions schools but does not reward them"
+   2 = "District rewards schools but does not sanction them"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0254
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0316
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0328
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0345
+   1 = "Supplemental instruction available to all students"
+   -8 = "Valid skip"
+   -9 = "Missing"
+S0093
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+F_S0225
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0149
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0317
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+S1595
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1562
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0260
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0307
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0284
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0339
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1535
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0169
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1528
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0121
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0154
+   1 = "All classes in core subjects have students assigned into classrooms of mixed ability levels."
+   2 = "Some classes in core subjects have students assigned into classrooms of mixed ability levels."
+   3 = "Not applicable; only one class per grade"
+   -8 = "Valid skip"
+F_S1603
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1629
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1636
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1588
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1572
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0335
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0138
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Missing"
+F_S0270
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0249
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+S1477
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+F_S0114
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0198
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1484
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0281
+   1 = "No one serves as this type of technical support person.  Teachers who use computers take care of this need for themselves."
+   2 = "A full-time school-level technical support person (who has no other job responsibility)"
+   3 = "A library media specialist who also serves as a technical support person"
+   4 = "A full-time teacher who also has the title of this type of technical support person"
+   5 = "A teacher informally provides leadership to other teachers who use computers"
+   6 = "A district-level technical support person serves this function at this school"
+   7 = "The principal or another school administrator serves this function at this school"
+   8 = "A part-time teacher serves this function"
+   9 = "Another person"
+   -8 = "Valid skip"
+F_S1549
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0265
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1592
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0334
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0103
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1552
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0160
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1541
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+VIOLPRG
+   0 = "School does not have a violence prevention program"
+   1 = "School has a violence prevention program but no formal procedure for assessing its effectiveness"
+   2 = "School has a violence prevention program and a formal procedure for assessing its effectiveness"
+F_S0118
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0180
+   1 = "Yes"
+   2 = "No"
+S1485
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+F_S1481
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1567
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0166
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0343
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1567
+   1 = "Yes, state standards"
+   2 = "Yes, district standards"
+   3 = "Yes, both state and district standards"
+   4 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0265
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0214
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0232
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1530
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0342
+   1 = "Yes"
+   2 = "No"
+F_S0226
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0229
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1535
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0140
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0338
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0174
+   1 = "Yes"
+   2 = "No"
+F_S0259
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0120
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0330
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0101
+   1 = "Less than 300"
+   2 = "300 - 499"
+   3 = "500 or more"
+S0125
+   1 = "Yes"
+   2 = "No"
+F_S1637
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0184
+   1 = "Yes"
+   2 = "No"
+S0270
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0327
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0199
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1595
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0135
+   1 = "Yes"
+   2 = "No"
+MAG_C
+   0 = "School does not have a magnet program"
+   1 = "School has a magnet program and its purpose is not racial/ethnic integration"
+   2 = "School has a magnet program and its purpose is racial/ethnic integration"
+F_S0273
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1611
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+NUMTCH
+   1 = "Fewer than 25 teachers"
+   2 = "25 - 34 teachers"
+   3 = "35 or more teachers"
+S1570
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1534
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1631
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0104
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1611
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0260
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1632
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1625
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1575
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S1492
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0282
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+STDSANNS
+   1 = "State or district has not sanctioned any schools during past 12 months"
+   2 = "State or district has sanctioned one or more schools during past 12 months"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0343
+   1 = "1 - 4 students"
+   2 = "5 - 19 students"
+   3 = "20 or more"
+   -8 = "Valid skip"
+F_S0326
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0120
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0147
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1564
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0095
+   1 = "Less than 25%"
+   2 = "25 - 49%"
+   3 = "50 - 74%"
+   4 = "75% or more"
+F_S0256
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0117
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0128
+   1 = "Yes"
+   2 = "No"
+F_S0154
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0116
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0319
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+F_S0143
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0179
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S1565
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0258
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1607
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0126
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1574
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+MAG_D
+   0 = "District does not have a magnet program"
+   1 = "District has a magnet program but purpose is not racial/ethnic integration"
+   2 = "District has a magnet program and purpose is racial/ethnic integration"
+   -9 = "Not available because district was a noninterview"
+S0322
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1598
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1627
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0116
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0136
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Missing"
+S1610
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0246
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1622
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0346
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1550
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0267
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0332
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1589
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0176
+   1 = "Yes"
+   2 = "No"
+S1617
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0138
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0196
+   1 = "Yes"
+   2 = "No"
+S1592
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0220
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0251
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0307
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0267
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0174
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0206
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1536
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0113
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1561
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0308
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0336
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1527
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0152
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0153
+   1 = "Yes"
+   2 = "No"
+F_S0151
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+PGMTYPE
+   1 = "REGULAR elementary or secondary school"
+   3 = "Elementary or secondary school with a SPECIAL PROGRAM EMPHASIS (such as a science/math school, performing arts school, talented/gifted school, foreign language immersion school, etc.)"
+   4 = "SPECIAL EDUCATION school - primarily serves students with disabilities"
+   5 = "VOCATIONAL/TECHNICAL school - primarily serves students being trained for occupations"
+   6 = "ALTERNATIVE - offers a curriculum designed to provide alternative or nontraditional education; does not specifically fall into the categories of regular, special program, special education, or vocational school"
+F_S0111
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1483
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1494
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0286
+   1 = "0 students"
+   2 = "1 - 14 students"
+   3 = "15 or more students"
+   -8 = "Valid skip"
+F_S0195
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+MINENR
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+F_S0106
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1617
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1540
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1593
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1602
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1628
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1630
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0337
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1494
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1633
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0241
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1552
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+STDREW_D
+   0 = "State neither rewards nor sanctions districts or schools"
+   1 = "State sanctions districts or schools but does not reward them"
+   2 = "State rewards districts or schools but does not sanction them"
+   3 = "State both rewards and sanctions districts or schools"
+   -9 = "Not available because district was a noninterview"
+S0268
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0274
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S1640
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1638
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0177
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0181
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0221
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0228
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0340
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1524
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0203
+   1 = "Yes"
+   2 = "No"
+CHOJUST
+   0 = "District does not have a choice program for schools within the district"
+   1 = "District has a choice program and students need not justify their choices"
+   2 = "District has a choice program but students must justify their choices"
+   -9 = "Not available because district was a noninterview"
+F_S0161
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0211
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1526
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0219
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0331
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1610
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0193
+   1 = "Yes"
+   2 = "No"
+F_S0141
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0142
+   1 = "Yes"
+   2 = "No"
+S0177
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S1620
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0330
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0135
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0348
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1616
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0274
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0110
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   4 = "Value was imputed by using data from the sample file (CCD data)"
+   8 = "Value was imputed by hand (clerical)"
+S1636
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0185
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S1581
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0200
+   1 = "Yes"
+   2 = "No"
+F_S1614
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0201
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1540
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0182
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1545
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0273
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S1635
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1624
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0268
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0169
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+S1639
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0204
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0115
+   1 = "Yes"
+   2 = "No"
+S1619
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0172
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0269
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+F_S0238
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0149
+   1 = "Yes"
+   2 = "No"
+S0327
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0129
+   1 = "Yes"
+   2 = "No"
+F_S0285
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1563
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1594
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0253
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1527
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0261
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0198
+   1 = "Yes"
+   2 = "No"
+S1539
+   1 = "Yes, all schools must participate"
+   2 = "Yes, but charter schools are exempt"
+   3 = "No, schools can participate on a voluntary basis"
+   4 = "No, there is no district-level assessment program"
+   -9 = "Not available because district was a noninterview"
+F_S0153
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0204
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1591
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0335
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0347
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1584
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+S0280
+   1 = "No one serves as this type of coordinator.  Teachers who use computers take care of this need for themselves."
+   2 = "A full-time school-level computer coordinator (who has no other job responsibility)"
+   3 = "A library media specialist who also serves as computer coordinator"
+   4 = "A full-time teacher who also has the title of this type of coordinator"
+   5 = "A teacher informally provides leadership to other teachers who use computers"
+   6 = "A district-level coordinator serves this function at this school"
+   7 = "The principal or another school administrator serves this function at this school"
+   8 = "A part-time teacher serves this function"
+   9 = "Another person"
+   -8 = "Valid skip"
+S0139
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Missing"
+F_S0113
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1619
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0251
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+S1621
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1601
+   1 = "Teachers"
+   2 = "Principals or other school staff"
+   3 = "District staff"
+   4 = "Outside professional development providers (e.g.,  university or college faculty, professional organizations)"
+   -9 = "Not available because district was a noninterview"
+F_S0309
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1485
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0284
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+S1492
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0264
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0306
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0310
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1532
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0175
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0195
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1568
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0272
+   1 = "Not applicable in this school"
+   2 = "No vacancy in that field"
+   3 = "Easy"
+   4 = "Somewhat difficult"
+   5 = "Very difficult"
+   6 = "Could not fill the vacancy"
+   -8 = "Valid skip"
+S0262
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0127
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0213
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0231
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1537
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0112
+   1 = "Yes"
+   2 = "No"
+S0201
+   1 = "Yes"
+   2 = "No"
+S1597
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0333
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1625
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1524
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0239
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0318
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+S0175
+   1 = "Few"
+   2 = "Less than half"
+   3 = "About half"
+   4 = "More than half"
+   5 = "Most"
+   -8 = "Valid skip"
+F_S0112
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1634
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1479
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+F_S1605
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1542
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+SCHLEVEL
+   1 = "Elementary"
+   2 = "Secondary"
+   3 = "Combined"
+F_S1587
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0187
+   1 = "Yes"
+   2 = "No"
+F_S1538
+   0 = "Not imputed"
+   3 = "Value was imputed by using data from the school record (for one-school districts)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0109
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1482
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1486
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1558
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0242
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S1543
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1616
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0101
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F_S1601
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S1633
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0188
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0287
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+   -9 = "Missing"
+S0121
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0178
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0230
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0345
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0141
+   1 = "Yes"
+   2 = "No"
+F_S0249
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_S0255
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0315
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1547
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0318
+   1 = "Less than 5%"
+   2 = "5 - 19%"
+   3 = "20 - 49%"
+   4 = "50% or more"
+   -8 = "Valid skip"
+F_S1569
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0348
+   1 = "Other"
+   -8 = "Valid skip"
+   -9 = "Missing"
+F_S0218
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0306
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0216
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0192
+   1 = "Yes"
+   2 = "No"
+F_S0146
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1532
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0172
+   1 = "Yes"
+   2 = "No"
+F_S0168
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0122
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0257
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1623
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0321
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20% or more"
+   -8 = "Valid skip"
+S1613
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0262
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0130
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0186
+   1 = "Yes"
+   2 = "No"
+F_S0271
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1548
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0107
+   1 = "Fewer than 200 students"
+   2 = "200 - 399 students"
+   3 = "400 - 599 students"
+   4 = "600 - 999 students"
+   5 = "1,000 or more students"
+F_S0102
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0133
+   1 = "Yes"
+   2 = "No"
+S1628
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1586
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S0187
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S1551
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0333
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1577
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+   -9 = "Not available because district was a noninterview"
+F_S0139
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0250
+   0 = "Not imputed"
+   1 = "Original value was ratio adjusted"
+   2 = "Value was imputed by using data from other variables in same record"
+   3 = "Value was imputed by using data from another questionnaire record for same case (e.g., principal or library)"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0119
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S1566
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0341
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1591
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0233
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S1481
+   1 = "Not used"
+   2 = "Used but not required"
+   3 = "Required"
+   -9 = "Not available because district was a noninterview"
+S1618
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S0255
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 9%"
+   4 = "10% or more"
+   -9 = "Missing"
+S1538
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0207
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+S0158
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S0324
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_S0125
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0258
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0126
+   1 = "Yes"
+   2 = "No"
+F_S1596
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+F_S0194
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1563
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S1618
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S0252
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5% or more"
+MINTCH
+   1 = "Less than 1%"
+   2 = "1 - 4%"
+   3 = "5 - 19%"
+   4 = "20 - 49%"
+   5 = "50% or more"
+S0134
+   1 = "Yes"
+   2 = "No"
+S0161
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1557
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S0131
+   1 = "Yes"
+   2 = "No"
+F_S1607
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"
+S1612
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+F_S0244
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S1609
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1620
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+S1584
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S0261
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_S0279
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+S0151
+   1 = "Yes"
+   2 = "No"
+S0338
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+S1604
+   1 = "Yes"
+   2 = "No"
+   -9 = "Not available because district was a noninterview"
+S1629
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+   -9 = "Not available because district was a noninterview"
+F_S1480
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   -9 = "Not available because district was a noninterview"

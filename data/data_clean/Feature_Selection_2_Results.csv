@@ -1,0 +1,444 @@
+feature,method,model,importance,selected,Method
+vacnc_STEM,Variance Threshold,n/a,1.0,1,Variance Threshold
+num_dependents,Variance Threshold,n/a,1.0,1,Variance Threshold
+region_West,Variance Threshold,n/a,1.0,1,Variance Threshold
+married,Variance Threshold,n/a,1.0,1,Variance Threshold
+gender_T_Female,Variance Threshold,n/a,1.0,1,Variance Threshold
+nonschool_job,Variance Threshold,n/a,1.0,1,Variance Threshold
+extracur_act,Variance Threshold,n/a,1.0,1,Variance Threshold
+union_member,Variance Threshold,n/a,1.0,1,Variance Threshold
+deg_T_MA,Variance Threshold,n/a,1.0,1,Variance Threshold
+pd_finance,Variance Threshold,n/a,1.0,1,Variance Threshold
+remain_teaching,Variance Threshold,n/a,1.0,1,Variance Threshold
+hrs_taught_STEM,Variance Threshold,n/a,1.0,1,Variance Threshold
+public_ft_exp,Variance Threshold,n/a,1.0,1,Variance Threshold
+public_pt_exp,Variance Threshold,n/a,1.0,1,Variance Threshold
+private_ft_exp,Variance Threshold,n/a,1.0,1,Variance Threshold
+class_org,Variance Threshold,n/a,1.0,1,Variance Threshold
+teaches_7to12,Variance Threshold,n/a,1.0,1,Variance Threshold
+new_teacher,Variance Threshold,n/a,1.0,1,Variance Threshold
+minority_students,Variance Threshold,n/a,1.0,1,Variance Threshold
+FRPL_eligible_k12,Variance Threshold,n/a,1.0,1,Variance Threshold
+stu_tch_ratio,Variance Threshold,n/a,1.0,1,Variance Threshold
+sch_type,Variance Threshold,n/a,1.0,1,Variance Threshold
+level_Elementary,Variance Threshold,n/a,1.0,1,Variance Threshold
+urbanicity,Variance Threshold,n/a,1.0,1,Variance Threshold
+title_I_receive,Variance Threshold,n/a,1.0,1,Variance Threshold
+age_P,Variance Threshold,n/a,1.0,1,Variance Threshold
+salary_P,Variance Threshold,n/a,1.0,1,Variance Threshold
+yrs_P_this_sch,Variance Threshold,n/a,1.0,1,Variance Threshold
+yrs_P_oth_schls,Variance Threshold,n/a,1.0,1,Variance Threshold
+yrs_tch_before_P,Variance Threshold,n/a,1.0,1,Variance Threshold
+yrs_tch_since_P,Variance Threshold,n/a,1.0,1,Variance Threshold
+deg_highest_P,Variance Threshold,n/a,1.0,1,Variance Threshold
+gender_P_Female,Variance Threshold,n/a,1.0,1,Variance Threshold
+incen_pay,Variance Threshold,n/a,1.0,1,Variance Threshold
+BA_major_STEM,Regularization,Lasso,1.0,1,Regularization - Lasso
+FRPL_eligible_k12,Regularization,Lasso,1.0,1,Regularization - Lasso
+MA_major_STEM,Regularization,Lasso,1.0,1,Regularization - Lasso
+class_org,Regularization,Lasso,1.0,1,Regularization - Lasso
+deg_T_MA,Regularization,Lasso,1.0,1,Regularization - Lasso
+deg_highest_P,Regularization,Lasso,1.0,1,Regularization - Lasso
+extracur_act,Regularization,Lasso,1.0,1,Regularization - Lasso
+field_cert_Regular,Regularization,Lasso,1.0,1,Regularization - Lasso
+field_same,Regularization,Lasso,1.0,1,Regularization - Lasso
+full_time,Regularization,Lasso,1.0,1,Regularization - Lasso
+incen_NonSTEM,Regularization,Lasso,1.0,1,Regularization - Lasso
+incen_pay,Regularization,Lasso,1.0,1,Regularization - Lasso
+level_Elementary,Regularization,Lasso,1.0,1,Regularization - Lasso
+married,Regularization,Lasso,1.0,1,Regularization - Lasso
+merit_pay,Regularization,Lasso,1.0,1,Regularization - Lasso
+new_teacher,Regularization,Lasso,1.0,1,Regularization - Lasso
+nonteaching_job,Regularization,Lasso,1.0,1,Regularization - Lasso
+num_dependents,Regularization,Lasso,1.0,1,Regularization - Lasso
+pd_finance,Regularization,Lasso,1.0,1,Regularization - Lasso
+private_ft_exp,Regularization,Lasso,1.0,1,Regularization - Lasso
+public_ft_exp,Regularization,Lasso,1.0,1,Regularization - Lasso
+public_pt_exp,Regularization,Lasso,1.0,1,Regularization - Lasso
+race_P_Black,Regularization,Lasso,1.0,1,Regularization - Lasso
+race_T_Black,Regularization,Lasso,1.0,1,Regularization - Lasso
+race_T_Hispanic,Regularization,Lasso,1.0,1,Regularization - Lasso
+region_West,Regularization,Lasso,1.0,1,Regularization - Lasso
+remain_teaching,Regularization,Lasso,1.0,1,Regularization - Lasso
+salary_P,Regularization,Lasso,1.0,1,Regularization - Lasso
+stu_tch_ratio,Regularization,Lasso,1.0,1,Regularization - Lasso
+summer_teaching,Regularization,Lasso,1.0,1,Regularization - Lasso
+teaches_7to12,Regularization,Lasso,1.0,1,Regularization - Lasso
+teaches_ungraded,Regularization,Lasso,1.0,1,Regularization - Lasso
+title_I_receive,Regularization,Lasso,1.0,1,Regularization - Lasso
+union_member,Regularization,Lasso,1.0,1,Regularization - Lasso
+urbanicity,Regularization,Lasso,1.0,1,Regularization - Lasso
+yrs_P_oth_schls,Regularization,Lasso,1.0,1,Regularization - Lasso
+yrs_P_this_sch,Regularization,Lasso,1.0,1,Regularization - Lasso
+yrs_tch_since_P,Regularization,Lasso,1.0,1,Regularization - Lasso
+vacnc_STEM,Feature Importance,Random Forest,0.010988828205523691,0,Feature Importance - Random Forest
+num_dependents,Feature Importance,Random Forest,0.033794889535498744,1,Feature Importance - Random Forest
+region_Northeast,Feature Importance,Random Forest,0.00761092702161993,0,Feature Importance - Random Forest
+region_West,Feature Importance,Random Forest,0.012536405328862032,1,Feature Importance - Random Forest
+married,Feature Importance,Random Forest,0.01159768486111914,1,Feature Importance - Random Forest
+race_T_White,Feature Importance,Random Forest,0.006747933404437868,0,Feature Importance - Random Forest
+race_T_Black,Feature Importance,Random Forest,0.003757872831406358,0,Feature Importance - Random Forest
+race_T_Hispanic,Feature Importance,Random Forest,0.0039039929219459265,0,Feature Importance - Random Forest
+gender_T_Female,Feature Importance,Random Forest,0.010110642244959634,0,Feature Importance - Random Forest
+summer_teaching,Feature Importance,Random Forest,0.009575695365313112,0,Feature Importance - Random Forest
+nonteaching_job,Feature Importance,Random Forest,0.005861647455310796,0,Feature Importance - Random Forest
+nonschool_job,Feature Importance,Random Forest,0.01048004959124404,0,Feature Importance - Random Forest
+extracur_act,Feature Importance,Random Forest,0.012128199116558653,1,Feature Importance - Random Forest
+merit_pay,Feature Importance,Random Forest,0.008093160817769313,0,Feature Importance - Random Forest
+union_member,Feature Importance,Random Forest,0.01244266707551931,1,Feature Importance - Random Forest
+BA_major_STEM,Feature Importance,Random Forest,0.005896392656967802,0,Feature Importance - Random Forest
+MA_major_STEM,Feature Importance,Random Forest,0.0017704385420683419,0,Feature Importance - Random Forest
+field_cert_Regular,Feature Importance,Random Forest,0.009661839788666644,0,Feature Importance - Random Forest
+deg_T_MA,Feature Importance,Random Forest,0.015143111157206741,1,Feature Importance - Random Forest
+pd_time,Feature Importance,Random Forest,0.008484411782208073,0,Feature Importance - Random Forest
+pd_finance,Feature Importance,Random Forest,0.011424519887202639,1,Feature Importance - Random Forest
+remain_teaching,Feature Importance,Random Forest,0.06275379364757794,1,Feature Importance - Random Forest
+field_STEM,Feature Importance,Random Forest,0.0076783403929959835,0,Feature Importance - Random Forest
+hrs_taught_STEM,Feature Importance,Random Forest,0.02573495866022513,1,Feature Importance - Random Forest
+public_ft_exp,Feature Importance,Random Forest,0.12991673867991774,1,Feature Importance - Random Forest
+public_pt_exp,Feature Importance,Random Forest,0.01765752460185992,1,Feature Importance - Random Forest
+private_ft_exp,Feature Importance,Random Forest,0.008949984261951852,0,Feature Importance - Random Forest
+class_org,Feature Importance,Random Forest,0.019071750769080315,1,Feature Importance - Random Forest
+field_same,Feature Importance,Random Forest,0.010138471641918145,0,Feature Importance - Random Forest
+full_time,Feature Importance,Random Forest,0.0079925912762503,0,Feature Importance - Random Forest
+teaches_ungraded,Feature Importance,Random Forest,0.0012245213407821424,0,Feature Importance - Random Forest
+teaches_7to12,Feature Importance,Random Forest,0.011354928324440653,1,Feature Importance - Random Forest
+new_teacher,Feature Importance,Random Forest,0.0264658830419931,1,Feature Importance - Random Forest
+minority_students,Feature Importance,Random Forest,0.023877058115491765,1,Feature Importance - Random Forest
+FRPL_eligible_k12,Feature Importance,Random Forest,0.0252223220904492,1,Feature Importance - Random Forest
+stu_tch_ratio,Feature Importance,Random Forest,0.06677550428098651,1,Feature Importance - Random Forest
+sch_type,Feature Importance,Random Forest,0.007533726463627608,0,Feature Importance - Random Forest
+level_Elementary,Feature Importance,Random Forest,0.02775534419573446,1,Feature Importance - Random Forest
+urbanicity,Feature Importance,Random Forest,0.019529033860963996,1,Feature Importance - Random Forest
+title_I_receive,Feature Importance,Random Forest,0.011129287827533287,0,Feature Importance - Random Forest
+age_P,Feature Importance,Random Forest,0.028141687963852753,1,Feature Importance - Random Forest
+salary_P,Feature Importance,Random Forest,0.030446911528186158,1,Feature Importance - Random Forest
+yrs_P_this_sch,Feature Importance,Random Forest,0.044256869226457815,1,Feature Importance - Random Forest
+yrs_P_oth_schls,Feature Importance,Random Forest,0.03785284730538296,1,Feature Importance - Random Forest
+yrs_tch_before_P,Feature Importance,Random Forest,0.053302802015436954,1,Feature Importance - Random Forest
+yrs_tch_since_P,Feature Importance,Random Forest,0.018401146638251546,1,Feature Importance - Random Forest
+deg_highest_P,Feature Importance,Random Forest,0.017908180897395425,1,Feature Importance - Random Forest
+race_P_Black,Feature Importance,Random Forest,0.0052753484326694185,0,Feature Importance - Random Forest
+race_P_White,Feature Importance,Random Forest,0.007251452437181931,0,Feature Importance - Random Forest
+race_P_Hispanic,Feature Importance,Random Forest,0.003676165409950342,0,Feature Importance - Random Forest
+gender_P_Female,Feature Importance,Random Forest,0.011228261770629905,0,Feature Importance - Random Forest
+incen_pay,Feature Importance,Random Forest,0.011929922257338374,1,Feature Importance - Random Forest
+incen_NonSTEM,Feature Importance,Random Forest,0.007555331052077749,0,Feature Importance - Random Forest
+vacnc_STEM,Permutation Importance,Random Forest,0.0,0,Permutation Importance - Random Forest
+num_dependents,Permutation Importance,Random Forest,0.0013736263736263687,1,Permutation Importance - Random Forest
+region_Northeast,Permutation Importance,Random Forest,0.00219780219780219,1,Permutation Importance - Random Forest
+region_West,Permutation Importance,Random Forest,0.004120879120879106,1,Permutation Importance - Random Forest
+married,Permutation Importance,Random Forest,-0.006318681318681296,0,Permutation Importance - Random Forest
+race_T_White,Permutation Importance,Random Forest,0.0,0,Permutation Importance - Random Forest
+race_T_Black,Permutation Importance,Random Forest,-0.0008241758241758212,0,Permutation Importance - Random Forest
+race_T_Hispanic,Permutation Importance,Random Forest,0.0016483516483516425,1,Permutation Importance - Random Forest
+gender_T_Female,Permutation Importance,Random Forest,-0.0024725274725274637,0,Permutation Importance - Random Forest
+summer_teaching,Permutation Importance,Random Forest,0.0016483516483516425,1,Permutation Importance - Random Forest
+nonteaching_job,Permutation Importance,Random Forest,0.0019230769230769162,1,Permutation Importance - Random Forest
+nonschool_job,Permutation Importance,Random Forest,0.004120879120879106,1,Permutation Importance - Random Forest
+extracur_act,Permutation Importance,Random Forest,-0.001098901098901095,0,Permutation Importance - Random Forest
+merit_pay,Permutation Importance,Random Forest,0.0027472527472527375,1,Permutation Importance - Random Forest
+union_member,Permutation Importance,Random Forest,0.0038461538461538325,1,Permutation Importance - Random Forest
+BA_major_STEM,Permutation Importance,Random Forest,-0.0005494505494505475,0,Permutation Importance - Random Forest
+MA_major_STEM,Permutation Importance,Random Forest,0.0,0,Permutation Importance - Random Forest
+field_cert_Regular,Permutation Importance,Random Forest,-0.0027472527472527375,0,Permutation Importance - Random Forest
+deg_T_MA,Permutation Importance,Random Forest,-0.002197802197802212,0,Permutation Importance - Random Forest
+pd_time,Permutation Importance,Random Forest,-0.0005494505494505475,0,Permutation Importance - Random Forest
+pd_finance,Permutation Importance,Random Forest,-0.00219780219780219,0,Permutation Importance - Random Forest
+remain_teaching,Permutation Importance,Random Forest,0.04313186813186811,1,Permutation Importance - Random Forest
+field_STEM,Permutation Importance,Random Forest,-0.0008241758241758212,0,Permutation Importance - Random Forest
+hrs_taught_STEM,Permutation Importance,Random Forest,0.0013736263736263687,1,Permutation Importance - Random Forest
+public_ft_exp,Permutation Importance,Random Forest,0.08241758241758242,1,Permutation Importance - Random Forest
+public_pt_exp,Permutation Importance,Random Forest,0.0038461538461538325,1,Permutation Importance - Random Forest
+private_ft_exp,Permutation Importance,Random Forest,0.00027472527472527375,1,Permutation Importance - Random Forest
+class_org,Permutation Importance,Random Forest,0.00219780219780219,1,Permutation Importance - Random Forest
+field_same,Permutation Importance,Random Forest,-0.0019230769230769162,0,Permutation Importance - Random Forest
+full_time,Permutation Importance,Random Forest,0.0027472527472527375,1,Permutation Importance - Random Forest
+teaches_ungraded,Permutation Importance,Random Forest,0.0,0,Permutation Importance - Random Forest
+teaches_7to12,Permutation Importance,Random Forest,-0.00219780219780219,0,Permutation Importance - Random Forest
+new_teacher,Permutation Importance,Random Forest,0.01895604395604391,1,Permutation Importance - Random Forest
+minority_students,Permutation Importance,Random Forest,0.0013736263736263687,1,Permutation Importance - Random Forest
+FRPL_eligible_k12,Permutation Importance,Random Forest,0.00659340659340657,1,Permutation Importance - Random Forest
+stu_tch_ratio,Permutation Importance,Random Forest,0.0013736263736263687,1,Permutation Importance - Random Forest
+sch_type,Permutation Importance,Random Forest,0.0013736263736263687,1,Permutation Importance - Random Forest
+level_Elementary,Permutation Importance,Random Forest,0.018406593406593407,1,Permutation Importance - Random Forest
+urbanicity,Permutation Importance,Random Forest,0.010164835164835129,1,Permutation Importance - Random Forest
+title_I_receive,Permutation Importance,Random Forest,-0.0035714285714285587,0,Permutation Importance - Random Forest
+age_P,Permutation Importance,Random Forest,-0.00219780219780219,0,Permutation Importance - Random Forest
+salary_P,Permutation Importance,Random Forest,0.006868131868131844,1,Permutation Importance - Random Forest
+yrs_P_this_sch,Permutation Importance,Random Forest,0.00219780219780219,1,Permutation Importance - Random Forest
+yrs_P_oth_schls,Permutation Importance,Random Forest,-0.003296703296703307,0,Permutation Importance - Random Forest
+yrs_tch_before_P,Permutation Importance,Random Forest,0.007417582417582391,1,Permutation Importance - Random Forest
+yrs_tch_since_P,Permutation Importance,Random Forest,-0.0049450549450549275,0,Permutation Importance - Random Forest
+deg_highest_P,Permutation Importance,Random Forest,-0.0035714285714285587,0,Permutation Importance - Random Forest
+race_P_Black,Permutation Importance,Random Forest,-0.0019230769230769162,0,Permutation Importance - Random Forest
+race_P_White,Permutation Importance,Random Forest,-0.0013736263736263687,0,Permutation Importance - Random Forest
+race_P_Hispanic,Permutation Importance,Random Forest,0.0008241758241758212,1,Permutation Importance - Random Forest
+gender_P_Female,Permutation Importance,Random Forest,0.0019230769230769162,1,Permutation Importance - Random Forest
+incen_pay,Permutation Importance,Random Forest,-0.0019230769230769162,0,Permutation Importance - Random Forest
+incen_NonSTEM,Permutation Importance,Random Forest,0.0,0,Permutation Importance - Random Forest
+vacnc_STEM,Permutation Importance,Ridge,0.004120879120879106,1,Permutation Importance - Ridge
+num_dependents,Permutation Importance,Ridge,0.009065934065934056,1,Permutation Importance - Ridge
+region_Northeast,Permutation Importance,Ridge,0.0005494505494505475,1,Permutation Importance - Ridge
+region_West,Permutation Importance,Ridge,0.0005494505494505475,1,Permutation Importance - Ridge
+married,Permutation Importance,Ridge,-0.00659340659340657,0,Permutation Importance - Ridge
+race_T_White,Permutation Importance,Ridge,0.0013736263736263687,1,Permutation Importance - Ridge
+race_T_Black,Permutation Importance,Ridge,-0.0027472527472527375,0,Permutation Importance - Ridge
+race_T_Hispanic,Permutation Importance,Ridge,0.004120879120879106,1,Permutation Importance - Ridge
+gender_T_Female,Permutation Importance,Ridge,-0.0019230769230769162,0,Permutation Importance - Ridge
+summer_teaching,Permutation Importance,Ridge,0.00219780219780219,1,Permutation Importance - Ridge
+nonteaching_job,Permutation Importance,Ridge,0.0019230769230769162,1,Permutation Importance - Ridge
+nonschool_job,Permutation Importance,Ridge,0.001098901098901095,1,Permutation Importance - Ridge
+extracur_act,Permutation Importance,Ridge,0.00714285714285714,1,Permutation Importance - Ridge
+merit_pay,Permutation Importance,Ridge,0.0035714285714285587,1,Permutation Importance - Ridge
+union_member,Permutation Importance,Ridge,0.005494505494505475,1,Permutation Importance - Ridge
+BA_major_STEM,Permutation Importance,Ridge,0.00027472527472527375,1,Permutation Importance - Ridge
+MA_major_STEM,Permutation Importance,Ridge,0.0005494505494505475,1,Permutation Importance - Ridge
+field_cert_Regular,Permutation Importance,Ridge,-0.007967032967032939,0,Permutation Importance - Ridge
+deg_T_MA,Permutation Importance,Ridge,0.0,0,Permutation Importance - Ridge
+pd_time,Permutation Importance,Ridge,-0.0013736263736263687,0,Permutation Importance - Ridge
+pd_finance,Permutation Importance,Ridge,-0.0005494505494505475,0,Permutation Importance - Ridge
+remain_teaching,Permutation Importance,Ridge,0.04175824175824174,1,Permutation Importance - Ridge
+field_STEM,Permutation Importance,Ridge,0.0013736263736263687,1,Permutation Importance - Ridge
+hrs_taught_STEM,Permutation Importance,Ridge,0.00027472527472527375,1,Permutation Importance - Ridge
+public_ft_exp,Permutation Importance,Ridge,0.09587912087912087,1,Permutation Importance - Ridge
+public_pt_exp,Permutation Importance,Ridge,0.0027472527472527375,1,Permutation Importance - Ridge
+private_ft_exp,Permutation Importance,Ridge,-0.0005494505494505475,0,Permutation Importance - Ridge
+class_org,Permutation Importance,Ridge,-0.0030219780219780112,0,Permutation Importance - Ridge
+field_same,Permutation Importance,Ridge,0.005219780219780201,1,Permutation Importance - Ridge
+full_time,Permutation Importance,Ridge,-0.001098901098901095,0,Permutation Importance - Ridge
+teaches_ungraded,Permutation Importance,Ridge,0.001098901098901095,1,Permutation Importance - Ridge
+teaches_7to12,Permutation Importance,Ridge,-0.0008241758241758212,0,Permutation Importance - Ridge
+new_teacher,Permutation Importance,Ridge,0.010439560439560425,1,Permutation Importance - Ridge
+minority_students,Permutation Importance,Ridge,-0.00219780219780219,0,Permutation Importance - Ridge
+FRPL_eligible_k12,Permutation Importance,Ridge,0.0,0,Permutation Importance - Ridge
+stu_tch_ratio,Permutation Importance,Ridge,-0.0016483516483516425,0,Permutation Importance - Ridge
+sch_type,Permutation Importance,Ridge,0.0,0,Permutation Importance - Ridge
+level_Elementary,Permutation Importance,Ridge,0.0346153846153846,1,Permutation Importance - Ridge
+urbanicity,Permutation Importance,Ridge,0.0008241758241758212,1,Permutation Importance - Ridge
+title_I_receive,Permutation Importance,Ridge,0.001098901098901095,1,Permutation Importance - Ridge
+age_P,Permutation Importance,Ridge,-0.0027472527472527375,0,Permutation Importance - Ridge
+salary_P,Permutation Importance,Ridge,0.012362637362637364,1,Permutation Importance - Ridge
+yrs_P_this_sch,Permutation Importance,Ridge,0.0005494505494505475,1,Permutation Importance - Ridge
+yrs_P_oth_schls,Permutation Importance,Ridge,0.0019230769230769162,1,Permutation Importance - Ridge
+yrs_tch_before_P,Permutation Importance,Ridge,-0.001098901098901095,0,Permutation Importance - Ridge
+yrs_tch_since_P,Permutation Importance,Ridge,-0.0019230769230769162,0,Permutation Importance - Ridge
+deg_highest_P,Permutation Importance,Ridge,0.005494505494505475,1,Permutation Importance - Ridge
+race_P_Black,Permutation Importance,Ridge,0.0005494505494505475,1,Permutation Importance - Ridge
+race_P_White,Permutation Importance,Ridge,0.0060439560439560225,1,Permutation Importance - Ridge
+race_P_Hispanic,Permutation Importance,Ridge,0.004670329670329654,1,Permutation Importance - Ridge
+gender_P_Female,Permutation Importance,Ridge,-0.0013736263736263687,0,Permutation Importance - Ridge
+incen_pay,Permutation Importance,Ridge,-0.0024725274725274637,0,Permutation Importance - Ridge
+incen_NonSTEM,Permutation Importance,Ridge,0.005219780219780201,1,Permutation Importance - Ridge
+vacnc_STEM,RFE,Ridge,0.0,0,RFE - Ridge
+num_dependents,RFE,Ridge,1.0,1,RFE - Ridge
+region_Northeast,RFE,Ridge,0.0,0,RFE - Ridge
+region_West,RFE,Ridge,1.0,1,RFE - Ridge
+married,RFE,Ridge,1.0,1,RFE - Ridge
+race_T_White,RFE,Ridge,0.0,0,RFE - Ridge
+race_T_Black,RFE,Ridge,0.0,0,RFE - Ridge
+race_T_Hispanic,RFE,Ridge,0.0,0,RFE - Ridge
+gender_T_Female,RFE,Ridge,0.0,0,RFE - Ridge
+summer_teaching,RFE,Ridge,1.0,1,RFE - Ridge
+nonteaching_job,RFE,Ridge,0.0,0,RFE - Ridge
+nonschool_job,RFE,Ridge,0.0,0,RFE - Ridge
+extracur_act,RFE,Ridge,1.0,1,RFE - Ridge
+merit_pay,RFE,Ridge,0.0,0,RFE - Ridge
+union_member,RFE,Ridge,1.0,1,RFE - Ridge
+BA_major_STEM,RFE,Ridge,1.0,1,RFE - Ridge
+MA_major_STEM,RFE,Ridge,0.0,0,RFE - Ridge
+field_cert_Regular,RFE,Ridge,1.0,1,RFE - Ridge
+deg_T_MA,RFE,Ridge,1.0,1,RFE - Ridge
+pd_time,RFE,Ridge,0.0,0,RFE - Ridge
+pd_finance,RFE,Ridge,0.0,0,RFE - Ridge
+remain_teaching,RFE,Ridge,1.0,1,RFE - Ridge
+field_STEM,RFE,Ridge,0.0,0,RFE - Ridge
+hrs_taught_STEM,RFE,Ridge,0.0,0,RFE - Ridge
+public_ft_exp,RFE,Ridge,1.0,1,RFE - Ridge
+public_pt_exp,RFE,Ridge,1.0,1,RFE - Ridge
+private_ft_exp,RFE,Ridge,0.0,0,RFE - Ridge
+class_org,RFE,Ridge,0.0,0,RFE - Ridge
+field_same,RFE,Ridge,1.0,1,RFE - Ridge
+full_time,RFE,Ridge,0.0,0,RFE - Ridge
+teaches_ungraded,RFE,Ridge,0.0,0,RFE - Ridge
+teaches_7to12,RFE,Ridge,0.0,0,RFE - Ridge
+new_teacher,RFE,Ridge,1.0,1,RFE - Ridge
+minority_students,RFE,Ridge,0.0,0,RFE - Ridge
+FRPL_eligible_k12,RFE,Ridge,1.0,1,RFE - Ridge
+stu_tch_ratio,RFE,Ridge,1.0,1,RFE - Ridge
+sch_type,RFE,Ridge,0.0,0,RFE - Ridge
+level_Elementary,RFE,Ridge,1.0,1,RFE - Ridge
+urbanicity,RFE,Ridge,0.0,0,RFE - Ridge
+title_I_receive,RFE,Ridge,0.0,0,RFE - Ridge
+age_P,RFE,Ridge,0.0,0,RFE - Ridge
+salary_P,RFE,Ridge,1.0,1,RFE - Ridge
+yrs_P_this_sch,RFE,Ridge,0.0,0,RFE - Ridge
+yrs_P_oth_schls,RFE,Ridge,0.0,0,RFE - Ridge
+yrs_tch_before_P,RFE,Ridge,0.0,0,RFE - Ridge
+yrs_tch_since_P,RFE,Ridge,0.0,0,RFE - Ridge
+deg_highest_P,RFE,Ridge,0.0,0,RFE - Ridge
+race_P_Black,RFE,Ridge,0.0,0,RFE - Ridge
+race_P_White,RFE,Ridge,0.0,0,RFE - Ridge
+race_P_Hispanic,RFE,Ridge,0.0,0,RFE - Ridge
+gender_P_Female,RFE,Ridge,0.0,0,RFE - Ridge
+incen_pay,RFE,Ridge,0.0,0,RFE - Ridge
+incen_NonSTEM,RFE,Ridge,0.0,0,RFE - Ridge
+vacnc_STEM,RFE,Random Forest,1.0,1,RFE - Random Forest
+num_dependents,RFE,Random Forest,1.0,1,RFE - Random Forest
+region_Northeast,RFE,Random Forest,1.0,1,RFE - Random Forest
+region_West,RFE,Random Forest,1.0,1,RFE - Random Forest
+married,RFE,Random Forest,1.0,1,RFE - Random Forest
+race_T_White,RFE,Random Forest,1.0,1,RFE - Random Forest
+race_T_Black,RFE,Random Forest,0.0,0,RFE - Random Forest
+race_T_Hispanic,RFE,Random Forest,0.0,0,RFE - Random Forest
+gender_T_Female,RFE,Random Forest,1.0,1,RFE - Random Forest
+summer_teaching,RFE,Random Forest,1.0,1,RFE - Random Forest
+nonteaching_job,RFE,Random Forest,1.0,1,RFE - Random Forest
+nonschool_job,RFE,Random Forest,1.0,1,RFE - Random Forest
+extracur_act,RFE,Random Forest,1.0,1,RFE - Random Forest
+merit_pay,RFE,Random Forest,1.0,1,RFE - Random Forest
+union_member,RFE,Random Forest,1.0,1,RFE - Random Forest
+BA_major_STEM,RFE,Random Forest,1.0,1,RFE - Random Forest
+MA_major_STEM,RFE,Random Forest,0.0,0,RFE - Random Forest
+field_cert_Regular,RFE,Random Forest,1.0,1,RFE - Random Forest
+deg_T_MA,RFE,Random Forest,1.0,1,RFE - Random Forest
+pd_time,RFE,Random Forest,1.0,1,RFE - Random Forest
+pd_finance,RFE,Random Forest,1.0,1,RFE - Random Forest
+remain_teaching,RFE,Random Forest,1.0,1,RFE - Random Forest
+field_STEM,RFE,Random Forest,1.0,1,RFE - Random Forest
+hrs_taught_STEM,RFE,Random Forest,1.0,1,RFE - Random Forest
+public_ft_exp,RFE,Random Forest,1.0,1,RFE - Random Forest
+public_pt_exp,RFE,Random Forest,1.0,1,RFE - Random Forest
+private_ft_exp,RFE,Random Forest,1.0,1,RFE - Random Forest
+class_org,RFE,Random Forest,1.0,1,RFE - Random Forest
+field_same,RFE,Random Forest,1.0,1,RFE - Random Forest
+full_time,RFE,Random Forest,1.0,1,RFE - Random Forest
+teaches_ungraded,RFE,Random Forest,0.0,0,RFE - Random Forest
+teaches_7to12,RFE,Random Forest,1.0,1,RFE - Random Forest
+new_teacher,RFE,Random Forest,1.0,1,RFE - Random Forest
+minority_students,RFE,Random Forest,1.0,1,RFE - Random Forest
+FRPL_eligible_k12,RFE,Random Forest,1.0,1,RFE - Random Forest
+stu_tch_ratio,RFE,Random Forest,1.0,1,RFE - Random Forest
+sch_type,RFE,Random Forest,1.0,1,RFE - Random Forest
+level_Elementary,RFE,Random Forest,1.0,1,RFE - Random Forest
+urbanicity,RFE,Random Forest,1.0,1,RFE - Random Forest
+title_I_receive,RFE,Random Forest,1.0,1,RFE - Random Forest
+age_P,RFE,Random Forest,1.0,1,RFE - Random Forest
+salary_P,RFE,Random Forest,1.0,1,RFE - Random Forest
+yrs_P_this_sch,RFE,Random Forest,1.0,1,RFE - Random Forest
+yrs_P_oth_schls,RFE,Random Forest,1.0,1,RFE - Random Forest
+yrs_tch_before_P,RFE,Random Forest,1.0,1,RFE - Random Forest
+yrs_tch_since_P,RFE,Random Forest,1.0,1,RFE - Random Forest
+deg_highest_P,RFE,Random Forest,1.0,1,RFE - Random Forest
+race_P_Black,RFE,Random Forest,1.0,1,RFE - Random Forest
+race_P_White,RFE,Random Forest,1.0,1,RFE - Random Forest
+race_P_Hispanic,RFE,Random Forest,1.0,1,RFE - Random Forest
+gender_P_Female,RFE,Random Forest,1.0,1,RFE - Random Forest
+incen_pay,RFE,Random Forest,1.0,1,RFE - Random Forest
+incen_NonSTEM,RFE,Random Forest,1.0,1,RFE - Random Forest
+vacnc_STEM,SFS,KNN,0.0,0,SFS - KNN
+num_dependents,SFS,KNN,1.0,1,SFS - KNN
+region_Northeast,SFS,KNN,0.0,0,SFS - KNN
+region_West,SFS,KNN,0.0,0,SFS - KNN
+married,SFS,KNN,1.0,1,SFS - KNN
+race_T_White,SFS,KNN,1.0,1,SFS - KNN
+race_T_Black,SFS,KNN,1.0,1,SFS - KNN
+race_T_Hispanic,SFS,KNN,1.0,1,SFS - KNN
+gender_T_Female,SFS,KNN,0.0,0,SFS - KNN
+summer_teaching,SFS,KNN,0.0,0,SFS - KNN
+nonteaching_job,SFS,KNN,1.0,1,SFS - KNN
+nonschool_job,SFS,KNN,1.0,1,SFS - KNN
+extracur_act,SFS,KNN,0.0,0,SFS - KNN
+merit_pay,SFS,KNN,0.0,0,SFS - KNN
+union_member,SFS,KNN,1.0,1,SFS - KNN
+BA_major_STEM,SFS,KNN,1.0,1,SFS - KNN
+MA_major_STEM,SFS,KNN,1.0,1,SFS - KNN
+field_cert_Regular,SFS,KNN,0.0,0,SFS - KNN
+deg_T_MA,SFS,KNN,0.0,0,SFS - KNN
+pd_time,SFS,KNN,1.0,1,SFS - KNN
+pd_finance,SFS,KNN,0.0,0,SFS - KNN
+remain_teaching,SFS,KNN,1.0,1,SFS - KNN
+field_STEM,SFS,KNN,1.0,1,SFS - KNN
+hrs_taught_STEM,SFS,KNN,0.0,0,SFS - KNN
+public_ft_exp,SFS,KNN,1.0,1,SFS - KNN
+public_pt_exp,SFS,KNN,1.0,1,SFS - KNN
+private_ft_exp,SFS,KNN,1.0,1,SFS - KNN
+class_org,SFS,KNN,0.0,0,SFS - KNN
+field_same,SFS,KNN,0.0,0,SFS - KNN
+full_time,SFS,KNN,0.0,0,SFS - KNN
+teaches_ungraded,SFS,KNN,1.0,1,SFS - KNN
+teaches_7to12,SFS,KNN,1.0,1,SFS - KNN
+new_teacher,SFS,KNN,1.0,1,SFS - KNN
+minority_students,SFS,KNN,1.0,1,SFS - KNN
+FRPL_eligible_k12,SFS,KNN,0.0,0,SFS - KNN
+stu_tch_ratio,SFS,KNN,1.0,1,SFS - KNN
+sch_type,SFS,KNN,0.0,0,SFS - KNN
+level_Elementary,SFS,KNN,1.0,1,SFS - KNN
+urbanicity,SFS,KNN,0.0,0,SFS - KNN
+title_I_receive,SFS,KNN,0.0,0,SFS - KNN
+age_P,SFS,KNN,0.0,0,SFS - KNN
+salary_P,SFS,KNN,0.0,0,SFS - KNN
+yrs_P_this_sch,SFS,KNN,0.0,0,SFS - KNN
+yrs_P_oth_schls,SFS,KNN,0.0,0,SFS - KNN
+yrs_tch_before_P,SFS,KNN,0.0,0,SFS - KNN
+yrs_tch_since_P,SFS,KNN,0.0,0,SFS - KNN
+deg_highest_P,SFS,KNN,0.0,0,SFS - KNN
+race_P_Black,SFS,KNN,1.0,1,SFS - KNN
+race_P_White,SFS,KNN,1.0,1,SFS - KNN
+race_P_Hispanic,SFS,KNN,1.0,1,SFS - KNN
+gender_P_Female,SFS,KNN,1.0,1,SFS - KNN
+incen_pay,SFS,KNN,0.0,0,SFS - KNN
+incen_NonSTEM,SFS,KNN,0.0,0,SFS - KNN
+vacnc_STEM,SFS,Ridge,0.0,0,SFS - Ridge
+num_dependents,SFS,Ridge,0.0,0,SFS - Ridge
+region_Northeast,SFS,Ridge,1.0,1,SFS - Ridge
+region_West,SFS,Ridge,0.0,0,SFS - Ridge
+married,SFS,Ridge,0.0,0,SFS - Ridge
+race_T_White,SFS,Ridge,0.0,0,SFS - Ridge
+race_T_Black,SFS,Ridge,1.0,1,SFS - Ridge
+race_T_Hispanic,SFS,Ridge,1.0,1,SFS - Ridge
+gender_T_Female,SFS,Ridge,1.0,1,SFS - Ridge
+summer_teaching,SFS,Ridge,0.0,0,SFS - Ridge
+nonteaching_job,SFS,Ridge,0.0,0,SFS - Ridge
+nonschool_job,SFS,Ridge,0.0,0,SFS - Ridge
+extracur_act,SFS,Ridge,0.0,0,SFS - Ridge
+merit_pay,SFS,Ridge,0.0,0,SFS - Ridge
+union_member,SFS,Ridge,0.0,0,SFS - Ridge
+BA_major_STEM,SFS,Ridge,1.0,1,SFS - Ridge
+MA_major_STEM,SFS,Ridge,1.0,1,SFS - Ridge
+field_cert_Regular,SFS,Ridge,1.0,1,SFS - Ridge
+deg_T_MA,SFS,Ridge,0.0,0,SFS - Ridge
+pd_time,SFS,Ridge,1.0,1,SFS - Ridge
+pd_finance,SFS,Ridge,0.0,0,SFS - Ridge
+remain_teaching,SFS,Ridge,1.0,1,SFS - Ridge
+field_STEM,SFS,Ridge,0.0,0,SFS - Ridge
+hrs_taught_STEM,SFS,Ridge,1.0,1,SFS - Ridge
+public_ft_exp,SFS,Ridge,1.0,1,SFS - Ridge
+public_pt_exp,SFS,Ridge,1.0,1,SFS - Ridge
+private_ft_exp,SFS,Ridge,1.0,1,SFS - Ridge
+class_org,SFS,Ridge,1.0,1,SFS - Ridge
+field_same,SFS,Ridge,1.0,1,SFS - Ridge
+full_time,SFS,Ridge,0.0,0,SFS - Ridge
+teaches_ungraded,SFS,Ridge,0.0,0,SFS - Ridge
+teaches_7to12,SFS,Ridge,1.0,1,SFS - Ridge
+new_teacher,SFS,Ridge,0.0,0,SFS - Ridge
+minority_students,SFS,Ridge,1.0,1,SFS - Ridge
+FRPL_eligible_k12,SFS,Ridge,0.0,0,SFS - Ridge
+stu_tch_ratio,SFS,Ridge,1.0,1,SFS - Ridge
+sch_type,SFS,Ridge,1.0,1,SFS - Ridge
+level_Elementary,SFS,Ridge,1.0,1,SFS - Ridge
+urbanicity,SFS,Ridge,0.0,0,SFS - Ridge
+title_I_receive,SFS,Ridge,0.0,0,SFS - Ridge
+age_P,SFS,Ridge,1.0,1,SFS - Ridge
+salary_P,SFS,Ridge,0.0,0,SFS - Ridge
+yrs_P_this_sch,SFS,Ridge,1.0,1,SFS - Ridge
+yrs_P_oth_schls,SFS,Ridge,0.0,0,SFS - Ridge
+yrs_tch_before_P,SFS,Ridge,1.0,1,SFS - Ridge
+yrs_tch_since_P,SFS,Ridge,0.0,0,SFS - Ridge
+deg_highest_P,SFS,Ridge,0.0,0,SFS - Ridge
+race_P_Black,SFS,Ridge,0.0,0,SFS - Ridge
+race_P_White,SFS,Ridge,1.0,1,SFS - Ridge
+race_P_Hispanic,SFS,Ridge,1.0,1,SFS - Ridge
+gender_P_Female,SFS,Ridge,0.0,0,SFS - Ridge
+incen_pay,SFS,Ridge,1.0,1,SFS - Ridge
+incen_NonSTEM,SFS,Ridge,0.0,0,SFS - Ridge

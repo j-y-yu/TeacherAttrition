@@ -1,44 +1,32 @@
-# data-SASS
-  
-* June Yu: CS 5395 Project
-* Daniel Payan: undergraduate researcher 
+## Data Sources
 
-1.	Data Gathering
-* Download ascii data from [link](https://nces.ed.gov/surveys/sass/dataprod9901.asp) to downloads folder
-  * if the original file is larger than 50MB, split it in few files e.g. SASS_99_00_S4a_v1_0.csv or save as h5
- 
-2.	Data Processing
-  2.1. Merge public teacher (former and current) files with public school, and public principal data files. 
-	* The principal control number is represented by CNTLNUM
-      * so is the teacher control number, and school district control number so we will need help from Dr. Feng or her student on data merging procedures. 
-	* The school control number is represented by SCHCNTL. 
-	* add scripts to [scripts](../scripts/) folder for 
-	      * reading ascii to csv 
-	      * cleaning up data and creating data frames
-	      * saving as h5 files
-	* Save intermediate results in [data](../data/). If csv is larger than 50MB, save it as h5 file 
+The Schools and Staffing Survey (SASS) was conducted by NCES seven times between 1987 through 2011 to study and provide descriptive data for public and private school districts, schools, principals, and teachers regarding the context of elementary and secondary education. Teacher Follow-Up Survey (TFS) was conducted the year after SASS administration to determine how many teachers remained in teaching, either at the same school or moved schools, or left teaching. Our data collected [1999-2000 SASS and 2000-2001 TFS public-use data](https://nces.ed.gov/surveys/sass/dataprod9901.asp) from NCES as other years are restricted-use only. Downloading csv format is available from [Online Codebook](https://nces.ed.gov/OnlineCodebook/Session/Codebook) provided by NCES.
 
-  2.2.  Add 2000-2001 current/former teacher data [SASS](https://nces.ed.gov/surveys/sass/dataprod9901.asp)
-	* Individual problem: based on school data and on labeled data, can we predict the probability of a teacher from school X leaving (one of 80K not labelef) 
-	* add scripts for reading ascii to csv to scripts folder
-	* add scripts for cleaning up data and creating data frames to scripts folder
-	* Save intermediate results in [data](../data/). If csv is larger than 50MB, save it as h5 file 
-  
+### [SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets](SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets): raw data
+* SASS_99_00_S1a_v1_0.csv: Public District (not in used due to no matching control numbers for school, principal, and teacher)
+* SASS_99_00_S2a_v1_0.csv: Public Principal
+* SASS_99_00_S3a_v1_0.csv: Public School
+* SASS_99_00_S4a_v1_0.csv: Public Teacher (not located in the folder due to file size limit exceeding 50MB)
+* SASS_99_00_T2_v1_0.csv: Former Teacher
+* SASS_99_00_T3_v1_0.csv: Current Teacher
 
-3.	Basic EDA illustrating teacher retention rate per school district in the dataset 
-	* 1999-2000data visualization 1: 
-		* 8000 job adds by school, visualize percentage of empty slots per school 
-	* save python notebook work in [notebooks](../notebooks/) folder
-	* Feature correlation: age, sex, race and ethnicity, college majors, graduate degrees or not, years of teaching experience, subjects taught(STEM, special education or others), grade taught (public teacher), school level, school poverty rate, share of minority students, Title I status, urban or rural status (public school), principal years of experience, age, race and ethnicity (public principal). 
-    * Save intermediate results in [data](../data/) and figures in [figures](../figures/). 
+### [Codebook](Codebook): Layout files providing necessary information for the survey.
+* SASS_99_00_S1A_v1_0_Codebook.txt: Codebook for all surveys
+* SASS_99_00_S1A_v1_0_S1A_Layout.txt: Public District
+* SASS_99_00_S2A_v1_0_S2A_Layout.txt: Public Principal
+* SASS_99_00_S3A_v1_0_S3A_Layout.txt: Public School
+* SASS_99_00_S4A_v1_0_S4A_Layout.txt: Public Teacher
+* SASS_99_00_T2_v1_0_T2_Layout.txt: Former Teacher
+* SASS_99_00_T3_v1_0_T3_Layout.txt: Current Teacher
 
-4.	Modeling 
+### [Questionnaire](Questionnaire): Survey Questionnaire file in pdf format
+* sass1a.pdf: Public District
+* sass2a.pdf: Public Principal
+* sass3a.pdf: Public School
+* sass4a.pdf: Public Teacher
+* sasst2.pdf: Former Teacher
+* sasst3.pdf: Current Teacher
 
-*	Predict teacher’s status (stay at a particular school=1 and 0 if she or he left teaching or moved to a different school) in test data using the following feature space: age, sex, race and ethnicity, college majors, graduate degrees or not, years of teaching experience, subjects taught(STEM, special education or others), grade taught (public teacher), school level, school poverty rate, share of minority students, Title I status, urban or rural status (public school), district size, district revenue (public district), principal years of experience, age, race and ethnicity (public principal).  
-	i. Prior work with SASS dataset:  Nguyen et al.  "The correlates of teacher turnover: An updated and expanded Meta-analysis of the literature", https://www.sciencedirect.com/science/article/pii/S1747938X19305597, full text [link]( https://drive.google.com/file/d/1QYU3Kx9FFMmQoHOifDa6_qAwgqdNO96E/view?usp=sharing)
-*	How well can we predict a teacher’s retention rate based on (a) per school and per district. 
-    i.      Modeling in a is predicting outcome (class label)
-    ii.      Modeling in b is  regression (retention rate) for the district
 
-* save python notebook work in [notebooks](../notebooks/)and figures in [figures](../figures/) folder. 
-* save intermediate results in [data](../data/) 
+## Data Integration
+All cleaned data are integrated in [Data_Integration.ipynb](../src/processing/Data_Integration.ipynb)

@@ -1,0 +1,3003 @@
+/************************************************************************
+ *** Layout File                                                      ***
+ ***                                                                  ***
+ *** This file is designed to provide the necessary information so    ***
+ *** that NCES survey response data may be used in other statistical  ***
+ *** software packages. This file provides variable names, ASCII      ***
+ *** file locations, and short descriptions for all tagged variables. ***
+ *** Additionally, for categorical variables, this file also contains ***
+ *** the response codes and value label descriptions.                 ***
+ ***                                                                  ***
+ *** Full sample weights, replicate weights, and identification       ***
+ *** numbers are added automatically to the list of variables tagged  ***
+ *** by the EDAT and are included here.                               ***
+ ************************************************************************/
+
+/* ASCII Dataset File Name */
+SASS_99_00_T3
+
+/* Total Record Length */
+1968
+
+/* Variable Names, Locations, and Descriptions */
+AGE_T     595-596   SASS teacher age
+AGE_TT    479-480   TFS respondent age
+ASSIGN    621-622   General field of SASS main assignment
+ASSIGN_S  623-624   SASS assignment field (tables)
+ASSIGN_T  483-484   TFS general field of main assignment
+COLBARG   591-592   SASS teachers union agreement
+EARNAL_T  489-490   TFS total yearly earnings
+EARNSC_T  487-488   TFS school-related earnings
+ENRK12UG  585-586   SASS total ungraded and K-12 enrollment
+F_F0050   1511-1512 Imputation flag for F0050
+F_F0051   1513-1514 Imputation flag for F0051
+F_F0091   1515-1516 Imputation flag for F0091
+F_F0092   1517-1518 Imputation flag for F0092
+F_F0093   1519-1520 Imputation flag for F0093
+F_F0094   1521-1522 Imputation flag for F0094
+F_F0095   1523-1524 Imputation flag for F0095
+F_F0096   1525-1526 Imputation flag for F0096
+F_F0097   1527-1528 Imputation flag for F0097
+F_F0098   1529-1530 Imputation flag for F0098
+F_F0099   1531-1532 Imputation flag for F0099
+F_F0100   1533-1534 Imputation flag for F0100
+F_F0101   1535-1536 Imputation flag for F0101
+F_F0102   1537-1538 Imputation flag for F0102
+F_F0103   1539-1540 Imputation flag for F0103
+F_F0104   1541-1542 Imputation flag for F0104
+F_F0105   1543-1544 Imputation flag for F0105
+F_F0106   1545-1546 Imputation flag for F0106
+F_F0107   1547-1548 Imputation flag for F0107
+F_F0108   1549-1550 Imputation flag for F0108
+F_F0109   1551-1552 Imputation flag for F0109
+F_F0110   1553-1554 Imputation flag for F0110
+F_F0111   1555-1556 Imputation flag for F0111
+F_F0112   1557-1558 Imputation flag for F0112
+F_F0113   1559-1560 Imputation flag for F0113
+F_F0114   1561-1562 Imputation flag for F0114
+F_F0115   1563-1564 Imputation flag for F0115
+F_F0116   1565-1566 Imputation flag for F0116
+F_F0117   1567-1568 Imputation flag for F0117
+F_F0118   1569-1570 Imputation flag for F0118
+F_F0119   1571-1572 Imputation flag for F0119
+F_F0120   1573-1574 Imputation flag for F0120
+F_F0121   1575-1576 Imputation flag for F0121
+F_F0122   1577-1578 Imputation flag for F0122
+F_F0124   1579-1580 Imputation flag for F0124
+F_F0125   1581-1582 Imputation flag for F0125
+F_F0126   1583-1584 Imputation flag for F0126
+F_F0127   1585-1586 Imputation flag for F0127
+F_F0128   1587-1588 Imputation flag for F0128
+F_F0129   1589-1590 Imputation flag for F0129
+F_F0130   1591-1592 Imputation flag for F0130
+F_F0131   1593-1594 Imputation flag for F0131
+F_F0132   1595-1596 Imputation flag for F0132
+F_F0133   1597-1598 Imputation flag for F0133
+F_F0134   1599-1600 Imputation flag for F0134
+F_F0154   1601-1602 Imputation flag for F0154
+F_F0156   1603-1604 Imputation flag for F0156
+F_F0157   1605-1606 Imputation flag for F0157
+F_F0159   1607-1608 Imputation flag for F0159
+F_F0160   1609-1610 Imputation flag for F0160
+F_F0161   1611-1612 Imputation flag for F0161
+F_F0162   1613-1614 Imputation flag for F0162
+F_F0163   1615-1616 Imputation flag for F0163
+F_F0164   1617-1618 Imputation flag for F0164
+F_F0165   1619-1620 Imputation flag for F0165
+F_F0166   1621-1622 Imputation flag for F0166
+F_F0167   1623-1624 Imputation flag for F0167
+F_F0169   1625-1626 Imputation flag for F0169
+F_F0170   1627-1628 Imputation flag for F0170
+F_F0171   1629-1630 Imputation flag for F0171
+F_F0172   1631-1632 Imputation flag for F0172
+F_F0173   1633-1634 Imputation flag for F0173
+F_F0174   1635-1636 Imputation flag for F0174
+F_F0175   1637-1638 Imputation flag for F0175
+F_F0188   1639-1640 Imputation flag for F0188
+F_F0194   1641-1642 Imputation flag for F0194
+F_F0195   1643-1644 Imputation flag for F0195
+F_F0196   1645-1646 Imputation flag for F0196
+F_F0197   1647-1648 Imputation flag for F0197
+F_F0552   1649-1650 Imputation flag for F0552
+F_F0553   1651-1652 Imputation flag for F0553
+F_F0554   1653-1654 Imputation flag for F0554
+F_F0555   1655-1656 Imputation flag for F0555
+F_F0556   1657-1658 Imputation flag for F0556
+F_F0557   1659-1660 Imputation flag for F0557
+F_F0558   1661-1662 Imputation flag for F0558
+F_F0559   1663-1664 Imputation flag for F0559
+F_F0560   1665-1666 Imputation flag for F0560
+F_F0561   1667-1668 Imputation flag for F0561
+F_F0562   1669-1670 Imputation flag for F0562
+F_F0563   1671-1672 Imputation flag for F0563
+F_F0564   1673-1674 Imputation flag for F0564
+F_F0565   1675-1676 Imputation flag for F0565
+F_F0566   1677-1678 Imputation flag for F0566
+F_F0567   1679-1680 Imputation flag for F0567
+F_F0568   1681-1682 Imputation flag for F0568
+F_F0569   1683-1684 Imputation flag for F0569
+F_F0570   1685-1686 Imputation flag for F0570
+F_F0571   1687-1688 Imputation flag for F0571
+F_F0572   1689-1690 Imputation flag for F0572
+F_F0573   1691-1692 Imputation flag for F0573
+F_F0574   1693-1694 Imputation flag for F0574
+F_F0575   1695-1696 Imputation flag for F0575
+F_F0576   1697-1698 Imputation flag for F0576
+F_F0577   1699-1700 Imputation flag for F0577
+F_F0578   1701-1702 Imputation flag for F0578
+F_F0579   1703-1704 Imputation flag for F0579
+F_F0580   1705-1706 Imputation flag for F0580
+F_F0581   1707-1708 Imputation flag for F0581
+F_F0582   1709-1710 Imputation flag for F0582
+F_F0583   1711-1712 Imputation flag for F0583
+F_F0584   1713-1714 Imputation flag for F0584
+F_F0585   1715-1716 Imputation flag for F0585
+F_F0586   1717-1718 Imputation flag for F0586
+F_F0587   1719-1720 Imputation flag for F0587
+F_F0588   1721-1722 Imputation flag for F0588
+F_F0589   1723-1724 Imputation flag for F0589
+F_F0590   1725-1726 Imputation flag for F0590
+F_F0591   1727-1728 Imputation flag for F0591
+F_F0592   1729-1730 Imputation flag for F0592
+F_F0593   1731-1732 Imputation flag for F0593
+F_F0594   1733-1734 Imputation flag for F0594
+F_F0595   1735-1736 Imputation flag for F0595
+F_F0596   1737-1738 Imputation flag for F0596
+F_F0597   1739-1740 Imputation flag for F0597
+F_F0598   1741-1742 Imputation flag for F0598
+F_F0599   1743-1744 Imputation flag for F0599
+F_F0600   1745-1746 Imputation flag for F0600
+F_F0601   1747-1748 Imputation flag for F0601
+F_F0602   1749-1750 Imputation flag for F0602
+F_F0603   1751-1752 Imputation flag for F0603
+F_F0604   1753-1754 Imputation flag for F0604
+F_F0605   1755-1756 Imputation flag for F0605
+F_F0606   1757-1758 Imputation flag for F0606
+F_F0607   1759-1760 Imputation flag for F0607
+F_F0608   1761-1762 Imputation flag for F0608
+F_F0609   1763-1764 Imputation flag for F0609
+F_F0610   1765-1766 Imputation flag for F0610
+F_F0611   1767-1768 Imputation flag for F0611
+F_F0612   1769-1770 Imputation flag for F0612
+F_F0613   1771-1772 Imputation flag for F0613
+F_F0614   1773-1774 Imputation flag for F0614
+F_F0615   1775-1776 Imputation flag for F0615
+F_F0616   1777-1778 Imputation flag for F0616
+F_F0617   1779-1780 Imputation flag for F0617
+F_F0618   1781-1782 Imputation flag for F0618
+F_F0619   1783-1784 Imputation flag for F0619
+F_F0620   1785-1786 Imputation flag for F0620
+F_F0621   1787-1788 Imputation flag for F0621
+F_F0622   1789-1790 Imputation flag for F0622
+F_F0623   1791-1792 Imputation flag for F0623
+F_F0624   1793-1794 Imputation flag for F0624
+F_F0625   1795-1796 Imputation flag for F0625
+F_F0626   1797-1798 Imputation flag for F0626
+F_F0627   1799-1800 Imputation flag for F0627
+F_F0628   1801-1802 Imputation flag for F0628
+F_F0630   1803-1804 Imputation flag for F0630
+F_F0631   1805-1806 Imputation flag for F0631
+F_F0633   1807-1808 Imputation flag for F0633
+F_F0634   1809-1810 Imputation flag for F0634
+F_F0635   1811-1812 Imputation flag for F0635
+F_F0636   1813-1814 Imputation flag for F0636
+F_F0638   1815-1816 Imputation flag for F0638
+F_F0639   1817-1818 Imputation flag for F0639
+F_F0641   1819-1820 Imputation flag for F0641
+F_F0642   1821-1822 Imputation flag for F0642
+F_F0644   1823-1824 Imputation flag for F0644
+F_F0645   1825-1826 Imputation flag for F0645
+F_F0646   1827-1828 Imputation flag for F0646
+F_F0647   1829-1830 Imputation flag for F0647
+F_F0648   1831-1832 Imputation flag for F0648
+F_F0649   1833-1834 Imputation flag for F0649
+F_F0650   1835-1836 Imputation flag for F0650
+F_F0651   1837-1838 Imputation flag for F0651
+F_F0652   1839-1840 Imputation flag for F0652
+F_F0653   1841-1842 Imputation flag for F0653
+F_F0654   1843-1844 Imputation flag for F0654
+F_F0655   1845-1846 Imputation flag for F0655
+F_F0656   1847-1848 Imputation flag for F0656
+F_F0657   1849-1850 Imputation flag for F0657
+F_F0658   1851-1852 Imputation flag for F0658
+F_F0659   1853-1854 Imputation flag for F0659
+F_F0660   1855-1856 Imputation flag for F0660
+F_F0661   1857-1858 Imputation flag for F0661
+F_F0662   1859-1860 Imputation flag for F0662
+F_F0663   1861-1862 Imputation flag for F0663
+F_F0665   1863-1864 Imputation flag for F0665
+F_F0667   1865-1866 Imputation flag for F0667
+F_F0668   1867-1868 Imputation flag for F0668
+F_F0669   1869-1870 Imputation flag for F0669
+F_F0671   1871-1872 Imputation flag for F0671
+F_F0673   1873-1874 Imputation flag for F0673
+F_F0675   1875-1876 Imputation flag for F0675
+F_F0677   1877-1878 Imputation flag for F0677
+F_F0679   1879-1880 Imputation flag for F0679
+F_F0681   1881-1882 Imputation flag for F0681
+F_F0683   1883-1884 Imputation flag for F0683
+F_F0685   1885-1886 Imputation flag for F0685
+F_F0687   1887-1888 Imputation flag for F0687
+F_F0689   1889-1890 Imputation flag for F0689
+F_F0691   1891-1892 Imputation flag for F0691
+F_F0692   1893-1894 Imputation flag for F0692
+F_F0697   1895-1896 Imputation flag for F0697
+F_F0699   1897-1898 Imputation flag for F0699
+F_F0700   1899-1900 Imputation flag for F0700
+F_F0701   1901-1902 Imputation flag for F0701
+F_F0744   1903-1904 Imputation flag for F0744
+F_F0745   1905-1906 Imputation flag for F0745
+F_F0746   1907-1908 Imputation flag for F0746
+F_F0747   1909-1910 Imputation flag for F0747
+F_F0748   1911-1912 Imputation flag for F0748
+F_F0749   1913-1914 Imputation flag for F0749
+F_F0750   1915-1916 Imputation flag for F0750
+F_F0751   1917-1918 Imputation flag for F0751
+F_F0752   1919-1920 Imputation flag for F0752
+F_F0753   1921-1922 Imputation flag for F0753
+F_F0754   1923-1924 Imputation flag for F0754
+F_F0755   1925-1926 Imputation flag for F0755
+F_F0756   1927-1928 Imputation flag for F0756
+F_F0757   1929-1930 Imputation flag for F0757
+F_F0758   1931-1932 Imputation flag for F0758
+F_F0759   1933-1934 Imputation flag for F0759
+F_F0760   1935-1936 Imputation flag for F0760
+F_F0783   1937-1938 Imputation flag for F0783
+F_F0790   1939-1940 Imputation flag for F0790
+F_F0791   1941-1942 Imputation flag for F0791
+F_F0792   1943-1944 Imputation flag for F0792
+F_F0793   1945-1946 Imputation flag for F0793
+F_F0794   1947-1948 Imputation flag for F0794
+F_F0795   1949-1950 Imputation flag for F0795
+F_F0796   1951-1952 Imputation flag for F0796
+F_F0797   1953-1954 Imputation flag for F0797
+F_F0798   1955-1956 Imputation flag for F0798
+F_F0799   1957-1958 Imputation flag for F0799
+F_F0800   1959-1960 Imputation flag for F0800
+F_F0801   1961-1962 Imputation flag for F0801
+F_F0802   1963-1964 Imputation flag for F0802
+F_F0803   1965-1966 Imputation flag for F0803
+F_F0804   1967-1968 Imputation flag for F0804
+F0050     13-14     Currently teaching in K-12
+F0051     15-16     Main school assignment
+F0091     273-274   Agree-was satisfied with salary
+F0092     275-276   Agree-school offered sufficient benefits
+F0093     277-278   Agree-satisfied with job security
+F0094     279-280   Agree-school bldg needed repair
+F0095     281-282   Agree-school was in safe area
+F0096     283-284   Agree-felt safe at the school
+F0097     285-286   Agree-security policies were sufficient
+F0098     287-288   Agree-discipline was a problem
+F0099     289-290   Agree-students motivated to learn
+F0100     291-292   Agree-school emphasized academics
+F0101     293-294   Agree-received little parental support
+F0102     295-296   Agree-got little community support
+F0103     297-298   Agree-teacher eval. was satisfactory
+F0104     299-300   Agree-satisfied w/student assignments
+F0105     301-302   Agree-some classes were too large
+F0106     303-304   Agree-satisfied with grade assignment
+F0107     305-306   Agree-satisfied with subject taught
+F0108     307-308   Agree-teaching load too heavy
+F0109     309-310   Agree-too little influence on sch policy
+F0110     311-312   Agree-had control of my classroom
+F0111     313-314   Agree-classroom resources were adequate
+F0112     315-316   Agree-computers and technology adequate
+F0113     317-318   Agree-not enough planning time
+F0114     319-320   Agree-faculty highly professional
+F0115     321-322   Agree-easy to collaborate w/other tchrs
+F0116     323-324   Agree-too many class interruptions
+F0117     325-326   Agree-mainstreaming interfered w/tching
+F0118     327-328   Agree-opportunity for prof. advancement
+F0119     329-330   Agree-opportunity for prof. development
+F0120     331-332   Agree-reqrd prof. dev. matched my goals
+F0121     333-334   Agree-administrators were supportive
+F0122     335-336   Agree-satisfied teaching last year
+F0124     337-338   Administrator at last year school
+F0125     339-340   Taught at more than one school last year
+F0126     341-342   Person who provided instruc leadership
+F0127     343-344   Effectively communicated respect
+F0128     345-346   Effectively encouraged change in methods
+F0129     347-348   Effectively worked on curriculum stnds
+F0130     349-350   Effectively got tchr to collaborate
+F0131     351-352   Effectively helped solve sch problems
+F0132     353-354   Effectively got staff to use stu eval
+F0133     355-356   Effectively got agreement on sch mission
+F0134     357-358   Effectively encouraged tchr prof devel
+F0154     393-394   Any new degree in last 12 months
+F0156     395-398   Year degree earned
+F0157     399-400   Type of degree
+F0159     401-402   Earned degree to increase salary
+F0160     403-404   Earned degree for prof development
+F0161     405-406   Earned degree to teach in diff field
+F0162     407-408   Earned degree to secure non-tching job
+F0163     409-410   Earned degr for job outside elem/sec ed
+F0164     411-412   Earned degree to maintain position/cert
+F0165     413-414   Earned degree for another reason
+F0166     415-416   Currently enrolled in a degree program
+F0167     417-418   Type of degree pursuing
+F0169     419-420   Pursuing deg to increase salary
+F0170     421-422   Pursuing deg for prof devel
+F0171     423-424   Pursuing deg to teach diff field
+F0172     425-426   Pursuing deg to get a non-tchng position
+F0173     427-428   Pursuing deg for job outside el/sc ed
+F0174     429-430   Pursuing deg to maintain position/certif
+F0175     431-432   Pursuing degree for another reason
+F0188     435-436   Ethnicity
+F0194     465-466   Total income of family members in hsehld
+F0195     467-468   Marital status
+F0196     469-470   Number of dependents
+F0197     471-472   Dependents under age 5
+F0552     17-18     Full-time or part-time teacher
+F0553     19-20     Full-time or part-time employee
+F0554     21-22     Have other school assignment
+F0555     23-24     Other assignment at this school
+F0556     25-26     Code for main teaching assignment field
+F0557     27-28     Certified in main teaching field
+F0558     29-30     Type of teaching certificate
+F0559     31-32     Have other teaching assignment field
+F0560     33-34     Code for other teaching assignment field
+F0561     35-36     Certified in other teaching field
+F0562     37-38     Type of teaching certificate
+F0563     39-40     Grade taught-Ungraded
+F0564     41-42     Grade taught-Prekindergarten
+F0565     43-44     Grade taught-Kindergarten
+F0566     45-46     Grade taught-1st grade
+F0567     47-48     Grade taught-2nd grade
+F0568     49-50     Grade taught-3rd grade
+F0569     51-52     Grade taught-4th grade
+F0570     53-54     Grade taught-5th grade
+F0571     55-56     Grade taught-6th grade
+F0572     57-58     Grade taught-7th grade
+F0573     59-60     Grade taught-8th grade
+F0574     61-62     Grade taught-9th grade
+F0575     63-64     Grade taught-10th grade
+F0576     65-66     Grade taught-11th grade
+F0577     67-68     Grade taught-12th grade
+F0578     69-70     Grade taught-Postsecondary
+F0579     71-72     Agree-teaching salary satisfactory
+F0580     73-74     Agree-satisfactory benefits
+F0581     75-76     Agree-satisfied with job security
+F0582     77-78     Agree-facility needs repair
+F0583     79-80     Agree-school is in a safe area
+F0584     81-82     Agree-feel safe at this school
+F0585     83-84     Agree-sufficient security
+F0586     85-86     Agree-student behavior is a problem
+F0587     87-88     Agree-students motivated to learn
+F0588     89-90     Agree-academic success emphasized
+F0589     91-92     Agree-little support from parents
+F0590     93-94     Agree-little community support
+F0591     95-96     Agree-tchr evaluation procedures
+F0592     97-98     Agree-policies for student assignment
+F0593     99-100    Agree-my classes are too large
+F0594     101-102   Agree-satisfied with grade assignment
+F0595     103-104   Agree-satisfied with subjects I teach
+F0596     105-106   Agree-teaching workload too heavy
+F0597     107-108   Agree-inadequate influence on sch policy
+F0598     109-110   Agree-adequate control of my classroom
+F0599     111-112   Agree-classroom resources are sufficient
+F0600     113-114   Agree-sufficient classroom technology
+F0601     115-116   Agree-insufficient school planning time
+F0602     117-118   Agree-faculty very professional
+F0603     119-120   Agree-easy to collaborate w/other tchrs
+F0604     121-122   Agree-little uninterrupted class time
+F0605     123-124   Agree-mainstreaming students is a probl
+F0606     125-126   Agree-good chance for prof. advancement
+F0607     127-128   Agree-opportunity for prof. develpmt.
+F0608     129-130   Agree-required prof. dev. match my goals
+F0609     133-134   Agree-satisfied teaching in this school
+F0610     135-136   Agree-overall, satisfied with tchng
+F0611     137-138   Administrator at current school
+F0612     139-140   Teach at more than one school
+F0613     141-142   Responsible for instructional leadership
+F0614     143-144   Effectively communicates value of tchrs
+F0615     145-146   Effectively encourages change in methods
+F0616     147-148   Effectively works on curriculum stndrds
+F0617     149-150   Effectively aids in tchr collaboration
+F0618     151-152   Effectively helps solve school problems
+F0619     153-154   Effectively encouraged use of stu eval
+F0620     155-156   Effectively gets staff  agreement
+F0621     157-158   Effectively encourages prof. development
+F0622     159-160   Agree-administrators support the staff
+F0623     161-162   Agree-principal enforces discipline
+F0624     163-164   Agree-colleagues and I agree on mission
+F0625     165-166   Agree-much cooperation among staff
+F0626     167-168   Teach on rotating or flexible schedule
+F0627     169-170   Scheduled planning time
+F0628     171-172   Scheduled planning time
+F0630     173-174   Actual planning time available
+F0631     175-176   Actual planning time available
+F0633     177-178   Time needed for planning
+F0634     179-180   Time needed for planning
+F0635     181-182   Time working in education outside tching
+F0636     183-184   Time working in education outside tching
+F0638     185-186   Working outside education
+F0639     187-188   Working outside education
+F0641     189-190   Attending college
+F0642     191-192   Attending college
+F0644     193-194   Prof development on uses of computers
+F0645     195-196   Hours spent on computer prof develpmnt
+F0646     197-198   Usefulness of prof dev-computer use
+F0647     199-200   Prof dev-using computer technology
+F0648     201-202   Prof dev-using computers in class
+F0649     203-204   Prof dev-online activities
+F0650     205-206   Prof dev-student multimedia reports
+F0651     207-208   Reasonably familiar using computers
+F0652     209-210   Value of-classroom telephone
+F0653     211-212   Value of-one computer per four students
+F0654     213-214   Value of-teacher access to email
+F0655     215-216   Value of-Web access in classroom
+F0656     217-218   Value of-a full page scanner
+F0657     219-220   Value of-video camera (camcorder)
+F0658     221-222   Value of-reference works on CD-ROM
+F0659     223-224   Value of-presentation software
+F0660     225-226   Value of-multimedia authoring program
+F0661     227-228   Students use computers during classes
+F0662     229-230   Students in designated class
+F0663     231-232   Computers in classroom
+F0665     233-234   Computers with access to Internet
+F0667     235-236   Number of class meetings-two full weeks
+F0668     237-238   Class used computers-most recent 2 weeks
+F0669     239-240   Used computers to learn subject matter
+F0671     241-242   Used computers to master skills
+F0673     243-244   Used computers to solve problems
+F0675     245-246   Used computers for student collaboration
+F0677     247-248   Used computers to produce reports
+F0679     249-250   Used computers for word processing
+F0681     251-252   Used computers for e-mail
+F0683     253-254   Used computers to learn computer skills
+F0685     255-256   Used computers to do research
+F0687     257-258   Used computers to analyze information
+F0689     259-260   Used computers for other purpose
+F0691     261-262   Location where computers used
+F0692     263-264   Teaching in same school as last year
+F0697     265-266   Teach in same state as last year
+F0699     267-268   Is the school a charter school
+F0700     269-270   Move from last year school
+F0701     271-272   Private school affiliation
+F0744     359-360   Agree-administrators supported staff
+F0745     361-362   Agree-principal enforced discipline
+F0746     363-364   Agree-colleagues and I agreed on mission
+F0747     365-366   Agree-much cooperation among staff
+F0748     367-368   Importance-change or residence
+F0749     369-370   Importance-better salary/benefits
+F0750     371-372   Importance-higher job security
+F0751     373-374   Importance-better teaching assignment
+F0752     375-376   Importance-workplace conditions
+F0753     377-378   Importance-lack of administrator support
+F0754     379-380   Importance-changes in job description
+F0755     381-382   Importance-unprepared for new reforms
+F0756     383-384   Importance-do not agree w/new reforms
+F0757     385-386   Importance-layoff or invol. transfer
+F0758     387-388   Importance-lack of classroom autonomy
+F0759     389-390   Importance-dissatisfied w/prof dev oppor
+F0760     391-392   Importance-dissatisfied for oth reasons
+F0783     433-434   How long to remain in teaching
+F0790     437-438   Earnings from teaching summer school
+F0791     439-440   Amount earned from teaching summer sch
+F0792     441-442   Earnings from a nonteaching school job
+F0793     443-444   Amount earned from nonteaching sch job
+F0794     445-446   Earnings from working in a nonschool job
+F0795     447-448   Amount earned from nonschool job
+F0796     449-450   Academic year base teaching salary
+F0797     451-452   Any earnings from additional activities
+F0798     453-454   Amount earned from additional activities
+F0799     455-456   Earnings from other school sources
+F0800     457-458   Amount earned from other sch sources
+F0801     459-460   Earnings from a job outside this sch
+F0802     461-462   Amount earned from job outside this sch
+F0803     463-464   Type of job outside this school system
+F0804     131-132   Agree-administrators are supportive
+FTPT_S    625-626   SASS full-time/part-time status
+GENDER    473-474   SASS respondent gender
+HIDEGREE  481-482   TFS highest degree earned
+HRACT     513-517   TFS hrs available for planning and prep
+HRED      498-502   TFS hrs spent at ed job, nonteaching
+HRHV      518-522   TFS hrs scheduled for planning and prep
+HRND      493-497   TFS hrs needed for planning and prep
+HRNONED   503-507   TFS hrs spent at non-ed occupation
+HRUNIV    508-512   TFS hrs spent attending college
+INFM_AMT  525-526   TFS in-fld mn assign-arts/music
+INFM_BET  527-528   TFS in-fld mn assign-bilingual ed or esl
+INFM_CMT  529-530   TFS in-fld mn assign--comp sc
+INFM_ELT  531-532   TFS in-fld mn assign-el ed
+INFM_ENT  533-534   TFS in-fld mn assign-english
+INFM_FLT  535-536   TFS in-fld mn assign-for lang
+INFM_MAT  537-538   TFS in-fld mn assign-math
+INFM_PET  539-540   TFS in-fld mn assign-phys/hlth
+INFM_SCT  541-542   TFS in-fld mn assign-science
+INFM_SET  543-544   TFS in-fld mn assign-special ed
+INFM_SOT  545-546   TFS in-fld mn assign-soc st
+INFM_VOT  547-548   TFS in-fld mn assign-voc-ed
+INFMSCHT  549-550   TFS in-fld mn assign-chem
+INFMSEAT  551-552   TFS in-fld mn assign-earth sc
+INFMSELT  553-554   TFS in-fld mn assign-el ed, not k
+INFMSHLT  555-556   TFS in-fld mn assign-hlth
+INFMSKIT  557-558   TFS in-fld mn assign-kinder
+INFMSLIT  559-560   TFS in-fld mn assign-life sc
+INFMSPET  561-562   TFS in-fld mn assign-phys ed
+INFMSPHT  563-564   TFS in-fld mn assign-physics
+INFMSPST  565-566   TFS in-fld mn assign-phys sc
+INFMT     523-524   TFS in-fld mn assign-all assigns
+JOBDES_S  601-602   SASS outside job
+MINENR_S  587-588   SASS sch-percent minority students
+MINTCH_S  589-590   SASS sch-Percent minority teachers
+MNASGNCH  491-492   TFS changed main assignment
+MOVERS    477-478   TFS teacher moves
+NEWTCH    617-618   SASS new teacher flag
+PD_CPTR   609-610   SASS prof dev-computers, 99
+PD_DISC   613-614   SASS prof dev-discipline, 99
+PD_MTHD   607-608   SASS prof dev-methods, 99
+PD_STAS   611-612   SASS prof dev-assessment, 99
+PD_STDS   605-606   SASS prof dev-standards, 99
+PD_SUBJ   603-604   SASS prof dev-subject content, 99
+PGMTYPE   583-584   SASS school program type
+PLANS_S   619-620   SASS plans to remain in teaching
+RACE      475-476   TFS respondent race (recoded)
+RACETH_T  593-594   SASS teacher race/ethnicity
+REGION    578-578   SASS Census Region
+REGION_T  12-12     TFS Census Region
+RELIG     579-580   SASS 3-level affiliation code
+SCHLEVEL  581-582   SASS school level (3 categories)
+SECTOR    575-575   SASS school sector
+STATUS    11-11     TFS final teacher status
+SURVEY    7-10      TFS questionnaire type
+TEALEV_T  567-568   TFS Teacher Level
+TOTEXP_T  485-486   TFS total teaching experience
+TOTEXPER  599-600   SASS total teaching experience
+UNION     615-616   SASS member of union, 1999-2000
+URBANIC   576-577   Urbanicity of SASS school
+YRTCHSC   597-598   Number of years at SASS school
+CNTLNUM   1-6       Teacher control number
+SCHCNTL   569-574   SASS school control number
+TFRPWT1   636-645   Teacher final replicate weight 1
+TFRPWT10  725-734   Teacher final replicate weight 10
+TFRPWT11  735-744   Teacher final replicate weight 11
+TFRPWT12  745-754   Teacher final replicate weight 12
+TFRPWT13  755-764   Teacher final replicate weight 13
+TFRPWT14  765-774   Teacher final replicate weight 14
+TFRPWT15  775-784   Teacher final replicate weight 15
+TFRPWT16  785-793   Teacher final replicate weight 16
+TFRPWT17  794-803   Teacher final replicate weight 17
+TFRPWT18  804-813   Teacher final replicate weight 18
+TFRPWT19  814-823   Teacher final replicate weight 19
+TFRPWT2   646-655   Teacher final replicate weight 2
+TFRPWT20  824-833   Teacher final replicate weight 20
+TFRPWT21  834-843   Teacher final replicate weight 21
+TFRPWT22  844-852   Teacher final replicate weight 22
+TFRPWT23  853-862   Teacher final replicate weight 23
+TFRPWT24  863-872   Teacher final replicate weight 24
+TFRPWT25  873-882   Teacher final replicate weight 25
+TFRPWT26  883-892   Teacher final replicate weight 26
+TFRPWT27  893-902   Teacher final replicate weight 27
+TFRPWT28  903-912   Teacher final replicate weight 28
+TFRPWT29  913-922   Teacher final replicate weight 29
+TFRPWT3   656-665   Teacher final replicate weight 3
+TFRPWT30  923-932   Teacher final replicate weight 30
+TFRPWT31  933-942   Teacher final replicate weight 31
+TFRPWT32  943-952   Teacher final replicate weight 32
+TFRPWT33  953-962   Teacher final replicate weight 33
+TFRPWT34  963-972   Teacher final replicate weight 34
+TFRPWT35  973-982   Teacher final replicate weight 35
+TFRPWT36  983-992   Teacher final replicate weight 36
+TFRPWT37  993-1002  Teacher final replicate weight 37
+TFRPWT38  1003-1012 Teacher final replicate weight 38
+TFRPWT39  1013-1022 Teacher final replicate weight 39
+TFRPWT4   666-675   Teacher final replicate weight 4
+TFRPWT40  1023-1032 Teacher final replicate weight 40
+TFRPWT41  1033-1042 Teacher final replicate weight 41
+TFRPWT42  1043-1052 Teacher final replicate weight 42
+TFRPWT43  1053-1062 Teacher final replicate weight 43
+TFRPWT44  1063-1072 Teacher final replicate weight 44
+TFRPWT45  1073-1082 Teacher final replicate weight 45
+TFRPWT46  1083-1092 Teacher final replicate weight 46
+TFRPWT47  1093-1102 Teacher final replicate weight 47
+TFRPWT48  1103-1112 Teacher final replicate weight 48
+TFRPWT49  1113-1122 Teacher final replicate weight 49
+TFRPWT5   676-685   Teacher final replicate weight 5
+TFRPWT50  1123-1132 Teacher final replicate weight 50
+TFRPWT51  1133-1142 Teacher final replicate weight 51
+TFRPWT52  1143-1152 Teacher final replicate weight 52
+TFRPWT53  1153-1162 Teacher final replicate weight 53
+TFRPWT54  1163-1172 Teacher final replicate weight 54
+TFRPWT55  1173-1182 Teacher final replicate weight 55
+TFRPWT56  1183-1192 Teacher final replicate weight 56
+TFRPWT57  1193-1202 Teacher final replicate weight 57
+TFRPWT58  1203-1212 Teacher final replicate weight 58
+TFRPWT59  1213-1222 Teacher final replicate weight 59
+TFRPWT6   686-695   Teacher final replicate weight 6
+TFRPWT60  1223-1232 Teacher final replicate weight 60
+TFRPWT61  1233-1242 Teacher final replicate weight 61
+TFRPWT62  1243-1252 Teacher final replicate weight 62
+TFRPWT63  1253-1261 Teacher final replicate weight 63
+TFRPWT64  1262-1271 Teacher final replicate weight 64
+TFRPWT65  1272-1281 Teacher final replicate weight 65
+TFRPWT66  1282-1291 Teacher final replicate weight 66
+TFRPWT67  1292-1301 Teacher final replicate weight 67
+TFRPWT68  1302-1311 Teacher final replicate weight 68
+TFRPWT69  1312-1321 Teacher final replicate weight 69
+TFRPWT7   696-705   Teacher final replicate weight 7
+TFRPWT70  1322-1331 Teacher final replicate weight 70
+TFRPWT71  1332-1341 Teacher final replicate weight 71
+TFRPWT72  1342-1351 Teacher final replicate weight 72
+TFRPWT73  1352-1361 Teacher final replicate weight 73
+TFRPWT74  1362-1371 Teacher final replicate weight 74
+TFRPWT75  1372-1381 Teacher final replicate weight 75
+TFRPWT76  1382-1391 Teacher final replicate weight 76
+TFRPWT77  1392-1401 Teacher final replicate weight 77
+TFRPWT78  1402-1411 Teacher final replicate weight 78
+TFRPWT79  1412-1421 Teacher final replicate weight 79
+TFRPWT8   706-715   Teacher final replicate weight 8
+TFRPWT80  1422-1431 Teacher final replicate weight 80
+TFRPWT81  1432-1441 Teacher final replicate weight 81
+TFRPWT82  1442-1451 Teacher final replicate weight 82
+TFRPWT83  1452-1461 Teacher final replicate weight 83
+TFRPWT84  1462-1471 Teacher final replicate weight 84
+TFRPWT85  1472-1481 Teacher final replicate weight 85
+TFRPWT86  1482-1491 Teacher final replicate weight 86
+TFRPWT87  1492-1501 Teacher final replicate weight 87
+TFRPWT88  1502-1510 Teacher final replicate weight 88
+TFRPWT9   716-724   Teacher final replicate weight 9
+TFSFINWT  627-635   TFS teacher final weight
+
+/* Variable Value Labels */
+F0700
+   1 = "Moved from one public school to another public school in the SAME SCHOOL DISTRICT"
+   2 = "Moved from one public school district to ANOTHER PUBLIC SCHOOL DISTRICT"
+   3 = "Moved from a PRIVATE school to a PUBLIC school"
+   4 = "Moved from one PRIVATE school to another PRIVATE SCHOOL"
+   5 = "Moved from a PUBLIC school to a PRIVATE school"
+   -8 = "Valid skip"
+F0749
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0121
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+PD_STAS
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+F_F0111
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0595
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0588
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+URBANIC
+   1 = "Large or mid-size central city"
+   2 = "Urban fringe of large or mid-size city"
+   3 = "Small town/Rural"
+F_F0580
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0115
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0578
+   1 = "Postsecondary"
+   -8 = "Valid skip"
+F_F0133
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0655
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F0791
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+F_F0587
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0611
+   1 = "Yes"
+   2 = "No"
+F_F0654
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+HIDEGREE
+   1 = "Associate degree or no college degree"
+   2 = "Bachelor's degree"
+   3 = "Master's degree"
+   4 = "Education specialist or professional diploma"
+   5 = "Doctorate (Ph.D., Ed.D., etc.) or professional degree (M.D., D.D.S., J.D., etc.)"
+TEALEV_T
+   1 = "Elementary"
+   2 = "Middle"
+   3 = "Secondary"
+   4 = "Other"
+RACETH_T
+   1 = "American Indian or Alaska Native, non-Hispanic"
+   2 = "Asian or Pacific Islander, non-Hispanic"
+   3 = "Black, non-Hispanic"
+   4 = "White, non-Hispanic"
+   5 = "Hispanic, regardless of race"
+F0555
+   1 = "Administrator (e.g., principal, assistant principal, director, school head)"
+   2 = "Coach"
+   3 = "Counselor"
+   4 = "Library media specialist or librarian"
+   5 = "Other professional staff (e.g., department head or chair, curriculum coordinator)"
+   6 = "Support staff (e.g., secretary, aide)"
+   7 = "Other"
+   -8 = "Valid skip"
+F_F0166
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0156
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+F0103
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0751
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0572
+   0 = "Not imputed"
+F0798
+   1 = "Less than $600"
+   2 = "$600 to $1,499"
+   3 = "$1,500 to $2,999"
+   4 = "$3,000 or more"
+   -8 = "Valid skip"
+F0114
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0600
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0126
+   1 = "Principal or school head"
+   2 = "Assistant or vice principal"
+   3 = "Department chair or head"
+   4 = "Director of curriculum and instruction"
+   5 = "Other"
+   -8 = "Valid skip"
+F_F0165
+   0 = "Not imputed"
+F_F0557
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   8 = "Value was imputed by hand (clerical)"
+F_F0751
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0604
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0553
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0562
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0093
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0554
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_F0613
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0800
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0599
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0098
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0683
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0108
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0797
+   1 = "Yes"
+   2 = "No"
+F_F0697
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_F0797
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0120
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0603
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0050
+   1 = "Yes"
+   2 = "No"
+F0758
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F0802
+   1 = "Less than $1,000"
+   2 = "$1,000 to $2,999"
+   3 = "$3,000 to $5,999"
+   4 = "$6,000 or more"
+   -8 = "Valid skip"
+F_F0626
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0132
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0653
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0604
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0127
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0558
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0117
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0582
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0783
+   1 = "As long as I am able"
+   2 = "Until I am eligible for retirement"
+   3 = "Will probably continue unless something better comes along"
+   4 = "Definitely plan to leave teaching as soon as I can"
+   5 = "Undecided at this time"
+F_F0160
+   0 = "Not imputed"
+F_F0671
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0117
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0645
+   1 = "8 hours or less"
+   2 = "9-16 hours"
+   3 = "17-32 hours"
+   4 = "33 hours or more"
+   -8 = "Valid skip"
+F0609
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0747
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0127
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0591
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0098
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0173
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0163
+   1 = "For an occupation outside elementary or secondary education"
+   -8 = "Valid skip"
+F0624
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0101
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0571
+   1 = "6th grade"
+   -8 = "Valid skip"
+SURVEY
+   TFS3 = "Current teachers"
+F0164
+   1 = "Required to keep your teaching position or certification"
+   -8 = "Valid skip"
+F0653
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0573
+   0 = "Not imputed"
+F_F0631
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0747
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_BET
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+INFMSLIT
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F_F0623
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0587
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0575
+   1 = "10th grade"
+   -8 = "Valid skip"
+F_F0103
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0195
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_F0590
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0095
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+ASSIGN_S
+   1 = "Arts and music"
+   2 = "Computer science"
+   3 = "English/language arts"
+   4 = "Foreign language"
+   5 = "General elementary"
+   6 = "Math"
+   7 = "Physical education/health"
+   8 = "Science"
+   9 = "Science - biology"
+   10 = "Science - physical science"
+   11 = "Social science"
+   12 = "Special ediucation"
+   13 = "Other assignment fields"
+JOBDES_S
+   1 = "Teaching or tutoring"
+   2 = "Nonteaching, but related to teaching field"
+   3 = "Other"
+   -8 = "Respondent did not earn any income from a job outside SASS school or school system during 1999-2000 school year"
+F0156
+
+
+   -8 = "Valid Skip"
+F0166
+   1 = "No"
+   2 = "Yes, as a full-time student"
+   3 = "Yes, as a part-time student"
+F0621
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0641
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0792
+   1 = "Yes"
+   2 = "No"
+F_F0699
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0134
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0159
+   0 = "Not imputed"
+INFM_ENT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0659
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0569
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0658
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0660
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0668
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0174
+   1 = "Required to keep your teaching position or certification"
+   -8 = "Valid skip"
+F0561
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_F0628
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0744
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0102
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0638
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0799
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0802
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFMSPST
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0685
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0578
+   0 = "Not imputed"
+F_F0612
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F0100
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0673
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+SECTOR
+   A = "Public"
+   B = "Private"
+F0619
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0108
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0692
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   8 = "Value was imputed by hand (clerical)"
+F_F0556
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0165
+   1 = "Other"
+   -8 = "Valid skip"
+F0129
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0563
+   0 = "Not imputed"
+F0096
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0626
+   1 = "Yes"
+   2 = "No"
+F_F0051
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0607
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+MOVERS
+   1 = "Teacher in same school where he/she was during SASS"
+   2 = "Teacher moved from one public school to another in same district"
+   3 = "Teacher moved from one public school to another, different district, same state"
+   4 = "Teacher moved from one public school to another, different state"
+   5 = "Teacher moved from a private school to a public school, same state"
+   6 = "Teacher moved from a private school to a public school, different state"
+   7 = "Teacher moved from a private school to another, same state"
+   8 = "Teacher moved from a private school to another, different state"
+   9 = "Teacher moved from a public school to a private school, same state"
+   10 = "Teacher moved from a public school to a private school, different state"
+F_F0616
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0596
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0801
+   1 = "Yes"
+   2 = "No"
+F_F0125
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+F_F0115
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0133
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F0759
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0091
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0555
+   0 = "Not imputed"
+F_F0792
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_SOT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0606
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0099
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0749
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0560
+   1 = "Prekindergarten"
+   2 = "Kindergarten"
+   3 = "Elementary"
+   5 = "Architecture or environmental design"
+   6 = "Art"
+   7 = "Basic skills or remedial education"
+   8 = "Bilingual education"
+   9 = "Computer science"
+   10 = "Dance"
+   11 = "Drama/Theater"
+   12 = "English as a Second Language"
+   13 = "Family and consumer science (home economics)"
+   14 = "Gifted"
+   15 = "Health education"
+   16 = "Mathematics"
+   17 = "Military science"
+   18 = "Music"
+   19 = "Philosophy"
+   20 = "Physical education"
+   21 = "Religion"
+   22 = "Social studies or social science (including history)"
+   23 = "English or language arts"
+   24 = "Journalism"
+   25 = "Reading"
+   26 = "French"
+   27 = "German"
+   28 = "Latin"
+   29 = "Russian"
+   30 = "Spanish"
+   31 = "Other foreign languages"
+   32 = "Biology or life science"
+   33 = "Chemistry"
+   34 = "Earth/space science/geology"
+   35 = "General science"
+   36 = "Physical science"
+   37 = "Physics"
+   38 = "Other natural sciences"
+   39 = "Accounting"
+   40 = "Agriculture or natural resources"
+   41 = "Business/office"
+   42 = "Career education"
+   43 = "Communications technologies"
+   46 = "Health occupations"
+   47 = "Trades and industry (e.g., CADD, electronics repair, mechanics, precision production)"
+   48 = "Other vocational/technical education"
+   49 = "Special education, general"
+   50 = "Autism"
+   53 = "Early childhood special education"
+   54 = "Emotionally disturbed or behavior disorders"
+   55 = "Learning disabilities"
+   56 = "Mentally retarded"
+   57 = "Mildly/moderately disabled"
+   59 = "Severely/profoundly disabled"
+   60 = "Speech/language impaired"
+   63 = "Other special education"
+   64 = "All Others"
+   -8 = "Valid skip"
+F_F0663
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0105
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0112
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0644
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0573
+   1 = "8th grade"
+   -8 = "Valid skip"
+F0585
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0623
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+PD_SUBJ
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+F_F0124
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+F0154
+   1 = "Yes"
+   2 = "No"
+F0608
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0160
+   1 = "For professional development in current field"
+   -8 = "Valid skip"
+F0790
+   1 = "Yes"
+   2 = "No"
+INFMSCHT
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F_F0172
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0657
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0169
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0157
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+F0656
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0700
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0754
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0746
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+GENDER
+   1 = "Male"
+   2 = "Female"
+F_F0687
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0563
+   1 = "Ungraded"
+   -8 = "Valid skip"
+F0576
+   1 = "11th grade"
+   -8 = "Valid skip"
+F_F0593
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0613
+   1 = "Principal or school head"
+   2 = "Assistant or vice principal"
+   3 = "Department chair or head"
+   4 = "Director of curriculum and instruction"
+   5 = "Other"
+   -8 = "Valid skip"
+F0795
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+F_F0645
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0113
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0154
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F0586
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0164
+   0 = "Not imputed"
+COLBARG
+   0 = "District or school had no agreement with teachers' union or organization"
+   1 = "District or school had a meet-and-confer agreement with teachers' union or organization"
+   2 = "District or school had collective bargaining agreement with teachers' union or organization"
+   -8 = "Respondent was not teaching in a charter school or in a public school that was operated by a district/LEA in 1999-2000"
+   -9 = "Not available because district was a noninterview"
+F_F0757
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0552
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+AGE_TT
+   1 = "Younger than 30"
+   2 = "30 to 39"
+   3 = "40 to 49"
+   4 = "50 years or older"
+F_F0600
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0642
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0790
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0801
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0661
+   1 = "Yes"
+   2 = "No"
+F_F0675
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0618
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0590
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0635
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0669
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0796
+   1 = "$25,000 or less"
+   2 = "$25,001 to $30,000"
+   3 = "$30,001 to $35,000"
+   4 = "$35,001 to $45,000"
+   5 = "More than $45,000"
+F_F0652
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0196
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0173
+   1 = "For an occupation outside elementary or secondary education"
+   -8 = "Valid skip"
+F0566
+   1 = "1st grade"
+   -8 = "Valid skip"
+F0188
+   1 = "Hispanic or Latino"
+   2 = "Not Hispanic or Latino"
+INFM_FLT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F0051
+   1 = "Regular full-time teacher"
+   2 = "Regular part-time teacher"
+   3 = "Itinerant teacher (i.e., your assignment requires you to provide instruction at more than one school)"
+   4 = "Long-term substitute (i.e., your assignment requires that you fill the role of a regular teacher on a long-term basis, but you are still considered a substitute)"
+   5 = "Administrator (e.g., principal, assistant principal, director, school head)"
+   6 = "Library media specialist or librarian"
+   7 = "Other professional staff (e.g., counselor, curriculum coordinator, social worker, coach, department head or chair)"
+   8 = "Support staff (e.g., secretary)"
+F0757
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F0128
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+EARNAL_T
+   1 = "Less than $30,000"
+   2 = "$30,000 to $39,999"
+   3 = "$40,000 or more"
+F0701
+   1 = "Religious -  Roman Catholic"
+   2 = "Religious - non-Roman Catholic"
+   3 = "Non-religious"
+   -8 = "Valid skip"
+F_F0163
+   0 = "Not imputed"
+F_F0575
+   0 = "Not imputed"
+F_F0581
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0579
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0648
+   1 = "Topic not discussed"
+   2 = "Topic mentioned"
+   3 = "Central topic"
+   -8 = "Valid skip"
+F0616
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0568
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0594
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0557
+   1 = "Yes"
+   2 = "No"
+F_F0585
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0130
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFMSKIT
+   0 = "No regular certification or major or minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F0569
+   1 = "4th grade"
+   -8 = "Valid skip"
+F0602
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0100
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0754
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0756
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+AGE_T
+   1 = "Younger than 30 years of age"
+   2 = "30 to 39 years"
+   3 = "40 to 49 years"
+   4 = "50 years or older"
+F_F0619
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0170
+   1 = "For professional development in current field"
+   -8 = "Valid skip"
+F0593
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0106
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0571
+   0 = "Not imputed"
+F0556
+   1 = "Prekindergarten"
+   2 = "Kindergarten"
+   3 = "Elementary"
+   4 = "American Indian/Native American studies"
+   5 = "Architecture or environmental design"
+   6 = "Art"
+   7 = "Basic skills or remedial education"
+   8 = "Bilingual education"
+   9 = "Computer science"
+   10 = "Dance"
+   11 = "Drama/Theater"
+   12 = "English as a Second Language"
+   13 = "Family and consumer science (home economics)"
+   14 = "Gifted"
+   15 = "Health education"
+   16 = "Mathematics"
+   17 = "Military science"
+   18 = "Music"
+   19 = "Philosophy"
+   20 = "Physical education"
+   21 = "Religion"
+   22 = "Social studies or social science (including history)"
+   23 = "English or language arts"
+   24 = "Journalism"
+   25 = "Reading"
+   26 = "French"
+   27 = "German"
+   28 = "Latin"
+   29 = "Russian"
+   30 = "Spanish"
+   31 = "Other foreign languages"
+   32 = "Biology or life science"
+   33 = "Chemistry"
+   34 = "Earth/space science/geology"
+   35 = "General science"
+   36 = "Physical science"
+   37 = "Physics"
+   38 = "Other natural sciences"
+   40 = "Agriculture or natural resources"
+   41 = "Business/office"
+   42 = "Career education"
+   43 = "Communications technologies"
+   45 = "Food services"
+   46 = "Health occupations"
+   47 = "Trades and industry (e.g., CADD, electronics repair, mechanics, precision production)"
+   48 = "Other vocational/technical education"
+   49 = "Special education, general"
+   50 = "Autism"
+   51 = "Deaf and hard-of-hearing"
+   52 = "Developmentally delayed"
+   53 = "Early childhood special education"
+   54 = "Emotionally disturbed or behavior disorders"
+   55 = "Learning disabilities"
+   56 = "Mentally retarded"
+   57 = "Mildly/moderately disabled"
+   58 = "Orthopedically impaired"
+   59 = "Severely/profoundly disabled"
+   60 = "Speech/language impaired"
+   63 = "Other special education"
+   64 = "All Others"
+F_F0620
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0624
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0651
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0699
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F0760
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0630
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_CMT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+STATUS
+   M = "Mover - Respondent is teaching at another school"
+   S = "Stayer - Respondent is still teaching at same school"
+F0194
+   1 = "Less than $20,000"
+   2 = "$20,000-$34,999"
+   3 = "$35,000-$49,999"
+   4 = "$50,000-$74,999"
+   5 = "$75,000-$99,999"
+   6 = "$100,000 or more"
+F0804
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0104
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0668
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F0119
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+PD_DISC
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+F_F0574
+   0 = "Not imputed"
+F_F0599
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0574
+   1 = "9th grade"
+   -8 = "Valid skip"
+F0647
+   1 = "Topic not discussed"
+   2 = "Topic mentioned"
+   3 = "Central topic"
+   -8 = "Valid skip"
+F0745
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0584
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0162
+   0 = "Not imputed"
+F_F0647
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0586
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0161
+   1 = "To teach in a different field than the one taught last year"
+   -8 = "Valid skip"
+INFMSPHT
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F_F0175
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_SET
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0752
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0649
+   1 = "Topic not discussed"
+   2 = "Topic mentioned"
+   3 = "Central topic"
+   -8 = "Valid skip"
+F_F0755
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0667
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFM_SCT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+RELIG
+   1 = "Catholic"
+   2 = "Other religious"
+   3 = "Nonsectarian"
+   -8 = "Respondent was not a private school teacher in 1999-2000 SASS"
+F_F0658
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0598
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0651
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree or disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+INFM_VOT
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0621
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0583
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+INFMSELT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F_F0194
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0745
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0755
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0650
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0161
+   0 = "Not imputed"
+F_F0803
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0175
+   1 = "Other"
+   -8 = "Valid skip"
+F_F0577
+   0 = "Not imputed"
+F_F0596
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0614
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F0577
+   1 = "12th grade"
+   -8 = "Valid skip"
+F0118
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0132
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0581
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0104
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0750
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F_F0116
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0583
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0188
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+F_F0094
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0617
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0793
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0595
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0646
+   1 = "Not useful at all"
+
+
+
+   5 = "Very useful"
+   -8 = "Valid skip"
+F_F0607
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0697
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F0617
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0795
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_MAT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+MINENR_S
+   1 = "Fewer than 20% minority students"
+   2 = "20% or more minority students"
+   -9 = "Not available because SASS school was a nonintervew and data not available from sample file"
+F_F0131
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0565
+   0 = "Not imputed"
+F_F0113
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0094
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0620
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F0159
+   1 = "To increase salary"
+   -8 = "Valid skip"
+F0167
+   1 = "Associate degree"
+   2 = "Bachelor's"
+   3 = "Master's"
+   4 = "Education specialist or professional diploma (at least one year beyond Master's level)"
+   5 = "Doctorate (e.g., Ph.D., Ed.D.)"
+   6 = "Professional (e.g., M.D., D.D.S.,  J.D., L.L.B.)"
+   -8 = "Valid skip"
+F0605
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+ENRK12UG
+   1 = "Fewer than 300 students"
+   2 = "300 to 499 students"
+   3 = "500 or more students"
+   -9 = "Not available because SASS school was a noninterview and no enrollment data in sample file"
+F_F0097
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0588
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0627
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0109
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0598
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+PGMTYPE
+   1 = "REGULAR elementary or secondary school"
+   2 = "MONTESSORI"
+   3 = "Elementary or secondary school with a SPECIAL PROGRAM EMPHASIS (such as a science/math school, performing arts school, talented/gifted school, foreign language immersion school, etc.)"
+   4 = "SPECIAL EDUCATION school - primarily serves students with disabilities"
+   5 = "VOCATIONAL/TECHNICAL school - primarily serves students being trained for occupations"
+   6 = "ALTERNATIVE school- offers a curriculum designed to provide alternative or nontraditional education; does not specifically fall into the categories of regular, special program, special education, or vocational school"
+   -9 = "Not available because SASS school was a noninterview"
+F_F0691
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0798
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0195
+   1 = "Married"
+   2 = "Widowed, divorced, or separated"
+   3 = "Never married"
+F_F0608
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0610
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0661
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0562
+   1 = "Regular or standard state certificate or advanced professional certificate"
+   2 = "Probationary certificate (the initial certificate issued after satisfying all requirements except the completion of a probationary period)"
+   3 = "Provisional or other type given to persons who are still participating in what the state calls an "alternative certification program""
+   4 = "Temporary certificate (requires some additional college coursework and/or student teaching before regular certification can be obtained)"
+   5 = "Emergency certificate or waiver (issued to persons with insufficient teacher preparation who must complete a regular certification program in order to continue teaching)"
+   -8 = "Valid skip"
+F_F0646
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0101
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0131
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F0568
+   1 = "3rd grade"
+   -8 = "Valid skip"
+F_F0611
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+F_F0107
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0110
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0134
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0099
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0091
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0118
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0606
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0748
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F0120
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0174
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0758
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0564
+   0 = "Not imputed"
+F0112
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0121
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0597
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0654
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0601
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0800
+   1 = "Less than $500"
+   2 = "$500 to $999"
+   3 = "$1,000 or more"
+   -8 = "Valid skip"
+F_F0689
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0096
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0634
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0748
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0691
+   1 = "Classroom"
+   2 = "Computer lab"
+   3 = "Library media center"
+   4 = "Other"
+   -8 = "Valid skip"
+F0565
+   1 = "Kindergarten"
+   -8 = "Valid skip"
+F_F0605
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0804
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0125
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+RACE
+   1 = "Non-Hispanic White"
+   2 = "Non-Hispanic Black or African American"
+   3 = "Non-Hispanic Other Single Race"
+   4 = "Hispanic or Latino Single or Multiple Races"
+   5 = "Non-Hispanic Multiple Races"
+F_F0677
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0615
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0119
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFM_AMT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F0622
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0567
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_F0759
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0157
+   1 = "Associate degree"
+   2 = "Bachelor's"
+   3 = "Master's"
+   4 = "Education specialist or professional diploma ( at least one year beyond Master's level)"
+   5 = "Doctorate (e.g., Ph.D., Ed.D.)"
+   6 = "Professional (e.g., M.D., D.D.S., J.D., L.L.B.)"
+   -8 = "Valid skip"
+F_F0129
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0171
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0111
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0169
+   1 = "To increase salary"
+   -8 = "Valid skip"
+F0570
+   1 = "5th grade"
+   -8 = "Valid skip"
+F0580
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+MNASGNCH
+   1 = "Teacher has changed main teaching assignment field"
+   2 = "Teacher has not changed main teaching assignment field"
+F_F0561
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0092
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+NEWTCH
+   1 = "Teacher has taught 3 years or less"
+   2 = "Teacher has taught more than 3 years"
+F0110
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0559
+   1 = "Yes"
+   2 = "No"
+F0171
+   1 = "To teach in a different field than the one taught last year"
+   -8 = "Valid skip"
+F_F0095
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+REGION_T
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+F0592
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+INFM_PET
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+PLANS_S
+   1 = "As long as I am able"
+   2 = "Until I am eligible for retirement"
+   3 = "Will probably continue unless something better comes along"
+   4 = "Definitely plan to leave teaching as soon as I can"
+   5 = "Undecided at this time"
+F_F0633
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0625
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0107
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F0794
+   1 = "Yes"
+   2 = "No"
+F0692
+   1 = "Yes"
+   2 = "No"
+F_F0602
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0701
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFMT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   3 = "No regular certification, both major and minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F0564
+   1 = "Prekindergarten"
+   -8 = "Valid skip"
+F0618
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0648
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0796
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0128
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0589
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0109
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0746
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+INFM_ELT
+   0 = "No regular certification or major or minor"
+   1 = "No regular certification, no major, yes minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F0610
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0102
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0592
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0097
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0566
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F_F0756
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+MINTCH_S
+   1 = "Fewer than 1% minority teachers"
+   2 = "1 to 19%"
+   3 = "20 to 49%"
+   4 = "50% or more minority teachers"
+   -9 = "Not available because SASS school was a noninterview"
+F0122
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+REGION
+   1 = "Northeast: Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont"
+   2 = "Midwest: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Ohio, South Dakota, Wisconsin"
+   3 = "South: Alabama, Arkansas, Delaware, District of Columbia, Florida, Georgia, Kentucky, Louisiana, Maryland, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, West Virginia"
+   4 = "West: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming"
+F0652
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+PD_CPTR
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+F0558
+   1 = "Regular or standard state certificate or advanced professional certificate"
+   2 = "Probationary certificate (the initial certificate issued after satisfying all requirements except the completion of a probationary period)"
+   3 = "Provisional or other type given to persons who are still participating in what the state calls an "alternative certification program""
+   4 = "Temporary certificate (requires some additional college coursework and/or student teaching before regular certification can be obtained)"
+   5 = "Emergency certificate or waiver (issued to persons with insufficient teacher preparation who must complete a regular certification program in order to continue teaching)"
+   -8 = "Valid skip"
+SCHLEVEL
+   1 = "Elementary"
+   2 = "Secondary"
+   3 = "Combined"
+F0660
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0622
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+FTPT_S
+   1 = "Full-time teacher"
+   2 = "Part-time teacher"
+F_F0197
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0636
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0567
+   1 = "2nd grade"
+   -8 = "Valid skip"
+F0172
+   1 = "For non-teaching position in elementary or secondary education"
+   -8 = "Valid skip"
+F_F0662
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0591
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0130
+   1 = "Not at all effectively"
+   2 = "Slightly effectively"
+   3 = "Somewhat effectively"
+   4 = "Very effectively"
+   5 = "Extremely effectively"
+   -8 = "Valid skip"
+F_F0576
+   0 = "Not imputed"
+F_F0106
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0601
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F_F0582
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+INFMSEAT
+   0 = "No regular certification or major or minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   -8 = "Valid skip"
+F_F0597
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0649
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0554
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   8 = "Value was imputed by hand (clerical)"
+PD_STDS
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+ASSIGN_T
+   1 = "Prekindergarten, kindergarten, and general elementary"
+   2 = "Math and science"
+   3 = "English/language arts"
+   4 = "Social science"
+   5 = "Special education"
+   6 = "Foreign languages and bilingual/ESL education"
+   7 = "Vocational-technical education"
+   8 = "All others"
+F_F0750
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFMSPET
+   0 = "No regular certification or major or minor"
+   2 = "No regular certification, yes major, no minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   7 = "Regular certification and major and minor"
+   -8 = "Valid skip"
+F0793
+   1 = "Less than $1,000"
+   2 = "$1,000 to $1,999"
+   3 = "$2,000 to $3,999"
+   4 = "$4,000 or more"
+   -8 = "Valid skip"
+ASSIGN
+   1 = "Prekindergarten, kindergarten, and general elementary"
+   2 = "Math and science"
+   3 = "English/language arts"
+   4 = "Social science"
+   5 = "Special education"
+   6 = "Foreign languages"
+   7 = "Bilingual/ESL education"
+   8 = "Vocational/technical education"
+   9 = "All others"
+F_F0639
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0665
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0105
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0656
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0679
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0093
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0584
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0794
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0657
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F_F0614
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+PD_MTHD
+   1 = "No professional development of this kind"
+   2 = "8 hours or less"
+   3 = "9-16 hours"
+   4 = "17-32 hours"
+   5 = "33 hours or more"
+F0553
+   1 = "Full-time employee"
+   2 = "3/4 time or more, but less than full-time employee"
+   3 = "1/2 time or more, but less than 3/4 time employee"
+   4 = "1/4 time or more, but less than 1/2 time employee"
+   5 = "Less than 1/4 time employee"
+   -8 = "Valid skip"
+F_F0570
+   0 = "Not imputed"
+   8 = "Value was imputed by hand (clerical)"
+F0659
+   1 = "Not needed"
+   2 = "Some value"
+   3 = "Essential"
+   4 = "Don't know"
+F0753
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
+F0803
+   1 = "Teaching or tutoring"
+   2 = "Non-teaching, but related to teaching field"
+   3 = "Other"
+   -8 = "Valid skip"
+F_F0783
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0170
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0579
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+EARNSC_T
+   1 = "Less than $30,000"
+   2 = "$30,000 to $39,999"
+   3 = "$40,000 or more"
+F0644
+   1 = "Yes"
+   2 = "No"
+F_F0594
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0124
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_F0122
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0116
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0167
+   0 = "Not imputed"
+   4 = "Value was imputed by using data from the sample file or SASS"
+   8 = "Value was imputed by hand (clerical)"
+F_F0050
+   0 = "Not imputed"
+F_F0559
+   0 = "Not imputed"
+   2 = "Value was imputed by using data from other variables in same record"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0162
+   1 = "For a non-teaching position in elementary or secondary education"
+   -8 = "Valid skip"
+F_F0114
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0126
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0560
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0760
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F_F0753
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0744
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+UNION
+   1 = "Yes"
+   2 = "No"
+   -8 = "Respondent was teaching in a private school in 1999-2000 SASS"
+F0603
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+F0625
+   1 = "Strongly disagree"
+   2 = "Somewhat disagree"
+   3 = "Neither agree nor disagree"
+   4 = "Somewhat agree"
+   5 = "Strongly agree"
+   -8 = "Valid skip"
+F_F0092
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0589
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F_F0681
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+F0552
+   1 = "Full-time teacher"
+   2 = "3/4 time or more, but less than full-time teacher"
+   3 = "1/2 time or more, but less than 3/4 time teacher"
+   4 = "1/4 time or more, but less than 1/2 time teacher"
+   5 = "Less than 1/4 time teacher"
+F_F0615
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+   8 = "Value was imputed by hand (clerical)"
+INFMSHLT
+   0 = "No regular certification or major or minor"
+   4 = "Regular certification, no major or minor"
+   5 = "Regular certification, no major, yes minor"
+   6 = "Regular certification and major, no minor"
+   -8 = "Valid skip"
+F_F0791
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0650
+   1 = "Topic not discussed"
+   2 = "Topic mentioned"
+   3 = "Central topic"
+   -8 = "Valid skip"
+F0612
+   1 = "Yes"
+   2 = "No"
+   -8 = "Valid skip"
+F_F0609
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0572
+   1 = "7th grade"
+   -8 = "Valid skip"
+F0799
+   1 = "Yes"
+   2 = "No"
+F_F0655
+   0 = "Not imputed"
+   7 = "Value was imputed by using data from the record for a similar case (donor)"
+F0752
+   1 = "Not at all important"
+   2 = "Slightly important"
+   3 = "Somewhat important"
+   4 = "Very important"
+   5 = "Extremely important"
+   -8 = "Valid skip"
