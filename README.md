@@ -1,7 +1,7 @@
 # Gradient Boosting Modeling Improvement Project #1 [Mitigating U.S. Public School Teacher Attrition Crisis]
 **Data Science Pipeline for Integrating, Analyzing and Modeling Open Source Tabular Data**
 
-_Developed for the [Mitigating U.S. Public School Teacher Attrition Crisis](docs/2022-DS-Poster-SASS.pdf) project_ by [June Yu](https://www.linkedin.com/in/j-y-yu/), (data integration, analysis, and modeling), [Li Feng](https://lifeng.wp.txstate.edu/) (domain expert), and [Jelena Tešić](jtesic.github.io) (project lead). 
+Developed for the _[Mitigating U.S. Public School Teacher Attrition Crisis](docs/2022-DS-Poster-SASS.pdf) project_ by [June Yu](https://www.linkedin.com/in/j-y-yu/), (data integration, analysis, and modeling), [Li Feng](https://lifeng.wp.txstate.edu/) (domain expert), and [Jelena Tešić](jtesic.github.io) (project lead). 
 
 ## [data](data)
 Cleaning all raw data
