@@ -1,0 +1,58 @@
+﻿old_name,new_name,Component,Category
+label_Current_Teacher,label_Current,Label,Label
+CNTLNUM_T,CNTLNUM_T,Teacher,Identifier
+SCHCNTL,SCHCNTL,Teacher,Identifier
+CNTLNUM_P,CNTLNUM_P,Teacher,Identifier
+vacnc_difficult_STEM_Yes,vacnc_STEM,School,Staffing
+number_of_dependents,num_dependents,Teacher,Demographics
+region_Northeast,region_Northeast,School,General School
+region_West,region_West,School,General School
+marital_status_Married,married,Teacher,Demographics
+race_t_White,race_T_White,Teacher,Demographics
+race_t_Black,race_T_Black,Teacher,Demographics
+race_t_Hispanic,race_T_Hispanic,Teacher,Demographics
+gender_t_Female,gender_T_Female,Teacher,Demographics
+summer_teaching_Yes,summer_teaching,Teacher,Working Conditions
+nonteaching_job_Yes,nonteaching_job,Teacher,Working Conditions
+nonschool_job_Yes,nonschool_job,Teacher,Working Conditions
+extracur_act_Yes,extracur_act,Teacher,Working Conditions
+merit_pay_Yes,merit_pay,Teacher,Working Conditions
+union_member_Yes,union_member,Teacher,Working Conditions
+BA_major_code_STEM,BA_major_STEM,Teacher,Education/Training
+MA_major_code_STEM,MA_major_STEM,Teacher,Education/Training
+main_tch_fields_cert_type_Regular,field_cert_Regular,Teacher,Education/Training
+MA_deg_Yes,deg_T_MA,Teacher,Education/Training
+pd_time,pd_time,Teacher,Professional Development
+pd_finance,pd_finance,Teacher,Professional Development
+remain_in_teaching,remain_teaching,Teacher,Satisfaction
+STEM_teaching_field,field_STEM,Teacher,Experience
+STEM_hours_taught,hrs_taught_STEM,Teacher,Class Organization
+public_ft_exp,public_ft_exp,Teacher,Experience
+public_pt_exp,public_pt_exp,Teacher,Experience
+private_ft_exp,private_ft_exp,Teacher,Experience
+class_org,class_org,Teacher,Class Organization
+main_teaching_lastyr_Same_as_thisyr,field_same,Teacher,Experience
+ft_pt_status_FT,full_time,Teacher,Working Conditions
+teaches_ungraded_Yes,teaches_ungraded,Teacher,Class Organization
+teaches_7_to_12,teaches_7to12,Teacher,Class Organization
+new_teacher_Yes,new_teacher,Teacher,Experience
+percent_minority_students,minority_students,School,Class Organization
+FRPL_eligible_k_12_students,FRPL_eligible_k12,School,Poverty Proxy
+student_teacher_ratio,stu_tch_ratio,Teacher,Class Organization
+sch_type,sch_type,School,General School
+level_Elementary,level_Elementary,School,General School
+urbanicity,urbanicity,School,General School
+title_I_receive_students_Yes,title_I_receive,School,Poverty Proxy
+age_p,age_P,Principal,Demographics
+salary,salary_P,Principal,Working Conditions
+yrs_princpl_this_sch,yrs_P_this_sch,Principal,Experience
+yrs_princpl_oth_schls,yrs_P_oth_schls,Principal,Experience
+yrs_tchng_before_princpl,yrs_tch_before_P,Principal,Experience
+yrs_tchng_since_princpl,yrs_tch_since_P,Principal,Experience
+deg_highest_P,deg_highest_P,Principal,Education/Training
+race_p_Black,race_P_Black,Principal,Demographics
+race_p_White,race_P_White,Principal,Demographics
+race_p_Hispanic,race_P_Hispanic,Principal,Demographics
+gender_p_Female,gender_P_Female,Principal,Demographics
+incentives_pay,incen_pay,School,Professional Development
+incentives_recruit_NonSTEM,incen_NonSTEM,School,Professional Development
